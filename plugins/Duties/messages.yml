@@ -1,0 +1,43 @@
+Client:
+  Disabled: You are off duty.
+  Fail:
+    DisableForOtherPlayer: Duty mode deactivation failed or interrupted for the requested player!
+    Disable: Duty mode deactivation failed or interrupted!
+    EnableForOtherPlayer: Duty mode activation failed or interrupted for the requested player!
+    Enable: Duty mode activation failed or interrupted!
+  Purged: Duty mode statuses purged!
+  AlreadyOff: Duty mode is already off.
+  PlayerNotOnline: The requested player is not online!
+  MissingPermission: You do not have permissions to do that!
+  List: 'Staff on duty: '
+  BroadcastsShown: &eNow broadcasting status updates!
+  NoStaffOnDuty: There is currently no staff on duty.
+  BroadcastsShownForPlayer: &eThe requested player is now broadcasting status updates!
+  Reminder:
+    ChestOpen: Remember that you have duty mode on!
+    Login: Notice that your joined on duty!
+    ItemDrop: Remember that you have duty mode on!
+  Enabled: You are on duty. Use /dutymode to disable.
+  Broadcast:
+    Disabled: '%PLAYER_NAME% went off duty.'
+    Enabled: '%PLAYER_NAME% went on duty.'
+  AlreadyOn: Duty mode is already on.
+  BroadcastsAlreadyShown: You are already broadcasting status updates!
+  BroadcastsHidden: No longer broadcasting status updates!.
+  NoPlayersOnDuty: There is currently no players on duty.
+  BroadcastsAlreadyHiddenForPlayer: The requested player is already not broadcasting status updates!
+  BroadcastsAlreadyShownForPlayer: The requested player is already broadcasting status updates!
+  DisabledForOtherPlayer: Duty mode disabled for the requested player!
+  EnabledForOtherPlayer: Duty mode enabled for the requested player!
+  BroadcastsHiddenForPlayer: The requsted player is no longer broadcasting status updates!
+  ErrorOccured: An error occured while enabling duty mode.
+  BroadcastsAlreadyHidden: You are already not broadcasting status updates!
+  CommandExtensionNotFound: Could not find command extension.
+  ListAll: 'Players on duty: '
+Server:
+  IngamePlayersOnly: This command is only avaible for in-game player.
+  Fail:
+    Enable: Failed to enable duty mode for player %PLAYER_NAME%.
+    Disable: Failed to disable duty mode for player %PLAYER_NAME%.
+  Disabled: Duty mode disabled for player %PLAYER_NAME%.
+  Enabled: Duty mode enabled for player %PLAYER_NAME%.

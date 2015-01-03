@@ -1,0 +1,10 @@
+display:
+  compound:
+    Name: "&6Spell of Peddling"
+    Lore:
+    - "&6Emeralds are everyone's best friend."
+    - "&7Sells items that you have most of."
+    - "&7Requires the trade to be unlocked."
+    - "&7Takes 2 emeralds for every restock."
+    - "&8Right click a villager to sell inventory."
+    - "ExpireAfterDays: 15"

@@ -1,0 +1,16 @@
+display:
+  compound:
+    Name: "&aResistance"
+    Lore:
+    - '&2Affects nearby players.'
+    - '&2Reduces all incoming damage.'
+    - '&7Fuel: Emeralds'
+    - '&8[Click to Select]'
+ench:
+- compound:
+    lvl:
+      short: 5
+    id:
+      short: 16
+HideFlags:
+  int: 63

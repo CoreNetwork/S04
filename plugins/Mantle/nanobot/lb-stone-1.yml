@@ -1,0 +1,20 @@
+display:
+  compound:
+    Name: '&cStone I'
+    Lore:
+    - '&7Revision 1'
+title: Stone I
+pages:
+- |2-
+
+    &4The Stonecutter's
+       Guide to Stone
+
+            &7vol. I
+
+   &8Any budding stone- cutter should know that cobblestone takes longer to mine than stone. Thefore, when using the arcane and mysterious ways of
+- |-
+  &8generating stone, one should consider making lava flow on top of water. In more advan- ced setups, a stone- cutter can use pistons to push the smooth stone out before mining to prevent it from being vaporized by the lava.
+
+   Take great care
+- '&8when working around lava. The publishers of this guide accept no liability for self- injury caused by molten liquids.'

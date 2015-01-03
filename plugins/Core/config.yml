@@ -1,0 +1,17 @@
+Debug: false
+Messages:
+  NoPermission: '&cNo permission!'
+  ConfigurationReloaded: '&aConfiguration reloaded successfully!'
+  Reboot:
+    Kick: Server Reboot.
+CommandDescriptions:
+  core:
+    help: '&a/core help &8-&f List all possible commands'
+    tp: '&a/core tp &8-&f Upgrade of vanilla /tp'
+    sudo: '&a/core sudo &8-&f Run any command as op'
+    reload: '&a/core reload &8-&f Reload config'
+    trapped: '&a/core trapped &8-&f Escape if you are stuck'
+    effect: '&a/core effect &8-&f Custom effect command.'
+    enchant: '&a/core enchant &8-&f Custom enchant command.'
+    claimslist: '&a/core claimslist &8-&f List your claims'
+    shutdown: '&a/core shutdown &8-&f Shutdown with grace period'

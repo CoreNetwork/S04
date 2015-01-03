@@ -1,0 +1,67 @@
+Enabled: true
+Trapped:
+  Surface:
+    world_nether: 64
+Limits:
+  world:
+    MaxX: 8000
+    MaxZ: 8000
+    MinX: -8000
+    MinZ: -8000
+  world_nether:
+    MaxX: 2000
+    MaxZ: 2000
+    MinX: -2000
+    MinZ: -2000
+  Other:
+    MaxX: 8000
+    MaxZ: 8000
+    MinX: -8000
+    MinZ: -8000
+Border:
+  world: 10
+  Other: 0
+Message:
+  InventorySelfCleared: '&6Inventory cleared.'
+  InventoryPlayerCleared: '&6<Player>''s inventory cleared.'
+  OpenChestWhileVanished: '&6You are opening a chest while vanished.'
+  Vanished: '&6You have been vanished.'
+  Unvanished: '&6You have been unvanished.'
+  PlayerVanished: '&8<Player> vanished.'
+  PlayerUnvanished: '&8<Player> unvanished.'
+  EffectApplied: Effect applied.
+  GotEffect: '&6Applied <Effect> level <Level>.'
+  GodApplied: '&6God mode granted.'
+  GodRevoked: '&6God mode revoked.'
+  GotGod: '&6You have been granted god mode.'
+  LostGod: '&6You have lost god mode.'
+  SelfGamemode: '&6You changed your gamemode to <Gamemode>.'
+  SetGamemode: '&6Changed <Player>''s gamemode to <Gamemode>.'
+  GamemodeChanged: '&6Your gamemode was changed to <Gamemode>.'
+  DrinkMilkWhileVanished: '&6You can''t drink milk while vanished.'
+  EnchantApplied: Item enchanted.
+  GotEnchant: Your item has been enchanted.
+  EnchantClear: Item enchantments cleared.
+  GotEnchantClear: Your item has been cleared.
+  VanishDisabled: Vanish is disabled due to some bugs :[
+  KitReceived: You have been granted a <Kit> kit.
+  KitGranted: <Kit> kit granted to a <Player>.
+  EffectCleared: Effect cleared.
+  LostEffect: You have lost <Effect> effect.
+  EffectsCleared: All effects cleared.
+  LostAllEffects: You have lost all effects!
+VanishEnabled: true
+Kits:
+  modtools:
+  - nbt make 271 toolkit-wand 0 silent
+  - nbt make 280 toolkit-stick 1 silent
+  - nbt make 334 toolkit-leather 2 silent
+  - nbt make 352 toolkit-bone 3 silent
+  - nbt make 345 toolkit-compass 4 silent
+  deathpit:
+  - nbt make 299 limbo-chest 38 silent
+  - nbt make 300 limbo-pants 37 silent
+  - nbt make 301 limbo-boots 36 silent
+  - nbt make 267 limbo-sword 0 silent
+  limbo:
+  - nbt make 387 limbo-book 8 silent

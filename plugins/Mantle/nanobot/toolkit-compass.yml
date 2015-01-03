@@ -1,0 +1,7 @@
+display:
+  compound:
+    Name: "&bWorldEdit Navigation"
+    Lore:
+    - "&7Left click to jump to location."
+    - "&7Right click to pass through blocks."
+    - "&7Also: //as, //ds, //us"

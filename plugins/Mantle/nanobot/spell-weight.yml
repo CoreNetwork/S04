@@ -1,0 +1,8 @@
+display:
+  compound:
+    Name: "&bSpellbook of Deadweight"
+    Lore:
+    - "&3Strength and resistance rise"
+    - "&3for the price of speed."
+    - "&7Deadweight (0:45)"
+    - "&8One use. Right click to cast"

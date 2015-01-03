@@ -1,0 +1,21 @@
+display:
+  compound:
+    Name: '&cTravel I'
+    Lore:
+    - '&7Revision 1'
+title: Travel I
+pages:
+- |2-
+
+        &4Traveller's
+            Tips
+
+           &7vol. I
+
+   &8It is quite possible for any weary tra-
+  veller to starve to death; such is the case in the hard and empty world of ours. Avoid sprinting or jumping
+- '&8if you don''t have enough food, and when you do encounter supplies, stock up on as much of food as possible. Outrunning Spiders and Baby Zombies is possible but will drain your hunger quickly. Consider raising crude shelter to escape Zombies or block'
+- |-
+  &8Spiders instead of fleeing them if you are low on provisions.
+
+   If you do encounter crops, excercise some consideration by re- planting the seeds for the next weary tra- veller to come across them.

@@ -1,0 +1,4 @@
+Enabled: true
+Messages:
+  Result: '&6>>> &7%result%'
+  IncorrectExpression: '&cUnsupported expression.'

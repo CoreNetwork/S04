@@ -1,0 +1,35 @@
+Enabled: true
+PortalRatio: 4
+InvestigationTool: 999
+Overworld:
+  PortalCreationBoundary:
+    MinX: -8000
+    MinZ: -8000
+    MaxX: 8000
+    MaxZ: 8000
+    MinY: 3
+    MaxY: 250
+  MoveSpawnedPortals:
+    WithLowerYThan: 4
+    WithHigherYThan: 4
+Nether:
+  PortalCreationBoundary:
+    MaxX: 2000
+    MaxZ: 2000
+    MinX: -2000
+    MinZ: -2000
+    MinY: 63
+    MaxY: 152
+  MoveSpawnedPortals:
+    WithLowerYThan: 64
+    WithHigherYThan: 64
+Messages:
+  CanMakePortal: '&aYou can make a Nether portal here if you''d like'
+  CantMakePortal: '&cYou cannot make a Nether portal here because it would overlap
+    a claim in <OtherDimension>.'
+Signs:
+  PortalOutOfBoundaries:
+    TooHigh: '&cWarning![NEWLINE]Your portal[NEWLINE]Is[NEWLINE]too high!'
+    TooLow: '&cWarning![NEWLINE]Your portal[NEWLINE]Is[NEWLINE]too low!'
+    TooFar: '&cWarning![NEWLINE]Your portal[NEWLINE]Is[NEWLINE]too far!'
+  OverlapClaim: '&cWarning![NEWLINE]Foreign claim[NEWLINE]overlaps your[NEWLINE]destination'

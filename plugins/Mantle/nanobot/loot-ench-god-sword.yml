@@ -1,0 +1,11 @@
+ench:
+- compound:
+    id:
+      short: 16
+    lvl:
+      short: 5
+- compound:
+    id:
+      short: 21
+    lvl:
+      short: 3

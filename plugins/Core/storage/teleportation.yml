@@ -1,0 +1,69 @@
+Warps:
+  limbo-parkour:
+    location: world_the_end;2001.4349580188236;22.0;2002.020400641401;16.032017;-179.45032
+  limbo-library:
+    location: world_the_end;2214.5230441228214;25.0;2116.4028349120144;8.277016;89.35436
+  limbo-death-pit:
+    location: world_the_end;-1971.52991424826;6.0;1995.0377981754193;16.431076;179.04842
+  limbo-death-pit-win:
+    location: world_the_end;-1984.5325188592014;30.0;1946.24585486336;27.374584;0.42919922
+  limbo-lights-out:
+    location: world_the_end;1865.6217816513981;22.0;1987.2511425188177;19.40372;-181.01453
+  limbo-connect-four:
+    location: world_the_end;1888.5372610879613;70.0;961.0004215307936;19.435062;-1.474739
+  limbo-connect-four-play:
+    location: world_the_end;1888.5841240735622;70.0;983.1139757086955;5.91661;-0.4018507
+  end-spawn:
+    location: world_the_end;-2076.5053680989067;92.0;-1146.486154966729;37.04999;90.330215
+    RunCommands:
+    - sudo <Player> effect nightvision 1h silent
+  end-respawn:
+    location: world_the_end;-1996.5447688341433;63.04903774420482;-3999.514587156245;8.797768;87.7626
+    RunCommands:
+    - clear <Player>
+    - sudo <Player> effect nightvision 1h silent
+  end-spawn-old:
+    location: world_the_end;-1985.039250401099;69.0;-1984.6896105986093;9.962244;-182.51959
+  end-buildzone:
+    location: world_the_end;-1911.5185895290094;84.0;-2090.1458875443805;5.885253;-139.1748
+  limbo-the-gauntlet-start:
+    location: world_the_end;-1583.7060325088355;93.31541094710796;-1494.3350403482586;31.440042;-90.85287
+  limbo-the-gauntlet:
+    location: world_the_end;-1494.5672774891073;84.73529007838073;-1506.5263519519103;40.44009;-88.75292
+  limbo-the-gauntlet-win:
+    location: world_the_end;-1403.6458432135994;103.63198305016437;-1496.6041669290396;25.44005;-2.502749
+  limbo-death-pit-lounge:
+    location: world_the_end;-2001.471243570134;16.200000047683716;1962.6279988586552;13.856226;270.45856
+  limbo-death-pit-lounge-exit:
+    location: world_the_end;-1953.204288149296;21.200000047683712;1987.6064954940896;71.57783;-270.92282
+  new-limbo:
+    location: world_the_end;-2285.035953186853;73.49064318920136;-2059.5690808396453;9.00001;-106.91351
+    RunCommands: []
+  new-spawn:
+    location: world_the_end;-2076.300000011921;92.0;-1150.5130958165128;41.700073;-269.97125
+  spawn-test1-wrong:
+    location: world_the_end;-2085.669680755368;97.0;-1185.6596147724817;38.249912;134.12903
+  spawn-test2-wrong:
+    location: world_the_end;-2057.393905296262;97.0;-1196.459000552567;40.94996;316.97888
+  spawn-test3-wrong:
+    location: world_the_end;-1977.5006426886268;97.0;-1222.5069549926125;43.79998;242.87965
+  spawn-test2:
+    location: world_the_end;-2002.699999988079;90.0;-1190.7305557124319;5.0997534;-89.522896
+  spawn-test3:
+    location: world_the_end;-1938.300000011921;90.0;-1190.4987152465412;6.1499934;-268.6236
+  spawn-test4:
+    location: world_the_end;-1970.5041675426166;90.0;-1183.380130875148;10.950088;-0.2699585
+  end-legacyspawn:
+    location: world_the_end;-2126.281675572564;112.0;-1616.3020220058224;29.88505;-90.87482
+  end-darkforest:
+    location: world_the_end;-2888.8073242297573;127.63324624369984;-2211.9566991271363;24.299974;339.77283
+    RunCommands: []
+  new-limbo-hub:
+    location: world_the_end;1884.1211056911363;55.71783022891412;-2162.6664831266175;2.2496192;60.748096
+    RunCommands: []
+  end-creative:
+    location: world_the_end;696.2816974134645;101.0;-1603.7651813796356;28.800014;-45.42395
+    RunCommands: []
+  limbo-start:
+    location: world_the_end;2238.173918928621;24.0;2116.4703207399657;17.127048;90.10438
+    RunCommands: []

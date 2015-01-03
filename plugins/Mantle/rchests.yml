@@ -1,0 +1,263 @@
+Enabled: true
+UseOnlyChestGUI: true
+Messages:
+  RightClickChestWithArm: '&6Right click a chest to initialize.'
+  LootingTableDoesNotExist: '&cNo looting table of that name.'
+  ChestCreated: '&6Restockable chest created.'
+  ChestExists: '&cThis chest is already restockable. Break it to delete.'
+  ChestDeleted: '&6Restockable chest deleted.'
+  ChestsRestocked: '&6All chests restocked.'
+  ChestInvicible: '&cUse &7/unprotect &cto disable invincibility to get loot.'
+  ChestInvisible: Sorry, you can't use this chest while invisible
+  ChestDestroyed: '&cPoof! Loot chest can''t be destroyed unless you claim this village.'
+  CompassVillageClaimed: '&cOh no! The village you were heading to just got claimed!
+    Finding a new one...'
+  CompassName: '&b[<Category>] <Distance> blocks away'
+  CompassNameWithDistance: '&b[<Category>] <Distance> blocks away'
+  CompassNameWithoutDistance: '&5Tracking [<Category>]'
+  CompassNameBlank: Compass
+LootTables:
+  Organic:
+    Items:
+    - item:
+        name: sapling
+    - item:
+        rolls: 2
+        chance: 0.25
+        name: sapling
+    - item:
+        rolls: 3
+        chance: 0.65
+        name: apple
+  Tools:
+    Items:
+    - pick:
+      - item:
+          name: iron_pickaxe
+      - group:
+        - item:
+            name: iron_ingot
+        - item:
+            rolls: 3
+            chance: 0.5
+            name: iron_ingot
+  CombatGear:
+    Items:
+    - pick:
+      - item:
+          name: iron_chestplate
+      - item:
+          name: iron_leggings
+    - item:
+        rolls: 5
+        chance: 0.5
+        name: iron_ingot
+  Obsidian:
+    Items:
+    - item:
+        name: obsidian
+        amount: 2
+    - item:
+        chance: 0.5
+        name: obsidian
+  Gold:
+    Items:
+    - item:
+        name: gold_ingot
+    - item:
+        chance: 0.5
+        name: gold_ingot
+  Diamond:
+    Items:
+    - item:
+        name: diamond
+  EnchantedBook:
+    Items:
+    - item:
+        name: enchanted_book
+        nbt: loot-efficiency-2
+  IronHorseArmor:
+    Items:
+    - item:
+        name: iron_horse_armor
+GuiCompassTitle: Pick loot category
+GuiItems:
+  CategoryOk:
+    Name: stained_glass_pane
+    Amount: 1
+    Damage: 5
+  CategoryNope:
+    Name: barrier
+    Amount: 1
+    Damage: 0
+DummyLootTableOW: OWVill
+Diminish:
+  CheckInterval: 1200
+  Village:
+    DiminishPerChest: 0.07
+    RestoreBy: 0.07
+    RestoreInterval: 86400
+  Total:
+    DiminishPerChest: 0.01
+    RestoreBy: 0.01
+    RestoreInterval: 7200
+BasicCategories:
+- lootTable: Organic
+  chances:
+  - 1.0
+  - 0.05
+  - 0.01
+  icon:
+    Name: sapling
+    Amount: 1
+    Damage: 0
+  weight: 10
+  compassMaxDistance:
+  - 800
+  - 1000
+  - 1200
+  compassMinDistance:
+  - 200
+  - 400
+  - 600
+- lootTable: Tools
+  chances:
+  - 1.0
+  - 0.05
+  - 0.01
+  icon:
+    Amount: 1
+    Name: iron_pickaxe
+    Damage: 0
+  weight: 10
+  compassMaxDistance:
+  - 800
+  - 1000
+  - 1200
+  compassMinDistance:
+  - 200
+  - 400
+  - 600
+- lootTable: CombatGear
+  chances:
+  - 1.0
+  - 0.05
+  - 0.01
+  icon:
+    Amount: 1
+    Name: iron_chestplate
+    Damage: 0
+  weight: 10
+  compassMaxDistance:
+  - 800
+  - 1000
+  - 1200
+  compassMinDistance:
+  - 200
+  - 400
+  - 600
+RareCategories:
+- lootTable: Obsidian
+  chances:
+  - 0.15
+  - 0.01
+  - 0.001
+  perPlayerDayLimit: 5
+  icon:
+    Amount: 1
+    Name: obsidian
+    Damage: 0
+  weight: 20
+  perPlayerTotalLimit: 50
+  compassMaxDistance:
+  - 4000
+  - 4500
+  - 5000
+  compassMinDistance:
+  - 2000
+  - 2500
+  - 3000
+- lootTable: Gold
+  chances:
+  - 0.1
+  - 0.01
+  - 0.001
+  perPlayerDayLimit: 5
+  icon:
+    Amount: 1
+    Name: gold_ingot
+    Damage: 0
+  weight: 10
+  perPlayerTotalLimit: 50
+  compassMaxDistance:
+  - 4000
+  - 4500
+  - 5000
+  compassMinDistance:
+  - 2000
+  - 2500
+  - 3000
+- lootTable: Diamond
+  chances:
+  - 0.1
+  - 0.01
+  - 0.001
+  perPlayerDayLimit: 5
+  icon:
+    Amount: 1
+    Name: diamond
+    Damage: 0
+  weight: 10
+  perPlayerTotalLimit: 50
+  compassMaxDistance:
+  - 4000
+  - 4500
+  - 5000
+  compassMinDistance:
+  - 2000
+  - 2500
+  - 3000
+- lootTable: EnchantedBook
+  chances:
+  - 0.2
+  - 0.01
+  - 0.001
+  perPlayerDayLimit: 5
+  icon:
+    Amount: 1
+    Name: enchanted_book
+    Damage: 0
+  weight: 15
+  perPlayerTotalLimit: 50
+  compassMaxDistance:
+  - 4000
+  - 4500
+  - 5000
+  compassMinDistance:
+  - 2000
+  - 2500
+  - 3000
+- lootTable: IronHorseArmor
+  chances:
+  - 0.1
+  - 0.01
+  - 0.001
+  perPlayerDayLimit: 5
+  preReqCategories:
+  - Organic
+  - Tools
+  icon:
+    Amount: 1
+    Name: iron_horse_armor
+    Damage: 0
+  weight: 10
+  perPlayerTotalLimit: 50
+  compassMaxDistance:
+  - 4000
+  - 4500
+  - 5000
+  compassMinDistance:
+  - 2000
+  - 2500
+  - 3000
+CompassNBTTag: compass

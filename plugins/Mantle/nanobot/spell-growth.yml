@@ -1,0 +1,9 @@
+display:
+  compound:
+    Name: "&6Spell of Growth"
+    Lore:
+    - "&6Flora and fauna blooms around you."
+    - "&7Grows crops and saplings instantly."
+    - "&7Turns all baby mobs into adults."
+    - "&8Right click to affect 32x32x32 area around you."
+    - "ExpireAfterDays: 15"

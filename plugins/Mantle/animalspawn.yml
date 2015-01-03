@@ -1,0 +1,85 @@
+Enabled: true
+Chunks:
+  MinX: -500
+  MinZ: -500
+  MaxX: 500
+  MaxZ: 500
+Animals:
+  Pig:
+    weight: 100
+  Sheep:
+    weight: 20
+    Colors:
+      White:
+        weight: 81836
+      Gray:
+        weight: 5000
+      Black:
+        weight: 5000
+      Silver:
+        weight: 5000
+      Brown:
+        weight: 3000
+      Pink:
+        weight: 164
+  Cow:
+    weight: 100
+  Chicken:
+    weight: 50
+  EntityHorse:
+    weight: 1
+    MaxAdditionalPackMobs: 0
+    Colors:
+      Black:
+        weight: 1
+      Brown:
+        weight: 10
+      Chestnut:
+        weight: 10
+      Creamy:
+        weight: 5
+      Dark_Brown:
+        weight: 5
+      Gray:
+        weight: 5
+      White:
+        weight: 1
+    Styles:
+      None:
+        weight: 1
+      Black_Dots:
+        weight: 10
+      White:
+        weight: 5
+      White_Dots:
+        weight: 10
+      Whitefield:
+        weight: 5
+    Variants:
+      Horse:
+        weight: 10
+      Donkey:
+        weight: 1
+SpawningIntervalTicks: 24000
+ChunksSpawningAmount: 3
+AdditionalPackMobs:
+  Min: 1
+  Max: 3
+PreventSpawningAnimals:
+- Cow
+- Horse
+- Pig
+- Sheep
+- Chicken
+- Rabbit
+AnimalSpawningWorld: world
+Ranges:
+- StartChunk: 1
+  EndChunk: 100
+  Weight: 3
+- StartChunk: 101
+  EndChunk: 300
+  Weight: 2
+- StartChunk: 301
+  EndChunk: 500
+  Weight: 1

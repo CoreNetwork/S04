@@ -1,0 +1,16 @@
+display:
+  compound:
+    Name: "&aHaste"
+    Lore:
+    - '&2Affects nearby players.'
+    - '&2Allows to break blocks faster.'
+    - '&7Fuel: Gold Ingots'
+    - '&8[Click to Select]'
+ench:
+- compound:
+    lvl:
+      short: 5
+    id:
+      short: 16
+HideFlags:
+  int: 63

@@ -1,0 +1,107 @@
+Enabled: true
+EnabledWorlds:
+- world
+- world_nether
+Trapped:
+  ClearRadius: 7
+  Surface:
+    world_nether: 64
+    world: 4
+  Limits:
+    world:
+      MaxX: 8000
+      MaxZ: 8000
+      MinX: -8000
+      MinZ: -8000
+    world_nether:
+      MaxX: 1998
+      MaxZ: 1998
+      MinX: -1998
+      MinZ: -1998
+    Other:
+      MaxX: 8000
+      MaxZ: 8000
+      MinX: -8000
+      MinZ: -8000
+Buying:
+  PacketSize: 1000
+  PacketCost:
+  - 64
+  - 79
+  - 98
+  - 123
+  - 156
+  - 201
+  - 262
+  - 346
+  - 463
+  - 629
+  - 868
+  - 1217
+  - 1736
+  Resources:
+  - name: Iron ingot
+    id: 265
+  - name: Emerald
+    id: 388
+  - name: Gold ingot
+    id: 266
+  Message:
+    BoughtAll: '&cYou you can''t buy more claim blocks.'
+  Messages:
+    ConfirmInfo: '&aBuying 1,000 claim blocks.'
+    ConfirmPrefix: '&a<Resource>: ['
+    ConfirmButton: '&6Buy for <Amount>'
+    ConfirmSuffix: '&a]'
+    Bought: '&aYou bought 1,000 claim blocks!'
+    NotEnough: '&cYou don''t have enough resources in your inventory.'
+    BoughtAll: '&cYou you can''t buy more claim blocks.'
+    Confirm:
+      SuccessPrefix: '&aSuccess! Buy another 1,000 for ['
+      SuccessButton: '&6<Resource>, <Amount>'
+      SuccessSuffix: '&a]'
+      SuccessNoNext: '&aSuccess!'
+Claimslist:
+  Messages:
+    Header: '&7<WorldName> &8(<ClaimsNow>/<ClaimsMax>)'
+    Line: '&8------------'
+    Claim: '&6<X>, <Z> &7(area: <Area>)'
+    SpecialCaseClaim: '&c<X>, <Z> (area: <Area>)'
+    NoClaims: '&cYou don''t have claims yet! Learn how to do it: &7/help Claims'
+  Worlds:
+    World:
+      Name: World
+      ClaimsMax: 5
+    Nether:
+      Name: Nether
+      ClaimsMax: 5
+Blocks:
+  Messages:
+    Header: '&7Claim blocks:'
+    Line: '&8------------'
+    Gameplay: '&6Normal gameplay: &7<Amount>'
+    Ranks: '&6Bonus, ranks: &7<Amount>'
+    Bought: '&6Bonus, bought: &7<Amount>'
+    Other: '&6Bonus, other: &7<Amount>'
+    Total: '&6Total: &7<Amount>'
+    Used: '&6Used: &7<Amount>'
+    Available: '&6Available: &7<Amount>'
+Messages:
+  CanBuild: '&6You can build here. Save yourelf.'
+  RescueInProgress: '&6Please stand still for 5 seconds.'
+  RescurePlayerMoved: '&cRescue cancelled due to movement.'
+  NotEnabledIn: '&4You cannot use /trapped in this world.'
+ClaimsLimit:
+  Messages:
+    NoClaimsLeft: You used all of your <Claims> claims in this world.
+ClaimLiquids:
+  Worlds:
+    world:
+      Water:
+        MaxHeight: 3
+    world_nether:
+      Lava:
+        MaxHeight: 120
+  Messages:
+    DenyHeight: '&cYou can only place <Liquid> below y = <Height>'
+    DenyClaim: '&cYou can only place <Liquid> in a claim.'

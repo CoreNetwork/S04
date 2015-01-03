@@ -1,0 +1,143 @@
+Debug: false
+DefaultDuration: 60m
+NotificationTimesLeft:
+- 55
+- 50
+- 45
+- 40
+- 35
+- 30
+- 25
+- 20
+- 15
+- 10
+- 5
+- 4
+- 3
+- 2
+- 1
+Limbo:
+  CommandsOnEntry:
+  - sudo <Player> rspawn unprotect silent
+  - sudo <Player> mantle hydration restore
+  - clear <Player> silent
+  - kit <Player> limbo
+  - sudo <Player> warp limbo-start silent
+  CommandsOnRespawn:
+  - kit <Player> limbo
+  - sudo <Player> warp limbo-library silent
+  CommandsOnExit:
+  - clear <Player> silent
+  - sudo <Player> checkpoint clear <Player>
+  - sudo <Player> warp end-respawn silent
+Challenges:
+  DeathPit:
+    CommandsOnEntry:
+    - dm <Player> &3Death Pit is about getting &b20 levels &3of exp, killing mobs and reaching a mini tower with &bred flag &3(find it - start by going left, through Creeper tunnel). You can exit any time with &b/exit
+    - clear <Player> silent
+    - runalias /deathpitgear <Player>
+    - sudo <Player> warp limbo-death-pit silent
+    CommandsOnExit:
+    - clear <Player> silent
+    - kit <Player> limbo
+    - sudo <Player> warp limbo-library silent
+    CommandsOnRespawn:
+    - clear <Player> silent
+    - kit <Player> deathpit
+    - sudo <Player> warp limbo-death-pit silent
+    Victory: '&b<Player> beat Death Pit in <DetailedTime>'
+    VictoryRecord:
+    - '&b<Player> beat Death Pit in <DetailedTime>, a new record!'
+    - '&3Beats <PreviousPlayer>''s record of <PreviousDetailedTime>'
+    VictoryPersonalBest:
+    - '&b<Player> finished Death Pit in <DetailedTime>!'
+    - '&3Beat their own time (<PreviousDetailedTime>) for a new personal best!'
+  Parkour:
+    CommandsOnEntry:
+    - dm <Player> &3Parkour is about going through all 11 checkpoints towards diamond crystal up top. Press buttons to save checkpoints, restore them with &b/checkpoint&3. You can exit any time with &b/exit
+    - clear <Player> silent
+    - sudo <Player> warp limbo-parkour silent
+    CommandsOnExit:
+    - clear <Player> silent
+    - kit <Player> limbo
+    - sudo <Player> checkpoint clear <Player>
+    - sudo <Player> warp limbo-library silent
+    CommandsOnRespawn:
+    - clear <Player> silent
+    - sudo <Player> warp limbo-parkour silent
+    - sudo <Player> checkpoint instant
+    Victory: '&b<Player> finished Parkour in <DetailedTime>'
+    VictoryRecord:
+    - '&b<Player> finished Parkour in <DetailedTime>, a new record!'
+    - '&3Beats <PreviousPlayer>''s record of <PreviousDetailedTime>'
+    VictoryPersonalBest:
+    - '&b<Player> finished Parkour in <DetailedTime>!'
+    - '&3Beat their own time (<PreviousDetailedTime>) for a new personal best!'
+TopPerPage: 10
+Top:
+  FootnoteColor: '&7'
+  Place:
+    Header: '&6##.'
+    Display: <Place>
+    Color: '&6'
+    LeadingZeroColor: '&8'
+  Points:
+    Header: '&eTime ---'
+    Display: <Points>
+    Color: '&e'
+    LeadingZeroColor: '&8'
+  Name:
+    Header: '&rPlayer'
+    Display: <Player>
+    Color: '&r'
+Messages:
+  CheckSelf: '&bYou will stay in Limbo for <Time>'
+  CheckPlayer: '&6<Player> is in Limbo, <Time> left'
+  CheckPlayerNeg: '&6<Player> is not in Limbo'
+  TimeSingularSyntax: <Minutes> minute
+  TimePluralSyntax: <Minutes> minutes
+  DetailedTimeSyntax: <Minutes>m <Seconds>s
+  Entry:
+  - '&bYour death erased your corporeal form and all possessions.'
+  - '&7You will linger in &fLimbo &7for &f<Time>&7.'
+  Exit: '&bYou have been released from Limbo.'
+  DeathRespawn: '&bYour incorporeal form cannot be damaged.'
+  DeathReason: '&bYour death: <Death>.'
+  Notification: '&bRemaining time: <Time>'
+  NotificationOn: Notifications ON!
+  NotificationOff: Notifications OFF!
+  NotificationCantUse: You can only toggle notifications while in Limbo.
+  IncreasedSelf: Your time here has been extended by <Time>
+  DecreasedSelf: Your time here has been shortened by <Time>
+  Increased: <Player>'s stay has been extended by <Time>
+  Decreased: <Player>'s stay has been shortened by <Time>
+  Stats: 'Total : <Total>   Active : <Active>.'
+  NoPermission: No permission!
+  ConfigurationReloaded: Configuration reloaded successfully!
+  NoTop: '&cNobody finished this challenge yet!'
+  PlayerNoTop: '&c<Player> did not finish this challenge yet!'
+  Suicide: <Player> went straight to Limbo
+TopCompact: true
+CommandDescriptions:
+  lim:
+    release: '&a/lim release &8-&f Release specified player from Limbo'
+    check: '&a/lim check &8-&f Retuns the status or time left in limbo of caller/specified
+      player.'
+    increase: '&a/lim increase &8-&f Increase time in Limbo'
+    decrease: '&a/lim decrease &8-&f Decrease time in Limbo'
+    notify: '&a/lim notify &8-&f Toggle Limbo time notifications for current visit.'
+    help: '&a/lim help &8-&f List all possible commands'
+    exit: '&a/lim exit &8-&f Notes the fact that player exited a challenge, stops
+      tracking time.'
+    reload: '&a/lim reload &8-&f Reload limbo config.'
+    top: '&a/lim top &8-&f Print a top list.'
+    stats: '&a/lim stats &8-&f Prints current prison statistics.'
+    imprison: '&a/lim imprison &8-&f Sends target to limbo.'
+    reset: '&a/lim reset &8-&f Clears a scoreboard for a challenge.'
+    finish: '&a/lim finish &8-&f Notes the fact that player finished a challenge.'
+    enter: '&a/lim enter &8-&f Notes the fact that player entered a challenge, starts
+      tracking time.'
+    status: '&a/lim status &8-&f Retuns the limbo status of specified player (not
+      time, status)'
+ClearItemsOnDeath: true
+DeathMessageColor: '&c'

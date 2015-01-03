@@ -1,0 +1,5 @@
+RepairCost:
+  int: 2
+display:
+  compound:
+    Name: Spellbook Bundle

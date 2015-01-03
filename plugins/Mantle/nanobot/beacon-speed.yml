@@ -1,0 +1,16 @@
+display:
+  compound:
+    Name: "&aSpeed"
+    Lore:
+    - '&2Affects nearby players.'
+    - '&2Increases walking speed.'
+    - '&7Fuel: Iron Ingots'
+    - '&8[Click to Select]'
+ench:
+- compound:
+    lvl:
+      short: 5
+    id:
+      short: 16
+HideFlags:
+  int: 63

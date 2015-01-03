@@ -1,0 +1,92 @@
+#################
+##   General   ##
+#################
+#Whether or not to use the average for TPS. If set to false, the server will always return the value at the last poll.
+#Default: true
+useAverage: true
+#How many polls to keep in LagMeter's memory.
+#Default: 10
+averageLength: 10
+#How often, in server ticks, LagMeter should poll the server (where one second is 20 ticks).
+#Default: 40
+interval: 200
+#Display chunks loaded on plugin (re)load?
+#Default: true 
+LoadedChunksOnLoad: true
+#Should LagMeter display all of the entities that exist at the time of plugin (re)load?
+#Default: true
+displayEntitiesOnLoad: true
+#################
+##   Commands  ##
+#################
+Commands:
+    Lag:
+        #Should the commands which show the TPS meter also display entities in each world?
+        #Default: false 
+        displayEntities: true
+        #Should the commands which show the TPS meter also display loaded chunks in each world?
+        displayChunks: true
+#################
+##   Logging   ##
+#################
+log:
+    #How often (after how many polls) the plugin should log information to its log file. If the poll interval is default (40), and this is left at default (150), it will happen every 40*150 ticks (6,000).
+    #Default: 150
+    interval: 150
+    #Should LagMeter log information to a file?
+    #Default: true
+    enable: true
+    #Should LagMeter use a folder called 'logs' and use 'Day-Month-Year-Lag.log' format for each day's logs?
+    #Default: false
+    useLogsFolder: false
+    #Should LagMeter log how many players are online as well?
+    #Default: true
+    logPlayersOnline: true
+    #Should LagMeter log how many entities are present on the server?
+    #Default: true
+    logEntities: true
+    #Should LagMeter only display total entities, and not those for each world?
+    #Default: true
+    logTotalEntitiesOnly: true
+    #Should LagMeter log how many chunks are currently loaded on the server?
+    #Default: true
+    logChunks: true
+    #Should LagMeter only display total chunks, and not those for each world?
+    #Default: true
+    logTotalChunksOnly: true
+    #Should the plugin have an empty line between each log tick to make the log file neater?
+    #Default: true
+    newBlockPerLog: true
+    #Should the plugin put each statistic (TPS, memory, players) on a separate line?
+    #Default: true
+    newLinePerStatistic: true
+#################
+# Notifications #
+#################
+Notifications:
+    Lag:
+        #Enables low TPS notifications.
+        #Default: true
+        Enabled: false
+        #If the server is at or below this value for memory free, it will notify OPs and anyone with the permission node lagmeter.notify.lag
+        #Default: 17
+        Threshold: 21
+        #How often LagMeter should check on the TPS, in minutes.
+        #Default: 5
+        CheckInterval: 1
+        #Specify a command to use when the plugin notices that the TPS is low. Must be usable from console.
+        #Default: /lag
+        ConsoleCommand: /lag
+    Memory:
+        #Enables/disables low memory free notifications.
+        #Default: true
+        Enabled: false
+        #If the server is at or below this value for memory free, it will notify OPs and anyone with the permission node lagmeter.notify.mem
+        #Default: 25
+        Threshold: 101
+        #How often LagMeter should check on the free memory, in minutes.
+        #Default: 10
+        CheckInterval: 1
+        #Specify a command to use when the plugin notices that the free memory is low. Must be usable from console.
+        #Default: /mem
+        ConsoleCommand: /mem

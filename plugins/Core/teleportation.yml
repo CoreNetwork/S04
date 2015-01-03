@@ -1,0 +1,47 @@
+Enabled: true
+Teleport:
+  PlayerFreezeDurationMS: 2000
+  NetherSurfaceY: 120
+  OfflineTeleportConfirmTimeoutSeconds: 10
+  Limits:
+    world_nether:
+      MaxX: 2500
+      MaxZ: 2500
+      MinX: -2500
+      MinZ: -2500
+    world_the_end:
+      MaxX: 2500
+      MaxZ: 2500
+      MinX: -2500
+      MinZ: -2500
+    Other:
+      MaxX: 8000
+      MaxZ: 8000
+      MinX: -8000
+      MinZ: -8000
+Messages:
+  WarpSet: '&aWarp "<Name>" set.'
+  UnknownWarp: '&cWarp <Name> doesn''t exist.'
+  TpNotice: '&8<Player> warped to <Warp>.'
+  WarpDeleted: '&6Warp "<Name>" deleted.'
+  UnknownPlayer: '&cUnknown player <Name>.'
+  AmbiguousMatch: '&cName "<Name>" is too ambiguous to teleport.'
+  OnlyPlayer: '&cYou can only execute that as a player.'
+  RelativeNoConsole: '&cYou can''t use relative coordinates from console!'
+  YouTeleportedToPlayer: '&6You were teleported to <Player>.'
+  SwappedWithPlayer: '&6You were swapped with <Player>.'
+  YouTeleportedToCoordinates: '&6You were teleported to <X> <Y> <Z>.'
+  PlayerTeleportedToPlayer: '&8<From> was teleported to <To>.'
+  PlayerSwappedWithPlayer: '&8<Player1> was swapped with <Player2>.'
+  PlayerTeleportedToCoordinates: '&8<Player> was teleported to <World> <X> <Y> <Z>.'
+  UnknownWorld: '&cUnknown world <World>.'
+  ConfirmOfflineTeleport: '&6Confirm offline teleport for <Player> with /<Command>
+    confirm.'
+  OfflineTeleportConfirmed: '&6Offline teleport confirmed.'
+  NoOfflineTeleports: '&cNo pending teleports to confirm.'
+  OutOfBounds: '&cYou can''t teleport too far for performance reasons.'
+CommandDescriptions:
+  help: '&a/warp help &8-&f List all possible commands'
+  set: '&a/warp set &8-&f Set warp here'
+  delete: '&a/warp delete &8-&f Delete warp'
+  warp: '&a/warp warp &8-&f Teleport to warp'

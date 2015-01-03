@@ -1,0 +1,5 @@
+display:
+  compound:
+    Name: "&f< Go back to effect selection"
+    Lore:
+    - '&8< [Click to Navigate]'

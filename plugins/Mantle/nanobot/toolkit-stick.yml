@@ -1,0 +1,12 @@
+display:
+  compound:
+    Name: "&bGriefPrevention Lookup"
+    Lore:
+    - "&7Right click to check claim borders."
+    - "&7Will also show owner and last login."
+ench:
+- compound:
+    id:
+      short: 16
+    lvl:
+      short: 100

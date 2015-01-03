@@ -1,0 +1,232 @@
+Enabled: true
+EndermanTeleport:
+  Chance: 0.25
+  Range: 30
+  ExcludingZone: 10
+  MaxTries: 3
+  ApplyDamageEffect: EndermanTeleport
+Ghast:
+  SpawningChance: 0.2
+  MinimumSpawningY: 80
+  MaxmimumHorizontalTargetRangeSquared: 5184
+  Fireball:
+    DamageMultiplier: 2.0
+    BlastRadiusMultiplier: 1.0
+Wither:
+  MinSpawningY: 20
+  DespawningY: 60
+  DespawningTimeoutSeconds: 120
+  MinionHealth: 4
+  ExplosionRadius: 20
+  ShowTarget: false
+  ManaRegen: 10
+  ShieldRegen: 10
+  BaseDmg: 4.5
+  BlackSkull:
+    Enabled: true
+    Speed: 0.3
+    SearchHoriz: 30
+    SearchVert: 10
+    ShootMaxDistance: 30
+    ShootBasicTime: 50
+    ShootTimeVariance: 10
+    ReSearchTime: 50
+    Radius: 1.5
+  Phases:
+    StationaryArtillery:
+      MoveBasicTime: 100
+      MoveTimeVariance: 30
+      MinVertical: 3
+      MaxVertical: 10
+      MinHorizontal: 3
+      MaxHorizontal: 5
+      Cooldown: 0
+      ManaCost: 0
+      NormalAttack: true
+    WitherAura:
+      DistFromWither: 4
+      SegmentsPerTick: 10
+      SkullsPerSegment: 3
+      DelayBetweenShots: 20
+      NumberOfShots: 10
+      CircleSegments: 120
+      MaxAngleForward: 60
+      MaxAngleBackward: 30
+      SegmentsPerShot: 10
+      DamageMultiplier: 1.1
+      RadiusMultiplier: 0.5
+      Cooldown: 600
+      ManaCost: 150
+      NormalAttack: true
+    AcidCloud:
+      Range: 5
+      Duration: 400
+      Cooldown: 400
+      ManaCost: 400
+      NormalAttack: false
+      Particle: 29
+      ParticleRefreshRate: 5
+      ParticleAmout: 10
+      DebuffRefreshRate: 20
+      DebuffDurabilityRemoved:
+      - 6
+      - 5
+      - 4
+      - 3
+      - 2
+      DebuffHunger: true
+    Minions:
+      Cooldown: 400
+      ManaCost: 400
+      NormalAttack: true
+      Duration: 400
+      SpawnRadiusMin: 3
+      SpawnRadiusMax: 7
+    Stomp:
+      Cooldown: 400
+      ManaCost: 400
+      NormalAttack: false
+      DamageMultiplier: 2
+      GroundTime: 80
+      MinFollowingTime: 80
+      MaxFollowingTime: 800
+      StompMaxDistance: 4
+      DrillMaxDistanceFlat: 6
+  SpawningPhaseLength: 220
+  Debug: false
+  DelayBetweenSkillsAmounts:
+  - 80
+  - 70
+  - 60
+  - 50
+  - 40
+  - 30
+  - 20
+  - 10
+  Mana:
+    Regen: 0.01
+    MaxAmounts:
+    - 1500
+    - 2000
+    - 2200
+    - 2400
+    - 2600
+    - 2700
+  Shield:
+    Regen: 0.01
+    MaxAmounts:
+    - 1500
+    - 2000
+    - 2200
+    - 2400
+    - 2600
+    - 2700
+  Health:
+    Regen: 0.01
+    MaxAmounts:
+    - 300
+    - 400
+    - 500
+    - 550
+    - 600
+    - 700
+  KnockbackPower: 1
+  ShieldColor: '&b'
+  Names:
+  - Wither
+  - '| Wither |'
+  - '|| Wither ||'
+  - '||| Wither |||'
+  - '|||| Wither ||||'
+  - '||||| Wither |||||'
+NoDropMobNames:
+- Guard
+DamageModifiers:
+  FALL:
+  - addPotionEffect:
+      id: 2
+      duration: min(damage * 20,200)
+      amplifier: 0
+      ambient: true
+  BLOCK_EXPLOSION:
+  - addPotionEffect:
+      id: 9
+      duration: min(damage * 90,200)
+      amplifier: 3
+      ambient: true
+  ENTITY_EXPLOSION:
+  - addPotionEffect:
+      id: 9
+      duration: min(damage * 90,200)
+      amplifier: 3
+      ambient: true
+  SUFFOCATION:
+  - addPotionEffect:
+      id: 4
+      duration: 200
+      amplifier: 1
+      ambient: true
+  - addPotionEffect:
+      id: 15
+      duration: 200
+      amplifier: 0
+      ambient: true
+  STARVATION:
+  - addDamage:
+      amount: 2
+  SlownessNode:
+  - addPotionEffect:
+      id: 2
+      amplifier: 1
+      ambient: true
+      duration: 2000000
+  EndermanTeleport:
+  - addPotionEffect:
+      id: 9
+      duration: 40
+      amplifier: 1
+      ambient: true
+  BoostAbsorption6:
+  - addPotionEffect:
+      id: 22
+      duration: 12000
+      amplifier: 2
+      ambient: true
+  BoostAbsorption4:
+  - addPotionEffect:
+      id: 22
+      duration: 6000
+      amplifier: 1
+      ambient: true
+  BoostAbsorption2:
+  - addPotionEffect:
+      id: 22
+      duration: 3600
+      amplifier: 0
+      ambient: true
+  BoostHealth1:
+  - addPotionEffect:
+      id: 6
+      duration: 0
+      amplifier: 1
+      ambient: true
+Pigmen:
+  ApplyDamageNodeOnSpawn: SlownessNode
+  SwordChance: 0.2
+Nether:
+  MaxSpawnLightLevel: 7
+NoDeathDrops:
+  Experience:
+  - world
+  - world_nether
+  - world_the_end
+  Items:
+  - world
+  - world_nether
+  - world_the_end
+Messages:
+  NoWitherSurface: '&cWither can only be summoned in the deepest parts of the Nether.'
+  NoMilkingNether: '&cCows don''t produce milk in the Nether.'
+Reinforcements:
+  Distance: 10
+ZombieDoorBreakingChance: 1

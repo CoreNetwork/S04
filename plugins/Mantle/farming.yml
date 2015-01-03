@@ -1,0 +1,33 @@
+Enabled: true
+Fishing:
+  Fish:
+    Weight: 850
+    Statistic: FISH_CAUGHT
+    Enchantments:
+      LURE: 20
+      LUCK: 15
+    Items: 
+      - Item: 
+          Name: fish
+          Amount: 1
+          Damage: 0
+          Weight: 10
+          Exp: 50
+  Junk:
+    Weight: 100
+    Statistic: JUNK_FISHED
+    Enchantments:
+      LURE: -10
+      LUCK: -25
+    Items:
+      - Item:
+          Name: leather_boots
+  Treasure:
+    Weight: 50
+    Statistic: TREASURE_FISHED
+    Enchantments:
+      LURE: -10
+      LUCK: 10
+    Items:
+      - Item:
+          Name: gold_ingot

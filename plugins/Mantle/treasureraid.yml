@@ -1,0 +1,89 @@
+Enabled: true
+MinX: -8000
+MinZ: -8000
+MaxX: 8000
+MaxZ: 8000
+GroundLevel: 4
+StartPeriodBeginning: 200
+StartPeriodEnd: 2000
+Waves:
+- TimeLimit: 80
+  NotificationTimes:
+  - 30
+  - 50
+  - 70
+  Messages:
+  - '&aWave 1! Treasure crate dropped &6<Distance> &ablocks away!'
+  - '&aWalk towards &6<Direction>, (<X>, <Z>)'
+  Distance: 200
+  LootTables:
+  - TreasureWave1a
+  - TreasureWave1a
+  - TreasureWave1a
+- TimeLimit: 120
+  NotificationTimes:
+  - 50
+  - 80
+  - 110
+  Messages:
+  - '&7Wave 1 ended!'
+  - '&aWave 2! Treasure crate dropped &6<Distance> &ablocks away!'
+  - '&aSprint and jump towards &6<Direction>, (<X>, <Z>)'
+  Distance: 600
+  LootTables:
+  - TreasureWave2a
+  - TreasureWave2a
+  - TreasureWave2a
+- TimeLimit: 180
+  NotificationTimes:
+  - 50
+  - 80
+  - 110
+  - 140
+  - 170
+  Messages:
+  - '&7Wave 2 ended!'
+  - '&aWave 3! Treasure crate dropped &6<Distance> &ablocks away!'
+  - '&aRide a horse towards &6<Direction>, (<X>, <Z>)'
+  Distance: 1350
+  LootTables:
+  - TreasureWave3a
+  - TreasureWave3a
+  - TreasureWave3a
+Directions:
+- east
+- north east
+- north
+- north west
+- west
+- south west
+- south
+- south east
+Messages:
+  AddedToQueue: '&6Treasure Raid pass used. It''ll start when the day breaks.'
+  AddedToQueueBroadcast:
+  - '&a<Player> sponsored a Treasure Raid! &6It''ll begin in <Time>m'
+  - '&aTo participate, &6/raid join. &aTo learn more, /help Raid'
+  NoHunt: '&6You don''t have any Treasure Raid passes. Sponsor the server while having
+    fun: store.core-network.us'
+  HuntBought: '&6Treasure Raid pass acquired! Type &7/raid run &6to queue it.'
+  HuntsLeft: '&6Treasure Raid passes left: &7<Amount>'
+  StartHunt: '&aTreasure Raid has started!'
+  EndHunt: '&aTreasure Raid has ended. Thanks for playing and supporting our server,
+    hope it was fun! &6Learn more: /help Raid'
+  JoinInLimbo: '&cYou cannot participate in Treasure Raid while in Limbo'
+  JoinInNether: '&6Travel to Overworld to get directions to your crate.'
+  Join: '&aJoined Treasure Raid! &6You''ll get more info soon.'
+  Leave: '&6You left Treasure Raid.'
+  RightClick: '&7Don''t right click, &6» punch « the crate &7to open it!'
+  OnePerWave: '&6You already got your loot!'
+  WaveNotificaton: '&6Crate: &7<X>, <Z> &6| &7<Distance> &6blocks away | &7<TimeLeft>s
+    &6left'
+  NextHuntScheduled: Next hunt will start in <Time> min.
+  EnterWhileRunning: '&aTreasure Raid is running right now! &6/raid join &afor next
+    wave.'
+  EnterWhileRunningAlreadyIn: '&aTreasure Raid is still running!'
+  EnterWhileQueued: '&aTreasure Raid is scheduled to run in <Time> min. &6/raid join'
+  EnterWhileQueuedAlreadyIn: '&aTreasure Raid will begin in <Time> min.'
+  WaveActive: '&6Active wave: <Wave>. Please wait for next wave.'
+MinMinutesBeforeToStart: 4

@@ -1,0 +1,7 @@
+Unbreakable:
+  int: 1
+display:
+  compound:
+    color:
+      int: 2829099
+    Name: "&cLevity"

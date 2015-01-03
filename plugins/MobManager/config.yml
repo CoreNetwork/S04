@@ -1,0 +1,118 @@
+# MobManager v3.0.3 by Michael McKnight (ShadowDog007)
+# http://dev.bukkit.org/bukkit-mods/mobmanager/
+# Global Config
+# 
+# Valid EntityTypes:
+# SKELETON_WITHER, ARMOR_STAND, CREEPER, SKELETON, SPIDER, GIANT, ZOMBIE, SLIME,
+# GHAST, PIG_ZOMBIE, ENDERMAN, CAVE_SPIDER, SILVERFISH, BLAZE, MAGMA_CUBE,
+# ENDER_DRAGON, WITHER, BAT, WITCH, ENDERMITE, GUARDIAN, PIG, SHEEP, COW, CHICKEN,
+# SQUID, WOLF, MUSHROOM_COW, SNOWMAN, OCELOT, IRON_GOLEM, HORSE, RABBIT, VILLAGER,
+# HORSE_DONKEY, HORSE_MULE, HORSE_UNDEAD_HORSE, HORSE_SKELETON_HORSE,
+# UNKNOWN
+# 
+# Valid SubEntityTypes:
+# HORSE_WHITE, HORSE_CREAMY, HORSE_CHESTNUT, HORSE_BROWN, HORSE_BLACK,
+# HORSE_GRAY, HORSE_DARK_BROWN, HORSE_WHITE_WHITE, HORSE_CREAMY_WHITE,
+# HORSE_CHESTNUT_WHITE, HORSE_BROWN_WHITE, HORSE_BLACK_WHITE,
+# HORSE_GRAY_WHITE, HORSE_DARK_BROWN_WHITE, HORSE_WHITE_WHITEFIELD,
+# HORSE_CREAMY_WHITEFIELD, HORSE_CHESTNUT_WHITEFIELD,
+# HORSE_BROWN_WHITEFIELD, HORSE_BLACK_WHITEFIELD, HORSE_GRAY_WHITEFIELD,
+# HORSE_DARK_BROWN_WHITEFIELD, HORSE_WHITE_WHITE_DOTS,
+# HORSE_CREAMY_WHITE_DOTS, HORSE_CHESTNUT_WHITE_DOTS,
+# HORSE_BROWN_WHITE_DOTS, HORSE_BLACK_WHITE_DOTS, HORSE_GRAY_WHITE_DOTS,
+# HORSE_DARK_BROWN_WHITE_DOTS, HORSE_WHITE_BLACK_DOTS,
+# HORSE_CREAMY_BLACK_DOTS, HORSE_CHESTNUT_BLACK_DOTS,
+# HORSE_BROWN_BLACK_DOTS, HORSE_BLACK_BLACK_DOTS, HORSE_GRAY_BLACK_DOTS,
+# HORSE_DARK_BROWN_BLACK_DOTS
+# 
+# #######################################################################
+# EnableLimiter
+# #######################################################################
+# Enables the limiter component of MobManager
+# 
+# MobManager's Limiter aims to reduce the number of mobs which spawn
+#      in places where players will never come across them.
+#      e.g. far below players in caves.
+#      
+# The Limiter is capable of massively reducing the number of mobs on
+#     your server without reducing the number of mobs which a player
+#     gets the chance to interact with.
+#     (Do your setup right and you can have less mobs in total, and
+#     have your players think there are actually more) 
+# 
+# #######################################################################
+# EnableAbilities
+# #######################################################################
+# Enables the abilities component of MobManager
+# 
+# MobManager's Abilities aims to allow you to fully customize the
+#     strength of each mob to provide a more or less challenging
+#     environment for players.
+#     
+# Abilities all have chances, so you can have variety between mobs
+#     i.e. (You can have 1 in 100 zombies be very strong)
+#     
+# #######################################################################
+# EnableBounty
+# #######################################################################
+# Enables the Bounty component of MobManager
+# 
+# MobMananger's Bounty allows you to provide players with rewards
+#     (Or fines) to players when they kill mobs.
+#     
+# Rewards can be Money, Items or Experience
+# 
+# #######################################################################
+# EnableSpawner
+# #######################################################################
+# Enables the Spawner component of MobManager (Requires Limiter)
+# 
+# MobMananger's Spawner allows you to have much more control over spawns
+# 
+# You can use it to provide a more consistent experience for players
+#     by having a fixed number of mobs spawn around each player
+#     periodically. This means that groups of players will meet larger
+#     amounts of mobs.
+# 
+# The Spawner hooks into both MobManager's Limiter and Abilities
+#     components.
+#     For limiter, it bypasses the normal spawn checks and completes
+#     them itself in a slightly more efficient manner.
+#     For abilities, it allows you to directly spawn mobs with chosen
+#     ability sets.
+# 
+# The Spawner also uses Regions which allows even more power by allowing
+#     different mobs to spawn in different defined regions.
+# 
+# The Spawner can also allow mobs to spawn in locations they normally
+#     wouldn't. Such as zombies in daylight, or have naturally spawning
+#     Giants
+# 
+# #######################################################################
+# EnableVersionCheck
+# #######################################################################
+# If false /mm version will only provide the current version and not
+#     check for a new version
+# 
+# #######################################################################
+# EnableAutoUpdater
+# #######################################################################
+# If true MobManager will check for new Approved Downloads from BukkitDev
+#     and automatically download and install them.
+# 
+# A restart or /reload will be required to use them. 
+# MobManager will automatically backup your configuration files for you
+#     before updating
+# 
+# 
+# #######################################################################
+
+EnableLimiter: true
+EnableAbilities: false
+EnableBounty: false
+EnableSpawner: false
+EnableVersionCheck: false
+EnableAutoUpdater: false
+Integration:
+  EpicBossRecoded: false
+Version: 3.0.3

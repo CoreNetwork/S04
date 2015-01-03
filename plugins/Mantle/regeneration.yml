@@ -1,0 +1,26 @@
+Enabled: true
+Structures:
+  Villages:
+    RespawnVillagers: true
+    WarnHighClaimedPercentage: true
+    TimeOffsetSeconds: 60
+    RegenerateIntervalSeconds: 900
+    RegenerateAtOnce: 3
+Restoration:
+  VillageCheckPadding: 0
+  WarnPercentage: 50
+Messages:
+  Analyzing: '&8Analyzing regenerating structures. Please wait...'
+  AnalyzeHeader: '&7Structure claim status:'
+  StructureeStatus: '&6<Structure>: <Claimed>/<Total> claimed (<ClaimedPercent>%)
+    &7// <PostponedApproved>'
+  PostponedInsert: '~<Postponed>, '
+  ApprovedInsert: +<Approved>
+  Respawned: '&aStructure regenerated (<Distance> blocks away).'
+  NoStructures: '&cNo regenerating structures in the database.'
+  LoginWarn: '&6<Structure>: <Percentage>% claimed. &7More: /mantle analyze'
+  StructureDeleted: '&cStructure deleted from the database.'
+  StructureWillNotBeRestored: '&cStructure #<ID> (<Distance> blocks away) cannot regenerate.'
+  DeleteNearbyStructure: '&6Confirm regeneration of #<ID> (<Distance> blocks away)
+    with the command again.'
+  VillageWillBeRestored: '&aStructure #<ID> (<Distance> blocks away) can regenerate.'

@@ -1,0 +1,9 @@
+display:
+  compound:
+    Name: "&6Spell of Wind"
+    Lore:
+    - "&6Take your coffee with cream and 37 sugars."
+    - "&7Applies 20 seconds of Speed 50."
+    - "&7Finishes with 1/2 hunger points."
+    - "&8Right click to affect yourself."
+    - "ExpireAfterDays: 15"

@@ -1,0 +1,16 @@
+display:
+  compound:
+    Name: "&aFire Resistance"
+    Lore:
+    - '&2Affects nearby players.'
+    - '&2Immunity to damage from fire and lava.'
+    - '&7Fuel: Magma Cream'
+    - '&8[Click to Select]'
+ench:
+- compound:
+    lvl:
+      short: 5
+    id:
+      short: 16
+HideFlags:
+  int: 63

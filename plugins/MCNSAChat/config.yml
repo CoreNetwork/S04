@@ -1,0 +1,57 @@
+ShortCode: '-'
+ServerName: Flatcore
+defaultChannel: F
+defaultListen:
+- Server
+- Global
+multiServer: false
+chatServer: ''
+chatServerPort: 5505
+chatServerPassword: ''
+consoleLogChat: true
+consoleLogServers: false
+consoleLogServerInfo: false
+hideJoinPlayerList: false
+displayWelcome: true
+consoleSender-colour: '&b'
+consoleSender: '&c@&bridddle'
+database-isSQL: true
+database-url: /Users/riddle/Projects/flatcore4/plugins/MCNSAChat/chat.db
+strings:
+  player-welcome: '&aPlease welcome &e%player% &ato Flatcore!'
+  player-join: '&e%player% joined %server%.'
+  player-quit: '&7%player% left'
+  message: '&7<&3%server%&f%channel%&7> %prefix%%player%%suffix%: &f%message%'
+  action: '&7<&3%server%&f%channel%&7> * %prefix%%player%%suffix% &f%message%'
+  pm_send: '&3(to %to%) %message%'
+  pm_receive: '&3(from %from%) %message%'
+  timeout-mod: '&e%player% has been put in timeout for %time%m.'
+  timeout-player: '&cYou have been placed in timeout for %time%m.'
+  timeout-players: '&e%player% has been put in timeout for %time%m.'
+  timeout-reason: '&7Reason: %reason%'
+  networkMessage: '&bNetwork Announcement: %message%'
+  lockdown-kick: Server is full!
+  lockdown-enable-temp: '&cThe server is now in lockdown. Players who haven''t been
+    here before cannot join for %minutes% minutes starting now.'
+  lockdown-login-temp: '&cLockdown enabled (%minutes%:%seconds%).'
+  lockdown-disable: '&6Lockdown disengaged'
+  lockdown-failed: '&cLockdown could not be activated.'
+  shadow-mute-notify: '&8%player% has been put in shadow timeout for %time%m'
+  shadow-unmute-notify: '&8%player% has been removed from shadow timeout'
+  seen-never: '&c %player% has never logged in.'
+  seen-online: '&a %player% is online right now!'
+  seen-last: '&6 %player% has been last seen on %year%-%month%-%day%, %hour%:%minute%'
+  banned-word-player: That message contains banned words or characters
+  banned-word-admin: '%player% tried to send a message containing banned words: %message%'
+greetings:
+  '0': '&e%player% joined Flatcore'
+  '604800': '&e%player% joined Flatcore after %days% days of hiatus!'
+  '2592000': '&e%player% rejoined Flatcore after %months% month, %days% days!'
+  '5184000': '&e%player% rejoined Flatcore after %months% months!'
+lockdown: false
+lockdown-time: 15
+lockdown-reason: '15'
+lockdown-unlock-time: 1390260337853
+banned-silent: ''
+banned-notify: ''
+ranking-string: '&7 &2 &a &3 &e &6 &c &d &8 &b'

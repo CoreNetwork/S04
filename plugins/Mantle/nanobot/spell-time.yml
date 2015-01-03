@@ -1,0 +1,10 @@
+display:
+  compound:
+    Name: "&6Spell of Time"
+    Lore:
+    - "&6Unravel the chains of fate."
+    - "&7Removes all enchantments from one item."
+    - "&7Selects the item via pick up order."
+    - "&7Returns some experience back."
+    - "&8Right click to affect the inventory."
+    - "ExpireAfterDays: 15"

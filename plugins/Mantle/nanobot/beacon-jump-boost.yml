@@ -1,0 +1,17 @@
+display:
+  compound:
+    Name: "&aJump Boost"
+    Lore:
+    - '&2Affects nearby players.'
+    - '&2Allows the player to jump higher'
+    - '&2and reduces fall damage.'
+    - '&7Fuel: Carrots'
+    - '&8[Click to Select]'
+ench:
+- compound:
+    lvl:
+      short: 5
+    id:
+      short: 16
+HideFlags:
+  int: 63

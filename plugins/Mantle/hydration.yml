@@ -1,0 +1,50 @@
+Enabled: true
+ScoreboardLine: ''
+FireDehydrationMultiplier: 10
+MiningFatigueDurationSeconds: 180
+Potions:
+  '373:0':
+    normal: 20
+    saturation: 10
+  '335':
+    normal: 25
+    saturation: 5
+  373:8195:
+    normal: 40
+    saturation: 35
+  373:8259:
+    normal: 50
+    saturation: 45
+  373:8227:
+    normal: 50
+    saturation: 45
+  '373':
+    normal: 5
+    saturation: 1
+Worlds:
+  world:
+    '257':
+      Drain: -0.2
+      FireDrain: 0.5
+      LavaDrain: 1.0
+      StartingMF: 1
+  world_nether:
+    '48':
+      Drain: 0.1
+      FireDrain: 1.0
+      LavaDrain: 1.5
+      StartingMF: 1
+    '32':
+      Drain: 0.2
+      FireDrain: 1.5
+      LavaDrain: 2.0
+      StartingMF: 2
+    '16':
+      Drain: 0.3
+      FireDrain: 2.0
+      LavaDrain: 2.5
+      StartingMF: 3
+Notifications:
+  '40': '&6You probably should drink something. &7/help Dehydration'
+  '25': '&6You really should drink something. &7/help Dehydration'
+  '5': '&cYou''ll get dehydrated soon, better drink something.'

@@ -1,0 +1,72 @@
+Actions:
+  onEnable:
+    CommandsByConsole:
+    - manuadd %PLAYER_NAME% Overseer world
+    - gamemode 1 %PLAYER_NAME% silent
+    - god %PLAYER_NAME% silent
+    - sudo %PLAYER_NAME% ignoreclaims
+    - sudo %PLAYER_NAME% runalias //toolkit
+    Order:
+    - MemoryImport
+    - TemporaryGroups
+    - TemporaryPermissions
+    - Cleanups
+    - CommandsByConsole
+    - Commands
+    - Messages
+    - Broadcast
+    Cleanups:
+    - Vehicle
+    - Velocity
+    - Inventory
+    - Armor
+    - Exhaustion
+    - Saturation
+    - FoodLevel
+    - Health
+    - Experience
+    - RemaingAir
+    - FallDistance
+    - FireTicks
+    - PotionEffects
+    - TicksLived
+    Messages: []
+    Commands: []
+  onDisable:
+    Messages: []
+    Order:
+    - MemoryExport
+    - CommandsByConsole
+    - Commands
+    - TemporaryPermissions
+    - TemporaryGroups
+    - DataRemoval
+    - Messages
+    - Broadcast
+    Commands: []
+    CommandsByConsole:
+    - ungod %PLAYER_NAME% silent
+    - sudo %PLAYER_NAME% ignoreclaims
+    - gamemode 0 %PLAYER_NAME% silent
+    - manuadd %PLAYER_NAME% Guardian world
+  TemporaryGroups: []
+  DisableDeathDrops: false
+  DisableKillDrops: false
+  DenyDesiredDrops: false
+  DenyChestInteracts: false
+  RemindPlayers: true
+  TemporaryPermissions: []
+  Requirements: []
+Enabled: true
+KeepStateOffline: false
+Requirements:
+  Dependencies:
+  - Vault
+Vault:
+  Economy: false
+  NameFormatting: false
+  Permissions: true
+PreventTeleportCollision: true
+Broadcast-duty-changes: true
+ReminderCooldown: -1
+MessageTag: ''

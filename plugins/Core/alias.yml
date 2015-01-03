@@ -1,0 +1,133 @@
+Enabled: true
+Aliases:
+- match:
+  - /me
+  - /action
+  - /dicks
+  - /pong
+  comment: Commands left to die() silently :)
+- match:
+  - /level( .*)?
+  - /point( .*)?
+  message: '&6Did you mean &7/points?'
+- match:
+  - /wbooks( .*)?
+  - /wbook( .*)?
+  - /wbr( .*)?
+  message: '&6We don''t have that feature here. Try &7/help'
+  comment: WelcomeBook / WelcomeBookRecoded
+- match: /spawn( .*)?
+  message: '&6We don''t have a usual spawn here. See &7/help Respawn'
+- match: /hub( .*)?
+  message: '&6No such thing exists here. See &7/help Respawn'
+- match: /cprivate( .*)?
+  message: '&6To protect chests, make sure they are in your claim. &7/help Claims'
+- match: /cpublic( .*)?
+  message: '&6To share all chests in your claim, type &7/containertrust <player>.
+    &6To share just a few of them, learn about &7/help Subclaims'
+- match:
+  - /shop( .*)?
+  - /bal( .*)?
+  - /money( .*)?
+  message: '&6There is no server-wide economy. Trade with players or villagers.'
+- match:
+  - /escape( .*)?
+  - /stuck( .*)?
+  message: '&6Did you mean &7/trapped&6?'
+- match: /ma( .*)?
+  message: '&6Try Death Pit in Limbo for a similar mini-game. &7/help Limbo'
+- match: /lobby( .*)?
+  message: '&6To revisit tutorial, click the button near respawn crystal.'
+- match: /servers?( .*)?
+  message: '&6We have just one server here.'
+- match: /ping( .*)?
+  message: '&6Pinging was disabled due to its unreliability.'
+- match:
+  - /[a-zA-Z0-9_]+\:([a-zA-Z0-9_]+)( .*)?
+  route: /$1 $2
+- match: /cp
+  route: /checkpoint
+- match: /limbo
+  route: /lim check
+- match: /limbo top (.+)
+  route: /lim top $1
+- match:
+  - /modreq( .*)?
+  - /ticket( .*)?
+  - /request( .*)?
+  message: '&6Did you mean &7/ask&6?'
+- match: /status
+  route: /ch status
+- match: /ch done (.+)
+  message: '&cThis doesn''t work anymore. Send &7/ch done &cmultiple times.'
+- match: /canregen
+  route: /mantle testrespawn
+  sudo: true
+- match: /unlisten (.+)
+  message: '&6To stop listening to a channel, just send &7/listen $1 &6again.'
+- match: /clisten (.+)
+  message: '&6Did you mean &7/listen&6?'
+- match: /(animals|villagers)( .*)?
+  route: /ml $1 $2
+- match: /claims( .*)?
+  message: '&6To claim an area, right click with a bone. &7/help Claims'
+- match: /abandon( .*)?
+  message: '&6Did you mean &7/abandonclaim &6or &7/abandonallclaims&6?'
+- match: /exit( .*)?
+  route: /lim exit
+- match: /alright
+  route: /IAgree
+- match: /staff( .*)?
+  message:
+  - '&bGuardians: &7ArsenicWaffles, Leonheart515, ridddle, Tbzz'
+  - '&bCommunity Managers: &7Mimal'
+- match: /afk( .*)?
+  message: '&7You can be AFK for 1h. No command needed.'
+- match: /tp[a|o]( .*)?
+  message: '&cThere is no teleportation on Flatcore.'
+- match: /sethome( .*)?
+  message: '&cYou cannot set home on Flatcore. Beds don''t work either.'
+- match: /home( .*)?
+  message: '&cNo /home on Flatcore. If you have a base, use /blocks.'
+- match: /\?( .*)?
+  reference: /help $1
+- match: /base( .*)?
+  route: /core claimslist
+- match: //j
+  route: /jumpto
+- match: //as
+  route: /ascend
+- match: //ds
+  route: /descend
+- match: //us
+  route: /unstuck
+- match: //th
+  route: /thru
+- match: //d
+  route: //desel
+- match: //ex( .*)?
+  route: //expand $1
+- match: //c( .*)?
+  route: //contract
+- match: //sh( .*)?
+  route: //shift $1
+- match: //mv( .*)?
+  route: //move $1
+- match: //cp( .*)?
+  route: //copy $1
+- match: //p( .*)?
+  route: //paste $1
+- match: //u( .*)?
+  route: //undo $1
+- match: //r( .*)?
+  route: //replace $1
+- match: //rn( .*)?
+  route: //replacenear $1
+- match: //rot( .*)?
+  route: //rotate $1
+- match: //save( .*)?
+  route: //schematic save $1
+- match: //load( .*)?
+  route: //schematic load $1
+- match: /mod
+  route: /dutymode

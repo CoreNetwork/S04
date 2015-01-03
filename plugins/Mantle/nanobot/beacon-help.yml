@@ -1,0 +1,8 @@
+display:
+  compound:
+    Name: "&fFlatcore Beacons: Help"
+    Lore:
+    - '&7Please select one of the effects below'
+    - '&7by clicking them. &8If you want to learn'
+    - '&8more about this custom feature, read'
+    - '&8/help Beacons'

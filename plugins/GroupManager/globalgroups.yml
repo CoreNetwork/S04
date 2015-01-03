@@ -1,0 +1,448 @@
+groups:
+  g:Guardian:
+    permissions:
+    - bukkit.command.plugins
+    - bukkit.command.version
+    - duties.belisted
+    - duties.broadcast
+    - duties.getbroadcasts
+    - duties.list
+    - duties.listall
+    - duties.self.disable
+    - duties.self.enable
+    - duties.self.toggle
+    - griefprevention.adjustclaimblocks
+    - jail.command.jailcheck
+    - jail.command.jaillist
+    - jail.command.unjail
+    - lib.commandtab.bypass
+    - mcnsachallenges.mod.help
+    - mcnsachallenges.mod.list
+    - mcnsachallenges.mod.points
+    - mcnsachallenges.notify
+    - mcnsachat.admin.*
+    - mcnsachat.forcelisten.admin
+    - mcnsachat.player.cancolor
+    - mcnsachat.read.admin
+    - mcnsachat.write.admin
+    - mcnsaessentials.bans.ban.expiry
+    - mcnsaessentials.bans.ban.forever
+    - mcnsaessentials.bans.isbanned
+    - mcnsaessentials.bans.unban
+    - mcnsaessentials.kicks.kick
+    - mobmanager.count
+    - nbt.access
+    - nocheatplus.admin.info
+    - nocheatplus.admin.notify
+    - nocheatplus.checks.chat.captcha
+    - nocheatplus.checks.chat.color
+    - nocheatplus.checks.chat.logins
+    - reportrts.command.ban
+    - reportrts.command.check
+    - reportrts.command.claim
+    - reportrts.command.complete
+    - reportrts.command.help
+    - reportrts.command.hold
+    - reportrts.command.stats
+    - reportrts.mod
+    - reportrts.override
+  g:Overseer:
+    permissions:
+    - commandhelper.*
+    - griefprevention.admin.*
+    - justafk.immune
+    - mcnsachallenges.admin.*
+    - mcnsachallenges.mod.*
+    - mcnsaessentials.backpacks.others
+    - mcnsaessentials.items.give.self
+    - mcnsaessentials.items.head
+    - mcnsaessentials.kits.give.self
+    - mcnsaessentials.kits.list
+    - mcnsaessentials.kits.new
+    - mcnsaessentials.modtools.openinv
+    - mcnsaessentials.playermode.gamemode.self
+    - mcnsaessentials.playermode.god.self
+    - mcnsaessentials.teleport.bring
+    - mcnsaessentials.teleport.history.back
+    - mcnsaessentials.teleport.history.clear
+    - mcnsaessentials.teleport.history.origin
+    - mcnsaessentials.teleport.other
+    - mcnsaessentials.teleport.othercoords
+    - mcnsaessentials.teleport.self
+    - mcnsaessentials.teleport.selfcoords
+    - mcnsaessentials.vanish.self
+    - mcnsaessentials.warps.*
+    - mcnsaessentials.warps.set
+    - mcnsaessentials.warps.set.public
+    - mcnsaflatcore.*
+    - nocheatplus.checks.*
+    - OpenInv.*
+    - reportrts.command.teleport
+    - worldedit.*
+    - worldguard.*
+  g:DonorCharter:
+    permissions:
+    - commandhelper.alias.limboextend
+    - nocheatplus.checks.chat.commands
+    - nocheatplus.checks.chat.relog
+    - nocheatplus.checks.chat.text
+  g:essentials_admin:
+    permissions:
+    - -essentials.backup
+    - -essentials.essentials
+    - -essentials.setspawn
+    - -essentials.reloadall
+    - -essentials.plugin
+    - essentials.*
+  g:groupmanager_moderator:
+    permissions:
+    - groupmanager.listgroups
+    - groupmanager.mandemote
+    - groupmanager.manpromote
+    - groupmanager.manselect
+    - groupmanager.manuadd
+    - groupmanager.manudel
+    - groupmanager.manwhois
+    - groupmanager.notify.other
+  g:essentials_builder:
+    permissions:
+    - essentials.afk
+    - essentials.afk.auto
+    - essentials.back
+    - essentials.back.ondeath
+    - essentials.balance
+    - essentials.balance.others
+    - essentials.balancetop
+    - essentials.book
+    - essentials.chat.color
+    - essentials.chat.format
+    - essentials.chat.shout
+    - essentials.chat.question
+    - essentials.compass
+    - essentials.delhome
+    - essentials.depth
+    - essentials.exp
+    - essentials.getpos
+    - essentials.hat
+    - essentials.home
+    - essentials.ignore
+    - essentials.itemdb
+    - essentials.kit
+    - essentials.kits.tools
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.me
+    - essentials.msg
+    - essentials.msg.color
+    - essentials.msg.format
+    - essentials.nick
+    - essentials.pay
+    - essentials.ping
+    - essentials.powertool
+    - essentials.powertooltoggle
+    - essentials.protect
+    - essentials.recipe
+    - essentials.seen
+    - essentials.sethome
+    - essentials.sethome.bed
+    - essentials.sethome.multiple
+    - essentials.signs.use.*
+    - essentials.signs.create.disposal
+    - essentials.signs.create.mail
+    - essentials.signs.create.protection
+    - essentials.signs.create.trade
+    - essentials.signs.break.disposal
+    - essentials.signs.break.mail
+    - essentials.signs.break.protection
+    - essentials.signs.break.trade
+    - essentials.suicide
+    - essentials.time
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.worth
+    - essentials.jail.allow.mail
+    - essentials.jail.allow.ping
+    - essentials.jail.allow.seen
+  g:vanish_moderator:
+    permissions:
+    - -vanish.*
+    - vanish.vanish
+    - vanish.smokin
+    - vanish.nofollow
+    - vanish.nopickup
+    - vanish.preventincomingdamage
+    - vanish.hooks.dynmap.alwayshidden
+    - vanish.hooks.essentials.hide
+  g:groupmanager_admin:
+    permissions:
+    - groupmanager.mantogglevalidate
+    - groupmanager.mansave
+    - groupmanager.mangcheckp
+    - groupmanager.manglistp
+    - groupmanager.manucheckp
+    - groupmanager.manulistp
+  g:Nomad:
+    permissions:
+    - mcnsaessentials.backpacks.self
+    - mcnsaessentials.backpacks.size.9
+    - moreblocks.nomad
+    - nocheatplus.checks.chat.commands
+    - nocheatplus.checks.chat.text
+  g:SurvivalAdmin:
+    permissions:
+    - mcnsachat.forcelisten.admin
+    - mcnsachat.read.admin
+    - mcnsachat.write.admin
+  g:Novice:
+    permissions: []
+  g:Raider:
+    permissions:
+    - mcnsaessentials.backpacks.size.18
+    - moreblocks.raider
+    - nocheatplus.checks.chat.relog
+  g:towny_moderator:
+    permissions:
+    - towny.chat.mod
+    - towny.wild.switch.64
+    - towny.wild.build.83
+    - towny.wild.build.86
+    - towny.wild.build.103
+    - towny.wild.build.111
+    - towny.wild.build.115
+  g:DonorGrass:
+    permissions:
+    - mcnsaflatcore.donorgrass
+    - nocheatplus.checks.chat.commands
+    - nocheatplus.checks.chat.relog
+    - nocheatplus.checks.chat.text
+  g:groupmanager_default:
+    permissions:
+    - groupmanager.notify.self
+  g:DonorSky:
+    permissions:
+    - commandhelper.alias.limboextend
+    - mcnsaessentials.time.tell
+    - mcnsaflatcore.donorsky
+    - nocheatplus.checks.chat.commands
+    - nocheatplus.checks.chat.relog
+    - nocheatplus.checks.chat.text
+  g:Savant:
+    permissions: []
+  g:vanish_admin:
+    permissions:
+    - vanish.silentjoin
+    - vanish.silentquit
+    - vanish.silentchests
+  g:essentials_default:
+    permissions:
+    - essentials.help
+    - essentials.helpop
+    - essentials.list
+    - essentials.motd
+    - essentials.rules
+    - essentials.spawn
+    - essentials.jail.allow.help
+    - essentials.jail.allow.helpop
+    - essentials.jail.allow.rules
+  g:towny_admin:
+    permissions:
+    - towny.admin
+    - -towny.wild.destroy.119
+    - -towny.wild.destroy.120
+    - towny.chat.admin
+  g:towny_builder:
+    permissions:
+    - towny.wild.build.6
+    - towny.wild.destroy.6
+    - towny.wild.destroy.14
+    - towny.wild.destroy.15
+    - towny.wild.destroy.16
+    - towny.wild.build.17
+    - towny.wild.destroy.17
+    - towny.wild.destroy.18
+    - towny.wild.destroy.21
+    - towny.wild.destroy.31
+    - towny.wild.destroy.37
+    - towny.wild.destroy.38
+    - towny.wild.destroy.39
+    - towny.wild.destroy.40
+    - towny.wild.destroy.50
+    - towny.wild.destroy.56
+    - towny.wild.destroy.73
+    - towny.wild.destroy.74
+    - towny.wild.destroy.78
+    - towny.wild.destroy.81
+    - towny.wild.destroy.82
+    - towny.wild.destroy.83
+    - towny.wild.destroy.86
+    - towny.wild.destroy.103
+    - towny.wild.destroy.106
+    - towny.wild.destroy.111
+    - towny.wild.destroy.115
+  g:bukkit_moderator:
+    permissions:
+    - bukkit.command.ban
+    - bukkit.command.ban.ip
+    - bukkit.command.ban.player
+    - bukkit.command.gamemode
+    - bukkit.command.kick
+    - bukkit.command.unban
+    - bukkit.command.unban.ip
+    - bukkit.command.unban.player
+  g:Special:
+    permissions: []
+  g:Scribe:
+    permissions: []
+  g:Angelic:
+    permissions:
+    - automessage.commands.*
+    - bukkit.command.deop
+    - bukkit.command.effect
+    - bukkit.command.enchant
+    - bukkit.command.gamerule
+    - bukkit.command.op
+    - bukkit.command.save.*
+    - bukkit.command.stop
+    - jail.*
+    - lagmeter.*
+    - mcnsachat.admin.timeout
+    - mcnsachat.forcelisten.admin
+    - mcnsachat.read.admin
+    - mcnsachat.write.admin
+    - mcnsaessentials.bans.*
+    - mcnsaessentials.debug.*
+    - mcnsaessentials.kicks.*
+    - mcnsaessentials.kits.new
+    - mcnsaessentials.lagmanager.find
+    - mcnsaessentials.modtools.reload
+    - mcnsaessentials.spawn.set
+    - mcnsaessentials.spawn.spawn
+    - mobmanager.admin
+    - monsterhunt.admincmd.*
+    - permissions.*
+  g:Merchant:
+    permissions:
+    - mcnsaessentials.backpacks.size.36
+  g:essentials_moderator:
+    permissions:
+    - -essentials.spawner.enderdragon
+    - essentials.afk.kickexempt
+    - essentials.ban
+    - essentials.ban.notify
+    - essentials.banip
+    - essentials.book.title
+    - essentials.book.others
+    - essentials.broadcast
+    - essentials.chat.url
+    - essentials.chat.magic
+    - essentials.clearinventory
+    - essentials.delwarp
+    - essentials.eco.loan
+    - essentials.exp.others
+    - essentials.ext
+    - essentials.fly
+    - essentials.fly.safelogin
+    - essentials.getpos
+    - essentials.getpos.others
+    - essentials.helpop.receive
+    - essentials.home.others
+    - essentials.invsee
+    - essentials.jails
+    - essentials.jump
+    - essentials.kick
+    - essentials.kick.notify
+    - essentials.kill
+    - essentials.kits.*
+    - essentials.msg.magic
+    - essentials.mute
+    - essentials.mute.notify
+    - essentials.nick.color
+    - essentials.nick.others
+    - essentials.realname
+    - essentials.seen.banreason
+    - essentials.seen.extra
+    - essentials.setwarp
+    - essentials.signs.create.*
+    - essentials.signs.break.*
+    - essentials.spawner
+    - essentials.spawner.*
+    - essentials.thunder
+    - essentials.time
+    - essentials.time.set
+    - essentials.protect.alerts
+    - essentials.protect.admin
+    - essentials.protect.ownerinfo
+    - essentials.ptime
+    - essentials.ptime.others
+    - essentials.togglejail
+    - essentials.top
+    - essentials.tp
+    - essentials.tp.others
+    - essentials.tphere
+    - essentials.tppos
+    - essentials.tptoggle
+    - essentials.unban
+    - essentials.unbanip
+    - essentials.vanish
+    - essentials.vanish.effect
+    - essentials.warps.*
+    - essentials.weather
+    - essentials.whois
+    - essentials.workbench
+    - essentials.world
+    - essentials.worlds.*
+    - essentials.jail.allow.jails
+    - essentials.jail.allow.togglejail
+  g:bukkit_default:
+    permissions:
+    - bukkit.broadcast.user
+    - -bukkit.command.plugins
+  g:towny_default:
+    permissions:
+    - towny.chat.local
+  g:Mercenary:
+    permissions:
+    - mcnsaessentials.backpacks.size.27
+    - moreblocks.mercenary
+  g:bukkit_admin:
+    permissions:
+    - bukkit.broadcast
+    - bukkit.broadcast.admin
+    - bukkit.command.give
+    - bukkit.command.help
+    - bukkit.command.kill
+    - bukkit.command.list
+    - bukkit.command.me
+    - -bukkit.command.op
+    - -bukkit.command.op.give
+    - -bukkit.command.op.take
+    - bukkit.command.plugins
+    - bukkit.command.reload
+    - bukkit.command.save
+    - bukkit.command.save.disable
+    - bukkit.command.save.enable
+    - bukkit.command.save.perform
+    - bukkit.command.say
+    - bukkit.command.stop
+    - bukkit.command.teleport
+    - bukkit.command.tell
+    - bukkit.command.time
+    - bukkit.command.time.add
+    - bukkit.command.time.set
+    - bukkit.command.version
+    - bukkit.command.whitelist
+    - bukkit.command.whitelist.add
+    - bukkit.command.whitelist.disable
+    - bukkit.command.whitelist.enable
+    - bukkit.command.whitelist.list
+    - bukkit.command.whitelist.reload
+    - bukkit.command.whitelist.remove
+  g:Flatcorian:
+    permissions:
+    - -automessage.receive.novice
+    - automessage.receive.regular
+    - moreblocks.flatcorian

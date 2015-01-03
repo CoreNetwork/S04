@@ -1,0 +1,9 @@
+# JustAFK Configuration
+tagmessages: false
+autokick: true
+hideawayplayers: true
+broadcastawaymsg: false
+movementcheckfreq: 3540
+kicktime: 60
+kickreason: Being away for more than 1h = unnecessary stress for the server.
+kickwhileinvehicle: true

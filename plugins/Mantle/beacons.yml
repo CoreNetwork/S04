@@ -1,0 +1,318 @@
+Enabled: true
+GuiItems:
+  Help:
+    ID: 323
+    Amount: 1
+    Damage: 0
+    NBT: beacon-help
+  HelpSelected:
+    ID: 323
+    Amount: 1
+    Damage: 0
+    NBT: beacon-help-selected
+  CancelEffect:
+    ID: 138
+    Amount: 1
+    Damage: 0
+    NBT: beacon-return
+  BeaconON:
+    ID: 160
+    Amount: 1
+    Damage: 5
+    NBT: beacon-on
+  BeaconOFF:
+    ID: 166
+    Amount: 1
+    Damage: 0
+    NBT: beacon-off
+RangePerBlock:
+  Iron:
+    L1: 1.333
+    L2: 0.765
+    L3: 0.458
+    L4: 0.305
+  Gold:
+    L1: 1.333
+    L2: 0.765
+    L3: 0.458
+    L4: 0.305
+  Emerald:
+    L1: 2.667
+    L2: 1.529
+    L3: 0.916
+    L4: 0.61
+  Diamond:
+    L1: 6.667
+    L2: 3.882
+    L3: 2.313
+    L4: 1.543
+Effects:
+- Speed:
+    Type: Potion
+    EffectIcon:
+      ID: 353
+      Damage: 0
+      Amount: 1
+      NBT: beacon-speed
+    ActiveEffectIcon:
+      ID: 353
+      Damage: 0
+      Amount: 1
+      NBT: beacon-speed-selected
+    FuelIcon:
+      ID: 265
+      Damage: 0
+      Amount: 1
+      NBT: beacon-speed-fuel
+    Potion:
+      ID: 1
+      Duration: 165
+      Amplifier: 0
+      Ambient: true
+    FuelParameters:
+      WeakEffectDuration: 60
+      WeakEffectItemsConsumed: 1
+      StrongEffectDuration: 60
+      StrongEffectItemsConsumed: 2
+    StrongEffectModifier: 1
+    EffectNameStrong: Speed II
+    EffectNameWeak: Speed I
+- WaterBreathing:
+    Type: Potion
+    EffectIcon:
+      ID: 349
+      Damage: 0
+      Amount: 1
+      NBT: beacon-water-breathing
+    ActiveEffectIcon:
+      ID: 349
+      Damage: 0
+      Amount: 1
+      NBT: beacon-water-breathing-selected
+    FuelIcon:
+      ID: 265
+      Amount: 1
+      Damage: 0
+      NBT: beacon-water-breathing-fuel
+    Potion:
+      ID: 13
+      Duration: 165
+      Amplifier: 0
+      Ambient: true
+    FuelParameters:
+      WeakEffectDuration: 60
+      WeakEffectItemsConsumed: 2
+      StrongEffectDuration: 60
+      StrongEffectItemsConsumed: 2
+    StrongEffectModifier: 1
+    EffectNameStrong: Water Breathing
+    EffectNameWeak: Water Breathing
+- FireResistance:
+    Type: Potion
+    EffectIcon:
+      ID: 377
+      Damage: 0
+      Amount: 1
+      NBT: beacon-fire-resistance
+    ActiveEffectIcon:
+      ID: 377
+      Damage: 0
+      Amount: 1
+      NBT: beacon-fire-resistance-selected
+    FuelIcon:
+      ID: 378
+      Amount: 1
+      Damage: 0
+      NBT: beacon-fire-resistance-fuel
+    Potion:
+      ID: 3
+      Duration: 165
+      Amplifier: 0
+      Ambient: true
+    FuelParameters:
+      WeakEffectDuration: 60
+      WeakEffectItemsConsumed: 2
+      StrongEffectDuration: 60
+      StrongEffectItemsConsumed: 2
+    StrongEffectModifier: 1
+    EffectNameStrong: Fire Resistance
+    EffectNameWeak: Fire Resistance
+- Regeneration:
+    Type: Potion
+    EffectIcon:
+      ID: 322
+      Damage: 1
+      Amount: 1
+      NBT: beacon-regeneration
+    ActiveEffectIcon:
+      ID: 322
+      Damage: 1
+      Amount: 1
+      NBT: beacon-regeneration-selected
+    FuelIcon:
+      ID: 388
+      Damage: 0
+      Amount: 1
+      NBT: beacon-regeneration-fuel
+    Potion:
+      ID: 10
+      Duration: 165
+      Amplifier: 0
+      Ambient: true
+    FuelParameters:
+      WeakEffectDuration: 60
+      WeakEffectItemsConsumed: 1
+      StrongEffectDuration: 60
+      StrongEffectItemsConsumed: 2
+    StrongEffectModifier: 1
+    EffectNameStrong: Regeneration II
+    EffectNameWeak: Regeneration I
+- Resistance:
+    Type: Potion
+    EffectIcon:
+      ID: 315
+      Damage: 0
+      Amount: 1
+      NBT: beacon-resistance
+    ActiveEffectIcon:
+      ID: 315
+      Damage: 0
+      Amount: 1
+      NBT: beacon-resistance-selected
+    FuelIcon:
+      ID: 388
+      Damage: 0
+      Amount: 1
+      NBT: beacon-resistance-fuel
+    Potion:
+      ID: 11
+      Duration: 165
+      Amplifier: 0
+      Ambient: true
+    FuelParameters:
+      WeakEffectDuration: 60
+      WeakEffectItemsConsumed: 1
+      StrongEffectDuration: 60
+      StrongEffectItemsConsumed: 2
+    StrongEffectModifier: 1
+    EffectNameStrong: Resistance II
+    EffectNameWeak: Resistance I
+- JumpBoost:
+    Type: Potion
+    EffectIcon:
+      ID: 317
+      Damage: 0
+      Amount: 1
+      NBT: beacon-jump-boost
+    ActiveEffectIcon:
+      ID: 317
+      Damage: 0
+      Amount: 1
+      NBT: beacon-jump-boost-selected
+    FuelIcon:
+      ID: 391
+      Damage: 0
+      Amount: 1
+      NBT: beacon-jump-boost-fuel
+    Potion:
+      ID: 8
+      Duration: 165
+      Amplifier: 0
+      Ambient: true
+    FuelParameters:
+      WeakEffectDuration: 60
+      WeakEffectItemsConsumed: 15
+      StrongEffectDuration: 60
+      StrongEffectItemsConsumed: 20
+    StrongEffectModifier: 1
+    EffectNameStrong: Jump Boost II
+    EffectNameWeak: Jump Boost I
+- Strength:
+    Type: Potion
+    EffectIcon:
+      ID: 283
+      Damage: 0
+      Amount: 1
+      NBT: beacon-strength
+    ActiveEffectIcon:
+      ID: 283
+      Damage: 0
+      Amount: 1
+      NBT: beacon-strength-selected
+    FuelIcon:
+      ID: 265
+      Damage: 0
+      Amount: 1
+      NBT: beacon-strength-fuel
+    Potion:
+      ID: 11
+      Duration: 165
+      Amplifier: 0
+      Ambient: true
+    FuelParameters:
+      WeakEffectDuration: 60
+      WeakEffectItemsConsumed: 1
+      StrongEffectDuration: 60
+      StrongEffectItemsConsumed: 2
+    StrongEffectModifier: 1
+    EffectNameStrong: Strength II
+    EffectNameWeak: Strength I
+- Haste:
+    Type: Potion
+    EffectIcon:
+      ID: 285
+      Damage: 0
+      Amount: 1
+      NBT: beacon-haste
+    ActiveEffectIcon:
+      ID: 285
+      Damage: 0
+      Amount: 1
+      NBT: beacon-haste-selected
+    FuelIcon:
+      ID: 266
+      Amount: 1
+      Damage: 0
+      NBT: beacon-haste-fuel
+    Potion:
+      ID: 3
+      Duration: 165
+      Amplifier: 0
+      Ambient: true
+    FuelParameters:
+      WeakEffectDuration: 60
+      WeakEffectItemsConsumed: 3
+      StrongEffectDuration: 60
+      StrongEffectItemsConsumed: 6
+    StrongEffectModifier: 1
+    EffectNameStrong: Haste II
+    EffectNameWeak: Haste I
+- Overclock:
+    Type: Overclock
+    EffectIcon:
+      ID: 347
+      Damage: 0
+      Amount: 1
+      NBT: beacon-overclock
+    ActiveEffectIcon:
+      ID: 347
+      Damage: 0
+      Amount: 1
+      NBT: beacon-overclock-selected
+    FuelIcon:
+      ID: 173
+      Amount: 1
+      Damage: 0
+      NBT: beacon-overclock-fuel
+    FuelParameters:
+      WeakEffectDuration: 60
+      WeakEffectItemsConsumed: 3
+      StrongEffectDuration: 60
+      StrongEffectItemsConsumed: 6
+    StrongEffectModifier: 1
+    EffectNameStrong: Overclock I
+    EffectNameWeak: Overclock II
+Messages:
+  GuiTitles:
+    PickEffect: Beacon. Pick an Effect ---- [?]
+    BeaconStatus: '[Return] ------------- [Help]'

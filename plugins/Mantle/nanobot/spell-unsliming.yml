@@ -1,0 +1,9 @@
+display:
+  compound:
+    Name: "&6Spell of Unsliming"
+    Lore:
+    - "&6Perish gelatinous cubes forever."
+    - "&7Deactivates a Slime chunk."
+    - "&7Will always cast, slime chunk or not."
+    - "&8Right click to affect current chunk."
+    - "ExpireAfterDays: 15"

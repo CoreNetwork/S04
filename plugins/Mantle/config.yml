@@ -1,0 +1,45 @@
+Debug: false
+Messages:
+  NoPermission: '&cNo permission!'
+  ConfigurationReloaded: '&aConfiguration reloaded successfully!'
+CommandDescriptions:
+  mantle:
+    analyze: '&a/mantle analyze &8-&f Analyze all structures for claim status'
+    help: '&a/mantle help &8-&f List all possible commands'
+    deleterespawn: '&a/mantle deleterespawn &8-&f Delete nearby respawnable structure
+      from database'
+    generate: '&a/mantle generate &8-&f Start world generation'
+    respawn: '&a/mantle respawn &8-&f Respawn nearest respawning structure'
+    generatepath: '&a/mantle generatepath &8-&f Start path generation'
+    testrespawn: '&a/mantle testrespawn &8-&f Test nearby respawning structure for
+      deletion'
+    reload: '&a/mantle reload &8-&f Reload config'
+    restockall: '&a/mantle restockall &8-&f Immediately restock all chests regardless
+      of their status'
+    createchest: '&a/mantle createchest &8-&f Create restockable chest'
+    bindbook: '&a/mantle bindbook &8-&f Bind book to player'
+    hydrate: '&a/mantle hydrate &8-&f Reset hydration for specified player'
+    hydration: '&a/mantle hydration &8-&f Hydration commands'
+    dumpchunks: '&a/mantle dumpchunks &8-&f Dump chunk data'
+    reslime: '&a/mantle reslime &8-&f Remove effect of the unsliming spell from this
+      chunk'
+    makebook: '&a/mantle makebook &8-&f Make spellbook'
+    chunkinfo: '&a/mantle chunkinfo &8-&f Display chunk info for current world'
+    counters: '&a/mantle counters &8-&f Print animal counters'
+  mantle hydration:
+    help: '&a/mantle hydration help &8-&f List all possible commands'
+    save: '&a/mantle hydration save &8-&f Save current hydration state'
+    set: '&a/mantle hydration set &8-&f Set hydration to specified levels'
+    restore: '&a/mantle hydration restore &8-&f Reset hydration for specified player'
+    load: '&a/mantle hydration load &8-&f Load previously saved hydration data'
+  holo:
+    update: '&a/holo update &8-&f Update text of the hologram - not persistent and
+      thus faster than set'
+    help: '&a/holo help &8-&f List all possible commands'
+    hide: '&a/holo hide &8-&f Hide hologram'
+    remove: '&a/holo remove &8-&f Remove nearest hologram'
+    set: '&a/holo set &8-&f Add/set hologram - PERSISTENT'
+    show: '&a/holo show &8-&f Show hologram'
+    updateline: '&a/holo updateline &8-&f Update single line of the hologram - NOT
+      PERSISTENT'
+    reload: '&a/holo reload &8-&f Reload all holograms'

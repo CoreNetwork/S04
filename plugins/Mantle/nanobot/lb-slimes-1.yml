@@ -1,0 +1,22 @@
+display:
+  compound:
+    Name: '&cSlimes I'
+    Lore:
+    - '&7Revision 1'
+title: Slimes I
+pages:
+- |2
+
+            &4Sticky
+          Situations
+
+            &7vol. I
+
+   &8Slimes are creatures that come in many sha- pes and sizes. With no limbs to move, they hop everywhere in a noisy, messy fashion.
+- |2-
+   &8These gelatinous blobs of goo will split apart when killed and can quite easily over-
+  whelm a person. When they split, the new Slimes will be immedia-
+  tely ready to attack, so back off as quickly as possible when they do.
+
+   The smallest size of
+- '&8slimes are completely incapable of hurting a person, though they may leave a mess on your clothes and tire you so greatly you will need sustenance.'

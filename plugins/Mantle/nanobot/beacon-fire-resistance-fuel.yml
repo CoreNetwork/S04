@@ -1,0 +1,9 @@
+display:
+  compound:
+    Name: "&eFuel: Magma Cream"
+    Lore:
+    - '&eRequired to apply Haste.'
+    - '&eFuel consumed: <ItemsConsumed> per <FuelDuration>'
+    - '&7Remaining batch: <TimeLeft>'
+    - '&8Fuel goes into a chest placed'
+    - '&8next to the Beacon.'

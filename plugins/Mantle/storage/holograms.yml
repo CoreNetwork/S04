@@ -1,0 +1,705 @@
+Holograms:
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities: []
+    x: -1958.5
+    needsUpdating: true
+    y: 8.5
+    z: 1928.5
+    text:
+    - '&cStand inside for 3 seconds.'
+    - '&cDon''t get damaged or jump.'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - d851b8f8-0924-4aef-905a-9fb11bea11e8
+    x: -2099.5
+    needsUpdating: false
+    y: 92.5
+    z: -1146.5
+    text:
+    - '&fThe map is completely flat. Bedrock, 2 x dirt and grass and that''s it.'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities: []
+    x: -2006.5
+    needsUpdating: true
+    y: 60.5
+    z: -3999.5
+    text:
+    - '&aClick the crystal to respawn!'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities: []
+    x: -2008.5
+    needsUpdating: true
+    y: 61.25
+    z: -3991.5
+    text:
+    - '&7Time in the Overworld:'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities: []
+    x: -2008.5
+    needsUpdating: true
+    y: 61.0
+    z: -3991.5
+    text:
+    - '&7&oLoading...'
+    id: clock-respawn
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - bed27686-e357-4a3d-a407-bbce59d7a33f
+    - 96448c77-155f-4d92-a67a-9b6d24499d12
+    x: -2080.5
+    needsUpdating: false
+    y: 90.0
+    z: -1146.5
+    text:
+    - '&aWelcome to Flatcore!'
+    - '&aHardcore Superflat Server'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 66b3a487-63ac-439b-9fd5-83901cee1dcc
+    - 6f029277-2c3a-414b-92a5-80c5f801c9e1
+    x: 2106.5
+    needsUpdating: false
+    y: 16.0
+    z: 2116.5
+    text:
+    - Right click your slimeball here to get released.
+    - '&7(if you have any; /slimeballs)'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities: []
+    x: -1971.5
+    needsUpdating: true
+    y: 5.0
+    z: 1991.5
+    text:
+    - '&cObjective: Level 20'
+    - '&cand get to the'
+    - '&cred flag tower.'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities: []
+    x: -2010.5
+    needsUpdating: true
+    y: 65.0
+    z: -4005.5
+    text:
+    - ''
+    id: teamRespawn01
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities: []
+    x: -2010.5
+    needsUpdating: true
+    y: 65.3
+    z: -4005.5
+    text:
+    - ''
+    id: teamRespawnCounter01
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 4acd6011-b468-44f8-8663-3f7fa4949cbd
+    - 7d58d61b-fe20-46b0-b8c7-98a2ba5dc372
+    x: -2096.5
+    needsUpdating: false
+    y: 90.5
+    z: -1187.5
+    text:
+    - Get food first.
+    - Hunger will kill you.
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 3d3394c9-72ed-49d8-969a-2e077b3a18b5
+    x: -2088.5
+    needsUpdating: false
+    y: 91.0
+    z: -1199.5
+    text:
+    - Take wood and cobble to make tools
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - b62b2504-62a1-4412-befc-465ca2dfc43c
+    x: -2058.5
+    needsUpdating: false
+    y: 90.0
+    z: -1183.5
+    text:
+    - Logging Camp
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 52f3938e-f26c-427e-a713-11b578464848
+    x: -2052.5
+    needsUpdating: false
+    y: 89.0
+    z: -1182.5
+    text:
+    - Farmstead
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 45e9eb92-3a64-4b57-aeac-277a0310b650
+    x: 2199.5
+    needsUpdating: false
+    y: 18.0
+    z: 2096.5
+    text:
+    - '&bDeath Pit'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 49c8e046-50c7-423c-ad71-c99c4c196d19
+    - 6a3a114d-2109-4462-9ce1-abb70832eab5
+    - b12300f4-b5b1-43e8-b065-ad6b8da94f9a
+    x: -2090.5
+    needsUpdating: false
+    y: 90.0
+    z: -1170.5
+    text:
+    - '&aVillages have'
+    - '&amaterials to get'
+    - '&ayou started'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - a97435b0-1a31-4d93-867f-703f51924118
+    - b813d379-76d0-4029-b03d-d7df5adec59d
+    - d4986076-b724-43dd-91a9-610a21db06f4
+    x: -2070.5
+    needsUpdating: false
+    y: 90.0
+    z: -1190.5
+    text:
+    - '&aOther necessary'
+    - '&aitems can be found'
+    - '&ain loot chests.'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 7dcff3a6-1b40-496d-aab4-80692ab1eeda
+    - 6e2ca064-f3c3-4c72-9e8d-45ee0f22195b
+    x: -2050.4949833068285
+    needsUpdating: false
+    y: 90.0
+    z: -1210.5
+    text:
+    - '&aFlatcore''s Nether'
+    - '&ais completely flat.'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 00f114eb-0ff2-4a6a-887d-d75e7e832b3a
+    x: -2054.5
+    needsUpdating: false
+    y: 90.0
+    z: -1225.5
+    text:
+    - Nether has villages too
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 716bdd0c-d8c0-49e8-a1d3-8e60082b6c97
+    x: 2199.5
+    needsUpdating: false
+    y: 18.0
+    z: 2136.5
+    text:
+    - '&bParkour'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 1dbba42b-2c7b-4a1f-8b13-123020cd5f31
+    - 6429df39-0e73-4896-a88c-adbfcb01c053
+    x: -2052.5
+    needsUpdating: false
+    y: 91.0
+    z: -1233.5
+    text:
+    - Pigmen & Wither Skeletons
+    - spawn on the surface (angry!)
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - cc345a33-7c0e-403a-a18c-bb6e1406c257
+    - a6b8b29f-b335-496b-a79b-39adbaf5fb95
+    x: -1990.5
+    needsUpdating: false
+    y: 90.0
+    z: -1230.5
+    text:
+    - '&aHere''s how to'
+    - '&aprotect your base.'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 8d98a665-03ca-4c9d-919f-6fa989721eb4
+    - cd9acefb-b7c7-46c8-ae7a-8b137cfbe750
+    x: -1970.5
+    needsUpdating: false
+    y: 89.0
+    z: -1197.5
+    text:
+    - '&aWhat should you get first?'
+    - '&7(Press the button)'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 19729b32-da8f-439a-8b2c-4bc532cec85b
+    - 838289c6-f33a-4b1d-9ea1-9f6daa4d2031
+    x: -2047.5
+    needsUpdating: false
+    y: 89.0
+    z: -1235.5
+    text:
+    - '&cVertigo Fortress'
+    - '&c(Hostile)'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 2ca13569-dd07-4d73-9ac4-969a978cd927
+    - bb73bd99-8414-4ad3-8340-9ad5afa839af
+    x: -2030.5
+    needsUpdating: false
+    y: 90.0
+    z: -1230.5
+    text:
+    - '&aIt''s important to'
+    - '&aprotect your base.'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - aeecbc8e-6f1a-43c4-a5bb-d949ce1ea458
+    - e99a8d7e-08e7-429c-b53b-8ae59bccef20
+    x: -1970.5
+    needsUpdating: false
+    y: 89.0
+    z: -1177.5
+    text:
+    - '&aSo what can you do'
+    - '&aon Flatcore?'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - aa124aae-db91-4bcf-ab79-0262c6905cdc
+    - 42aa68a4-1c4c-4aac-8e06-622d96753c26
+    x: -1970.5
+    needsUpdating: false
+    y: 90.0
+    z: -1170.5
+    text:
+    - '&aGet all blocks & items,'
+    - '&amake an epic base.'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 57634fb4-dd4c-45bf-a1cc-aac3a0499694
+    - 1e4df7d5-d9c3-480f-9267-de3132dc18c0
+    x: -1962.5
+    needsUpdating: false
+    y: 91.0
+    z: -1155.5
+    text:
+    - Many materials have to
+    - be created from scratch.
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - d9df0535-cef7-425f-b570-a763cb0c61a3
+    - 7193887d-d45d-42d9-ad1c-03f974f2605f
+    - 5a998e48-b914-401e-9434-08c25fd295ca
+    x: -2043.5
+    needsUpdating: false
+    y: 91.5
+    z: -1224.5
+    text:
+    - Flat Nether has a rich
+    - underground with mineshafts
+    - and Nether-specific materials / ores.
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - c4306897-b792-4cca-8e6a-b220dfd04f41
+    - c5ef3d13-5bce-41f7-ba7f-191d49536c82
+    x: -1944.5
+    needsUpdating: false
+    y: 89.0
+    z: -1190.5
+    text:
+    - '&aRight click with which tool to'
+    - '&amake and edit claims?'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - f875b65f-271c-46f5-b038-6ceeeea0b62d
+    - 5238f37c-3e2a-4ce3-adee-7e1c9950393c
+    x: -1976.5
+    needsUpdating: false
+    y: 91.0
+    z: -1155.5
+    text:
+    - Iron Golem farm provides
+    - you with lots of iron.
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - c83f1629-5c6e-47ef-86d7-4ab725e8542a
+    x: -2044.5
+    needsUpdating: false
+    y: 90.0
+    z: -1186.5
+    text:
+    - Manor
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 21d092a7-bc95-4549-93aa-02fdca770bd2
+    - f7ef398f-b771-435d-bbe5-779ab8110736
+    x: -2042.5
+    needsUpdating: false
+    y: 90.0
+    z: -1192.5
+    text:
+    - '&cGraveyard'
+    - '&c(Hostile)'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - ab9157f5-3230-427a-8c3a-95a9b868afe3
+    - 84f6f91d-9772-4cf1-8318-a07729757341
+    x: -2045.5
+    needsUpdating: false
+    y: 89.0
+    z: -1196.5
+    text:
+    - '&cKeep'
+    - '&c(Hostile)'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 6d5be1e8-c76f-426b-9768-2354fc78258b
+    - 85ab2d4c-4de0-4709-a471-6a01cc6d01da
+    x: -1965.5
+    needsUpdating: false
+    y: 89.0
+    z: -1226.5
+    text:
+    - To resize, right click
+    - glowstone with a bone...
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - d4ccc1bb-24b4-4d8d-b0be-701887ce2694
+    - 05892a75-3962-408d-a8ff-7a35e3803e78
+    x: -1962.5
+    needsUpdating: false
+    y: 89.0
+    z: -1222.5
+    text:
+    - '...then right click again'
+    - to move the corner.
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - a235f51a-4935-4c2d-9567-bf0505f8c383
+    x: -1996.5
+    needsUpdating: false
+    y: 89.0
+    z: -1190.5
+    text:
+    - '&aWhere can you find loot?'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 68d537b5-ef0e-4401-83c8-7afdc9a81b44
+    - bc58bbf2-398c-417a-ac1a-30a3a6ba271c
+    x: -1970.5
+    needsUpdating: false
+    y: 90.5
+    z: -1230.5
+    text:
+    - Place your first chest to create a 9 by 9 claim.
+    - A gold and glowstone border will appear.
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 59262911-3b63-4c6d-90ae-c2fca88ffa87
+    - 9edc7859-9331-4efd-b608-fba38be8e370
+    x: -1990.5
+    needsUpdating: false
+    y: 90.0
+    z: -1100.5
+    text:
+    - '&aThat''s it.'
+    - '&aDon''t die.'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 270074c8-382b-4062-8c65-6ad24bcddc9a
+    - 76248ed4-edbf-42c0-9054-afc9be594a33
+    x: -2005.5
+    needsUpdating: false
+    y: 91.5
+    z: -1107.5
+    text:
+    - '&8Baby Zombies can outrun you.'
+    - '&8Pillar up and strike from above.'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 6de88d34-3728-4f1b-80bc-6410e29cdf8b
+    - a77acf00-e805-4a2d-aad7-6e12cd4352a4
+    x: -2011.5
+    needsUpdating: false
+    y: 91.5
+    z: -1107.5
+    text:
+    - '&8Some spiders have potion effects.'
+    - '&8This one is invisible.'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - ee0bcd8e-1cad-4935-8c65-33a6f8a3e4a1
+    - ed052c33-91cf-432b-a6f6-d355a53dcb51
+    x: -2011.5
+    needsUpdating: false
+    y: 91.5
+    z: -1093.5
+    text:
+    - '&8Endermen can teleport you.'
+    - '&8Don''t hide under blocks.'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 771f8250-3218-4022-b434-14fb508bb144
+    - 65a9db25-6c78-40e5-85d5-c19a45b51bd7
+    x: -2005.5
+    needsUpdating: false
+    y: 91.5
+    z: -1093.5
+    text:
+    - '&8Creepers deal massive damage.'
+    - '&8Up to 27 hearts.'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - a384ba68-b9ff-4132-8fc8-524e98e2397b
+    - 20b59813-bacc-45a2-b1db-18cc586c2bce
+    x: -2011.5
+    needsUpdating: false
+    y: 89.0
+    z: -1100.5
+    text:
+    - '&aTo spawn, click the crystal.'
+    - '&aGood luck!'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 8f7b121e-bd0e-4de0-a4c9-51fe86ccd5f0
+    x: -2018.5
+    needsUpdating: false
+    y: 89.25
+    z: -1093.5
+    text:
+    - '&7Time in the Overworld:'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 3c1c3d65-b676-4b79-9e60-3e1b56299e56
+    x: -2018.5
+    needsUpdating: false
+    y: 89.0
+    z: -1093.5
+    text:
+    - '&7&oLoading...'
+    id: clock-spawn
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities: []
+    x: -2017.5
+    needsUpdating: false
+    y: 93.0
+    z: -1106.5
+    text:
+    - ''
+    id: teamRespawn02
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities: []
+    x: -2017.5
+    needsUpdating: false
+    y: 93.3
+    z: -1106.5
+    text:
+    - ''
+    id: teamRespawnCounter02
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 0221d65e-87d3-4022-aa2e-9a97a968597c
+    x: -1980.5
+    needsUpdating: false
+    y: 92.0
+    z: -1147.5
+    text:
+    - Villagers sell redstone!
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - ffd58767-daa4-41e2-9354-fecbd2c398a0
+    x: -1961.5
+    needsUpdating: false
+    y: 90.0
+    z: -1142.5
+    text:
+    - Lots of farming options.
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - bd75f113-01c9-494a-9ad5-ceaf04b37adc
+    - b299b894-5847-45e1-98c6-6505ea64f8eb
+    x: -1968.5
+    needsUpdating: false
+    y: 91.5
+    z: -1108.5
+    text:
+    - '&bWhen you die, you lose'
+    - '&byour whole inventory.'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - a267856f-2be3-4452-9b37-86d9deec2be9
+    - d2faf769-4696-4d47-972b-dac97be90e49
+    x: -1973.5
+    needsUpdating: false
+    y: 90.5
+    z: -1102.5
+    text:
+    - '&bAfter death, you go to LIMBO.'
+    - '&bIt''s a 1 hour penalty.'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - ba967d3a-1546-4989-b32f-4fe2c8afc910
+    - cbfec01a-3c5d-4a81-aaa2-c729c8cb93f6
+    x: -1979.5
+    needsUpdating: false
+    y: 92.5
+    z: -1096.5
+    text:
+    - '&bYou can try to win various'
+    - '&bchallenges to escape early.'
+    deleteOnNextUpdate: false

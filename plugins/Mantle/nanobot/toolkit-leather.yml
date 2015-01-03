@@ -1,0 +1,5 @@
+display:
+  compound:
+    Name: "&bWorldGuard Lookup"
+    Lore:
+    - "&7Right click to show region name."

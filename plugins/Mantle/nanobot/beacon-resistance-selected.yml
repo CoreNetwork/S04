@@ -1,0 +1,7 @@
+display:
+  compound:
+    Name: "&e<Name>"
+    Lore:
+    - '&eRange: <Range> blocks'
+    - '&8Invest in Beacon''s pyramid'
+    - '&8to increase range and power.'

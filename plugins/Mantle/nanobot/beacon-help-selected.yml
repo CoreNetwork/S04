@@ -1,0 +1,8 @@
+display:
+  compound:
+    Name: "&fThis screen informs about the effect"
+    Lore:
+    - '&7Hover the fuel icon to learn how much you'
+    - '&7need and how much is being used. Icon below'
+    - '&7shows your pyramid''s range. &8Bottom icon'
+    - '&8shows if Beacon is operational or not'

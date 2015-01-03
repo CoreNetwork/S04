@@ -1,0 +1,758 @@
+# MobManager v2.7a by Michael McKnight (ShadowDog007)
+# http://dev.bukkit.org/bukkit-mods/mobmanager/
+# Ability Global Config
+# #######################################################################
+# EnabledWorlds
+# #######################################################################
+# List of all the worlds which MobManagers Abilities is active in
+# MobManager Abilities will not have any effect on worlds not listed here
+# 
+# #######################################################################
+# AbilitySets
+# #######################################################################
+# Here you define your ability sets for each mob type, giving them names
+#     which are used in MobAbilities.
+# Names must be totally unique (Different case does not count)
+# Names must not contain spaces
+# 
+# EXAMPLE:
+# AbilitySets:
+#   ExampleSet:
+#     Abilities:
+#       BabyRate: 0.0
+#       AngryRate: 0.0
+#       ChargedRate: 0.0
+#       Name:
+#       - Chance: 1
+#         Name: '&aExampleSet'
+#         ShowOverhead: true
+#       BirthSpawn: []
+#       DeathSpawn: []
+#       PotionEffects: []
+#       HealthBonus: []
+#       DamageMulti: []
+#       ArmourSet: []
+#       Item_Hand: []
+#       Drops: []
+# 
+#   WolfExample:
+#     MobType: WOLF
+#     Abilities:
+#       AngryRate: 1.0
+#   
+#   CreeperExample:
+#     MobType: CREEPER
+#     Abilities:
+#       ChargedRate: 1.0
+#         
+#   MiscExampleSet:
+#     MobType: ZOMBIE
+#     ProtectFromDespawner: true
+#     ApplyNormalAbilities: true
+#     Abilities: {}
+# 
+# Nodes:
+# - MobType: Defines the default type of this Ability Set
+# - ProtectFromDespawner: If true, mobs with this Ability Set
+#     will be protected from MobManagers despawner
+# - ApplyNormalAbilities: If true, normal abilities will be applied
+#     on top of the Ability Sets abilities.
+#     (Ability Set abilities will override normal ones if they exist)
+# - Abilities: Defines the abilities which will be applied
+#     to the set
+#     
+# NOTE: Since v2.5 Abilities for AbilitySets are created in almost
+#     the exact same way as normal abilities. Refer to them for
+#     information on their use. 
+#     
+# NOTE: The MobType Node is only used in /mm spawnset to determine
+#     which mob should be spawned along with a given AbilitySet
+#     (If a MobType is not provided)
+#     
+# NOTE: A default AbilitySet exists with no abilities. To use this call
+#     The AbilitySet 'NONE' under 'ApplySets' for your mob
+# 
+# #######################################################################
+# LimitBonusSpawns
+# #######################################################################
+# If this is true Bonus spawns (From Birth/Death Spawns) will be
+#     restricted by the Limiter component of MobManager.
+#     (So you do not go over your mob limits)
+# 
+# If this is false Bonus spawns (From Birth/Death Spawns) will always
+#     spawn every mob
+# 
+# #######################################################################
+# BonusSpawnRange
+# #######################################################################
+# This is the default range used as the maximum range a mob can spawn
+#     away from....
+#     - A player when using /mm pspawn
+#     - A parent mob when a Birth/Death spawns occurs
+#     
+# #######################################################################
+# BonusSpawnHeightRange
+# #######################################################################
+# This is the default height range used as the maximum height a mob
+#     can spawn away from....
+#     - A player when using /mm pspawn
+#     - A parent mob when a Birth/Death spawn occurs
+# 
+# #######################################################################   
+# UseCircleLocationGeneration
+# #######################################################################
+# If this is true MobManager uses an algorithm which generates random
+#     locations in a circle around a center location when spawning
+#     mobs.
+#     
+# If this is false a (About 3.6 times faster) algorithm is used instead which
+#     generates random locations in a square around the center location
+#     
+# It is recommended that this is left as false
+# 
+# #######################################################################
+# BonusSpawnUseRadius
+# #######################################################################
+# This value determines if Birth/Death spawns uses random locations
+#     around the parent mob to spawn child mobs
+# true = use random locations
+# false = don't use random locations
+# 
+# #######################################################################
+# CommandSpawnUseRadius
+# #######################################################################
+# This value determines if the command /mm spawn uses random locations
+#     around the center location to spawn mobs
+# true = use random locations
+# false = don't use random locations
+# 
+# #######################################################################
+# CommandPSpawnUseRadius
+# #######################################################################
+# This value determines if the command /mm pspawn uses random locations
+#     around the players location to spawn mobs
+# true = use random locations
+# false = don't use random locations
+# 
+# #######################################################################
+# CommandPSpawnRadiusAllowCenter
+# #######################################################################
+# If this is true then /mm pspawn and /mm pspawnset will not allow
+#     mobs to spawn on top of a player.
+#     This can sometimes happen when the player is in an enclosed space
+# 
+# #######################################################################
+# UseWorldSettings
+# #######################################################################
+# If this is false then settings 'EnabledSpawnReasons' and 'MobAbilities'
+# will have no effect, and the global configuration for mobs will be used
+# 
+# NOTE: This setting does nothing in the global config
+# 
+# #######################################################################
+# EnabledSpawnReasons
+# #######################################################################
+# When a Mob spawns, it is spawned with a given 'SpawnReason'
+#     This list defines which of those 'SpawnReasons' that MobManager
+# 	will check for.
+# If a mob spawns with a listed 'SpawnReason' MobManager will apply
+#     abilities to the mob
+# 	
+# Hint: If you have other plugins which spawn mobs with special gear
+#     you can remove CUSTOM from the list of enabled spawn reasons
+# 	so MobManager does not interfere with this
+# 
+# Note: By default all spawn reasons are checked
+# 
+# Valid spawn reasons can be found here:
+#     http://jd.bukkit.org/apidocs/org/bukkit/event/entity/CreatureSpawnEvent.SpawnReason.html
+# 
+# #######################################################################
+# MobAbilities
+# #######################################################################
+# Contains settings you can use to edit mob attributes.
+# 
+# Mob settings in world files will override global settings
+# 
+# Mob names must be acquired from here:
+#     http://jd.bukkit.org/apidocs/org/bukkit/entity/EntityType.html
+#     And should be in all upper-case
+# 
+# There are currently two types of mob Attributes/Abilities:
+# 1) Rate: These have a single fixed chance of doing something
+# 
+#     rates are written as a simple number between 1.0 and 0.0
+# 
+# 2) ChanceList: These are a list of chances with values associated
+#     with each chance. The chance of a given value being selected is
+#     (chance) / (Sum of all chances)
+#     
+#     Each ChanceList has keys which can be used to customize the abilities
+#     These keys can have numbers, strings or lists as their values.
+#     
+#     NOTE: Every Ability requires the key 'Chance'
+#     
+#     ChanceLists are written as below
+#     <OPTION>:
+#     - CHANCE: <Chance>
+#       <KEY>: <Options>
+# 
+# Read more about MobAbilities here:
+#     http://dev.bukkit.org/server-mods/mobmanager/pages/explanations/mob-abilities/
+# 
+# ################
+# SpawnRate (Rate)
+# ################
+# A number between 0.0 and 1.0
+# Represents the chance a mob will be allowed to spawn.
+#     
+# E.G. if SpawnRate was 0.5 there would be a 50% chance that any mob
+#     which attempts to spawn will be allowed to spawn
+# This setting can be used to reduce the number of certain mobs on your
+#     server. (Possibly Freeing up space for other mobs)
+#     
+# 
+# ################
+# EquipmentDropChance (Rate)
+# ################
+# A number between 0.0 and 1.0
+# Represents the chance a mob will drop held items upon death
+# 
+# NOTE: This only works when using Armour or Item_Hand abilities
+# 
+# ################
+# BabyRate (Rate)
+# ################
+# A number between 0.0 and 1.0
+# Represents the chance a mob will be turned into a baby.
+# 
+# E.G. if SpawnRate was 0.5 there would be a 50% chance that a mob
+#     which spawns will be turned into a baby
+# This setting only works for Animals and Zombies
+# 
+# ################
+# VillagerRate (Rate)
+# ################
+# A number between 0.0 and 1.0
+# Represents the chance a zombie will be turned into a Villager Zombie.
+# 
+# E.G. if SpawnRate was 0.5 there would be a 50% chance that a zombie
+#     which spawns will be turned into a Villager Zombie
+# This setting only works for Zombies
+# 
+# ################
+# AngryRate (Rate)
+# ################
+# A number between 0.0 and 1.0
+#     Represents the chance a wolf will become angry.
+#     
+# E.G. if AngryRate was 0.5 there would be a 50% chance that a wolf
+#     which spawns will be set as angry
+# This setting only works for Wolves
+# 
+# ################
+# ChargedRate (Rate)
+# ################
+# A number between 0.0 and 1.0
+#     Represents the chance a creeper will become charged.
+#     
+# E.G. if ChargedRate was 0.5 there would be a 50% chance that a creeper
+#     which spawns will become charged
+# This setting only works for Creepers
+# 
+# ################
+# Name (ChanceList)
+# ################
+# A list of names which can be applied to the mob
+# 
+# Keys:
+# - Name: (String) The name which will be applied to the mob
+#     Colour can be added using and & then the colour code
+#     you wish to use
+# - ShowOverhead: (true/false) Shows the mobs name above its head
+# 
+# NOTE: If ShowOverhead is false
+#     The mobs name is still shown above its head but
+#     only when the player looks directly at the mob 
+# 
+# EXAMPLE:
+# MobAbilities:
+#   ZOMBIE:
+#     Name:
+#     - Chance: 1
+#       Name: Steve
+#       ShowOverhead: true
+#     - Chance: 1
+#       Name: '&aSickSteve'
+#       ShowOverhead: true
+# 
+# ################
+# BirthSpawn / DeathSpawn (ChanceList)
+# ################
+# A list of mobs which will spawn on a given mob
+#     upon Birth or Death of the given mob.
+# 
+# Keys:
+# - MobType: The mobtype which the mob will spawn as.
+#     Set MobType as NONE if you want to provide a chance for
+#     no mob to spawn
+# - AbilitySet: The ability set which will be applied to the mob
+#     Ignore this setting if you want Mobs to spawn with random
+#     abilities.
+# - Count: The number of mobs which will be spawned upon
+#     birth/death of the mob
+# - Range: The range in which bonus mobs will spawn around
+#     the original mob
+# - HeightRange: The maximum height difference between
+#     the original mob and the spawned mobs
+#     
+# NOTE: You must always provide a MobType UNLESS you provide
+#     an AbilitySet which has a default MobType set.
+# 
+# ################
+# PotionEffects (ChanceList)
+# ################
+# This is a list of potion effects which will be added to an mob
+# These potion effects will last the duration of the entities life.
+# 
+# Valid potion effects can be found here:
+#     http://jd.bukkit.org/rb/apidocs/org/bukkit/potion/PotionEffectType.html
+# NOTE: You can also use NONE as a potion effect, which essentially means
+#     no potion effect will be added to the mob if it gets this ability
+#     
+# Keys: 
+# - Effects: A list of potion effects to apply to the mob
+#     Effects can have an additional parameter to set the potency of
+#     the effect. <PotionType>:<Potency>
+#     
+# EXAMPLE:
+# MobAbilities:
+#   ZOMBIE:
+#     PotionEffects:
+#     - Chance: 9
+#       Effects:
+#       - NONE
+#     - Chance: 1
+#       Effects:
+#       - SPEED:1
+#       - STRENGTH
+#       - REGENERATION
+# 
+# ################
+# HealthBonus (ChanceList)
+# ################
+# A list of chances + bonus health for the mob
+# Health Bonuses are added on to the mobs normal health
+# They can be negative (So they reduce the mobs normal health)
+# 
+# Keys:
+# - Bonus: The bonus HP to give to a mob
+# 
+# EXAMPLE:
+# MobAbilities:
+#   ZOMBIE:
+#     HealthBonus:
+#     - Chance: 99
+#       Bonus: 0.0
+#     - Chance: 1
+#       Bonus: 9001.0
+# 
+# ################
+# DamageMulti (ChanceList)
+# ################
+# A list of chances + damage multipliers for the mob
+# When a mob does damage it multiplies the normal damage
+#      with the multiplier.
+# NOTE: Multipliers can stack with damage multipliers from AbilitySets
+# 
+# Keys:
+# - Multi: The damage multiplier
+#     (Must have a decimal component e.g. 1.0 NOT 1)
+# 
+# EXAMPLE:
+# MobAbilities:
+#   ZOMBIE:
+#     DamageMulti:
+#     - Chance: 9
+#       Multi: 2.0
+#     - Chance: 1
+#       Multi: 1.0
+# 
+# ################
+# ArmourSet (ChanceList)
+# ################
+# ArmourSet is a list of armour materials to be put on a mob
+# Armour is picked per position (Helmet/Chestplate/Leggings/Boots)
+# Armour can also have enchantments added
+# 
+# Valid armour materials are:
+# - DIAMOND
+# - IRON
+# - CHAIN
+# - GOLD
+# - LEATHER
+# - NONE
+# - DEFAULT
+# 
+# Valid Armour Positions are:
+# - Helmet
+# - Chestplate
+# - Leggings
+# - Boots
+# 
+# The chosen armour is put on the mob when it spawns.
+# NOTE: NONE means that the mob will have NO armour.
+#     DEFAULT will leave the mob with whatever armour it had beforehand
+#     
+# Keys:
+# - Pieces: List of each piece of armour to give to the mob
+#     Contains the following sub-keys:
+#     - Position: The position to put the armour
+#         (e.g. Helmet/Chestplate etc)
+#     - Material: The material for the armour
+#     - DropChance: The chance (Between 0.0 and 1.0) for the
+#         piece of armour to drop when the mob dies
+#     - Enchantments: A list of enchantments to be added to the armour
+#         (In the format '<enchantment>:<level>')
+#     - ColourRed: Number between 0 and 255.
+#         Used to colour leather armour (Google RGB colours)
+#     - ColourGreen: Number between 0 and 255.
+#         Used to colour leather armour (Google RGB colours)
+#     - ColourBlue: Number between 0 and 255.
+#         Used to colour leather armour (Google RGB colours)
+#     
+# EXAMPLE:
+# MobAbilities:
+#   ZOMBIE:
+#     ArmourSet:
+#     - Chance: 1
+#       Pieces:
+#       - Position: HELMET
+#         Material: DIAMOND
+#         Enchantments:
+#         - PROTECTION_FIRE
+#       - Position: CHESTPLATE
+#         Material: LEATHER
+#         DropChance: 1.0
+#       - Position: LEGGINGS
+#         Material: NONE
+#       - Position: BOOTS
+#         Material: CHAIN
+#         DropChance: 0.0
+#         Enchantments:
+#         - PROTECTION_FALL:2
+#         
+#     - Chance: 4 # This would produce no change to the mobs armour
+# 
+# ################
+# Item_Hand (ChanceList)
+# ################
+# This is a list of items mobs can start with.
+# Items are given by their ID number and are placed in the mobs hand
+# 
+# Check here for item id's: http://www.minecraftwiki.net/wiki/Data_values
+# 
+# For no item use the ID for Air (Which is 0)
+# 
+# To not replace the item a mob spawns with use -1
+# 
+# Keys:
+# - ID: The ID of the item to be placed in the mobs hand
+# 
+# EXAMPLE:
+# MobAbilities:
+#   SKELETON-WITHER:
+#     Item_Hand:
+#     - Chance: 1
+#       ID: 276
+#     - Chance: 2
+#       ID: 261
+#     - Chance: 7
+#       ID: -1
+#   
+# ################
+# Drops (ChanceList)
+# ################
+# This is a list of chances/items that
+#     will be dropped upon the mobs death
+# 
+# Check here for item id's:
+#     http://www.minecraftwiki.net/wiki/Data_values
+# For a list of enchantment names go here:
+#     http://jd.bukkit.org/rb/apidocs/org/bukkit/enchantments/Enchantment.html
+# 
+# Keys:
+# - Drops: List of maps which define what items are dropped
+#     for the given chance.
+#     Drops has additional keys:
+#     - ID: The id of the item to be dropped
+#     - Data: The data to be added to the item
+#     - MinCount: The minimum number of the item to be dropped
+#     - MaxCount: The maximum number of the item to be dropped
+#     - MinDurability: The minimum durability on the item
+#     - MaxDurability: The maximum durability on the item
+#     - Title: The name to be applied to the item (Supports & colour codes)
+#     - Lore: List of strings to be set as the lore for the item
+#         (Supports & colour codes)
+#     - Enchantments: A list of enchantments to add to the item
+# 
+# - Replace: If true, vanilla drops are replaced with new drops
+#     If false, new drops are dropped with vanilla drops
+#     Default is false 
+#     
+#     
+# EXAMPLE:
+# MobAbilities:
+#   ZOMBIE:
+#     Drops:
+#     - Chance: 1
+#       Replace: true
+#       Drops:
+#       - ID: 367
+#         MinCount: 1
+#         MaxCount: 3
+#       - ID: 267
+#         MinCount: -1
+#         MaxCount: 1
+#         Durability: 20
+#         Enchantments:
+#         - DAMAGE_ALL:2
+#         
+#   <MobType>
+#     Drops:
+#     - Chance: 1
+#       Replace: <True/False>
+#       Drops:
+#       - ID: <Item_Id>
+#         Data: <Item_Data>
+#         MinCount: <Min count>
+#         MaxCount: <Max Count>
+#         Enchantments:
+#         - <Enchantment_1>
+#         - <Enchantment_2>:<Enchantment_2_Level>    
+#       
+# NOTE: If neither MinCount or MaxCount are provided min/maxcount is
+#     set to 1
+# NOTE: If MinCount is negative this gives the item a lesser chance
+#     to spawn
+# NOTE: If MinCount is given by MaxCount is not, MaxCount is
+#     set the same as MinCount
+# NOTE: Enchantments can only be added to items which support them
+# 
+# 
+# ################
+# ApplySets (ChanceList)
+# ################
+# Here you set chances and the given AbilitySets to apply to a mob
+# 
+# NOTE: If an ability set is applied to a mob
+#     no other abilities will be applied to it.
+# 
+# AbilitySets are formatted like so (Using Zombie as an example)
+# 
+# Keys:
+# - SetName: The name of the AbilitySet to be applied to the mob
+# 
+# MobAbilities:
+#   ZOMBIE:
+#     ApplySets:
+#     - Chance: <Chance>
+#       SetName: <SetName>
+# 
+# NOTE: Ability sets must be defined in 'AbilitySets'
+#     in the global abilities.yml
+# 
+# 
+# #######################################################################
+
+EnabledWorlds:
+- world
+- world_nether
+- world_the_end
+LimitBonusSpawns: true
+BonusSpawnRange: 16
+BonusSpawnHeightRange: 4
+CommandPSpawnMinRange: 8
+UseCircleLocationGeneration: false
+BonusSpawnUseRadius: false
+CommandSpawnUseRadius: false
+CommandPSpawnUseRadius: true
+CommandPSpawnRadiusAllowCenter: false
+AbilitySets:
+  SkeletonNormal:
+    Abilities:
+      BabyRate: 0.0
+      VillagerRate: 0.0
+      AngryRate: 0.0
+      ChargedRate: 0.0
+      Name: []
+      BirthSpawn: []
+      DeathSpawn: []
+      PotionEffects: []
+      HealthBonus: []
+      DamageMulti: []
+      ArmourSet: []
+      Item_Hand:
+      - Chance: 1
+        ID: 261
+      Drops: []
+  SkeletonZombie:
+    Abilities:
+      BabyRate: 0.05
+      VillagerRate: 0.0
+      AngryRate: 0.0
+      ChargedRate: 0.0
+      Name:
+      - Chance: 1
+        Name: Zombie Skeleton
+        ShowOverhead: false
+      BirthSpawn: []
+      DeathSpawn: []
+      PotionEffects: []
+      HealthBonus: []
+      DamageMulti: []
+      ArmourSet:
+      - Chance: 5
+        Pieces:
+        - Position: HELMET
+          Material: NONE
+          DropChance: 0.0
+      - Chance: 2
+        Pieces:
+        - Position: HELMET
+          Material: CHAIN
+          DropChance: 0.025
+      - Chance: 1
+        Pieces:
+        - Position: HELMET
+          Material: IRON
+          DropChance: 0.025
+      - Chance: 1
+        Pieces:
+        - Position: HELMET
+          Material: GOLD
+          DropChance: 0.025
+      - Chance: 5
+        Pieces:
+        - Position: CHESTPLATE
+          Material: NONE
+          DropChance: 0.0
+      - Chance: 2
+        Pieces:
+        - Position: CHESTPLATE
+          Material: CHAIN
+          DropChance: 0.025
+      - Chance: 1
+        Pieces:
+        - Position: CHESTPLATE
+          Material: IRON
+          DropChance: 0.025
+      - Chance: 1
+        Pieces:
+        - Position: CHESTPLATE
+          Material: GOLD
+          DropChance: 0.025
+      - Chance: 5
+        Pieces:
+        - Position: LEGGINGS
+          Material: NONE
+          DropChance: 0.0
+      - Chance: 2
+        Pieces:
+        - Position: LEGGINGS
+          Material: CHAIN
+          DropChance: 0.025
+      - Chance: 1
+        Pieces:
+        - Position: LEGGINGS
+          Material: IRON
+          DropChance: 0.025
+      - Chance: 1
+        Pieces:
+        - Position: LEGGINGS
+          Material: GOLD
+          DropChance: 0.025
+      - Chance: 5
+        Pieces:
+        - Position: BOOTS
+          Material: NONE
+          DropChance: 0.0
+      - Chance: 2
+        Pieces:
+        - Position: BOOTS
+          Material: CHAIN
+          DropChance: 0.025
+      - Chance: 1
+        Pieces:
+        - Position: BOOTS
+          Material: IRON
+          DropChance: 0.025
+      - Chance: 1
+        Pieces:
+        - Position: BOOTS
+          Material: GOLD
+          DropChance: 0.025
+      Item_Hand:
+      - Chance: 10
+        ID: 0
+      - Chance: 1
+        ID: 256
+      - Chance: 1
+        ID: 267
+      Drops:
+      - Chance: 40
+        Replace: true
+        Drops:
+        - ID: 367
+          MinCount: 0
+          MaxCount: 2
+      - Chance: 1
+        Replace: true
+        Drops:
+        - ID: 367
+          MinCount: 0
+          MaxCount: 2
+      - Chance: 1
+        Replace: true
+        Drops:
+        - ID: 265
+          MinCount: 1
+          MaxCount: 1
+      - Chance: 1
+        Replace: true
+        Drops:
+        - ID: 391
+          MinCount: 1
+          MaxCount: 1
+      - Chance: 1
+        Replace: true
+        Drops:
+        - ID: 392
+          MinCount: 1
+          MaxCount: 1
+EnabledSpawnReasons:
+- NATURAL
+- CUSTOM
+- EGG
+- SPAWNER_EGG
+- DEFAULT
+MobAbilities:
+  SKELETON:
+    BabyRate: 0.0
+    VillagerRate: 0.0
+    SpawnRate: 1.0
+    EquipmentDropChance: 0.15
+    Name: []
+    BirthSpawn: []
+    DeathSpawn: []
+    PotionEffects: []
+    HealthBonus: []
+    DamageMulti: []
+    ArmourSet: []
+    Item_Hand: []
+    Drops: []
+    ApplySets:
+    - Chance: 1
+      SetName: SkeletonZombie
+    - Chance: 1
+      SetName: SkeletonNormal

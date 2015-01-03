@@ -1,0 +1,11 @@
+ench:
+- compound:
+    id:
+      short: 21
+    lvl:
+      short: 2
+Unbreakable:
+  int: 1
+display:
+  compound:
+    Name: "&cCoercion"

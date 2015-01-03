@@ -1,0 +1,2433 @@
+Currency: emerald
+AllUnlockedRefreshChance: 0.2
+Debug: false
+Messages:
+  NoPermission: '&cNo permission!'
+  ConfigurationReloaded: '&aConfiguration reloaded successfully!'
+Professions:
+  '0':
+  - Farmer
+  - Fisherman
+  - Shepherd
+  - Fletcher
+  '1':
+  - Librarian
+  '2':
+  - Cleric
+  '3':
+  - Armorer
+  - Weapon Smith
+  - Tool Smith
+  '4':
+  - Butcher
+  - Leatherworker
+Tiers:
+  Farmer:
+    '0':
+    - trade:
+        comment: buying wheat
+        itemA:
+          item: wheat
+          amount: 18,22
+        result:
+          currency: 1
+    - trade:
+        comment: selling bread
+        itemA:
+          currency: 1
+        result:
+          item: bread
+          amount: 3,4
+    '1':
+    - trade:
+        comment: buying melons
+        itemA:
+          item: melon_block
+          amount: 11,15
+        result:
+          currency: 1
+    - trade:
+        comment: selling melon slice
+        itemA:
+          currency: 1
+        result:
+          item: melon
+          amount: 9,12
+    '2':
+    - trade:
+        comment: buying pumpkin
+        itemA:
+          item: pumpkin
+          amount: 15,19
+        result:
+          currency: 1
+    - trade:
+        comment: selling pumpkin pie
+        itemA:
+          currency: 1
+        result:
+          item: pumpkin_pie
+          amount: 2,3
+    '3':
+    - trade:
+        comment: buying potatoes
+        itemA:
+          item: potato
+          amount: 25,30
+        result:
+          currency: 1
+    - trade:
+        comment: buying carrots
+        itemA:
+          item: carrot
+          amount: 25,30
+        result:
+          currency: 1
+    - trade:
+        comment: selling apples
+        itemA:
+          currency: 1
+        result:
+          item: apple
+          amount: 5,7
+    '4':
+    - trade:
+        comment: selling cookies
+        itemA:
+          currency: 1
+        result:
+          item: cookie
+          amount: 6,10
+    - trade:
+        comment: selling cake
+        itemA:
+          currency: 2
+        result:
+          item: cake
+          amount: 1
+  Fisherman:
+    '0':
+    - trade:
+        comment: buying fish
+        itemA:
+          item: fish
+          amount: 6,7
+        result:
+          currency: 1
+    - trade:
+        comment: selling cooked fish
+        itemA:
+          currency: 1
+        result:
+          item: cooked_fish
+          amount: 3,4
+    '1':
+    - trade:
+        comment: selling cooked salmon
+        itemA:
+          currency: 2
+        result:
+          item: cooked_fish
+          data: 1
+          amount: 4,5
+    '2':
+    - trade:
+        comment: buying rotten flesh
+        itemA:
+          item: rotten_flesh
+          amount: 59,63
+        result:
+          currency: 1
+    - trade:
+        comment: selling enchanted fishing rod
+        itemA:
+          currency: 4,5
+        result:
+          item: fishing_rod
+          amount: 1
+          enchants:
+          - pick:
+            - weights 2 1
+            - pick:
+              - weights 2 1
+              - enchant:
+                  lure: 1
+              - enchant:
+                  lure: 2
+                  bonusAmountA: 3,4
+            - pick:
+              - weights 2 1
+              - enchant:
+                  luck_of_the_sea: 1
+                  bonusAmountA: 2,3
+              - enchant:
+                  luck_of_the_sea: 2
+                  bonusAmountA: 5,7
+          - pick:
+            - chance 0.25
+            - weights 3 1
+            - enchant:
+                unbreaking: 1
+                bonusAmountA: 3,4
+            - enchant:
+                unbreaking: 2
+                bonusAmountA: 7,8
+  Fletcher:
+    '0':
+    - trade:
+        comment: buying feathers
+        itemA:
+          item: feather
+          amount: 15,20
+        result:
+          currency: 1
+    - trade:
+        comment: selling enchanted bow
+        itemA:
+          currency: 7,8
+        result:
+          item: bow
+          amount: 1
+          enchants:
+          - pick:
+            - weights 2 1
+            - pick:
+              - weights 2 1
+              - enchant:
+                  power: 1
+              - enchant:
+                  power: 2
+                  bonusAmountA: 3,4
+          - pick:
+            - chance 0.2
+            - enchant:
+                punch: 1
+                bonusAmountA: 4,5
+          - pick:
+            - chance 0.1
+            - weights 3 1
+            - enchant:
+                unbreaking: 1
+                bonusAmountA: 3,4
+            - enchant:
+                unbreaking: 2
+                bonusAmountA: 6,7
+    '1':
+    - trade:
+        comment: gravel into flint
+        itemA:
+          item: gravel
+          amount: 8
+        itemB:
+          currency: 1
+        result:
+          item: flint
+          amount: 8
+    - trade:
+        comment: selling enchanted flint and steel
+        itemA:
+          currency: 1
+        result:
+          item: flint_and_steel
+          amount: 1
+          enchants:
+          - pick:
+            - weights 10 2 1
+            - enchant:
+                unbreaking: 1
+                bonusAmountA: 1,2
+            - enchant:
+                unbreaking: 2
+                bonusAmountA: 2,3
+            - enchant:
+                unbreaking: 3
+                bonusAmountA: 4,5
+    '2':
+    - trade:
+        comment: buying string
+        itemA:
+          item: string
+          amount: 25,30
+        result:
+          currency: 1
+    - trade:
+        comment: selling arrows
+        itemA:
+          currency: 1
+        result:
+          item: arrow
+          amount: 8,11
+    '3':
+    - trade:
+        comment: selling enchanted bow (higher tier)
+        itemA:
+          currency: 7,8
+        result:
+          item: bow
+          amount: 1
+          enchants:
+          - pick:
+            - weights 6 3 1
+            - group:
+              - enchant:
+                  power: 2
+                  bonusAmountA: 3,4
+              - enchant:
+                  punch: 1
+                  bonusAmountA: 2
+            - enchant:
+                power: 3
+                bonusAmountA: 8,10
+            - enchant:
+                power: 4
+                bonusAmountA: 15,19
+          - pick:
+            - chance 0.2
+            - weights 3 1
+            - enchant:
+                punch: 1
+                bonusAmountA: 4,5
+            - enchant:
+                punch: 2
+                bonusAmountA: 10,12
+          - pick:
+            - chance 0.2
+            - enchant:
+                flame: 1
+                bonusAmountA: 10,11
+          - pick:
+            - chance 0.1
+            - weights 3 1
+            - enchant:
+                unbreaking: 2
+                bonusAmountA: 3,4
+            - enchant:
+                unbreaking: 3
+                bonusAmountA: 6,7
+  Shepherd:
+    '0':
+    - trade:
+        comment: buying white wool
+        itemA:
+          item: wool
+          data: 0
+          amount: 14,16
+        result:
+          currency: 1
+    - trade:
+        comment: selling enchanted shears
+        itemA:
+          currency: 2,3
+        result:
+          item: shears
+          amount: 1
+          enchants:
+          - pick:
+            - weights 10 2 1
+            - enchant:
+                efficiency: 1
+            - enchant:
+                efficiency: 2
+                bonusAmountA: 1
+            - enchant:
+                efficiency: 3
+                bonusAmountA: 2
+          - pick:
+            - chance 0.33
+            - weights 10 6 1
+            - enchant:
+                unbreaking: 1
+                bonusAmountA: 1
+            - enchant:
+                unbreaking: 2
+                bonusAmountA: 2
+            - enchant:
+                unbreaking: 3
+                bonusAmountA: 4
+    '1':
+    - trade:
+        comment: selling light gray
+        itemA:
+          currency: 1
+        result:
+          item: wool
+          data: 8
+          amount: 9,11
+    - trade:
+        comment: selling gray wool
+        itemA:
+          currency: 1
+        result:
+          item: wool
+          data: 7
+          amount: 9,11
+    - trade:
+        comment: selling black wool
+        itemA:
+          currency: 1
+        result:
+          item: wool
+          data: 15
+          amount: 9,11
+    '2':
+    - trade:
+        comment: selling red wool
+        itemA:
+          currency: 1
+        result:
+          item: wool
+          data: 14
+          amount: 7,9
+    - trade:
+        comment: selling pink wool
+        itemA:
+          currency: 1
+        result:
+          item: wool
+          data: 6
+          amount: 7,9
+    - trade:
+        comment: selling orange wool
+        itemA:
+          currency: 1
+        result:
+          item: wool
+          data: 1
+          amount: 7,9
+    - trade:
+        comment: selling yellow wool
+        itemA:
+          currency: 1
+        result:
+          item: wool
+          data: 4
+          amount: 7,9
+    '3':
+    - trade:
+        comment: buying string
+        itemA:
+          item: string
+          amount: 29,34
+        result:
+          currency: 1
+    - trade:
+        comment: selling brown wool
+        itemA:
+          currency: 2
+        result:
+          item: wool
+          data: 12
+          amount: 10,14
+  Librarian:
+    '0':
+    - trade:
+        comment: buying books
+        itemA:
+          amount: 10,13
+          item: book
+        result:
+          currency: 1
+    - trade:
+        comment: selling enchanted book
+        itemA:
+          currency: 5,7
+        result:
+          item: enchanted_book
+          amount: 1
+          enchants:
+          - pick:
+            - weights 10 10 8 10 10 10 8 8 10 10 10 8 6 6 10 2 6 8 10 8 6 4 6 8
+            - pick:
+              - weights 100 50 5 1
+              - enchant:
+                  protection: 1
+              - enchant:
+                  protection: 2
+                  bonusAmountA: 5,7
+              - enchant:
+                  protection: 3
+                  bonusAmountA: 26,33
+              - enchant:
+                  protection: 4
+                  bonusAmountA: 41,48
+            - pick:
+              - weights 100 50 5 1
+              - enchant:
+                  fire_protection: 1
+              - enchant:
+                  fire_protection: 2
+                  bonusAmountA: 5,7
+              - enchant:
+                  fire_protection: 3
+                  bonusAmountA: 26,33
+              - enchant:
+                  fire_protection: 4
+                  bonusAmountA: 41,48
+            - pick:
+              - weights 100 50 5 1
+              - enchant:
+                  feather_falling: 1
+                  bonusAmountA: 2,3
+              - enchant:
+                  feather_falling: 2
+                  bonusAmountA: 9,13
+              - enchant:
+                  feather_falling: 3
+                  bonusAmountA: 28,35
+              - enchant:
+                  feather_falling: 4
+                  bonusAmountA: 45,52
+            - pick:
+              - weights 100 50 5 1
+              - enchant:
+                  blast_protection: 1
+              - enchant:
+                  blast_protection: 2
+                  bonusAmountA: 5,7
+              - enchant:
+                  blast_protection: 3
+                  bonusAmountA: 26,33
+              - enchant:
+                  blast_protection: 4
+                  bonusAmountA: 41,48
+            - pick:
+              - weights 100 50 5 1
+              - enchant:
+                  projectile_protection: 1
+              - enchant:
+                  projectile_protection: 2
+                  bonusAmountA: 5,7
+              - enchant:
+                  projectile_protection: 3
+                  bonusAmountA: 28,35
+              - enchant:
+                  projectile_protection: 4
+                  bonusAmountA: 45,52
+            - pick:
+              - weights 50 25 1
+              - enchant:
+                  respiration: 1
+              - enchant:
+                  respiration: 2
+                  bonusAmountA: 11,15
+              - enchant:
+                  respiration: 3
+                  bonusAmountA: 22,30
+            - enchant:
+                aqua_affinity: 1
+                bonusAmountA: 5,7
+            - pick:
+              - weights 50 25 1
+              - enchant:
+                  thorns: 1
+              - enchant:
+                  thorns: 2
+                  bonusAmountA: 11,15
+              - enchant:
+                  thorns: 3
+                  bonusAmountA: 22,30
+            - pick:
+              - weights 100 50 5 1
+              - enchant:
+                  sharpness: 1
+              - enchant:
+                  sharpness: 2
+                  bonusAmountA: 5,7
+              - enchant:
+                  sharpness: 3
+                  bonusAmountA: 28,35
+              - enchant:
+                  sharpness: 4
+                  bonusAmountA: 45,52
+            - pick:
+              - weights 100 50 5 1
+              - enchant:
+                  smite: 1
+              - enchant:
+                  smite: 2
+                  bonusAmountA: 5,7
+              - enchant:
+                  smite: 3
+                  bonusAmountA: 28,35
+              - enchant:
+                  smite: 4
+                  bonusAmountA: 45,52
+            - pick:
+              - weights 100 50 5 1
+              - enchant:
+                  bane_of_arthropods: 1
+              - enchant:
+                  bane_of_arthropods: 2
+                  bonusAmountA: 5,7
+              - enchant:
+                  bane_of_arthropods: 3
+                  bonusAmountA: 28,35
+              - enchant:
+                  bane_of_arthropods: 4
+                  bonusAmountA: 45,52
+            - pick:
+              - weights 20 1
+              - enchant:
+                  knockback: 1
+                  bonusAmountA: 5,7
+              - enchant:
+                  knockback: 2
+                  bonusAmountA: 22,30
+            - pick:
+              - weights 20 1
+              - enchant:
+                  fire_aspect: 1
+                  bonusAmountA: 11,15
+              - enchant:
+                  fire_aspect: 2
+                  bonusAmountA: 28,35
+            - pick:
+              - weights 50 25 1
+              - enchant:
+                  looting: 1
+                  bonusAmountA: 7,10
+              - enchant:
+                  looting: 2
+                  bonusAmountA: 28,35
+              - enchant:
+                  looting: 3
+                  bonusAmountA: 50,57
+            - pick:
+              - weights 100 50 5 1
+              - enchant:
+                  efficiency: 1
+              - enchant:
+                  efficiency: 2
+                  bonusAmountA: 5,7
+              - enchant:
+                  efficiency: 3
+                  bonusAmountA: 28,35
+              - enchant:
+                  efficiency: 4
+                  bonusAmountA: 45,52
+            - enchant:
+                silk_touch: 1
+                bonusAmountA: 50,57
+            - pick:
+              - weights 50 25 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 5,7
+              - enchant:
+                  unbreaking: 2
+                  bonusAmountA: 28,35
+              - enchant:
+                  unbreaking: 3
+                  bonusAmountA: 50,57
+            - pick:
+              - weights 50 25 1
+              - enchant:
+                  fortune: 1
+                  bonusAmountA: 5,7
+              - enchant:
+                  fortune: 2
+                  bonusAmountA: 28,35
+              - enchant:
+                  fortune: 3
+                  bonusAmountA: 50,57
+            - pick:
+              - weights 100 50 5 1
+              - enchant:
+                  power: 1
+              - enchant:
+                  power: 2
+                  bonusAmountA: 5,7
+              - enchant:
+                  power: 3
+                  bonusAmountA: 28,35
+              - enchant:
+                  power: 4
+                  bonusAmountA: 45,52
+            - pick:
+              - weights 20 1
+              - enchant:
+                  punch: 1
+                  bonusAmountA: 7,14
+              - enchant:
+                  punch: 2
+                  bonusAmountA: 15,20
+            - enchant:
+                flame: 1
+                bonusAmountA: 2,3
+            - enchant:
+                infinity: 1
+                bonusAmountA: 28,35
+            - pick:
+              - weights 50 25 1
+              - enchant:
+                  luck_of_the_sea: 1
+              - enchant:
+                  luck_of_the_sea: 2
+                  bonusAmountA: 11,15
+              - enchant:
+                  luck_of_the_sea: 3
+                  bonusAmountA: 22,30
+            - pick:
+              - weights 50 25 1
+              - enchant:
+                  lure: 1
+              - enchant:
+                  lure: 2
+                  bonusAmountA: 11,15
+              - enchant:
+                  lure: 3
+                  bonusAmountA: 22,30
+    '1':
+    - trade:
+        comment: selling compass
+        itemA:
+          currency: 3,4
+        result:
+          item: compass
+          amount: 1
+    - trade:
+        comment: selling bookshelves
+        itemA:
+          currency: 2,3
+        result:
+          item: bookshelf
+          amount: 1
+    '2':
+    - trade:
+        comment: buying written book
+        itemA:
+          amount: 2
+          item: written_book
+        result:
+          currency: 1
+    - trade:
+        comment: selling clock
+        itemA:
+          currency: 3,4
+        result:
+          item: clock
+          amount: 1
+    - trade:
+        comment: selling glass
+        itemA:
+          currency: 1
+        result:
+          item: glass
+          amount: 3,5
+    '3':
+    - trade:
+        comment: selling enchanted book
+        itemA:
+          currency: 5,7
+        result:
+          item: enchanted_book
+          amount: 1
+          enchants:
+          - pick:
+            - weights 10 10 8 10 10 10 8 8 10 10 10 8 8 8 10 6 8 8 10 8 8 6 8 8
+            - pick:
+              - weights 20 50 100 50
+              - enchant:
+                  protection: 1
+              - enchant:
+                  protection: 2
+                  bonusAmountA: 5,7
+              - enchant:
+                  protection: 3
+                  bonusAmountA: 26,33
+              - enchant:
+                  protection: 4
+                  bonusAmountA: 41,48
+            - pick:
+              - weights 20 50 100 50
+              - enchant:
+                  fire_protection: 1
+              - enchant:
+                  fire_protection: 2
+                  bonusAmountA: 5,7
+              - enchant:
+                  fire_protection: 3
+                  bonusAmountA: 26,33
+              - enchant:
+                  fire_protection: 4
+                  bonusAmountA: 41,48
+            - pick:
+              - weights 20 50 100 50
+              - enchant:
+                  feather_falling: 1
+                  bonusAmountA: 2,3
+              - enchant:
+                  feather_falling: 2
+                  bonusAmountA: 9,13
+              - enchant:
+                  feather_falling: 3
+                  bonusAmountA: 28,35
+              - enchant:
+                  feather_falling: 4
+                  bonusAmountA: 45,52
+            - pick:
+              - weights 20 50 100 50
+              - enchant:
+                  blast_protection: 1
+              - enchant:
+                  blast_protection: 2
+                  bonusAmountA: 5,7
+              - enchant:
+                  blast_protection: 3
+                  bonusAmountA: 26,33
+              - enchant:
+                  blast_protection: 4
+                  bonusAmountA: 41,48
+            - pick:
+              - weights 20 50 100 50
+              - enchant:
+                  projectile_protection: 1
+              - enchant:
+                  projectile_protection: 2
+                  bonusAmountA: 5,7
+              - enchant:
+                  projectile_protection: 3
+                  bonusAmountA: 28,35
+              - enchant:
+                  projectile_protection: 4
+                  bonusAmountA: 45,52
+            - pick:
+              - weights 20 20 50
+              - enchant:
+                  respiration: 1
+              - enchant:
+                  respiration: 2
+                  bonusAmountA: 11,15
+              - enchant:
+                  respiration: 3
+                  bonusAmountA: 22,30
+            - enchant:
+                aqua_affinity: 1
+                bonusAmountA: 5,7
+            - pick:
+              - weights 20 20 50
+              - enchant:
+                  thorns: 1
+              - enchant:
+                  thorns: 2
+                  bonusAmountA: 11,15
+              - enchant:
+                  thorns: 3
+                  bonusAmountA: 22,30
+            - pick:
+              - weights 20 50 100 50
+              - enchant:
+                  sharpness: 1
+              - enchant:
+                  sharpness: 2
+                  bonusAmountA: 5,7
+              - enchant:
+                  sharpness: 3
+                  bonusAmountA: 28,35
+              - enchant:
+                  sharpness: 4
+                  bonusAmountA: 45,52
+            - pick:
+              - weights 20 50 100 50
+              - enchant:
+                  smite: 1
+              - enchant:
+                  smite: 2
+                  bonusAmountA: 5,7
+              - enchant:
+                  smite: 3
+                  bonusAmountA: 28,35
+              - enchant:
+                  smite: 4
+                  bonusAmountA: 45,52
+            - pick:
+              - weights 20 50 100 50
+              - enchant:
+                  bane_of_arthropods: 1
+              - enchant:
+                  bane_of_arthropods: 2
+                  bonusAmountA: 5,7
+              - enchant:
+                  bane_of_arthropods: 3
+                  bonusAmountA: 28,35
+              - enchant:
+                  bane_of_arthropods: 4
+                  bonusAmountA: 45,52
+            - pick:
+              - weights 20 5
+              - enchant:
+                  knockback: 1
+                  bonusAmountA: 5,7
+              - enchant:
+                  knockback: 2
+                  bonusAmountA: 22,30
+            - pick:
+              - weights 20 5
+              - enchant:
+                  fire_aspect: 1
+                  bonusAmountA: 11,15
+              - enchant:
+                  fire_aspect: 2
+                  bonusAmountA: 28,35
+            - pick:
+              - weights 20 20 50
+              - enchant:
+                  looting: 1
+                  bonusAmountA: 7,10
+              - enchant:
+                  looting: 2
+                  bonusAmountA: 28,35
+              - enchant:
+                  looting: 3
+                  bonusAmountA: 50,57
+            - pick:
+              - weights 20 50 100 50
+              - enchant:
+                  efficiency: 1
+              - enchant:
+                  efficiency: 2
+                  bonusAmountA: 5,7
+              - enchant:
+                  efficiency: 3
+                  bonusAmountA: 28,35
+              - enchant:
+                  efficiency: 4
+                  bonusAmountA: 45,52
+            - enchant:
+                silk_touch: 1
+                bonusAmountA: 50,57
+            - pick:
+              - weights 20 20 50
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 5,7
+              - enchant:
+                  unbreaking: 2
+                  bonusAmountA: 28,35
+              - enchant:
+                  unbreaking: 3
+                  bonusAmountA: 50,57
+            - pick:
+              - weights 20 20 50
+              - enchant:
+                  fortune: 1
+                  bonusAmountA: 5,7
+              - enchant:
+                  fortune: 2
+                  bonusAmountA: 28,35
+              - enchant:
+                  fortune: 3
+                  bonusAmountA: 50,57
+            - pick:
+              - weights 20 50 100 50
+              - enchant:
+                  power: 1
+              - enchant:
+                  power: 2
+                  bonusAmountA: 5,7
+              - enchant:
+                  power: 3
+                  bonusAmountA: 28,35
+              - enchant:
+                  power: 4
+                  bonusAmountA: 45,52
+            - pick:
+              - weights 20 5
+              - enchant:
+                  punch: 1
+                  bonusAmountA: 7,14
+              - enchant:
+                  punch: 2
+                  bonusAmountA: 15,20
+            - enchant:
+                flame: 1
+                bonusAmountA: 2,3
+            - enchant:
+                infinity: 1
+                bonusAmountA: 28,35
+            - pick:
+              - weights 20 20 50
+              - enchant:
+                  luck_of_the_sea: 1
+              - enchant:
+                  luck_of_the_sea: 2
+                  bonusAmountA: 11,15
+              - enchant:
+                  luck_of_the_sea: 3
+                  bonusAmountA: 22,30
+            - pick:
+              - weights 20 20 50
+              - enchant:
+                  lure: 1
+              - enchant:
+                  lure: 2
+                  bonusAmountA: 11,15
+              - enchant:
+                  lure: 3
+                  bonusAmountA: 22,30
+    '4':
+    - trade:
+        comment: selling enchanted book
+        itemA:
+          currency: 5,7
+        result:
+          item: enchanted_book
+          amount: 1
+          enchants:
+          - pick:
+            - pick:
+              - weights 20 30 100 50
+              - enchant:
+                  protection: 1
+              - enchant:
+                  protection: 2
+                  bonusAmountA: 5,7
+              - enchant:
+                  protection: 3
+                  bonusAmountA: 26,33
+              - enchant:
+                  protection: 4
+                  bonusAmountA: 41,48
+            - pick:
+              - weights 20 30 100 50
+              - enchant:
+                  fire_protection: 1
+              - enchant:
+                  fire_protection: 2
+                  bonusAmountA: 5,7
+              - enchant:
+                  fire_protection: 3
+                  bonusAmountA: 26,33
+              - enchant:
+                  fire_protection: 4
+                  bonusAmountA: 41,48
+            - pick:
+              - weights 20 30 100 50
+              - enchant:
+                  feather_falling: 1
+                  bonusAmountA: 2,3
+              - enchant:
+                  feather_falling: 2
+                  bonusAmountA: 9,13
+              - enchant:
+                  feather_falling: 3
+                  bonusAmountA: 28,35
+              - enchant:
+                  feather_falling: 4
+                  bonusAmountA: 45,52
+            - pick:
+              - weights 20 30 100 50
+              - enchant:
+                  blast_protection: 1
+              - enchant:
+                  blast_protection: 2
+                  bonusAmountA: 5,7
+              - enchant:
+                  blast_protection: 3
+                  bonusAmountA: 26,33
+              - enchant:
+                  blast_protection: 4
+                  bonusAmountA: 41,48
+            - pick:
+              - weights 20 30 100 50
+              - enchant:
+                  projectile_protection: 1
+              - enchant:
+                  projectile_protection: 2
+                  bonusAmountA: 5,7
+              - enchant:
+                  projectile_protection: 3
+                  bonusAmountA: 28,35
+              - enchant:
+                  projectile_protection: 4
+                  bonusAmountA: 45,52
+            - pick:
+              - weights 20 25 50
+              - enchant:
+                  respiration: 1
+              - enchant:
+                  respiration: 2
+                  bonusAmountA: 11,15
+              - enchant:
+                  respiration: 3
+                  bonusAmountA: 22,30
+            - enchant:
+                aqua_affinity: 1
+                bonusAmountA: 5,7
+            - pick:
+              - weights 20 25 50
+              - enchant:
+                  thorns: 1
+              - enchant:
+                  thorns: 2
+                  bonusAmountA: 11,15
+              - enchant:
+                  thorns: 3
+                  bonusAmountA: 22,30
+            - pick:
+              - weights 20 30 100 50
+              - enchant:
+                  sharpness: 1
+              - enchant:
+                  sharpness: 2
+                  bonusAmountA: 5,7
+              - enchant:
+                  sharpness: 3
+                  bonusAmountA: 28,35
+              - enchant:
+                  sharpness: 4
+                  bonusAmountA: 45,52
+            - pick:
+              - weights 20 30 100 50
+              - enchant:
+                  smite: 1
+              - enchant:
+                  smite: 2
+                  bonusAmountA: 5,7
+              - enchant:
+                  smite: 3
+                  bonusAmountA: 28,35
+              - enchant:
+                  smite: 4
+                  bonusAmountA: 45,52
+            - pick:
+              - weights 20 30 100 50
+              - enchant:
+                  bane_of_arthropods: 1
+              - enchant:
+                  bane_of_arthropods: 2
+                  bonusAmountA: 5,7
+              - enchant:
+                  bane_of_arthropods: 3
+                  bonusAmountA: 28,35
+              - enchant:
+                  bane_of_arthropods: 4
+                  bonusAmountA: 45,52
+            - pick:
+              - weights 20 10
+              - enchant:
+                  knockback: 1
+                  bonusAmountA: 5,7
+              - enchant:
+                  knockback: 2
+                  bonusAmountA: 22,30
+            - pick:
+              - weights 20 10
+              - enchant:
+                  fire_aspect: 1
+                  bonusAmountA: 11,15
+              - enchant:
+                  fire_aspect: 2
+                  bonusAmountA: 28,35
+            - pick:
+              - weights 50 25 10
+              - enchant:
+                  looting: 1
+                  bonusAmountA: 7,10
+              - enchant:
+                  looting: 2
+                  bonusAmountA: 28,35
+              - enchant:
+                  looting: 3
+                  bonusAmountA: 50,57
+            - pick:
+              - weights 20 30 100 50
+              - enchant:
+                  efficiency: 1
+              - enchant:
+                  efficiency: 2
+                  bonusAmountA: 5,7
+              - enchant:
+                  efficiency: 3
+                  bonusAmountA: 28,35
+              - enchant:
+                  efficiency: 4
+                  bonusAmountA: 45,52
+            - enchant:
+                silk_touch: 1
+                bonusAmountA: 50,57
+            - pick:
+              - weights 50 25 10
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 5,7
+              - enchant:
+                  unbreaking: 2
+                  bonusAmountA: 28,35
+              - enchant:
+                  unbreaking: 3
+                  bonusAmountA: 50,57
+            - pick:
+              - weights 50 25 10
+              - enchant:
+                  fortune: 1
+                  bonusAmountA: 5,7
+              - enchant:
+                  fortune: 2
+                  bonusAmountA: 28,35
+              - enchant:
+                  fortune: 3
+                  bonusAmountA: 50,57
+            - pick:
+              - weights 20 30 100 50
+              - enchant:
+                  power: 1
+              - enchant:
+                  power: 2
+                  bonusAmountA: 5,7
+              - enchant:
+                  power: 3
+                  bonusAmountA: 28,35
+              - enchant:
+                  power: 4
+                  bonusAmountA: 45,52
+            - pick:
+              - weights 20 10
+              - enchant:
+                  punch: 1
+                  bonusAmountA: 7,14
+              - enchant:
+                  punch: 2
+                  bonusAmountA: 15,20
+            - enchant:
+                flame: 1
+                bonusAmountA: 2,3
+            - enchant:
+                infinity: 1
+                bonusAmountA: 28,35
+            - pick:
+              - weights 50 25 10
+              - enchant:
+                  luck_of_the_sea: 1
+              - enchant:
+                  luck_of_the_sea: 2
+                  bonusAmountA: 11,15
+              - enchant:
+                  luck_of_the_sea: 3
+                  bonusAmountA: 22,30
+            - pick:
+              - weights 50 25 10
+              - enchant:
+                  lure: 1
+              - enchant:
+                  lure: 2
+                  bonusAmountA: 11,15
+              - enchant:
+                  lure: 3
+                  bonusAmountA: 22,30
+    '5':
+    - trade:
+        comment: selling name tag
+        itemA:
+          currency: 9,11
+        result:
+          item: name_tag
+          amount: 1
+  Cleric:
+    '0':
+    - trade:
+        comment: buying gold
+        itemA:
+          item: gold_ingot
+          amount: 6
+        result:
+          currency: 1
+    - trade:
+        comment: buying spider eye
+        itemA:
+          item: spider_eye
+          amount: 15,20
+        result:
+          currency: 1
+    '1':
+    - trade:
+        comment: buying gunpowder
+        itemA:
+          item: gunpowder
+          amount: 55,60
+        result:
+          currency: 1
+    - trade:
+        comment: selling redstone
+        itemA:
+          currency: 1
+        result:
+          item: redstone
+          amount: 3,4
+    '2':
+    - trade:
+        comment: selling eye of ender
+        itemA:
+          currency: 7,8
+        result:
+          item: ender_eye
+          amount: 1
+    - trade:
+        comment: selling glowstone
+        itemA:
+          currency: 1
+        result:
+          item: glowstone
+          amount: 2,3
+    '3':
+    - trade:
+        comment: selling lapis lazuli
+        itemA:
+          currency: 1
+        result:
+          item: dye
+          data: 4
+          amount: 1,2
+  Butcher:
+    '0':
+    - trade:
+        comment: buying raw porkchop
+        itemA:
+          item: porkchop
+          amount: 6,8
+        result:
+          currency: 1
+    - trade:
+        comment: buying raw chicken
+        itemA:
+          item: chicken
+          amount: 9,10
+        result:
+          currency: 1
+    '1':
+    - trade:
+        comment: buying raw beef
+        itemA:
+          item: beef
+          amount: 8,9
+        result:
+          currency: 1
+    - trade:
+        comment: selling cooked porkchop
+        itemA:
+          currency: 1
+        result:
+          item: cooked_porkchop
+          amount: 5,7
+    - trade:
+        comment: selling cooked chicken
+        itemA:
+          currency: 1
+        result:
+          item: cooked_chicken
+          amount: 7,8
+    '2':
+    - trade:
+        comment: buying bones
+        itemA:
+          item: bone
+          amount: 55,60
+        result:
+          currency: 1
+  Armorer:
+    '0':
+    - trade:
+        comment: selling enchanted chainmail helmet
+        itemA:
+          currency: 4,5
+        result:
+          item: chainmail_helmet
+          amount: 1
+          enchants:
+          - pick:
+            - weights 1 2 2 2
+            - pick:
+              - weights 100 50 20 10
+              - enchant:
+                  protection: 1
+              - enchant:
+                  protection: 2
+                  bonusAmountA: 4,5
+              - enchant:
+                  protection: 3
+                  bonusAmountA: 6,8
+              - enchant:
+                  protection: 4
+                  bonusAmountA: 10,14
+            - pick:
+              - weights 100 50 20 10
+              - enchant:
+                  fire_protection: 1
+              - enchant:
+                  fire_protection: 2
+                  bonusAmountA: 2,3
+              - enchant:
+                  fire_protection: 3
+                  bonusAmountA: 4,6
+              - enchant:
+                  fire_protection: 4
+                  bonusAmountA: 8,12
+            - pick:
+              - weights 100 50 20 10
+              - enchant:
+                  blast_protection: 1
+              - enchant:
+                  blast_protection: 2
+                  bonusAmountA: 2,3
+              - enchant:
+                  blast_protection: 3
+                  bonusAmountA: 4,6
+              - enchant:
+                  blast_protection: 4
+                  bonusAmountA: 8,12
+            - pick:
+              - weights 100 50 20 10
+              - enchant:
+                  projectile_protection: 1
+              - enchant:
+                  projectile_protection: 2
+                  bonusAmountA: 2,3
+              - enchant:
+                  projectile_protection: 3
+                  bonusAmountA: 4,6
+              - enchant:
+                  projectile_protection: 4
+                  bonusAmountA: 8,12
+          - pick:
+            - chance 0.1
+            - weights 100 50 10
+            - enchant:
+                thorns: 1
+                bonusAmountA: 1
+            - enchant:
+                thorns: 2
+                bonusAmountA: 1,2
+            - enchant:
+                thorns: 3
+                bonusAmountA: 4,5
+          - pick:
+            - chance 0.1
+            - weights 100 50 10
+            - enchant:
+                unbreaking: 1
+                bonusAmountA: 1,2
+            - enchant:
+                unbreaking: 2
+                bonusAmountA: 3,4
+            - enchant:
+                unbreaking: 3
+                bonusAmountA: 5,6
+          - pick:
+            - chance 0.1
+            - enchant:
+                aqua_affinity: 1
+                bonusAmountA: 1,2
+          - pick:
+            - chance 0.1
+            - weights 100 50 10
+            - enchant:
+                respiration: 1
+                bonusAmountA: 1,2
+            - enchant:
+                respiration: 2
+                bonusAmountA: 3,4
+            - enchant:
+                respiration: 3
+                bonusAmountA: 6,7
+    - trade:
+        comment: buying charcoal
+        itemA:
+          item: coal
+          data: 1
+          amount: 8,10
+        result:
+          currency: 1
+    '1':
+    - trade:
+        comment: buying iron ingot
+        itemA:
+          item: iron_ingot
+          amount: 8,9
+        result:
+          currency: 1
+    - trade:
+        comment: selling enchanted chainmail chestplate
+        itemA:
+          currency: 7,8
+        result:
+          item: chainmail_chestplate
+          amount: 1
+          enchants:
+          - pick:
+            - pick:
+              - weights 100 50 20 10
+              - enchant:
+                  protection: 1
+              - enchant:
+                  protection: 2
+                  bonusAmountA: 4,5
+              - enchant:
+                  protection: 3
+                  bonusAmountA: 6,8
+              - enchant:
+                  protection: 4
+                  bonusAmountA: 10,14
+            - pick:
+              - weights 100 50 20 10
+              - enchant:
+                  fire_protection: 1
+              - enchant:
+                  fire_protection: 2
+                  bonusAmountA: 2,3
+              - enchant:
+                  fire_protection: 3
+                  bonusAmountA: 4,6
+              - enchant:
+                  fire_protection: 4
+                  bonusAmountA: 8,12
+            - pick:
+              - weights 100 50 20 10
+              - enchant:
+                  blast_protection: 1
+              - enchant:
+                  blast_protection: 2
+                  bonusAmountA: 2,3
+              - enchant:
+                  blast_protection: 3
+                  bonusAmountA: 4,6
+              - enchant:
+                  blast_protection: 4
+                  bonusAmountA: 8,12
+            - pick:
+              - weights 100 50 20 10
+              - enchant:
+                  projectile_protection: 1
+              - enchant:
+                  projectile_protection: 2
+                  bonusAmountA: 2,3
+              - enchant:
+                  projectile_protection: 3
+                  bonusAmountA: 4,6
+              - enchant:
+                  projectile_protection: 4
+                  bonusAmountA: 8,12
+          - pick:
+            - chance 0.1
+            - weights 100 50 10
+            - enchant:
+                thorns: 1
+                bonusAmountA: 1
+            - enchant:
+                thorns: 2
+                bonusAmountA: 2
+            - enchant:
+                thorns: 3
+                bonusAmountA: 5
+          - pick:
+            - chance 0.1
+            - weights 100 50 10
+            - enchant:
+                unbreaking: 1
+                bonusAmountA: 1,2
+            - enchant:
+                unbreaking: 2
+                bonusAmountA: 3,4
+            - enchant:
+                unbreaking: 3
+                bonusAmountA: 5,6
+    '2':
+    - trade:
+        comment: buying coal block
+        itemA:
+          item: coal_block
+          amount: 3,4
+        result:
+          currency: 3
+    - trade:
+        comment: selling enchanted chainmail leggings
+        itemA:
+          currency: 6,7
+        result:
+          item: chainmail_leggings
+          amount: 1
+          enchants:
+          - pick:
+            - pick:
+              - weights 100 50 20 10
+              - enchant:
+                  protection: 1
+              - enchant:
+                  protection: 2
+                  bonusAmountA: 4,5
+              - enchant:
+                  protection: 3
+                  bonusAmountA: 6,8
+              - enchant:
+                  protection: 4
+                  bonusAmountA: 10,14
+            - pick:
+              - weights 100 50 20 10
+              - enchant:
+                  fire_protection: 1
+              - enchant:
+                  fire_protection: 2
+                  bonusAmountA: 2,3
+              - enchant:
+                  fire_protection: 3
+                  bonusAmountA: 4,6
+              - enchant:
+                  fire_protection: 4
+                  bonusAmountA: 8,12
+            - pick:
+              - weights 100 50 20 10
+              - enchant:
+                  blast_protection: 1
+              - enchant:
+                  blast_protection: 2
+                  bonusAmountA: 2,3
+              - enchant:
+                  blast_protection: 3
+                  bonusAmountA: 4,6
+              - enchant:
+                  blast_protection: 4
+                  bonusAmountA: 8,12
+            - pick:
+              - weights 100 50 20 10
+              - enchant:
+                  projectile_protection: 1
+              - enchant:
+                  projectile_protection: 2
+                  bonusAmountA: 2,3
+              - enchant:
+                  projectile_protection: 3
+                  bonusAmountA: 4,6
+              - enchant:
+                  projectile_protection: 4
+                  bonusAmountA: 8,12
+          - pick:
+            - chance 0.1
+            - weights 100 50 10
+            - enchant:
+                thorns: 1
+                bonusAmountA: 1
+            - enchant:
+                thorns: 2
+                bonusAmountA: 2
+            - enchant:
+                thorns: 3
+                bonusAmountA: 5
+          - pick:
+            - chance 0.1
+            - weights 100 50 10
+            - enchant:
+                unbreaking: 1
+                bonusAmountA: 1,2
+            - enchant:
+                unbreaking: 2
+                bonusAmountA: 3,4
+            - enchant:
+                unbreaking: 3
+                bonusAmountA: 5,6
+    - trade:
+        comment: selling enchanted chainmail boots
+        itemA:
+          currency: 3,4
+        result:
+          item: chainmail_boots
+          amount: 1
+          enchants:
+          - pick:
+            - pick:
+              - weights 100 50 20 10
+              - enchant:
+                  protection: 1
+              - enchant:
+                  protection: 2
+                  bonusAmountA: 4,5
+              - enchant:
+                  protection: 3
+                  bonusAmountA: 6,8
+              - enchant:
+                  protection: 4
+                  bonusAmountA: 10,14
+            - pick:
+              - weights 100 50 20 10
+              - enchant:
+                  fire_protection: 1
+              - enchant:
+                  fire_protection: 2
+                  bonusAmountA: 2,3
+              - enchant:
+                  fire_protection: 3
+                  bonusAmountA: 4,6
+              - enchant:
+                  fire_protection: 4
+                  bonusAmountA: 8,12
+            - pick:
+              - weights 100 50 20 10
+              - enchant:
+                  blast_protection: 1
+              - enchant:
+                  blast_protection: 2
+                  bonusAmountA: 2,3
+              - enchant:
+                  blast_protection: 3
+                  bonusAmountA: 4,6
+              - enchant:
+                  blast_protection: 4
+                  bonusAmountA: 8,12
+            - pick:
+              - weights 100 50 20 10
+              - enchant:
+                  projectile_protection: 1
+              - enchant:
+                  projectile_protection: 2
+                  bonusAmountA: 2,3
+              - enchant:
+                  projectile_protection: 3
+                  bonusAmountA: 4,6
+              - enchant:
+                  projectile_protection: 4
+                  bonusAmountA: 8,12
+          - pick:
+            - chance 0.2
+            - weights 100 60 30 10
+            - enchant:
+                feather_falling: 1
+                bonusAmountA: 2,3
+            - enchant:
+                feather_falling: 2
+                bonusAmountA: 3,4
+            - enchant:
+                feather_falling: 3
+                bonusAmountA: 5,6
+            - enchant:
+                feather_falling: 4
+                bonusAmountA: 7,8
+          - pick:
+            - chance 0.1
+            - weights 100 50 10
+            - enchant:
+                thorns: 1
+                bonusAmountA: 1
+            - enchant:
+                thorns: 2
+                bonusAmountA: 2
+            - enchant:
+                thorns: 3
+                bonusAmountA: 5
+          - pick:
+            - chance 0.1
+            - weights 100 50 10
+            - enchant:
+                unbreaking: 1
+                bonusAmountA: 1,2
+            - enchant:
+                unbreaking: 2
+                bonusAmountA: 3,4
+            - enchant:
+                unbreaking: 3
+                bonusAmountA: 5,6
+    '3':
+    - trade:
+        comment: buying diamonds
+        itemA:
+          item: diamond
+          amount: 1
+        result:
+          currency: 5,6
+    - trade:
+        comment: selling enchanted diamond chestplate
+        itemA:
+          currency: 40,48
+        result:
+          item: diamond_chestplate
+          amount: 1
+          enchants:
+          - pick:
+            - pick:
+              - weights 100 65 20 10
+              - enchant:
+                  protection: 1
+              - enchant:
+                  protection: 2
+                  bonusAmountA: 4,5
+              - enchant:
+                  protection: 3
+                  bonusAmountA: 8,10
+              - enchant:
+                  protection: 4
+                  bonusAmountA: 15,20
+            - pick:
+              - weights 100 65 20 10
+              - enchant:
+                  fire_protection: 1
+              - enchant:
+                  fire_protection: 2
+                  bonusAmountA: 2,3
+              - enchant:
+                  fire_protection: 3
+                  bonusAmountA: 4,6
+              - enchant:
+                  fire_protection: 4
+                  bonusAmountA: 8,12
+            - pick:
+              - weights 100 65 20 10
+              - enchant:
+                  blast_protection: 1
+              - enchant:
+                  blast_protection: 2
+                  bonusAmountA: 2,3
+              - enchant:
+                  blast_protection: 3
+                  bonusAmountA: 4,6
+              - enchant:
+                  blast_protection: 4
+                  bonusAmountA: 8,12
+            - pick:
+              - weights 100 65 20 10
+              - enchant:
+                  projectile_protection: 1
+              - enchant:
+                  projectile_protection: 2
+                  bonusAmountA: 2,3
+              - enchant:
+                  projectile_protection: 3
+                  bonusAmountA: 4,6
+              - enchant:
+                  projectile_protection: 4
+                  bonusAmountA: 8,12
+          - pick:
+            - chance 0.2
+            - weights 100 50 10
+            - enchant:
+                unbreaking: 1
+                bonusAmountA: 5,6
+            - enchant:
+                unbreaking: 2
+                bonusAmountA: 8,9
+            - enchant:
+                unbreaking: 3
+                bonusAmountA: 11,12
+          - pick:
+            - chance 0.1
+            - weights 100 50 10
+            - enchant:
+                thorns: 1
+                bonusAmountA: 3
+            - enchant:
+                thorns: 2
+                bonusAmountA: 4
+            - enchant:
+                thorns: 3
+                bonusAmountA: 8
+  Weapon Smith:
+    '0':
+    - trade:
+        comment: buying charcoal
+        itemA:
+          item: coal
+          data: 1
+          amount: 8,10
+        result:
+          currency: 1
+    - trade:
+        comment: selling enchanted iron axe
+        itemA:
+          currency: 9,11
+        result:
+          item: iron_axe
+          amount: 1
+          enchants:
+          - pick:
+            - pick:
+              - weights 100 65 20 10
+              - enchant:
+                  sharpness: 1
+              - enchant:
+                  sharpness: 2
+                  bonusAmountA: 4,5
+              - enchant:
+                  sharpness: 3
+                  bonusAmountA: 8,11
+              - enchant:
+                  sharpness: 4
+                  bonusAmountA: 21,27
+            - pick:
+              - weights 100 65 10
+              - enchant:
+                  efficiency: 1
+              - enchant:
+                  efficiency: 2
+                  bonusAmountA: 4,5
+              - enchant:
+                  efficiency: 3
+                  bonusAmountA: 9,12
+          - pick:
+            - chance 0.33
+            - weights 10 2 1
+            - enchant:
+                unbreaking: 1
+                bonusAmountA: 1,2
+            - enchant:
+                unbreaking: 2
+                bonusAmountA: 2,3
+            - enchant:
+                unbreaking: 3
+                bonusAmountA: 4,5
+          - pick:
+            - chance 0.05
+            - enchant:
+                silk_touch: 1
+                bonusAmountA: 12,15
+    '1':
+    - trade:
+        comment: buying iron ingot
+        itemA:
+          item: iron_ingot
+          amount: 8,9
+        result:
+          currency: 1
+    - trade:
+        comment: selling enchanted iron sword
+        itemA:
+          currency: 8,10
+        result:
+          item: iron_sword
+          amount: 1
+          enchants:
+          - pick:
+            - pick:
+              - weights 100 65 20 10
+              - enchant:
+                  sharpness: 1
+              - enchant:
+                  sharpness: 2
+                  bonusAmountA: 3,4
+              - enchant:
+                  sharpness: 3
+                  bonusAmountA: 7,9
+              - enchant:
+                  sharpness: 4
+                  bonusAmountA: 14,18
+            - pick:
+              - weights 100 65 20 10
+              - enchant:
+                  smite: 1
+              - enchant:
+                  smite: 2
+                  bonusAmountA: 3,4
+              - enchant:
+                  smite: 3
+                  bonusAmountA: 7,9
+              - enchant:
+                  smite: 4
+                  bonusAmountA: 14,18
+            - pick:
+              - weights 100 65 20 10
+              - enchant:
+                  bane_of_arthropods: 1
+              - enchant:
+                  bane_of_arthropods: 2
+                  bonusAmountA: 3,4
+              - enchant:
+                  bane_of_arthropods: 3
+                  bonusAmountA: 7,9
+              - enchant:
+                  bane_of_arthropods: 4
+                  bonusAmountA: 14,18
+          - pick:
+            - chance 0.2
+            - weights 10 2
+            - enchant:
+                knockback: 1
+                bonusAmountA: 4,5
+            - enchant:
+                knockback: 2
+                bonusAmountA: 8,9
+          - pick:
+            - chance 0.1
+            - weights 10 2
+            - enchant:
+                fire_aspect: 1
+                bonusAmountA: 7,8
+            - enchant:
+                fire_aspect: 2
+                bonusAmountA: 14,15
+          - pick:
+            - chance 0.1
+            - weights 100 40 10
+            - enchant:
+                looting: 1
+                bonusAmountA: 4,6
+            - enchant:
+                looting: 2
+                bonusAmountA: 8,13
+            - enchant:
+                looting: 3
+                bonusAmountA: 19,23
+    '2':
+    - trade:
+        comment: buying diamonds
+        itemA:
+          item: diamond
+          amount: 1
+        result:
+          currency: 5,6
+    - trade:
+        comment: selling enchanted diamond sword
+        itemA:
+          currency: 18,23
+        result:
+          item: diamond_sword
+          amount: 1
+          enchants:
+          - pick:
+            - pick:
+              - weights 100 65 20 10
+              - enchant:
+                  sharpness: 1
+              - enchant:
+                  sharpness: 2
+                  bonusAmountA: 7,11
+              - enchant:
+                  sharpness: 3
+                  bonusAmountA: 14,19
+              - enchant:
+                  sharpness: 4
+                  bonusAmountA: 29,35
+            - pick:
+              - weights 100 65 20 10
+              - enchant:
+                  smite: 1
+              - enchant:
+                  smite: 2
+                  bonusAmountA: 7,11
+              - enchant:
+                  smite: 3
+                  bonusAmountA: 14,19
+              - enchant:
+                  smite: 4
+                  bonusAmountA: 29,35
+            - pick:
+              - weights 100 65 20 10
+              - enchant:
+                  bane_of_arthropods: 1
+              - enchant:
+                  bane_of_arthropods: 2
+                  bonusAmountA: 7,11
+              - enchant:
+                  bane_of_arthropods: 3
+                  bonusAmountA: 14,19
+              - enchant:
+                  bane_of_arthropods: 4
+                  bonusAmountA: 29,35
+          - pick:
+            - chance 0.2
+            - weights 10 2
+            - enchant:
+                knockback: 1
+                bonusAmountA: 6,10
+            - enchant:
+                knockback: 2
+                bonusAmountA: 11,15
+          - pick:
+            - chance 0.1
+            - weights 10 2
+            - enchant:
+                fire_aspect: 1
+                bonusAmountA: 11,15
+            - enchant:
+                fire_aspect: 2
+                bonusAmountA: 25,31
+          - pick:
+            - chance 0.1
+            - weights 100 40 10
+            - enchant:
+                looting: 1
+                bonusAmountA: 5,7
+            - enchant:
+                looting: 2
+                bonusAmountA: 13,18
+            - enchant:
+                looting: 3
+                bonusAmountA: 37,47
+    - trade:
+        comment: selling enchanted diamond axe
+        itemA:
+          currency: 10,15
+        result:
+          item: diamond_axe
+          amount: 1
+          enchants:
+          - pick:
+            - pick:
+              - weights 100 65 20 10
+              - enchant:
+                  sharpness: 1
+              - enchant:
+                  sharpness: 2
+                  bonusAmountA: 6,7
+              - enchant:
+                  sharpness: 3
+                  bonusAmountA: 9,10
+              - enchant:
+                  sharpness: 4
+                  bonusAmountA: 13,15
+            - pick:
+              - weights 100 65 15
+              - enchant:
+                  efficiency: 1
+              - enchant:
+                  efficiency: 2
+                  bonusAmountA: 6,8
+              - enchant:
+                  efficiency: 3
+                  bonusAmountA: 12,15
+          - pick:
+            - chance 0.33
+            - weights 10 2 1
+            - enchant:
+                unbreaking: 1
+                bonusAmountA: 4,8
+            - enchant:
+                unbreaking: 2
+                bonusAmountA: 11,17
+            - enchant:
+                unbreaking: 3
+                bonusAmountA: 19,25
+          - pick:
+            - chance 0.05
+            - enchant:
+                silk_touch: 1
+                bonusAmountA: 23,29
+  Tool Smith:
+    '0':
+    - trade:
+        comment: buying charcoal
+        itemA:
+          item: coal
+          data: 1
+          amount: 8,10
+        result:
+          currency: 1
+    - trade:
+        comment: selling enchanted iron shovel
+        itemA:
+          currency: 6,9
+        result:
+          item: iron_shovel
+          amount: 1
+          enchants:
+          - pick:
+            - weights 100 65 20 10
+            - enchant:
+                efficiency: 1
+            - enchant:
+                efficiency: 2
+                bonusAmountA: 2,3
+            - enchant:
+                efficiency: 3
+                bonusAmountA: 7,9
+            - enchant:
+                efficiency: 4
+                bonusAmountA: 12,15
+          - pick:
+            - chance 0.2
+            - weights 100 50 10
+            - enchant:
+                unbreaking: 1
+                bonusAmountA: 1,2
+            - enchant:
+                unbreaking: 2
+                bonusAmountA: 5,7
+            - enchant:
+                unbreaking: 3
+                bonusAmountA: 12,15
+          - pick:
+            - chance 0.05
+            - enchant:
+                silk_touch: 1
+                bonusAmountA: 12,15
+          - pick:
+            - chance 0.1
+            - weights 50 25 1
+            - enchant:
+                fortune: 1
+                bonusAmountA: 2,3
+            - enchant:
+                fortune: 2
+                bonusAmountA: 5,7
+            - enchant:
+                fortune: 3
+                bonusAmountA: 12,15
+    '1':
+    - trade:
+        comment: buying iron ingot
+        itemA:
+          item: iron_ingot
+          amount: 8,9
+        result:
+          currency: 1
+    - trade:
+        comment: selling enchanted iron pickaxe
+        itemA:
+          currency: 9,12
+        result:
+          item: iron_pickaxe
+          amount: 1
+          enchants:
+          - pick:
+            - weights 100 65 20 10
+            - enchant:
+                efficiency: 1
+            - enchant:
+                efficiency: 2
+                bonusAmountA: 2,3
+            - enchant:
+                efficiency: 3
+                bonusAmountA: 7,9
+            - enchant:
+                efficiency: 4
+                bonusAmountA: 12,15
+          - pick:
+            - chance 0.2
+            - weights 100 50 10
+            - enchant:
+                unbreaking: 1
+                bonusAmountA: 1,2
+            - enchant:
+                unbreaking: 2
+                bonusAmountA: 5,7
+            - enchant:
+                unbreaking: 3
+                bonusAmountA: 12,15
+          - pick:
+            - chance 0.05
+            - enchant:
+                silk_touch: 1
+                bonusAmountA: 12,15
+          - pick:
+            - chance 0.1
+            - weights 50 25 1
+            - enchant:
+                fortune: 1
+                bonusAmountA: 2,3
+            - enchant:
+                fortune: 2
+                bonusAmountA: 5,7
+            - enchant:
+                fortune: 3
+                bonusAmountA: 12,15
+    '2':
+    - trade:
+        comment: buying diamonds
+        itemA:
+          item: diamond
+          amount: 1
+        result:
+          currency: 5,6
+    - trade:
+        comment: selling enchanted diamond pickaxe
+        itemA:
+          currency: 18,23
+        result:
+          item: diamond_pickaxe
+          amount: 1
+          enchants:
+          - pick:
+            - weights 100 65 20 10
+            - enchant:
+                efficiency: 1
+            - enchant:
+                efficiency: 2
+                bonusAmountA: 6,8
+            - enchant:
+                efficiency: 3
+                bonusAmountA: 12,15
+            - enchant:
+                efficiency: 4
+                bonusAmountA: 25,29
+          - pick:
+            - chance 0.2
+            - weights 100 50 10
+            - enchant:
+                unbreaking: 1
+                bonusAmountA: 4,10
+            - enchant:
+                unbreaking: 2
+                bonusAmountA: 11,17
+            - enchant:
+                unbreaking: 3
+                bonusAmountA: 19,25
+          - pick:
+            - chance 0.05
+            - enchant:
+                silk_touch: 1
+                bonusAmountA: 17,23
+          - pick:
+            - chance 0.1
+            - weights 50 25 1
+            - enchant:
+                fortune: 1
+                bonusAmountA: 4,10
+            - enchant:
+                fortune: 2
+                bonusAmountA: 11,17
+            - enchant:
+                fortune: 3
+                bonusAmountA: 19,23
+  Leatherworker:
+    '0':
+    - trade:
+        comment: buying leather
+        itemA:
+          item: leather
+          amount: 5,6
+        result:
+          currency: 1
+    - trade:
+        comment: selling leads
+        itemA:
+          currency: 1
+        result:
+          item: lead
+          amount: 3,5
+    '1':
+    - trade:
+        comment: selling enchanted leather pants
+        itemA:
+          currency: 2
+        result:
+          item: leather_leggings
+          amount: 1
+          enchants:
+          - pick:
+            - weights 3 4 4
+            - pick:
+              - weights 6 3 1
+              - enchant:
+                  blast_protection: 2
+              - enchant:
+                  blast_protection: 3
+                  bonusAmountA: 2,3
+              - enchant:
+                  blast_protection: 4
+                  bonusAmountA: 4,5
+            - pick:
+              - weights 6 3 1
+              - enchant:
+                  projectile_protection: 2
+              - enchant:
+                  projectile_protection: 3
+                  bonusAmountA: 1,2
+              - enchant:
+                  projectile_protection: 4
+                  bonusAmountA: 2,3
+            - pick:
+              - weights 6 3 1
+              - enchant:
+                  fire_protection: 2
+              - enchant:
+                  fire_protection: 3
+                  bonusAmountA: 1,2
+              - enchant:
+                  fire_protection: 4
+                  bonusAmountA: 2,3
+    - trade:
+        comment: selling enchanted leather boots
+        itemA:
+          currency: 1
+        result:
+          item: leather_boots
+          amount: 1
+          enchants:
+          - pick:
+            - weights 3 4 4
+            - pick:
+              - weights 6 3 1
+              - enchant:
+                  blast_protection: 2
+              - enchant:
+                  blast_protection: 3
+                  bonusAmountA: 2,3
+              - enchant:
+                  blast_protection: 4
+                  bonusAmountA: 4,5
+            - pick:
+              - weights 6 3 1
+              - enchant:
+                  projectile_protection: 2
+              - enchant:
+                  projectile_protection: 3
+                  bonusAmountA: 1,2
+              - enchant:
+                  projectile_protection: 4
+                  bonusAmountA: 2,3
+            - pick:
+              - weights 6 3 1
+              - enchant:
+                  fire_protection: 2
+              - enchant:
+                  fire_protection: 3
+                  bonusAmountA: 1,2
+              - enchant:
+                  fire_protection: 4
+                  bonusAmountA: 2,3
+          - pick:
+            - chance 0.33
+            - weights 6 3 1
+            - enchant:
+                feather_falling: 2
+                bonusAmountA: 1,2
+            - enchant:
+                feather_falling: 3
+                bonusAmountA: 2,3
+            - enchant:
+                feather_falling: 4
+                bonusAmountA: 3,4
+    '2':
+    - trade:
+        comment: selling enchanted leather tunic
+        itemA:
+          currency: 3
+        result:
+          item: leather_chestplate
+          amount: 1
+          enchants:
+          - pick:
+            - weights 3 4 4
+            - pick:
+              - weights 6 3 1
+              - enchant:
+                  blast_protection: 2
+              - enchant:
+                  blast_protection: 3
+                  bonusAmountA: 2,3
+              - enchant:
+                  blast_protection: 4
+                  bonusAmountA: 4,5
+            - pick:
+              - weights 6 3 1
+              - enchant:
+                  projectile_protection: 2
+              - enchant:
+                  projectile_protection: 3
+                  bonusAmountA: 1,2
+              - enchant:
+                  projectile_protection: 4
+                  bonusAmountA: 2,3
+            - pick:
+              - weights 6 3 1
+              - enchant:
+                  fire_protection: 2
+              - enchant:
+                  fire_protection: 3
+                  bonusAmountA: 1,2
+              - enchant:
+                  fire_protection: 4
+                  bonusAmountA: 2,3
+    '3':
+    - trade:
+        comment: selling saddle
+        itemA:
+          currency: 11,13
+        result:
+          item: saddle
+          amount: 1
+DefaultProfessionColor: ''

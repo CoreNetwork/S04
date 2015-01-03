@@ -1,0 +1,10 @@
+display:
+  compound:
+    Name: "&6Spell of Fusing"
+    Lore:
+    - "&6Crafts items into their block form."
+    - "&7Affects all metals, gems, dust and crops."
+    - "&7Also affects nether bricks and quartz."
+    - "&8Right click to affect the inventory."
+    - "&8Right click a chest to craft items inside."
+    - "ExpireAfterDays: 15"

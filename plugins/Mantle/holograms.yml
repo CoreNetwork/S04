@@ -1,0 +1,7 @@
+Enabled: true
+Messages:
+  NoHologramWithThatName: No hologram with such name exist!
+  HologramAdded: Hologram Added
+  HologramUpdated: Hologram Updated
+  HologramRemoved: Hologram Removed
+  Reloaded: Reloaded.

@@ -1,0 +1,7 @@
+display:
+  compound:
+    Name: "<Name>"
+    Lore:
+    - '&7Use it to get precise directions'
+    - '&7to desired loot in Overworld.'
+    - '&8Right click to use'

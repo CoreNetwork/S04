@@ -1,0 +1,23 @@
+channels:
+- modes:
+  - LOCAL
+  - PERSIST
+  color: '&b'
+  name: MOD
+  alias: m
+  write_permission: mod
+  read_permission: mod
+- modes:
+  - PERSIST
+  color: '&7'
+  name: F
+  alias: f
+  write_permission: null
+  read_permission: null
+- modes:
+  - PERSIST
+  color: '&c'
+  name: Rage
+  alias: g
+  write_permission: null
+  read_permission: null

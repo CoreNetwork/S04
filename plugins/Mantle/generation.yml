@@ -1,0 +1,68 @@
+Enabled: true
+Worlds:
+  world:
+    Dimensions:
+      Min: -8000 -8000
+      Max: 8000 8000
+    MapFileName: map_world.png
+    Structures:
+      Village:
+        ImageMapColor: ffcc00
+        PasteHeight: 1
+        SpawnVillagers: true
+        StoreAsRespawnable: Villages
+        CreateRestockableChests: true
+        Schematics:
+        - village-00
+        - village-01
+        - village-02
+        - village-03
+        - village-04
+        - village-05
+        - village-06
+        - village-07
+        - village-08
+        - village-09
+        - village-10
+        - village-11
+        - village-12
+        - village-13
+        - village-14
+        - village-15
+        - village-16
+        - village-17
+        - village-18
+        - village-19
+        - village-20
+        - village-21
+        - village-22
+        - village-23
+        - village-24
+        - village-25
+        - village-26
+        - village-27
+        - village-28
+        - village-29
+        - village-30
+        - village-31
+  world_nether:
+    Dimensions:
+      Min: -8000 -8000
+      Max: 8000 8000
+    MapFileName: map_world_nether.png
+    Structures:
+      Altar:
+        ImageMapColor: 07c4ec
+        PasteHeight: 63
+        CreateRestockableChests: true
+        Protection:
+          Padding: 20
+          ContainerAccessSubclaims: false
+          ClaimPermission: 1
+        Schematics:
+        - nether-altar-1
+Messages:
+  ServerFrozen: '&cGenerating structures. The server is frozen, monitor progress in
+    console.'
+DontSpawnSchematics: false
+WERegionDetectGPRegionSize: false

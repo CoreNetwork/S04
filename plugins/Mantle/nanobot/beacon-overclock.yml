@@ -1,0 +1,16 @@
+display:
+  compound:
+    Name: "&aOverclock"
+    Lore:
+    - '&2Makes furnaces and brewing stands'
+    - '&2operate faster when they are in range.'
+    - '&7Fuel: Coal Blocks'
+    - '&8[Click to Select]'
+ench:
+- compound:
+    lvl:
+      short: 5
+    id:
+      short: 16
+HideFlags:
+  int: 63

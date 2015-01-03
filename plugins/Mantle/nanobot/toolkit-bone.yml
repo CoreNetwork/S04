@@ -1,0 +1,6 @@
+display:
+  compound:
+    Name: "&bGriefPrevention Tool"
+    Lore:
+    - "&7Use with /adminclaims when making new"
+    - "&7claims to spare your personal quota."

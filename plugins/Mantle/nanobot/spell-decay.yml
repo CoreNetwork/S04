@@ -1,0 +1,11 @@
+display:
+  compound:
+    Name: "&6Spell of Decay"
+    Lore:
+    - "&6Nature shrivels and dies around you."
+    - "&7Decays leaves, mushrooms, flowers and grass."
+    - "&7Turns grass into dirt when stood upon."
+    - "&7Removes the dye from wool in inventory."
+    - "&8Right click to decay 32x32x32 area around you."
+    - "&8Right click a chest to change the wool inside."
+    - "ExpireAfterDays: 15"

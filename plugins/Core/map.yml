@@ -1,0 +1,64 @@
+Enabled: true
+TeleportDelay: 3
+Clicks:
+- regions:
+  - endspawncrystal
+  - endlimbocrystal
+  block:
+  - emerald_block
+  commands:
+  - /rspawn
+  - /rspawn protect <Player>
+  - /checkpoint clear
+  - /clear silent
+- regions:
+  - endlimboparkourcrystal
+  block: diamond_block
+  commands:
+  - /lim finish <Player> parkour
+- regions:
+  - enddeathpitcrystal
+  block: diamond_block
+  commands:
+  - /lim finish <Player> deathpit
+- regions:
+  - endspawncrystal
+  - endlimbocrystal
+  block: emerald_ore
+  commands:
+  - /rspawnteam
+Messages:
+  PointCreated: '&aCheckpoint <List> #<Position> created.'
+  ListNotExist: '&cCheckpoint list "<List>" does not exist.'
+  ListDeleted: '&aCheckpoint list "<List>" deleted.'
+  CheckpointNotExist: '&cCheckpoint <List> #<Position> doesn''t exist.'
+  CheckpointMoved: '&aCheckpoint <List> #<Position> moved to your location.'
+  CheckpointSaved: '&aCheckpoint <List> #<Position> saved!'
+  CheckpointNoBackwards: '&cCannot save checkpoint as it would overwrite your more
+    recent one.'
+  NothingSaved: '&cSave your checkpoint first before using it.'
+  TeleportScheduled: '&bReturning to checkpoint in 3 seconds. Stand still until then.'
+  TeleportCancelled: '&cWarmup sequence aborted! Try again and stand still.'
+  TeleportInstant: '&aReturned you to Checkpoint #<Position>'
+checkpoints:
+  deathpit:
+  - world_the_end;-1568.5111433090644;94.00871711691912;-1494.5552057476805;25.041485;-91.00571
+  parkour:
+  - world_the_end;1991.517198056314;22.0;1967.4711684138651;2.5655053;-359.72076
+  - world_the_end;2011.699999988079;32.0;1967.4481982848881;4.6086884;-270.3075
+  - world_the_end;1986.6986489807314;27.0;1995.540219483715;0.627313;-269.8871
+  - world_the_end;1971.52268806265;29.0;2000.5322250446911;5.394614;-89.98999
+  - world_the_end;1984.5282404542236;24.0;2000.5334338326636;-0.6824758;-0.506958
+  - world_the_end;2000.7204625156141;37.0;2017.5019188752299;0.31289247;-89.93945
+  - world_the_end;2003.4755199964102;44.0;1987.535397672495;1.3082474;-179.4729
+  - world_the_end;1988.424226723216;45.0;1993.4687135347338;0.26052037;-269.89648
+  - world_the_end;1995.7946885157346;45.0;2017.5231734902075;0.88919383;-89.9043
+  - world_the_end;2013.7666464564938;61.0;2000.4847778295812;-0.9968157;-89.93689
+  - world_the_end;1989.28461703582;61.0;2000.4614855157008;0.78431165;-270.2483
+CommandDescriptions:
+  help: '&a/chp help &8-&f List all possible commands'
+  deletelist: '&a/chp deletelist &8-&f Delete list of checkpoints'
+  create: '&a/chp create &8-&f Create checkpoint'
+  move: '&a/chp move &8-&f Move checkpoint to your position'
+OrbClearBoxSize: 10
+OrbClearInterval: 60

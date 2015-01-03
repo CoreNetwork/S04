@@ -1,0 +1,14 @@
+display:
+  compound:
+    Name: "&aLime Firework"
+Fireworks:
+  compound:
+    Flight:
+      byte: 2
+    Explosions:
+    - compound:
+        Type:
+          byte: 3
+        Colors:
+          intArray:
+          - 6750054

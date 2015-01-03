@@ -1,0 +1,63 @@
+Enabled: true
+TeleportY: 4
+Border:
+  NoBase:
+    MinX: -5000
+    MinZ: -5000
+    MaxX: 5000
+    MaxZ: 5000
+  Base:
+    MinX: -7950
+    MinZ: -7950
+    MaxX: 7950
+    MaxZ: 7950
+SpawnProtectionLength: 120
+SpawnProtectionNotifications:
+- 90
+- 60
+- 30
+- 10
+MobRemovalRadiusSquared: 625
+SpawnWarps:
+  NewPlayer: end-spawn
+  ExistingPlayer: end-respawn
+Messages:
+  SpawnIgnored: '&aIgnoring your biggest claim on next respawn.'
+  SpawnUnignored: '&aYour biggest claim is now respected when spawning.'
+  SpawnProtectionStart: '&6You are invincible for <Time>s'
+  SpawnProtectionNotification: '&6Invincibility will expire in <Time>s.'
+  SpawnProtectionEndClaims: '&aYou are no longer invincible! Find food and weapons
+    before you try to reach your &6/base'
+  SpawnProtectionEndNoClaims: '&aYou are no longer invincible! Find a village and
+    food.'
+  UnprotectNotProtected: '&cYou are already not protected.'
+  SpawnProtectionDontAbuse: '&cUse &7/unprotect &cto disable invincibility to kill
+    mobs.'
+  GroupJoin: '&bWait for everyone else to join the list and click the crystal.'
+  GroupRemain: '&3Team respawn timed out. Try again or spawn on your own.'
+  LuckyBoosterBought: You have bought a Lucky Booster!
+  NoLuckyBooster: You have 0 boosters left!
+  ActivatedLuckyBooster: You activated Lucky Booster!
+World: world
+Lucky100: []
+Lucky66: []
+Group:
+  TimeLimit: 15
+  Header: '&bTeam respawn &3(optional)'
+  NameColor: '&f'
+  CounterColor: '&f'
+Holograms:
+  Lists:
+  - world_the_end;-2010.5;65;-4005.5;0;0
+  - world_the_end;-2017.5;93;-1106.5;0;0
+  Counters:
+  - world_the_end;-2010.5;65.3;-4005.5;0;0
+  - world_the_end;-2017.5;93.3;-1106.5;0;0
+LuckyBoosterMinutes: 720
+Holograms18:
+  Lists:
+  - teamRespawn01
+  - teamRespawn02
+  Counters:
+  - teamRespawnCounter01
+  - teamRespawnCounter02

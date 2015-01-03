@@ -1,0 +1,14 @@
+display:
+  compound:
+    Name: "&bAqua Firework"
+Fireworks:
+  compound:
+    Flight:
+      byte: 2
+    Explosions:
+    - compound:
+        Type:
+          byte: 1
+        Colors:
+          intArray:
+          - 6750207

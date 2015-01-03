@@ -1,0 +1,16 @@
+Enabled: true
+PostponeTimeSeconds: 1209600
+MinimumTeleportY: 32
+Messages:
+  CommandSyntax: '&6To start: /inspect start. To stop: /inspect stop. [NEWLINE] &6Flag
+    structures with /inspect <mode>. [NEWLINE] Modes: approve, postpone, reject, skip'
+  SessionAlreadyActive: '&cYou are already in the inspection mode.'
+  SessionNotActive: '&cTo do that start inspection with /inspect start'
+  NoStructureFound: '&aThere are no uninspected structures left! Congratulations!'
+  Teleported: '&6Teleporting you to a structure #<ID>.'
+  Approve: '&aApproved. It will never be checked again.'
+  Reject: '&cRejected. Claims were deleted and structure was regenerated.'
+  Postpone: '&6Postponed. Will be checked in 14 days.'
+  Skip: '&7Skipped. Structure is ignored until next /inspect start.'
+  Stop: '&6Inspection stopped.'
+  NoClaims: No claims inside
