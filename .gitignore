@@ -21,6 +21,13 @@ plugins/GriefPreventionData/_schemaVersion
 plugins/PluginMetrics
 plugins/PluginMetrics/*
 
+plugins/Mantle/animals.sqlite
+plugins/Mantle/data.sqlite
+plugins/Mantle/world.png
+plugins/Mantle/storage/rchests.yml
+
+plugins/MobManager/limiter.yml
+
 plugins/MCNSAChat/chatLog.txt
 plugins/MCNSAChat/errorLog.txt
 plugins/MCNSAChat/chat.db
