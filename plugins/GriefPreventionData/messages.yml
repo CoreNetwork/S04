@@ -420,3 +420,7 @@ Messages:
     Text: Subdivide your land claim and become a mayor!
   ClaimCreationFailedOverClaimCountLimit:
     Text: You've reached your limit on land claims.  Use /AbandonClaim to remove one before creating another.
+  CreateClaimFailOverlapRegion:
+    Text: You can't claim all of this because you're not allowed to build here.
+  ResizeFailOverlapRegion:
+    Text: You don't have permission to build there, so you can't claim that area.
