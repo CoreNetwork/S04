@@ -132,11 +132,11 @@ WorldMaximum:
   Ambient: 0
   Villager: 10000
 ChunkCalculatedMaximum:
-  Monsters: 12
-  Animals: 20
+  Monsters: 20
+  Animals: 0
   Water_Animals: 0
   Ambient: 0
-  Villager: 20
+  Villager: 0
 BreedingMaximumPerChunk: 150
 NumAnimalsForFarm: 3
 DespawnSearchDistance: 104
