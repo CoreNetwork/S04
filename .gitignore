@@ -24,9 +24,8 @@ server.properties
 /plugins/PluginMetrics/*
 
 /plugins/Mantle/world.png
-/plugins/Mantle/animals.sqlite
-/plugins/Mantle/data.sqlite
 /plugins/Mantle/storage/rchests.yml
+/plugins/Mantle/storage/regeneration.yml
 
 /plugins/MobManager/limiter.yml
 
