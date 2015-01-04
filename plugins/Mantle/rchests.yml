@@ -115,13 +115,13 @@ BasicCategories:
     Damage: 0
   weight: 10
   compassMinDistance:
-  - 200
-  - 200
-  - 200
+  - 100
+  - 100
+  - 100
   compassMaxDistance:
-  - 2000
-  - 2000
-  - 2000
+  - 600
+  - 600
+  - 600
 - lootTable: Tools
   chances:
   - 1.0
@@ -132,14 +132,14 @@ BasicCategories:
     Name: iron_pickaxe
     Damage: 0
   weight: 10
-  compassMaxDistance:
-  - 200
-  - 200
-  - 200
   compassMinDistance:
-  - 2000
-  - 2000
-  - 2000
+  - 200
+  - 200
+  - 200
+  compassMaxDistance:
+  - 800
+  - 800
+  - 800
 - lootTable: CombatGear
   chances:
   - 1.0
@@ -151,13 +151,13 @@ BasicCategories:
     Damage: 0
   weight: 10
   compassMinDistance:
-  - 200
-  - 200
-  - 200
+  - 300
+  - 300
+  - 300
   compassMaxDistance:
-  - 2000
-  - 2000
-  - 2000
+  - 1000
+  - 1000
+  - 1000
 RareCategories:
 - lootTable: Obsidian
   chances:
@@ -193,7 +193,6 @@ RareCategories:
     Damage: 0
   weight: 25
   preReqCategories:
-  - CombatGear
   - Obsidian
   perPlayerTotalLimit: 500
   compassMinDistance:
