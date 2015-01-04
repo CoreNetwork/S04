@@ -528,36 +528,37 @@ Holograms:
 - Hologram:
     world: world_the_end
     hidden: false
-    linkedEntities: []
-    x: -14.5
-    needsUpdating: false
-    y: 103.0
-    z: -500.5
-    text:
-    - ''
-    id: respawn-list
-    deleteOnNextUpdate: false
-- Hologram:
-    world: world_the_end
-    hidden: false
-    linkedEntities: []
-    x: -14.5
-    needsUpdating: false
-    y: 103.3
-    z: -505.5
-    text:
-    - ''
-    id: respawn-counter
-    deleteOnNextUpdate: false
-- Hologram:
-    world: world_the_end
-    hidden: false
     linkedEntities:
-    - e17b0397-5ac1-4fe5-909a-ae9eb4abc66a
+    - 79fda4ee-3dc3-4f90-8e8b-ee9ac03227fc
     x: -10.5
     needsUpdating: false
     y: 98.5
     z: -499.5
     text:
     - '&aClick the crystal to respawn!'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - e63d6c1e-86fc-4656-8964-85cd5c07c320
+    x: -14.528460757247489
+    needsUpdating: false
+    y: 102.0
+    z: -505.43601577102436
+    text:
+    - '&bTeam respawn &3(optional)'
+    id: respawn-list
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities: []
+    x: -14.428650625602979
+    needsUpdating: false
+    y: 102.0
+    z: -505.4189466240966
+    text:
+    - ' '
+    id: respawn-counter
     deleteOnNextUpdate: false

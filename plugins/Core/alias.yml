@@ -74,7 +74,7 @@ Aliases:
 - match: /abandon( .*)?
   message: '&6Did you mean &7/abandonclaim &6or &7/abandonallclaims&6?'
 - match: /exit( .*)?
-  route: /lim exit
+  route: /lim exit <Player>
 - match: /alright
   route: /IAgree
 - match: /staff( .*)?

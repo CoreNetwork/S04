@@ -18,3 +18,5 @@ fire:
 crops:
     disable-creature-trampling: true
     disable-player-trampling: true
+mobs:
+    disable-enderman-griefing: true

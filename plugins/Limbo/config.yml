@@ -21,10 +21,10 @@ Limbo:
   - sudo <Player> rspawn unprotect silent
   - sudo <Player> mantle hydration restore
   - clear <Player> silent
-  - kit <Player> limbo
+  - kit <Player> limbo silent
   - sudo <Player> warp limbo-library-start silent
   CommandsOnRespawn:
-  - kit <Player> limbo
+  - kit <Player> limbo silent
   - sudo <Player> warp limbo-library silent
   CommandsOnExit:
   - clear <Player> silent
@@ -35,15 +35,15 @@ Challenges:
     CommandsOnEntry:
     - dm <Player> &3Death Pit is about getting &b20 levels &3of exp, killing mobs and reaching a mini tower with &bred flag &3(find it - start by going left, through Creeper tunnel). You can exit any time with &b/exit
     - clear <Player> silent
-    - runalias /deathpitgear <Player>
+    - kit <Player> deathpit silent
     - sudo <Player> warp limbo-death-pit silent
     CommandsOnExit:
     - clear <Player> silent
-    - kit <Player> limbo
+    - kit <Player> limbo silent
     - sudo <Player> warp limbo-library silent
     CommandsOnRespawn:
     - clear <Player> silent
-    - kit <Player> deathpit
+    - kit <Player> deathpit silent
     - sudo <Player> warp limbo-death-pit silent
     Victory: '&b<Player> beat Death Pit in <DetailedTime>'
     VictoryRecord:
@@ -59,7 +59,7 @@ Challenges:
     - sudo <Player> warp limbo-parkour silent
     CommandsOnExit:
     - clear <Player> silent
-    - kit <Player> limbo
+    - kit <Player> limbo silent
     - sudo <Player> checkpoint clear <Player>
     - sudo <Player> warp limbo-library silent
     CommandsOnRespawn:

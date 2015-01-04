@@ -88,27 +88,27 @@ ignition:
     block-lighter: false
 fire:
     disable-lava-fire-spread: true
-    disable-all-fire-spread: false
+    disable-all-fire-spread: true
     disable-fire-spread-blocks: []
     lava-spread-blocks: []
 mobs:
     block-creeper-explosions: false
-    block-creeper-block-damage: false
+    block-creeper-block-damage: true
     block-wither-explosions: false
     block-wither-block-damage: false
     block-wither-skull-explosions: false
     block-wither-skull-block-damage: false
-    block-enderdragon-block-damage: false
-    block-enderdragon-portal-creation: false
+    block-enderdragon-block-damage: true
+    block-enderdragon-portal-creation: true
     block-fireball-explosions: false
     block-fireball-block-damage: false
     anti-wolf-dumbness: false
     allow-tamed-spawns: true
     disable-enderman-griefing: false
-    disable-snowman-trails: false
-    block-painting-destroy: false
-    block-item-frame-destroy: false
-    block-plugin-spawning: true
+    disable-snowman-trails: true
+    block-painting-destroy: true
+    block-item-frame-destroy: true
+    block-plugin-spawning: false
     block-above-ground-slimes: false
     block-other-explosions: false
     block-zombie-door-destruction: false

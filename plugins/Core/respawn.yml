@@ -54,3 +54,10 @@ Holograms18:
   Counters:
   - respawn-counter
   - spawn-counter
+Holograms:
+  Lists:
+  - world_the_end;-2010.5;65;-4005.5;0;0
+  - world_the_end;-2017.5;93;-1106.5;0;0
+  Counters:
+  - world_the_end;-2010.5;65.3;-4005.5;0;0
+  - world_the_end;-2017.5;93.3;-1106.5;0;0
