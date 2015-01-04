@@ -83,14 +83,15 @@ Holograms:
 - Hologram:
     world: world_the_end
     hidden: false
-    linkedEntities: []
+    linkedEntities:
+    - 9f883fcf-38de-4944-acbb-d8163ac40d22
     x: 59.5
     needsUpdating: false
-    y: 101.0
+    y: 98.0
     z: 40.5
     text:
-    - ''
-    id: teamRespawn02
+    - '&bTeam respawn &3(/help TeamRespawn)'
+    id: spawn-list
     deleteOnNextUpdate: false
 - Hologram:
     world: world_the_end
@@ -98,11 +99,11 @@ Holograms:
     linkedEntities: []
     x: 59.5
     needsUpdating: false
-    y: 101.3
+    y: 99.0
     z: 40.5
     text:
-    - ''
-    id: teamRespawnCounter02
+    - ' '
+    id: spawn-counter
     deleteOnNextUpdate: false
 - Hologram:
     world: world_the_end
@@ -543,11 +544,11 @@ Holograms:
     linkedEntities:
     - e63d6c1e-86fc-4656-8964-85cd5c07c320
     x: -14.528460757247489
-    needsUpdating: false
+    needsUpdating: true
     y: 102.0
     z: -505.43601577102436
     text:
-    - '&bTeam respawn &3(optional)'
+    - '&bTeam respawn &3(/help TeamRespawn)'
     id: respawn-list
     deleteOnNextUpdate: false
 - Hologram:
@@ -555,7 +556,7 @@ Holograms:
     hidden: false
     linkedEntities: []
     x: -14.428650625602979
-    needsUpdating: false
+    needsUpdating: true
     y: 102.0
     z: -505.4189466240966
     text:
