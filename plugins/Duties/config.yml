@@ -5,7 +5,7 @@ Actions:
     - gamemode 1 %PLAYER_NAME% silent
     - god %PLAYER_NAME% silent
     - sudo %PLAYER_NAME% ignoreclaims
-    - sudo %PLAYER_NAME% runalias //toolkit
+    - sudo %PLAYER_NAME% kit modtools silent
     Order:
     - MemoryImport
     - TemporaryGroups
