@@ -5,10 +5,10 @@ Teleport:
   OfflineTeleportConfirmTimeoutSeconds: 10
   Limits:
     world_nether:
-      MaxX: 2500
-      MaxZ: 2500
-      MinX: -2500
-      MinZ: -2500
+      MaxX: 8000
+      MaxZ: 8000
+      MinX: -8000
+      MinZ: -8000
     world_the_end:
       MaxX: 2500
       MaxZ: 2500
