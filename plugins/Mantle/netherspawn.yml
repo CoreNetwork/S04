@@ -3,6 +3,7 @@ NetherWorld: world_nether
 PreventSpawningNether:
 - Skeleton
 - Blaze
+- Zombie
 MinimumDistanceToPlayerSquared: 625
 MaximumDistanceToPlayerSquared: 9216
 Blaze:
@@ -14,11 +15,11 @@ MagmaCube:
 WitherSkeleton:
   SpawningIntervalTicks: 10
   SpawnChance: 1
-  MinY: 1
+  MinY: 32
   MaxY: 56
-  Strength: 4.0
-  BowChance: 0.03
-  Speed: 0.25
+  Strength: 5.0
+  BowChance: 0.1
+  Speed: 0.265
 Ghast:
   SpawningIntervalTicks: 10
   SpawnChance: 1
@@ -26,5 +27,5 @@ Ghast:
   MinSpawnY: 163
   MaxSpawnY: 179
 AdditionalPackMobs:
-  Min: 1
+  Min: 0
   Max: 3
