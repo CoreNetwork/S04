@@ -1,11 +1,12 @@
-copy
-world
-world_nether
-world_the_end
-logs/*
-backup
+/copy
+/world
+/world_nether
+/world_the_end
+/logs/*
+
 *.jar
 *.log
+*.sqlite
 
 banned-players.json
 banned-ips.json
@@ -14,25 +15,23 @@ ops.json
 usercache.json
 server.properties
 
-plugins/GriefPreventionData/PlayerData/*
-plugins/GriefPreventionData/ClaimData/*
-plugins/GriefPreventionData/_schemaVersion
+/plugins/GriefPreventionData/PlayerData/*
+/plugins/GriefPreventionData/ClaimData/*
+/plugins/GriefPreventionData/_schemaVersion
 
-plugins/PluginMetrics
-plugins/PluginMetrics/*
+/plugins/PluginMetrics
+/plugins/PluginMetrics/*
 
-plugins/Mantle/animals.sqlite
-plugins/Mantle/data.sqlite
-plugins/Mantle/world.png
-plugins/Mantle/storage/rchests.yml
+/plugins/Mantle/world.png
+/plugins/Mantle/storage/rchests.yml
 
-plugins/MobManager/limiter.yml
+/plugins/MobManager/limiter.yml
 
-plugins/MCNSAChat/chatLog.txt
-plugins/MCNSAChat/errorLog.txt
-plugins/MCNSAChat/chat.db
+/plugins/MCNSAChat/chatLog.txt
+/plugins/MCNSAChat/errorLog.txt
+/plugins/MCNSAChat/chat.db
 
-plugins/WorldEdit/nmsblocks/*
-plugins/WorldEdit/schematics/*
+/plugins/WorldEdit/nmsblocks/*
+/plugins/WorldEdit/schematics/*
 
-plugins/WorldGuard/cache/*
+/plugins/WorldGuard/cache/*

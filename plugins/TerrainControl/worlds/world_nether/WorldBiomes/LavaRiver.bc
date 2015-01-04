@@ -1,0 +1,106 @@
+# This is the biome config file of the LavaRiver biome, which is a custom biome.
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                        Biome Inheritance                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+# This should be the value of the biomeConfig you wish to extend.
+# The extended config will be loaded, at which point the configs included below
+# will overwrite any configs loaded from the extended config.
+BiomeExtends: Hell
+
+# When set to true, all resources of the parent biome (if any) will be copied
+# to the resources queue of this biome. If a resource in the parent biome looks
+# very similar to that of a child biome (for example, two ores of the same type)
+# it won't be copied.
+ResourceInheritance: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Biome placement                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+# Biome size from 0 to GenerationDepth. Defines in which biome layer this biome will be generated (see GenerationDepth).
+# Higher numbers give a smaller biome, lower numbers a larger biome.
+# Oceans and rivers are generated using a dirrerent algorithm in the default settings,
+# (they aren't in one of the biome lists), so this setting won't affect them.
+BiomeSize: 5
+
+# Biome rarity from 100 to 1. If this is normal or ice biome - chance for spawn this biome then others.
+# Example for normal biome :
+#   100 rarity mean 1/6 chance than other ( with 6 default normal biomes).
+#   50 rarity mean 1/11 chance than other
+# For isle biome this is chance to spawn isle in good place.
+# Don`t work on Ocean and River (frozen versions too) biomes until not added as normal biome.
+BiomeRarity: 95
+
+# The hexadecimal color value of this biome. Used in the output of the /tc map command,
+# and used in the input of BiomeMode:FromImage.
+BiomeColor: #ffffff
+
+# Replace this biome to specified after the terrain is generated.
+# This will make the world files contain the id of the specified biome, instead of the id of this biome.
+# This will cause saplings, colors and mob spawning work as in specified biome.
+ReplaceToBiomeName: Hell
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                  Terrain height and volatility                  | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+# List of custom height factor, 17 double entries, each entire control of about 7 blocks height from down. Positive entry - better chance of spawn blocks, negative - smaller
+# Values which affect your configuration may be found only experimental. That may be very big, like ~3000.0 depends from height
+# Example:
+#   CustomHeightControl:0.0,-2500.0,0.0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+# Make empty layer above bedrock layer. 
+CustomHeightControl: -500.0, -500.0, -500.0, -350.0, -250.0, -100.0, -50.0, 0.0, 250.0, 500.0, 750.0, 1000.0, 1250.0, 15000.0, -1000, -1000.0, -1000.0, -1000.0, -1000.0, -1000.0, -1000.0, -1000.0, -1000.0, -1000.0, 15000.0, -150000.0, -150000.0, -150000.0, -150000.0, -150000.0, -150000.0, -150000.0, -150000.0
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+# Change this to generate something else than stone in the biome. Doesn't support block data.
+StoneBlock: NETHERRACK
+
+# Surface block, usually GRASS. Doesn't support block data.
+SurfaceBlock: NETHERRACK
+
+# Block from stone to surface, like dirt in most biomes. Doesn't support block data.
+GroundBlock: NETHERRACK
+
+# Setting for biomes with more complex surface and ground blocks.
+# Each column in the world has a noise value from what appears to be -7 to 7.
+# Values near 0 are more common than values near -7 and 7. This setting is
+# used to change the surface block based on the noise value for the column.
+# Syntax: SurfaceBlockName,GroundBlockName,MaxNoise,[AnotherSurfaceBlockName,[AnotherGroundBlockName,MaxNoise[,...]]
+# Example: SurfaceAndGroundControl: STONE,STONE,-0.8,GRAVEL,STONE,0.0,DIRT,DIRT,10.0
+#   When the noise is below -0.8, stone is the surface and ground block, between -0.8 and 0
+#   gravel with stone just below and between 0.0 and 10.0 there's only dirt.
+#   Because 10.0 is higher than the noise can ever get, the normal SurfaceBlock
+#   and GroundBlock will never appear in this biome.
+
+# Alternatively, you can use Mesa, MesaForest or MesaBryce to get blocks
+# like the blocks found in the Mesa biomes.
+SurfaceAndGroundControl: 
+
+# Replace Variable: (blockFrom,blockTo[:blockDataTo][,minHeight,maxHeight])
+# Example :
+#   ReplacedBlocks: (GRASS,DIRT,100,127),(GRAVEL,GLASS)
+# Replace grass block to dirt from 100 to 127 height and replace gravel to glass on all height 
+ReplacedBlocks: (NETHERRACK,BEDROCK,187,194),(LAVA,AIR,112,120)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Custom objects                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+# These objects will spawn when using the UseBiome keyword.
+BiomeObjects: 

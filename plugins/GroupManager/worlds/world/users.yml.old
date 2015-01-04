@@ -1,0 +1,7464 @@
+users:
+  00450198-c05a-46a1-b1bf-3ff02d6e89b4:
+    lastname: Mario_Bros_Rock
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  008fb53c-96f7-4cc1-8841-6895da869d90:
+    lastname: phezi
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  00ab6db6-bfc6-4b35-8122-d0a05265d972:
+    lastname: jayjayem
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  015cade5-acff-4f64-b79f-23d2df063996:
+    lastname: Firebolt220
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  02c13a48-0f9a-4e29-8c20-af10bef97dc7:
+    lastname: acJorrus
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  02e86ffe-198b-4e27-9305-103c0461e333:
+    lastname: Xevier
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  047966f1-3f82-4514-8c8a-1941593377d2:
+    lastname: ShaggyR
+    group: Flatcorian
+    subgroups:
+    - SubSky
+    permissions: []
+    info:
+      suffix: ++
+  048b500d-e8f9-4b1b-87d4-a7c95e8c116b:
+    lastname: Blackwind
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  05238829-01e0-4147-b231-95152ddd88dc:
+    lastname: lkemccarthy
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  05822c2c-ae40-405a-9a98-748e48dbddd3:
+    lastname: Taskuchan
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  05d15daa-ea57-46eb-af08-258497484de6:
+    lastname: Bagelsandwitch
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  060183d6-f61c-4a3b-9023-fd3d4477283e:
+    lastname: UltimatePorkMan
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  061ec378-f680-4589-a18b-2f5481f5cb5b:
+    lastname: darkniteusa
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  072b4888-58e0-4f4b-9fca-65dd6b7ab765:
+    lastname: GrayMorning
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  07366ede-d9b8-4953-84dc-498b0fc4df28:
+    lastname: Chunky__Potato
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  076b1c74-3058-43d9-8970-3b85efac1fd8:
+    lastname: Jawkins
+    group: Mercenary
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  07d48167-4625-44e6-b9a8-b47aaf0e9f67:
+    lastname: DogyRock
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  08853031-ecbd-4b86-a943-6fcf8336348f:
+    lastname: SpiritF
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  09400403-5d6c-4e70-929e-63cbe1a00950:
+    lastname: CantBreakBlocks
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  09488f26-0bea-4f7b-858c-800d1ebb1cdc:
+    lastname: Jack_Irick
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  09a116da-a248-464f-9744-266ab2d3b82a:
+    lastname: twr2600
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  09b41db8-934c-45ed-96a6-5d32972859bd:
+    lastname: Tochie44
+    group: Nomad
+    subgroups: []
+    permissions: []
+  0a102e6b-1097-4b46-80ea-4d04b7ad9a66:
+    lastname: NekoWhite
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  0a9bfcd4-1c30-436e-b6ae-36d24f989dc1:
+    lastname: mrmeeper
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  0ab39eab-cb64-4f7a-8022-9b7ae4949999:
+    lastname: deh59
+    group: Special
+    subgroups: []
+    permissions: []
+    info:
+      prefix: '&8✦ '
+      suffix: ''
+  0be77d72-827e-4480-bb2e-febe2ebc059e:
+    lastname: M4D_H4TT3R
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  0bed18cb-0c9a-4f9f-ba3b-e9fd5b06d677:
+    lastname: wgordo1
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  0cca66e2-8469-4c2e-8db1-6a9986ba5856:
+    lastname: Disapproval
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  0e9b022c-6ad8-4afd-9153-e8f1743f4849:
+    lastname: cartercow
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  0f86298c-c691-4fd5-babd-89f2ad54b952:
+    lastname: soullessWrangler
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  104ba210-9907-47f5-b876-e4d3927b96f5:
+    lastname: domination1334
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  11a1bcce-e0ee-42f0-bd4d-e4e9a4001e1e:
+    lastname: Guffers95
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  11b17aeb-304d-471e-8a29-cdfaa68a6dd8:
+    lastname: NovaAtdosk
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  11c207d5-7725-45c4-a35c-e17402aa728f:
+    lastname: boss443322
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  12baff8c-3d51-430b-8a7b-ecec63573612:
+    lastname: roseparade19
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  12bd1817-33e7-4b1e-b3e5-55b069ea68d8:
+    lastname: Goldpez
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  135737b8-7f2b-4f90-aa37-ec395c7c6a9b:
+    lastname: holy_cow45
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  13ce4516-a95a-41a3-848a-f235e3de5324:
+    lastname: chrisclark3
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  13d0eee0-2085-4248-b09c-5b0cb28b5c23:
+    lastname: BasedDoge
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  1506c340-2f73-468b-affb-353eb0603992:
+    lastname: greypo
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  1570d12b-895e-4b59-b9b9-b80edc72742a:
+    lastname: megachirops
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  15c89f52-1cf4-4b89-a675-1f25fcbbe1f0:
+    lastname: Ultramegazord
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  16529dcf-b7a5-4e10-88be-e35268a9177f:
+    lastname: Alectriciti
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  179ad745-f935-4440-86aa-57638750c849:
+    lastname: skinny101
+    group: Mercenary
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  1800savealife:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  1987bbb7-5648-4e5e-a184-35672f3e59de:
+    lastname: Pikachewbacca
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  1a26868b-9fcd-4ec9-8914-0d0facddab1c:
+    lastname: luuk2305
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  1b02bbaa-f0eb-47ba-8a4c-528e2eb632d9:
+    lastname: insectlopedia
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  1b26a0ba-6e90-4fe6-967a-bfb646918323:
+    lastname: ocarpo
+    group: Merchant
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  1b7528b2-88fd-4d9e-b185-2396b1392e87:
+    lastname: KRecanati
+    group: Mercenary
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  1ca517ea-b4cd-4815-b253-321150711c2e:
+    lastname: tangsoododude
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  1cb85c67-2f0a-4848-83c2-6af9fe0c757e:
+    lastname: Torn_Star
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  1d78e384-f641-4dbe-972b-cd05dd95adbd:
+    lastname: LimeyBoy
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  1defd908-5162-4929-86d0-bbaec6488e00:
+    lastname: Mesockisgone21
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  1DUDE:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  1e0ab759-f573-4aad-87e6-e6d550888cac:
+    lastname: Crusader252
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  1e391dd6-29de-4d85-bb69-6a1a361eec94:
+    lastname: Purpledawn63
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  1e77793b-13c2-42a3-ad68-7d5cb88aa121:
+    lastname: katjt
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  1fc3c03e-f4da-46b4-9a32-798ee2dc55ef:
+    lastname: awesomecarter44
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  1White:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  20bc73dd-462f-4c9a-9881-e2e464bfa6cb:
+    lastname: mahlooo
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  21017ef2-4547-4cb0-aaf0-10f31f24d701:
+    lastname: BeastlyJman
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  215bb3f4-deda-40fb-b631-f8922153094c:
+    lastname: IamJ3acon
+    group: Novice
+    subgroups:
+    - SubGrass
+    permissions: []
+  219cb362-36da-4d3d-817e-c97c2e0799eb:
+    lastname: Purple_Bridge
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  22041ee7-4a09-4eff-bed8-bf61f9800538:
+    lastname: UlyssesB
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  2289e040-0128-48c5-9603-14bc04f536ce:
+    lastname: gunduzyavuzer
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  23c3f730-035e-4bcd-a569-af9c42c8bb36:
+    lastname: Jazcool
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  23porkman:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  24367dfa:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  245733b9-ee30-4f9e-b815-513e8c3cacf7:
+    lastname: dieseldog990
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  2621d03a-a932-456f-87b3-709164b80219:
+    lastname: zciryle
+    group: Guardian
+    subgroups:
+    - Flatcorian
+    permissions: []
+  27dc3dd9-6648-4d0e-9a6c-9dd90dd2be00:
+    lastname: ArchonApex
+    group: Mercenary
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  2883da6e-d0ec-4117-b12a-6fed06963ab3:
+    lastname: leguidonviolon
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  28e8cd1e-8fea-4303-a2e0-b9902c5970ff:
+    lastname: Eric_Fartmen
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  28f893f2-efba-42ec-bf20-827037ae78a2:
+    lastname: seviclee
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  2a777b32-067d-40ea-8a4f-131bfa90c225:
+    lastname: samcjp
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  2bc9b684-24e4-4413-8158-c85ebfe1293c:
+    lastname: JudgeAnderson
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  2d8a1d50-6abe-43d8-a9ed-437ffc40b215:
+    lastname: railking560
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  2EC:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  2eed2a9e-dde2-4e4f-ae5c-c14f06f51cbd:
+    lastname: theOh3
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  2f8cb7dc-66ed-4003-b160-42a0b73748d9:
+    lastname: TheIBBeast
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  2f951a68-74b4-4b2a-8a16-b71ea008632e:
+    lastname: BroughtMyFgame
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  2ndSkye:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  30b551bb-5835-4578-a27e-8723d2b59907:
+    lastname: 3dz3dz
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  30fcff27-aaee-49d6-a661-c5da8a9c2201:
+    lastname: Tensdale
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  315fff3f-bdee-46fe-a026-36a0ba124975:
+    lastname: JNAT1366
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  31eb6a95-0b2c-48d3-a6d5-f3bcdaaad060:
+    lastname: AshesNight
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  31f64d69-29a9-4f3b-aa35-8b16c5feb923:
+    lastname: echo_e75
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  325f7221-2b68-417e-bb9d-036524647d70:
+    lastname: eliraphster
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  32ea4452-0d49-4509-a0d0-7dc3da0184a5:
+    lastname: futbolfrog77
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  32ed833d-eaf2-4caf-ab8e-d321c7aa3a4e:
+    lastname: boxdude10
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  32f61e50-3cd6-416b-bdf6-322e0a1abdda:
+    lastname: CobaltIce16
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  3498f560-cb37-4080-9cb3-caf5398c4a31:
+    lastname: Pytomi
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  359ef467-7e80-4774-850d-04cc4f5a261f:
+    lastname: Rosie23
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  35caa41b-1559-4925-a7d0-aaa66cc24ddc:
+    lastname: gamesjunky
+    group: Mercenary
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  381bdb2c-02b1-4ad7-8295-d10c95dfc569:
+    lastname: Mogswamp
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  388fa791-1799-4b62-872a-fb94a4c12957:
+    lastname: PGGroundSquirrel
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  38d2a569-c738-43db-9200-f8879959d3f1:
+    lastname: Rainb0wTr0ut
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  3a84d5f4-59e1-48af-b69f-bc80d2dda43b:
+    lastname: ADULT_LINK
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  3a94345f-3437-43f3-a50d-e5591ab391d8:
+    lastname: uberifix13
+    group: Nomad
+    subgroups: []
+    permissions: []
+  3adab58f-17b1-41c3-b9f9-42a18d56f4cb:
+    lastname: makaveli9000
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  3c018c9f-5055-4f0a-8c66-d2a849d7db20:
+    lastname: Hannahbanana596
+    group: Merchant
+    subgroups:
+    - CommunityManager
+    permissions: []
+    info:
+      suffix: ''
+  3c5b1902-f796-4fb5-8492-ee0840e254ee:
+    lastname: jggiant2016
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  3c635e8b-7360-404d-800f-1026e5234245:
+    lastname: Chronohawk
+    group: Flatcorian
+    subgroups:
+    - CommunityManager
+    permissions: []
+    info:
+      prefix: '&b'
+  3ec67fc1-0fe0-4d27-b538-f4fbd9a423b9:
+    lastname: dar98100
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  3ecd28df-6d0b-4155-b659-88245d9ad83f:
+    lastname: 123eman123
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  3f368655-dcb6-48da-ac0c-3487a84c3747:
+    lastname: Ameobea10
+    group: Mercenary
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  3fedcde2-a5c0-4e6a-adc5-f4e4167911f4:
+    lastname: S3f3r4n
+    group: Mercenary
+    subgroups:
+    - SubSky
+    permissions: []
+    info:
+      suffix: ''
+  420f6dd9-5b46-432a-805c-8f6d2fa01e23:
+    lastname: CollidedMoon
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  42901498-453f-4cf0-a198-b5b31ff95b2c:
+    lastname: hounddogger
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  43688c4a-6509-4123-8210-bfea24d897fa:
+    lastname: Ginaw
+    group: Merchant
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  44b6c860-ad96-4c39-9904-eaf5dec2350e:
+    lastname: Mrcrazysalad
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  44ca45ae-fa0c-4f78-bfc2-f8f841a455d6:
+    lastname: bman77
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  44f47cd1-9f6f-493a-bdac-d35d0fc61ac0:
+    lastname: blade5868
+    group: Flatcorian
+    subgroups:
+    - SubGrass
+    permissions: []
+    info:
+      suffix: ''
+  46184ccb-b4a0-4e72-a66e-5bd3f1e94db1:
+    lastname: Spctr
+    group: Special
+    subgroups:
+    - SubSky
+    permissions: []
+    info:
+      prefix: '&8✸ '
+      suffix: ''
+  4668f524-9be7-4906-8fa5-1abdcafe3b3f:
+    lastname: poempedoempoex
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  4742bc73-448c-4af1-be98-3262f5529241:
+    lastname: mxdude95
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  4749f4cc-1616-4115-b9b7-8821ddccb9d4:
+    lastname: PXLForce
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  47757f47-0748-43f1-8409-eb2a2520b5cc:
+    lastname: SayJoe90
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  48bda7a6-f295-4f83-a34f-eb9f76c9f710:
+    lastname: griffman95
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  4a334353-e05f-41fa-a1fa-9e4d38b91556:
+    lastname: lubkin
+    group: Guardian
+    subgroups:
+    - CommunityManager
+    - Merchant
+    permissions: []
+    info:
+      suffix: ''
+  4b4dccbd-5de3-4080-aa67-9cf216419f71:
+    lastname: Gogofet
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  4de27512-9c68-4b43-9ee6-bacf17d46a47:
+    lastname: thorman2000
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  4e010ec8-f021-4f2f-8bce-be2947952c55:
+    lastname: jmac7
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  4e25f4e5-4d15-491d-a83b-a0326d9b94cd:
+    lastname: crystalshards
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  4e6c09d3-5531-40cf-aa29-27e50371c975:
+    lastname: bengeek12
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  4e8eae11-39c1-4b28-91f9-4cf71ee550e5:
+    lastname: morgantosh
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  4e91ecec-9cf7-4734-a0e6-4640fdad11e9:
+    lastname: Israphels
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  4f0d561b-6269-4b06-955d-c0bcf0f95ddf:
+    lastname: Zpona
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  507d0ee7-c9a3-4adf-b883-b7e101607af2:
+    lastname: zse4rffb
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  519b7b6b-62c5-441c-8715-e310f0c49030:
+    lastname: kf5kqj
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  52660096-f888-4347-b5fb-8d5d8ab473a4:
+    lastname: icevin
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  52c62d14-8721-4dc4-8dd2-009b92836418:
+    lastname: xavierocks
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  5320d932-853d-4f77-a9f5-6469bf24afa4:
+    lastname: marcanator1
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  54a406a5-8b25-4233-b0fd-3d38b56cdec5:
+    lastname: Kirsel
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  557a390a-bd26-4e01-8f69-6a8ef84254ed:
+    lastname: naq915
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  55bbaf24-86a1-4ccd-a547-4323ec641ab5:
+    lastname: bytemage
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  55fe247c-39b5-4558-b154-40c69cff151b:
+    lastname: iamonapig
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  56128f95-4418-4210-822b-ace0f4b86d93:
+    lastname: yoshirocksxd
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  581aff61-1c60-4402-b453-5ba1bda247fc:
+    lastname: gamersonly3d
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  590d7fef-7612-4905-ba66-8b24e219d8ad:
+    lastname: SpudMan7
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  592b6576-8e3f-4074-9f76-2fb4c5ec9f63:
+    lastname: Prasadasaurus
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  5940c829-bea6-4812-be30-63cd3f18a944:
+    lastname: Enjiniaokage
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  597e34fd-e1ba-457c-877a-e89c44cc169a:
+    lastname: Truffled
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  59e71a62-b8ba-46ca-9987-d5e757e67b74:
+    lastname: Crystalcreeper12
+    group: Raider
+    subgroups: []
+    permissions:
+    - mcnsachat.read.ccp
+    - mcnsachat.write.ccp
+    info:
+      suffix: ''
+  5a040f49-3622-4d62-baf8-4c3ebc41453d:
+    lastname: icywolfbear
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  5c58104b-103c-4629-b86b-95919c1c9c20:
+    lastname: bakey1anny
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  5c872ca7-80a1-4475-b71e-0f61ff1c1081:
+    lastname: a17njl01
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  5e3f6b01-08f8-4eb4-bd18-77913afc45ff:
+    lastname: bobbybee12345
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  5ec2a5e6-fdfe-43a2-ba1c-8da1b4537717:
+    lastname: RoosterBread
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  5f136587-82b0-4b10-b1f4-cb1474283eee:
+    lastname: MaseHD
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  5f1c62a4-ec92-42aa-8de3-fba6874a0e96:
+    lastname: oneli
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  5f9f88d0-e087-4ad8-b092-e3c7a1f4d2f8:
+    lastname: RexBulby
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  6031e3e1-071e-4769-8ddd-9031339ef643:
+    lastname: Key0529
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  603e19bd-f914-40d1-b781-c0e94fef1e14:
+    lastname: MrEpicPwnage
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  60740fd9-77c5-4a30-8933-de5814b00d68:
+    lastname: I_Am_Throat
+    group: Flatcorian
+    subgroups: []
+    permissions:
+    - nocheatplus.checks.moving.survivalfly
+    info:
+      suffix: ++
+  6074e865-d6fa-4db8-bdd1-29c3821d418b:
+    lastname: Pro_B_Rad
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  60b12ccb-a794-45ea-bd58-09d923724beb:
+    lastname: nagatora900
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  60eff24e-ca95-434c-bd0b-7173593411b6:
+    lastname: FireSpawnster
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  61a004cd-d369-4976-93e5-4f43b7ccee8e:
+    lastname: Zor_Zor
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  6347ad04-6f22-4228-bc2b-d18b22808f0d:
+    lastname: jackicebulb
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  637066fa-54b7-4dad-8d64-0e3765142c06:
+    lastname: KJKearney
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  63ab158a-6fa0-42f8-87f6-be64350f42f6:
+    lastname: djtsex
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  63de87b3-0fd6-4508-9f12-00eba36e338d:
+    lastname: Runnico
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  6423abfa-6495-4dad-bfe8-7da59a498e68:
+    lastname: GingerKangaroo
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  65157a39-afd6-48b4-bf57-bfe5550cd703:
+    lastname: kathlenElisha
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  65d5edcb-0eca-4302-b363-0e50396c3776:
+    lastname: Dresdom
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  66c40d70-edbd-4a59-a3aa-8c98b5c9664b:
+    lastname: palipaul
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  66f8216c-9298-439f-9513-ed44c431fb1e:
+    lastname: S4NDW1CHHHH
+    group: Scribe
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  '67457474':
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  67e4d9f1-b509-472e-a01b-d37c9cc5af9c:
+    lastname: danywhoever
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  68345ad9-6b9a-4eba-b28f-e434d47e0ab9:
+    lastname: ijzervarken
+    group: Merchant
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  6895b966-13bf-427e-8099-114bec566075:
+    lastname: p2rfaia
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  694b1e61-8169-414b-b593-fc42b838970a:
+    lastname: NanoCube_
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  69cfbf67-78d0-49b9-a224-36c0d19e5d74:
+    lastname: Unlisted_Artist
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  6a075ae7-02de-4ab1-b947-6652ef8665b9:
+    lastname: benyoben1
+    group: Scribe
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  6a5fd6c8-3812-4079-bd84-60f76603db70:
+    lastname: 2icharlie
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  6a939d4f-54ae-4979-aa18-4e1813ad5cbe:
+    lastname: Gypsie010
+    group: Mercenary
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  6b2b2d03-2967-40ff-a544-9a1859336fde:
+    lastname: CreepyChronich
+    group: Guardian
+    subgroups:
+    - Mercenary
+    permissions: []
+    info:
+      suffix: ''
+  6b7c8c95-6214-4dea-9304-f4c56ec3b557:
+    lastname: MrPoshfish
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  6d821d7f-ef3e-4564-8fbc-3a7150fe5edc:
+    lastname: zetsuboushita
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  6dcde7c4-0e0d-44b3-b367-ffcd4038ecb0:
+    lastname: dipsie8
+    group: Merchant
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  6ddb994b-76a8-45c6-b38f-fa8c5edabedc:
+    lastname: mrbluesky1
+    group: Raider
+    subgroups: []
+    permissions: []
+  6f2e27f6-7417-4567-8bdf-1eba5d66e651:
+    lastname: ezekehc
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  6f2f4d45-8b7c-47fb-967c-e8d77dfa3a12:
+    lastname: ijzm
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  6f7e9a3f-21bd-49cb-b1b4-aabaeebb2939:
+    lastname: mrmaxthegreat1
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  6f9c074a-8a9a-498a-a344-7624e7518a94:
+    lastname: NeoKross
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  6fba64a8-080f-4ec3-8f32-245510cd2859:
+    lastname: Exonan
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  6fc0de6f-a913-4551-9aed-f540cb8969a8:
+    lastname: Minecraftgirl020
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  7221f4c4-ecbf-461c-978e-9df6517e1fa3:
+    lastname: samuelc1997
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  7355a519-39d9-4d9f-a9d5-d27d6979d087:
+    lastname: Agent_070
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  7404b20d-faf2-47ee-8986-c15117f9c6fd:
+    lastname: Tigrys36
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  740f2309-0732-4019-8588-37c2a3b07efc:
+    lastname: llama_lord
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  7459a509-9e75-401d-a4e6-62c3f7003a37:
+    lastname: DragonNinjaGolem
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  75fbda3e-c46e-4c64-b9b9-d27e1cb11b06:
+    lastname: Stella998
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  761691b5-df29-427a-9a01-e255688de798:
+    lastname: wolfvolt
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  7630e997-91f1-4a06-b580-3c8ebdfef716:
+    lastname: solopowe
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  772a20a0-fb80-4ea9-aa76-c894771dfa4e:
+    lastname: mikkrusty
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  782c4745-9acb-4552-89bb-32dc989cd54f:
+    lastname: frogger499
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  78559c9a-99f3-402e-9a92-4edb7729450d:
+    lastname: AWDoBaun
+    group: Mercenary
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  785e440e-40d6-449e-8970-858ce2e9637d:
+    lastname: fastmanEX
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  789a6040-b5bf-492a-a755-4f622d950e88:
+    lastname: Veloxio
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  79638850-7a9a-4b9c-beb3-cffb72f03edd:
+    lastname: SaxSalute
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  7abf75ca-78aa-4864-a0d9-72f470b7c13a:
+    lastname: rtruth9999
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  7c16e6b1-8d5c-4c37-80d4-b58aaec8abe3:
+    lastname: Zoomreddin
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  7cbf4f4a-b2c5-47bd-978b-df0cdc8b43f3:
+    lastname: Mrpepsilover300
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  7cc4d106-23d3-4c11-8dbd-714f49378028:
+    lastname: rok2001
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  7d8f53ea-e0ca-4be0-9795-91221984a293:
+    lastname: Captainbrofist
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  7dd7df96-bd13-4197-bb74-156ec3ef2ec6:
+    lastname: Cubed_Fury
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  7eb4b094-729f-4957-bc8a-930740de848b:
+    lastname: Ancient_Cookies
+    group: Novice
+    subgroups: []
+    permissions:
+    - nocheatplus.checks.moving.survivalfly
+  7fd92b89-7879-4c56-af9a-a0aec6d2328f:
+    lastname: ghowardtx
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  80db6f47-8d13-4835-8833-e93c8ab49c57:
+    lastname: JHarrison100
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  81fe955d-503a-4013-a098-0e518aeedc33:
+    lastname: rocco556
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  8323d2cf-10e9-4eda-91db-cd03470c8a20:
+    lastname: 1nfer070
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  834b9eb8-d87f-4b51-900b-3a1b55fbfb73:
+    lastname: iamjstn
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  851dad9b-9371-470c-a64d-e90f75f9be66:
+    lastname: mostfunguy
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  8568d320-6c4b-4c1b-98ca-307cea7e3f4c:
+    lastname: FifthDragon
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  8663b2d8-0019-46e4-9556-c11bafaa88f5:
+    lastname: Sofa_King_Wet
+    group: Mercenary
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  881667ae-2cfb-43be-b4a7-5db33ff9e87b:
+    lastname: Deaume
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  88ee8097-583b-4235-92cb-7e25fdf0d85d:
+    lastname: toons475
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  88ef4369-a1e6-452c-9a9e-d093ce17f94b:
+    lastname: Satire524
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  8c6fda86-88ff-4232-8c30-89f141c14dd3:
+    lastname: XxTehBanditxX
+    group: Merchant
+    subgroups: []
+    permissions:
+    - nocheatplus.checks.moving.survivalfly
+    info:
+      suffix: ''
+  8cb0dae6-2909-4951-856b-d312b1719cd9:
+    lastname: Petronix17
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  8cfa8722-ecb6-4bd8-b0af-d0ad838e1057:
+    lastname: dragontao
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  8d161cf2-954b-4f82-9915-1904c99454d3:
+    lastname: Simon_theDigger_
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  8d2e3d0c-eb57-429b-890d-e35bd69ae97a:
+    lastname: MasterHeroBrave
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  8fd1f9b5-a067-4dde-bccd-a27c4a04aa5b:
+    lastname: Jtppa
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  8ffca9e9-d97e-4aca-a470-71d79612c387:
+    lastname: CommanderSealand
+    group: Special
+    subgroups: []
+    permissions: []
+    info:
+      prefix: '&8✺ '
+      suffix: ''
+  90ad8634-0e78-466a-afa9-60ddb7cd0da9:
+    lastname: OliverDollar
+    group: Nomad
+    subgroups: []
+    permissions: []
+  91542958-0856-4f12-ba85-bd5bac6b3ed4:
+    lastname: neitzel5
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  922ccc48-ea7c-4381-bb41-ed157950ac6e:
+    lastname: Illuminati2MC
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  927eefc9-b19a-4b9c-9821-c4ff91f76fa9:
+    lastname: ianalan
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  9363e566-dc43-4e99-9c85-8f670f3e41b8:
+    lastname: TevoKJ
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  93e45350-4e41-413f-8896-a34c3b77053f:
+    lastname: calcalcalcalcal
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  9507d515-d675-41d9-8008-9fb532cda9b0:
+    lastname: michael7747
+    group: Nomad
+    subgroups: []
+    permissions: []
+  956e407b-d332-4df6-b0b7-08873fa7446d:
+    lastname: Pangea
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  9573b8fe-8f47-4920-a391-21982f632d69:
+    lastname: isaacguy
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  957c8d9c-8f85-423c-be98-db072ed7ed65:
+    lastname: aprilbrown101
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  958af803-3553-4920-91b1-47f3368424c7:
+    lastname: itachi49501
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  9693d771-e8ac-42a2-a956-6c7361746d76:
+    lastname: Jacktheboss25
+    group: Flatcorian
+    subgroups:
+    - SubGrass
+    permissions: []
+    info:
+      suffix: ''
+  9783c350-9473-4b4f-95d1-afd666f60022:
+    lastname: Karusan
+    group: Guardian
+    subgroups:
+    - Merchant
+    permissions: []
+    info:
+      suffix: ''
+  97ac19e4-bb24-43ff-9d03-26d18b2cde5d:
+    lastname: whoreos
+    group: Flatcorian
+    subgroups:
+    - SubSky
+    permissions: []
+    info:
+      suffix: +++
+  97beaa66-317f-4b80-8682-225ef8d9c73d:
+    lastname: SlimeySlug09
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  985220f5-8cc2-41b2-af43-0546d5eadae3:
+    lastname: ianyay
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  9a5cda03-d1dc-4fa7-95a7-26671f3e7da8:
+    lastname: Generic_Builder
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  9b92279e-4ab3-49a3-b015-475913b3f8cf:
+    lastname: Laliebol
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  9bb1bc4b-f4fa-4927-a668-e55c4ace3188:
+    lastname: FitiusMaximus
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  9bbf2e44-260b-4a63-9dca-9153f6c72d44:
+    lastname: foolishtiger1212
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  9e1b1fa3-568f-4cf0-a394-28a01237fef8:
+    lastname: Darkness_of_Blue
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  9e4ca347-6c36-4abe-a029-dd855643098d:
+    lastname: JonTheHobo123
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  9f0e8a85-7952-4630-ac5f-76bed6fb2dff:
+    lastname: Keeganalex
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  9fa79f00-b00f-4908-bd30-525b09855154:
+    lastname: wyrdone
+    group: Merchant
+    subgroups:
+    - SubGrass
+    permissions: []
+    info:
+      suffix: ''
+  9freeski:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  _Awesomepotamus_:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  _iheartsheep_:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  _jex_:
+    group: Nomad
+    subgroups: []
+    permissions: []
+  _TheSandvich_:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  _Twitchy:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  a08de08b-7f5c-4dd4-ba81-b47c6c3db9be:
+    lastname: Sinocopa5
+    group: Mercenary
+    subgroups:
+    - SubSky
+    permissions: []
+    info:
+      suffix: ''
+  a0a31f61-9e54-4a64-8eb6-618416b00490:
+    lastname: dilin1991
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  a335b1ec-62fe-4256-82de-d52aae50d036:
+    lastname: Aiyon
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  a38f3814-e164-4ebd-97b6-c2f69530c676:
+    lastname: captainjfud
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  a3c2fe7a-148d-48e6-a5f1-a876406a70f0:
+    lastname: Nerivunga
+    group: Merchant
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  a4fe3bbc-7155-4779-af8f-45aadbc3946a:
+    lastname: iPippy
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  a6088feb-a4e3-49e4-aa89-e82260a89603:
+    lastname: w2tpmf
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  a6ab60f1-9ea4-4540-a10c-f8e4c4770882:
+    lastname: theduck20
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  a84c1ff0-191f-420b-a9e8-0b5a94ef4ff9:
+    lastname: SwordFlight6216
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  a8e5c8b8-72a8-42f9-b4f2-079ec3540edb:
+    lastname: Xx3Creeper3xX
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  aa55265d-4dd4-4613-9721-e3750ba4a827:
+    lastname: Jawaman101010
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  aaa919a8-636f-4057-a2d9-dcdb898a8af9:
+    lastname: Mimal
+    group: Merchant
+    subgroups:
+    - CommunityManager
+    permissions: []
+    info:
+      suffix: +
+  aaecbd26-7006-4e00-b1dd-5887984a2e9f:
+    lastname: VendettaAce
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  aaronthehobo:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Abecedarius:
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  Ablu2:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  ac0e2963-1cf5-4e0a-8e04-a2ea6bc3b8a6:
+    lastname: craze27
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  ac7dfbcd-534c-4d4f-be67-dac3c0f25099:
+    lastname: cooperdooper123
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  acamps:
+    group: Nomad
+    subgroups: []
+    permissions: []
+  accountnumber3:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  AChiaPet22:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  ada1c6c5-f6ec-4a52-86e2-590b97411f04:
+    lastname: capzo
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Adamskys88:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  AdventureChicken:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Aendrin:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Aerinel:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  aeroplaned:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  af27d8cc-e431-4408-b26c-e6747b468475:
+    lastname: killerbomb09
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  aforest4688:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Ahnonymous:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Ahrie:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Ahtna:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  Ajp0206:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Akewi:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Akilok:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  alanca3:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Alexsmartguy:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  alexthegreet:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  alfonzo133:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  alienalf:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  alittlebird:
+    group: Nomad
+    subgroups: []
+    permissions: []
+  allcrafts:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  AlmightyTritan:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Alucard784:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  AMagicalBagel:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Amara_vandeVeldt:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  amigos3:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Andalin:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  AndrewWalden:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  andweb:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  andy1922:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  andyperfect:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  AnonymousAgent:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  antelopeking:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  antony_25:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  arekkusu90:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Ark7:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Armagedon76:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  ArrozChauChau:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Arugall:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  as334:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Aschuera:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  AstroNit:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  atlasrune:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  atomicdonutinc:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  aussieboy101:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Australasia:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  AweesomeSauce:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  AwesomeART7:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Azreal_ZA:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  b1393e45-59b6-477e-9c12-848c4d4ed15b:
+    lastname: ProtocolUnit
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  b1d5b42e-fa65-444d-b1d0-7e15a54c118c:
+    lastname: Ben_flame
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  b27554e9-5a69-4115-b6fa-4d7abe46b9fc:
+    lastname: Saboran
+    group: Merchant
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  b2ae66de-1d09-4fea-ae62-cd7e0011da72:
+    lastname: Pigboy501
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  b31b889f-8f9c-4ff0-9863-396044b966bf:
+    lastname: kacper_dw
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  b335ef10-e1e0-475c-ab49-da17993d41f8:
+    lastname: Ryan12618
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  b38ee4d3-7da8-472d-b32a-7e0ddefb02b3:
+    lastname: jummbl
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  b39c84ae-6018-48fb-84f4-6b8360780853:
+    lastname: animalfruit
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  b3be175f-821f-4755-be11-cacfda6d04cb:
+    lastname: 3at1ng0zm1um
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  b55ea68b-6166-414f-8ef6-d78c87ab3234:
+    lastname: king9377
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  b5c6cf51-0300-448f-a764-2fc9cb90572f:
+    lastname: qaby
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  b697442e-beb8-4643-b086-ef598861d127:
+    lastname: XxKeyMasterxX
+    group: Raider
+    subgroups:
+    - SubGrass
+    permissions: []
+    info:
+      suffix: ''
+  b6d4e05e-02c1-4b2c-b4db-3efe002db374:
+    lastname: ColaTab
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  b7420887-2401-4993-81a0-732e58fb4c1c:
+    lastname: RobCo_
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  b93eb607-a4c9-4524-aa3f-3835fea2b2c8:
+    lastname: MinishGuy
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  ba70b62c-112b-4b3b-9e5c-2c19eaacdc92:
+    lastname: lolsnail
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  ba75d53f-2556-4c80-9f4d-4745d1b8c721:
+    lastname: KhaosKhitteh
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  bab4e863-c004-4862-bb45-ce77b9a083b0:
+    lastname: delebird
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Babalabaskreep:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  BabaManga:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  bad07b8f-f39b-48bf-bdab-80793ef663fe:
+    lastname: Rylouie
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Banaanipuhelin:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Banana937:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  banjopaige:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  BarneyRebel:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Battlebearr:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  bcf6ce72-ad61-4871-9822-c30a6213a2fe:
+    lastname: Destructo5
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  bdb63d6e-6bf5-448e-b8d4-d61b8622d015:
+    lastname: Cattlelauncher
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  bdbee9b9-4573-466e-8131-398aeb24f8aa:
+    lastname: Beavcoon22
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  be91c545-3858-4515-82f9-eee6a39aee9f:
+    lastname: coolethanps2
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  beck_:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  BeelzebubSE:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  bema911:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  BenBrez:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Benefit1970:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  Benehfits:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  benex10:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  BeNiceToRice:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  berretaboy357:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  BerryBlue84:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Beximusprime:
+    group: Nomad
+    subgroups: []
+    permissions: []
+  bf822b4a-afd6-4d33-968d-13ce25f1e3df:
+    lastname: deckaj
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Big_Blue_Toaster:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  BigAlRam:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  BigPhloyd:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Bigstain:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  bilderwizerd:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  bill5125:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  BioPrince:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Biroxan:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  blablabla37:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  BlackDragonsSoul:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  blackhound1:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  blacknbluedragon:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  BladeRampage:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  blenderrrr:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Blizzerac:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  BlueheadedPants:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  BlueSlim3:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  BlueTorch_15:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Boardchip:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  BobwasGoat:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Boojamon:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  bookkid900:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Boss4life255:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Braveheart99:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  brianocallaghan:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Brndn004:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  bruce43x:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  buckojac:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Buildingo:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  butchrobotpope:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Butlerlog:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  ButterMutt:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Bws2cool:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  c0ee50a9-38ae-470d-82ba-0c523cccbe2c:
+    lastname: Bugmcw
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  c1194929-4295-4dc5-b786-1f5d9e2ffaf6:
+    lastname: Random_Hunterv3
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  c25a6f7b-4c42-40da-8cd6-add53f0c84eb:
+    lastname: arcadeboss
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  c2a1086f-3c56-4489-9a29-d3506d012e1a:
+    lastname: evilorgans
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  c2c123b2-fd63-4cf7-b7bd-7109878fab41:
+    lastname: TheRedVelvetCake
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  c519d789-a9f6-4035-b839-5f7c38e8e0e2:
+    lastname: KobraHawk
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  c5b90803-491f-4831-9c50-565f27e4b7b4:
+    lastname: Felixsum
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  c5f10198-761f-42c9-84b4-d387e57d9b1a:
+    lastname: Tbzz
+    group: Overseer
+    subgroups: []
+    permissions:
+    - bukkit.command.op.give
+    - bukkit.command.op.take
+    info:
+      suffix: ''
+  c606ff18-8d38-4887-a88d-555b5388efcc:
+    lastname: obee58
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  c68dd181-d432-4491-93f2-ca34b0ef9542:
+    lastname: xFandomNut97x
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  c6a32a62-c14f-426e-8c88-3d0e4ba06783:
+    lastname: Rocketboy901
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  c6ab815a-8cd7-4790-814b-51fd927a2b16:
+    lastname: zalamander
+    group: Mercenary
+    subgroups:
+    - SubSky
+    permissions: []
+    info:
+      suffix: +
+  c72021a5-6bc9-4176-92cf-2e30f137da27:
+    lastname: Jonny_Law
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  c7222905-0288-4289-80a1-4eb14a43feb2:
+    lastname: KittyAssasin
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  c723855f-6089-4086-823a-d37801e6471e:
+    lastname: FlyteOfHeart
+    group: Merchant
+    subgroups:
+    - SubGrass
+    permissions: []
+    info:
+      suffix: +
+  c73143b8-17d1-49e8-84e7-62f9649f9e58:
+    lastname: lettucetogod
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  c87e9385-1c2e-49d5-8a51-8d1b31ce3e31:
+    lastname: cokezero91
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  c887ee9f-4d76-429c-93ba-61390ba6ccb9:
+    lastname: eightsevenone
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  c88d2d02-3359-41c8-ba8c-2889e9bea6ee:
+    lastname: UltraMadPlayer
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  c_t_f:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  ca6f1bab-9279-4ca0-82d8-c048f0171b07:
+    lastname: sethe78
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  ca71a4f8-736c-46fd-9e37-6a06518bc8cc:
+    lastname: Leonheart515
+    group: Guardian
+    subgroups:
+    - Merchant
+    permissions: []
+    info:
+      suffix: ''
+  cae8e183-5886-4175-9f4c-0514ee18785e:
+    lastname: Codes97
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  CakeHead17:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  calcrafoord:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Camden10522:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Camderman106:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Canedis:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  CantinaMan:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  carre_rouge:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  catstalker72:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  CAVExFINDER:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Cberrry:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  cc304a81-d058-4862-8e53-7af16be2a9d5:
+    lastname: maodebo
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  cc3c9e52-c7dd-4664-b3f7-b8f1b12faee1:
+    lastname: 14mal02
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  cc8072aa-10c5-46ea-a482-0b86691817b4:
+    lastname: Dwizzed
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  ccec15d4-e669-4b02-8b90-3ffdd514a4e0:
+    lastname: Lugia101101
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  ce2987f8-51c7-46d8-81f6-3fd7787474ee:
+    lastname: SsSsSsSsSs_BOOM
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  celtic7:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  CertifedCupcake:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  cf03c666-3e61-4a17-b0c7-67b3645d1769:
+    lastname: MRdeadwolf
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  cf69bfcc-6960-488c-a87c-685b3b311205:
+    lastname: chesterton222
+    group: Mercenary
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  cfe3bd0a-6be0-436c-9ae5-2fe0d5689362:
+    lastname: ToxicWolf45
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  chadslaughter:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  ChaiLattes:
+    group: Nomad
+    subgroups: []
+    permissions: []
+  Chaos89:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  chaosbandit:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  ChapelGentry:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  cheese592:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  CheeseD:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  CheeseDoctor22:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  cheesefaceman1:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  cheesewizzzz:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  ChibizDemise:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  chicagobears32:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  chichi76:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  chinboogie:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  chippy99:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  chldnr:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Chloroplasts:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Chris_man1201:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  christhegale:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  ChuckDiesel:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  CineRaft:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  ClopTropStop:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  cmanrocks500:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  coasterfan9612:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Coldcarp1:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Coleson:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  ColNorse:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  comaro113:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Conkles1:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Connor_Da_Miner:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  coolpeopleit:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  coolsa:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  CorrelGaming:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  corvus1noctis:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  cosmosis42:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  cowlover3663:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  cproo12:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Crafter722:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  crazyking150:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  crazylumberjack4:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Crazyprsn:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  creepa_chaos007:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  crissbowie:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Cryopheonix:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  cubichero:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  curtrada1:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Curxait:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Cutecat42:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  CuteLord:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Cyphrus23:
+    group: Nomad
+    subgroups: []
+    permissions: []
+  Cywhr:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  d023adfd-bd58-407b-8aa6-ff19b4b51afd:
+    lastname: I_Punch_Cows
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  d0bffe8e-c2c0-4e79-9b71-5b1c041e783b:
+    lastname: thirdpancreas
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  d1ae566f-c249-43ae-8af3-6268443ad040:
+    lastname: siphtron
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  d27fe169-68a1-4935-bdbc-9df24d877712:
+    lastname: SquitleplaysMC
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  d29609d7-9550-40a9-984b-dce716949ea1:
+    lastname: claytonbigsby54
+    group: Mercenary
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  d2d441b2-0e82-4abe-a049-caf658fc5ea9:
+    lastname: Shucru
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  d32282c1-fb20-40e2-8ef1-b6a8aefb65e3:
+    lastname: Raecchi
+    group: Scribe
+    subgroups:
+    - CommunityManager
+    permissions: []
+    info:
+      suffix: +++
+  d3329849-c62a-467e-920d-8b3047e5406d:
+    lastname: samk45
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  d3420f2c-c8e9-42cd-8ac4-81ccdf2ab0ef:
+    lastname: matraz
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  d3914c25-30d4-4d92-8612-bc160442991c:
+    lastname: flamehound118
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  d3v1n555:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  d5443787-e971-46d1-ab8b-267ef4d807af:
+    lastname: chessyang
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  d591fdfc-48ac-4c72-866a-a7307f465d19:
+    lastname: blakecrone
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  d66200b4-c039-4325-9fd6-621bf2862bb1:
+    lastname: BrittaSehorn
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  d7f86ae6-04ee-4135-9faa-9b4b350afc16:
+    lastname: pockyp
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  d8081ec3-8b09-4eb4-a1c9-9a76375351e1:
+    lastname: jayjayzee98
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  d8f5bb3c-09b1-4265-9d53-c495b37c15e0:
+    lastname: Harflin
+    group: Guardian
+    subgroups:
+    - SubSky
+    - Mercenary
+    permissions: []
+    info:
+      suffix: ''
+  d9c7fdf4-1905-4221-8ea9-68991cec0577:
+    lastname: ConnorJames97
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  d9eb9aea-6728-466c-a239-adb4664970ce:
+    lastname: Madcedin
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  D_Cross:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  da72c9ff-1a8f-4f88-b63a-4f00eacd3aca:
+    lastname: soft319
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  da_sh:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  dacoconuttman:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  daedalistZ:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Dagger7300:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Dakota701:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  dallas97:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  daman4567:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Danandbass:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Danny_Park:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  dantao:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  danthewolf:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  DarkAngelsBlood1:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  darklord3805:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Darkmatter010:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  darkstar1997:
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  davidca1226:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  davidlewing:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  dc6206ea-cd0d-44b3-ba80-68591881ec4a:
+    lastname: tantantower
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  Dchan76:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  dd584bea-d132-48f8-b7bd-7d5602ffbd32:
+    lastname: robertbc1
+    group: Raider
+    subgroups: []
+    permissions: []
+  DdCooper:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  ddd052dd-00c0-4bb3-9ee5-ee72ce205073:
+    lastname: epicwhiteboy98
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  ddthj:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  de204860-9ddb-4dd1-8738-19bc3e2b295c:
+    lastname: isaactheawsome
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  deadtom04:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  deathmaster12123:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  deathtobubba:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Deerock001:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  DefaultTheMighty:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  DeGX7:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Derpite:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Descar:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  desertfox444:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Desillusi1:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  DestinyRaider:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  DestroyerCullen:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  detonatorman:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Dewgong:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  dfb4c74a-3678-48e4-bd8c-1cef9aa6994b:
+    lastname: openatheclose
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  dfe14ffa-e342-48c9-97eb-d830a305c521:
+    lastname: Awesome_Kiid
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Dhel:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  DigitalDee:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  DimitriB1:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  DinnerBunneh:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Diria:
+    group: Mercenary
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  dirminxia:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Distort:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Djslayer123:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Dkline26:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  dmanodmano:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  DoctorTaco100:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Dogboat88:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  dogking190:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Doomcaster11:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Draco21x:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  dragisal:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  dragon00000:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  drdavehere:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Drewb13:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Drewdelz08:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  DrManta:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  DrMcMarioRM:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  DuckyMQ:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Dudeguy1204:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  dwarfpieter:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  DylanCl:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  e058dcb3-4a0c-4c37-a7e2-5cd362b2a61c:
+    lastname: myndert
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  e05ad424-288c-465f-b46d-f42ad771c605:
+    lastname: DeKernelm
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  e0ad905c-9de3-4958-892a-d307e47bf5aa:
+    lastname: ridddle
+    group: Guardian
+    subgroups:
+    - Mercenary
+    - SubSky
+    - Root
+    permissions: []
+    info:
+      suffix: ''
+  e19a9c15-b681-4087-8afd-d3ad3f97d276:
+    lastname: WILKINS0N
+    group: Mercenary
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  e22a25fc-b0f9-4567-ba34-519050854e24:
+    lastname: Flmburrito
+    group: Mercenary
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  e23032a1-f6f4-46a1-8164-794dd0b7ff2d:
+    lastname: Syril
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  e23790d7-73ae-4b0e-aa65-eb51c2e3981d:
+    lastname: Ja33er
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  e38c50e5-c299-4106-975e-cab363a9740a:
+    lastname: Yoshi29pi
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  e3ef08a0-e8fa-4a47-82a7-52a8126f9f4d:
+    lastname: PatHeist
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  e5643b8a-d77c-4ec9-84fe-04a469e70197:
+    lastname: Holylifestar
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  e6b7d006-2bc7-431b-b080-b890192f371c:
+    lastname: rickclark58
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  e6cc042e-2393-4c97-a438-50bc644ee1c3:
+    lastname: greypony
+    group: Merchant
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  e8573594-56a9-4833-a028-50ec39358e32:
+    lastname: silrais
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  e86b2f5f-57b4-49d2-aeff-19dc81033013:
+    lastname: ConnorsCorner
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  eagleblade49:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  eaglehawkthing5:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  EatMyCereal:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  ec7dc99e-a096-4a00-a064-e66f1ac0fe8e:
+    lastname: Jollybeard99
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  ed027178-1f4b-4249-ae3b-f0e520186165:
+    lastname: electroshock601
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  eeafb05e-c2ab-41f1-af63-cd3b00c73e6c:
+    lastname: jacobmolho1
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  ef1ef6c1-8b6e-41e6-bba9-99e4bdb48e05:
+    lastname: narrowtux
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  El_Pebblo:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Elder_Felix:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  elitechad255:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  ElJaso5:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  ElmosVoice:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  elpez124:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Emblem_Of_Flames:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  emilaruba:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  EMINEM_SLIMSHADY:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Engage_Weakness:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  eniefaC:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Enorai:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  enRAGEd91:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  enriceau:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  eogra7:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  EOS117:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Ephuvex:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Epitaxy:
+    group: Nomad
+    subgroups: []
+    permissions: []
+  epixxfish_:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  ERCreeper:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  erocker0546:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  erops123:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Erosium:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  EugeneT:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  EverlostPoet:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Evil_K9:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Excessdrc1997MC:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  f0b9bf89-60b1-4635-b2b4-7feaa3bc4fb5:
+    lastname: soldierboy28
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  f0c53641-5973-4189-aeb6-e5cd08439962:
+    lastname: BurntBunn
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  f0f551af-318f-4559-8a37-26fc52cfd9da:
+    lastname: 25thBaam
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  f0fd8f46-6035-454a-a7d2-1dbd63ba5a33:
+    lastname: Ikarous
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  f106907b-6c46-4a64-9a19-d2db61bec542:
+    lastname: darrell59
+    group: Merchant
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  f1686622-36cb-4070-828b-3c5e48592bac:
+    lastname: HamPred
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  f2da9359-1fe7-418e-85b3-7a2ecbab19fb:
+    lastname: silkypaws
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  f342a493-e161-4506-8577-d5eac89ad3ce:
+    lastname: risenashes
+    group: Mercenary
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  f35a5402-a571-4b1b-b6eb-c463c0ad6c8a:
+    lastname: SDDJ
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  f43ff30e-1d45-4f90-a908-7278a20041c5:
+    lastname: ArsenicWaffles
+    group: Merchant
+    subgroups:
+    - CommunityManager
+    permissions: []
+    info:
+      suffix: ''
+  f4749e72-a13a-4cd4-b7dc-6d94dbbed580:
+    lastname: Triscar
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  f4fe1674-d29f-4e8d-a561-a5c022d1f2a2:
+    lastname: ynneka
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  f699f284-7d42-48e2-b82e-8dd83c1a8264:
+    lastname: TEALKOOLA1D
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  f88f6990-6076-4390-94bd-ab68de694dec:
+    lastname: spionpingu
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  f8dcf918-29e8-4785-af11-0b522dd1bc7a:
+    lastname: sheepster100
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  f95b43e8-bac7-496b-a949-5a31281f700e:
+    lastname: AnamCara85
+    group: Nomad
+    subgroups:
+    - SubSky
+    permissions: []
+    info:
+      suffix: ++
+  f9739b00-f515-4e2c-8404-44b0bf6509e2:
+    lastname: 89kevino
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  fa471f38-e38e-4c2a-abc6-c08b1a9eb2f3:
+    lastname: JamesX7
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  fa8241c3-2889-42a5-ac12-26bb5061b37d:
+    lastname: maanlander
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  fae32f97-2d6b-43e5-9867-b5f8841d357a:
+    lastname: PREeDaTOoR127
+    group: Novice
+    subgroups: []
+    permissions:
+    - -mcnsachat.read.f
+    - -mcnsachat.write.f
+    - -mcnsachat.player.msg
+    - -mcnsachat.player.me
+    - -mcnsachat.player.move
+    - mcnsachat.read.ccp
+    - mcnsachat.write.ccp
+  falteringplum64:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  fastgoddog:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  FATALITYxRROD:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  fatod:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Fatsam30:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  FattyMacLardson:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  fd53db79-320e-4ce6-8bc0-7a54988626c8:
+    lastname: xXOpticSlenderXx
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  fd911e37-3964-48e4-8beb-5dd978ac1f72:
+    lastname: DBeach2
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  fdee323e-7f0c-4c15-8d1c-0f277442342a:
+    lastname: silentpedro
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  FeatherFalling:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  fel3a172:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  ff735714-0384-4493-9d6a-c8612fef6b6e:
+    lastname: Dr_T_Tart
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  fiddlezt:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Finn_:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  FireworkMaster9:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  fireyo12:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  fitamajig:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Flakk_Munky:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Flascher:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  foxdude95:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  frazzle_99:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Frenziedfox:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  FriskyWombat:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Frogbob:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  fromanwild:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Frostbringer:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  FSJAL9000:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  ftret1:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  fuseaphobix:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  gabbalis:
+    group: Mercenary
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  GamerJake1000:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Gathaar:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  gen_erator:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  genisrox:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  GentleStranger:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Geoff95:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Gerheiej:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  ghed7:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  gibson_blood:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Gigahurt:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Glacon:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  gmoney624:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  gnunn2:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  goggle001:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  goldenwrapper:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  GoldIce:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  gradius10:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  grandodysseus:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  gravehorrorvacui:
+    group: Raider
+    subgroups: []
+    permissions: []
+  GreatBigOcean:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  GreenGold64:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  griffwalk14:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  groggydog:
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  groundhogdude:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Gufai:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  gyrateonegunner:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Hacardos:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  haikuFanfic:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  hamster74:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Hangover_TheWall:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  HangoverTheWall:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  HansBrix:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  hanso99:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Harry225:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  hartra:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  hascale:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Hateliptical:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  havenjg:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Hawkeye4692:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Haxxy:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Hazelnut20:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  hazmat_man:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  hdgsuperhero:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Heffa2000:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  henman14:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Herp_Derpington:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  HH11:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  HighTechnocrat:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Hiigari:
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Hijump:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Hirumiro:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Histidine_Kinase:
+    group: Nomad
+    subgroups: []
+    permissions: []
+  Hiyo802:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  hkfjsd6473:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  HomesliceHobbes:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  HossWade:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  hpkelly:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  HUFFULUMPAGUS:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  HughSP:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Huntroid:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Hurdlers:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Hxctemplar:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  HybridCraft:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Hynnia:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  i9000:
+    group: Mercenary
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  iaceo:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  ibwlegobeast:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  iCeBREAk0R:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  igwlegobeast:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  ILostMyBlocks:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  ImCoolYeah105:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Immortal476:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  InquisitorVawn:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  irish_chellist:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  irishwhite:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  is_mann:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  isaactheawesome:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  issacguy:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  iTristan:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  IVIisprint:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  IVIr_Canadian:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Izaden:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  j_mon5:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  jabesb2:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  jabobster:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Jackhammr:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  JacktheFlying:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  jacob2050:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  jakethebiley:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  JangoFett151:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Jarunai:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  jcdatria:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Jedizora:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  jeffbierer87:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  jellyman1100:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  JeremyP:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Jespersens:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  jesters7:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  jew_bacca:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Jhobozo:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Jimbobblue:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Jingman81:
+    group: Mercenary
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  jjoonn56:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  JJRocket_9:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  jkat718:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  jkb6292:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  jkelsey:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  jkubb29:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  jlpbradley:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  jmal13:
+    group: Mercenary
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Jmaster1435:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  jmba98:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  joebob500:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Johngazm:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  johnzoman:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  jojo3762:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  jonbond92:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  JosieJoe:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  JPThey:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  JTHousek1:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  JTW24:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Jufjufjuf:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  juiceboxshooter:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  JustSmall:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  jwhitney1996:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  k2thelob92:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  kaeleb:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Kaerlon:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  kainek:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  kaizali:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  kakadooodlekenny:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Kaladin_bridge4:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  KarateJJ:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  kawaii_dragoness:
+    group: Nomad
+    subgroups: []
+    permissions: []
+  kaylin:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Kazofhr:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Kazzx:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  kellywho:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Kenetic:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Kenix:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  kennytheshark:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Kervonus:
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  Kestreltalon:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  kgrimstad:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  khortonworld:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  kichrut:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Kidwhat:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  kill3rkw33n:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  Kill_Jar:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Kilockel:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Kindevexus:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Kingmal:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  kippyster:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  kirhiblesnich:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Kislingbury:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Kittens4Cthulhu:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  kloklodk:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Koala_Mcgee:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Kolika:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  komora:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Komosko:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  KonataLS:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Konji:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Korbasai:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  korvtall:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  kota_hamilton:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  krakenhactchling:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  kreigg:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  KuroKoneko77:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Kurtisk1:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Kurtscraft:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Kwinno:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  kyle6513:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  L4_DavidsonUNO:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  LadBlo:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Lady_Tourettes:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  LaneBlack:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  lazerkop:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  leahbender:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  leetje27:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Legodude231:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Leiche:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Levema:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  levi124:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  LewsTherin777:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  lifegrasp:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Limeboy:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  linerider88:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Lizantio:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  lizboo:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  lolmanmaster001:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  lolocopta1:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  lordthom:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  lovecheese2:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Lreez:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  luckywill8:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  lukeman829:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  lumbuxia:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  lunfe:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  lysergia:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  maba27:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  maboughey:
+    group: Novice
+    subgroups: []
+    permissions: []
+    info:
+      suffix: '&c*&7'
+  maciej01:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  maclookback:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Maddness53:
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  madsummers:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Magiccowy:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  MaGIkRO:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  MagnificentKenny:
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  MagnificientKenny:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  majorgamer20:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Malletninja93:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  manatee342:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  marc424:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  marcoaslak:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Martecan:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  martijn1313:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  matejdro:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  MattDodd2:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  matthew010411:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  max71121:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  MaxGoesOnline:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  maxine8899:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  maxthehumanboy:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  Mbmbmb98:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  mcguganator:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  Mckenzie13:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  mcsatan:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  McThriller:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  mdubsack:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  MeatWing:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  MegaBitez:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Meingras:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  MeleeMaster1231:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  mellinox:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  merlinrule2:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Metalguy488:
+    group: Nomad
+    subgroups: []
+    permissions: []
+  metans:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  mich05:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  microsoftt:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  midnight43:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  midnite111:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Miksu_15:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  mine_ghostN:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  minecraftpokekai:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  miner7747:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  minnie_ducky:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  MintyTreasure:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  mjboy8:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  mjnbrn:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  mmb19:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  mnd124:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  mnemiopsis:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  mobyguy77:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  ModestCucumber:
+    group: Nomad
+    subgroups: []
+    permissions: []
+  Mole116:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Molestache:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Mongerty:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  monoman123:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  monstercheese:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  moonsider:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  moonsinder:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  Mossman64:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  MPRBuster:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Mr_Mars655:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Mr_Tumnus_:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  mrbellamy:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  MrCam2k:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  MrCommentRates:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  MrFunkalicous:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  mrhoontar:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  mrjinx10:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  MrPiggeh:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  MrUbiq:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Mule_Is_My_Name:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  MultiTLC1999:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  musiccraftman:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  mustangsting:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  myrto:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  Mysterious_X:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  mythcaptor:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  NaghtSieger:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  naim16:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  nalai2:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Narusuji:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  NatasOmega:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  NB_FF:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  NebariPrime:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  nebiz:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  NekoStar:
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  nerdyjoe:
+    group: Nomad
+    subgroups: []
+    permissions: []
+  nevin_wetherill:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  ngAlan:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  nicknoble:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  ninja_panda11:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  nitefang:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  Noah6531:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  noahsmiley:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  noelleon14:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  NomFRENCHTOAST:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Noobish_Pro:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  noobtroller5000:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  norpo:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  nsanidy:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      prefix: '&4'
+  Nuclear_Zebra:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  NukeZombie1:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  obiashi:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Oblomova:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  OBSIDIAN_KREEPER:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  odst4767:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  offgame:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  OfficialMartin:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  OnQuack:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  onsens:
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  onurb92:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  OrangeKangaroo:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  OrgasmicGiraffe:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  otay1020:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  owenebs:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  owenseven:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  ozzraven:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  pandadeadbear:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  ParticleX:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  pawprints:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Pcrusen:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  PeanutBaby:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  pear1:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Peeplo:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Pepperpost:
+    group: Raider
+    subgroups: []
+    permissions: []
+  Pertonix16:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Pertonix17:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  pfleger25:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Philipt97:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  phillyphanthree:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  phobiac:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  PichuDX:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  PickleMan:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  pieman47:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Pineappleclock:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  pman17:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  poezer333:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Poketostorm:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Polarisknife:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  popoi55:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Potatowolf:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Pottrpupptpals:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Predator2920:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  ProjectBlueMC:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  PsYC0t1k:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  ptrickb:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  puffin:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  PurpleStarship:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  pwxn:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  qazed957:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  qisme2:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  quackdamnyou:
+    group: Nomad
+    subgroups: []
+    permissions: []
+  QuantumKiller4:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  quantumkitty:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  qwertynerd1:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  R0b0t4rmy:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  R0VER:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  R2XRA:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  R3APST3R:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  raccoonmario56:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Radridinghood:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Raging_Inferno99:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Railguy0:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  ramzone2:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  randomflyingtaco:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Ranrgamer:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  rawdog66:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Rawwar13:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  REDDRANK:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  RegiSicarii:
+    group: Nomad
+    subgroups: []
+    permissions: []
+  Relotu:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Relyh:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Renatae:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Repkap11:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  reserved5:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Resolutions:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Reynado:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  RicksterCraft:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Rickyj:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  Rincitis:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  ripck:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  Ripple_Echo:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  robscottish:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Rolfzorzor:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  romm22:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Rookie676:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  russfullr10:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  RyoZIN:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  S0NIC4X3L:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  sakuramboo:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  salerno_96:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  samuelc1197:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  sarahgirl234:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Satryghen:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  sayyaynaysayer:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Scarecrow1234:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Scene00:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Schoenheide:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  scout11335:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Sea_Ninja:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  Sempfra:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Sennka323:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Serenade497:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  sexyflanders:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Shadkowz:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  ShadowStalker6:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  shak1145:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  ShamePanda:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  shane5563:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Sharkd:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  sholls:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  ShweepB:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  SICarmy:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  sidben:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  sig_mason:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  SilentAzn:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  simms67:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  SimonThomp:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Sir___Punchwood:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Sir_Random1:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  SirBoots:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  SirennX:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  SkeletonCakes:
+    group: Nomad
+    subgroups: []
+    permissions: []
+  skishbrown:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  sktbrdr87:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  SkyGrid5:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Slayer_Arianna:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Sliad:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  SlothOfDoom:
+    group: Raider
+    subgroups: []
+    permissions: []
+  Slyco:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  SneakiestBeaver:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  snippert:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  snoius:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  snowdevil:
+    group: Nomad
+    subgroups:
+    - SubSky
+    permissions: []
+    info:
+      suffix: ''
+  snowtucs:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  SnowTwix:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  socceroos1507:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Sola_Rex:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  soldierp:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  something660:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  SongOfStorms_:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  sorakeyblade:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Spacecam45:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Sparky_Paradox:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  spidermonkey0:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  spikekiller399:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  spitfire103:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  splashboy_15:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  SplodingMango:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  spydrodeth:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  squaresun1901:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Squigee:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Stainbrook316:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  StarbuzZonPC:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Starshard0:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  stc777:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  StealthM0nkey:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  stealthman15:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  StephFreak:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  stereomind:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Steve2003:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Stickfodder:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  StoneHolder28:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Stopsight:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  stroggynugget:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  stuffinator:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Sugar_TheRush:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  superhalo6:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  supermaster110:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  SuperNovaPMX:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  SuperOlivia:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  suprcrazybelgian:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  sushiman42:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Swazbuckle:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  SweetPunishment:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  SwissAperture:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  swskeptic:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  TacticalBird96:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  talidorn:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Tangowolf:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  tashie3456:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Technocrusher225:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  technophil98:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Tefin:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  tehBlobLord:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  tehkwhiz:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  teknofilechik:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Tense:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  TenSpaces:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Th3Blood:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  ThaNinjaGinga:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  The_Broken:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  The_King1337:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  The_Lorax:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  the_narwhal_king:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  the_rooster:
+    group: Nomad
+    subgroups: []
+    permissions: []
+  TheAwesomeGuy21:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  thebiggiewall:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  TheBromaro:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  TheBurgerKing66:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  theCornyJoke:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  TheCuddler:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  TheDesiree:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  TheForceOfFire:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  TheGhostCat:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  TheHasselStoff:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  thehazz:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  thehomicidal:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  TheJRRNinja:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  thekevinmckevin:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Theleux:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  themagelives:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  theman4214:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  TheMiniBossMan:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Theor:
+    group: Scribe
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  TheRabidRabbi:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  TheRedHulk:
+    group: Nomad
+    subgroups: []
+    permissions: []
+  thethingisepic:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  TheWalfare:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  TheWayToGod:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  TheZemnot:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  ThirdPoliceman:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  thisguy347:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Thouskan:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  tigerboy224:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  time_warp1:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Tingalz:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  tinytim42:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  tj373952:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  tjehu:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  TJownz:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  todd5747:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  Toesh42:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  tonyale:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  tonythebrown:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  TooSkilled:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  toothpuppet:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  toursk8s:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  triplevenom57:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  TruffleShuffle5:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  tuba227:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Tudoreleu:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  tueman:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  turek279:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  TwoAM:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Tyler77:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Tynerid:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  TyphlosionGOD:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  uhhidk:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  UilVeer:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Ulcano:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Ulixses:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  ulrbar:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  USMC_Grunt0321:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Vaheliex:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Van_Awesome:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Vaniteux:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  vaxizoq:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Vehudur:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Verified_Walrus:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  ves37:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Vexcel:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
+  VeXyHD:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Viceak:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  vipc1:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Visce:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  vlna26:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  volcanofinn:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  VolumeBeat:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Wazupmaster:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Wedo511:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  whaddyamean939:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  whysoserious15:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  wickedsillyness:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Wildfire63010:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Willster:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  wipedout36:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Witchlamp:
+    group: Mercenary
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  wmrich21:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Wolfieoh:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  wolxe:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  xazerbation:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  xLiL_T:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  xMrBoomBasticx:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  xO_Mutley_Ox:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  xonear:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  xpoominer5:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  xSHRIGGAHx:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  xXBudderBroXx:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  xxRiftxx:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Yazz:
+    group: Nomad
+    subgroups: []
+    permissions: []
+  ydoclee:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  yinyangyan:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  YourGriefer:
+    group: Raider
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  ytghazal:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Yunica:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  Zach_baseball12:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  zachary555555:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  ZachTheKing:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  Zadqwee:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  zakjosh98:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  ZangoFett:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  ZBam:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  zebomadman:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  zenithangle:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  ZephyrKing:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  zerpa:
+    group: Nomad
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ++
+  zheroz:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  Zigster990:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +
+  Zipzap88:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  ziyadlemore:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: ''
+  ZombieMarsupial:
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+    info:
+      suffix: +++
