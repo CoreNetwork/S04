@@ -1,0 +1,89 @@
+Groups:
+  Animals:
+    ChunkLimit: 30
+    ViewDistanceLimit: 150
+    WarnOverLimit: true
+    HORSE:
+      Name: Horses
+      ChunkLimit: 16
+      ViewDistanceLimit: 150
+    COW:
+      Name: Cows
+      ChunkLimit: 30
+      ViewDistanceLimit: 150
+    SHEEP:
+      Name: Sheep
+      ChunkLimit: 30
+      ViewDistanceLimit: 150
+    CHICKEN:
+      Name: Chickens
+      ChunkLimit: 30
+      ViewDistanceLimit: 150
+    PIG:
+      Name: Pigs
+      ChunkLimit: 30
+      ViewDistanceLimit: 150
+  Villagers:
+    Name: Villagers and Golems
+    ChunkLimit: -1
+    ViewDistanceLimit: -1
+    WarnOverLimit: true
+    IRON_GOLEM:
+      Name: Golems
+      ChunkLimit: 4
+      ViewDistanceLimit: 32
+    VILLAGER:
+      Name: Villagers
+      ChunkLimit: 30
+      ViewDistanceLimit: 90
+EnabledWorlds:
+- world
+- world_nether
+ViewDistanceChunks: 9
+NoHorseBreed: false
+Debug: false
+NoPigmenPortal: false
+BreedingSpamDelaySeconds: 5
+OldMobKiller:
+  IntervalTicks: 1200
+  KillingAgeTicks: 6000
+  AffectedMobs:
+  - Zombie
+  - Skeleton
+  - Creeper
+  - Spider
+  - Witch
+  - PigZombie
+  - Blaze
+  - Slime
+  NearMobSearchRangeBlocks: 4
+  NearMobKillCount: 4
+Messages:
+  NoPermission: '&cNo permission!'
+  MobCountLine: '&6<MobName>: <ChunkCount>&7/<ChunkLimit> in chunk, &6<ViewDistanceCount>&7/<ViewDistanceLimit>
+    in view distance.'
+  MobCountLineOnlyChunk: '&6<MobName>: <ChunkCount>&7/<ChunkLimit> in chunk.'
+  MobCountLineOnlyVD: '&6<MobName>: &6<ViewDistanceCount>&7/<ViewDistanceLimit> in
+    view distance.'
+  TooManyMobs: '&cPlease consider killing some or moving nearby mobs to keep the server
+    healthy.'
+  BreedLimitReached: '&cYou cannot breed more than <MobLimit> <MobName> in view distance.'
+  NoHorseBreeding: '&cSorry, you are not allowed to breed horses. Find another one
+    in the wild.'
+Grid:
+  None:
+    Id: 20
+    Data: 0
+  Low:
+    Id: 95
+    Data: 5
+  Medium:
+    Id: 95
+    Data: 4
+  High:
+    Id: 95
+    Data: 1
+  Exceed:
+    Id: 95
+    Data: 14
+  Duration: 600
