@@ -131,3 +131,5 @@ Aliases:
   route: //schematic load $1
 - match: /mod
   route: /dutymode
+- match: /kill
+  route: /lim kill

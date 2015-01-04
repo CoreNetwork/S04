@@ -22,7 +22,7 @@ Limbo:
   - sudo <Player> mantle hydration restore
   - clear <Player> silent
   - kit <Player> limbo
-  - sudo <Player> warp limbo-start silent
+  - sudo <Player> warp limbo-library-start silent
   CommandsOnRespawn:
   - kit <Player> limbo
   - sudo <Player> warp limbo-library silent

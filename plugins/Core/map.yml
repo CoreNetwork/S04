@@ -2,8 +2,8 @@ Enabled: true
 TeleportDelay: 3
 Clicks:
 - regions:
-  - endspawncrystal
-  - endlimbocrystal
+  - end-spawn-crystal
+  - end-respawn-crystal
   block:
   - emerald_block
   commands:
@@ -11,19 +11,20 @@ Clicks:
   - /rspawn protect <Player>
   - /checkpoint clear
   - /clear silent
+  - /effect clear silent
 - regions:
-  - endlimboparkourcrystal
+  - limbo-parkour-crystal
   block: diamond_block
   commands:
   - /lim finish <Player> parkour
 - regions:
-  - enddeathpitcrystal
+  - limbo-death-pit-crystal
   block: diamond_block
   commands:
   - /lim finish <Player> deathpit
 - regions:
-  - endspawncrystal
-  - endlimbocrystal
+  - end-spawn-crystal
+  - end-respawn-crystal
   block: emerald_ore
   commands:
   - /rspawnteam
