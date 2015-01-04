@@ -105,9 +105,6 @@ Messages:
   RescueInProgress: '&6Please stand still for 5 seconds.'
   RescurePlayerMoved: '&cRescue cancelled due to movement.'
   NotEnabledIn: '&4You cannot use /trapped in this world.'
-ClaimsLimit:
-  Messages:
-    NoClaimsLeft: You used all of your <Claims> claims in this world.
 ClaimLiquids:
   Worlds:
     world:
