@@ -16,6 +16,8 @@ Messages:
   CompassNameWithDistance: '&b[<Category>] <Distance> blocks away'
   CompassNameWithoutDistance: '&5Tracking [<Category>]'
   CompassNameBlank: Compass
+  CompassCantFindVillage: '&cCouldn''t find any villages close nearby, walk a bit
+    and try again'
 LootTables:
   Organic:
     Items:
@@ -105,159 +107,166 @@ BasicCategories:
 - lootTable: Organic
   chances:
   - 1.0
+  - 0.2
   - 0.05
-  - 0.01
   icon:
     Name: sapling
     Amount: 1
     Damage: 0
   weight: 10
-  compassMaxDistance:
-  - 800
-  - 1000
-  - 1200
   compassMinDistance:
   - 200
-  - 400
-  - 600
+  - 200
+  - 200
+  compassMaxDistance:
+  - 2000
+  - 2000
+  - 2000
 - lootTable: Tools
   chances:
   - 1.0
+  - 0.2
   - 0.05
-  - 0.01
   icon:
     Amount: 1
     Name: iron_pickaxe
     Damage: 0
   weight: 10
   compassMaxDistance:
-  - 800
-  - 1000
-  - 1200
-  compassMinDistance:
   - 200
-  - 400
-  - 600
+  - 200
+  - 200
+  compassMinDistance:
+  - 2000
+  - 2000
+  - 2000
 - lootTable: CombatGear
   chances:
   - 1.0
-  - 0.05
+  - 0.1
   - 0.01
   icon:
     Amount: 1
     Name: iron_chestplate
     Damage: 0
   weight: 10
-  compassMaxDistance:
-  - 800
-  - 1000
-  - 1200
   compassMinDistance:
   - 200
-  - 400
-  - 600
+  - 200
+  - 200
+  compassMaxDistance:
+  - 2000
+  - 2000
+  - 2000
 RareCategories:
 - lootTable: Obsidian
   chances:
-  - 0.15
+  - 0.25
+  - 0.05
   - 0.01
-  - 0.001
-  perPlayerDayLimit: 5
   icon:
     Amount: 1
     Name: obsidian
     Damage: 0
-  weight: 20
-  perPlayerTotalLimit: 50
-  compassMaxDistance:
-  - 4000
-  - 4500
-  - 5000
+  weight: 25
+  preReqCategories:
+  - Organic
+  - Tools
+  - CombatGear
+  perPlayerTotalLimit: 500
   compassMinDistance:
-  - 2000
-  - 2500
-  - 3000
+  - 500
+  - 4000
+  - 7000
+  compassMaxDistance:
+  - 750
+  - 5000
+  - 10000
 - lootTable: Gold
   chances:
-  - 0.1
+  - 0.25
+  - 0.05
   - 0.01
-  - 0.001
-  perPlayerDayLimit: 5
   icon:
     Amount: 1
     Name: gold_ingot
     Damage: 0
-  weight: 10
-  perPlayerTotalLimit: 50
-  compassMaxDistance:
-  - 4000
-  - 4500
-  - 5000
+  weight: 25
+  preReqCategories:
+  - CombatGear
+  - Obsidian
+  perPlayerTotalLimit: 500
   compassMinDistance:
-  - 2000
-  - 2500
-  - 3000
-- lootTable: Diamond
+  - 750
+  - 6000
+  - 10000
+  compassMaxDistance:
+  - 1000
+  - 9000
+  - 12000
+- lootTable: IronHorseArmor
   chances:
-  - 0.1
+  - 0.25
+  - 0.05
   - 0.01
-  - 0.001
-  perPlayerDayLimit: 5
+  preReqCategories:
+  - CombatGear
+  - Obsidian
   icon:
     Amount: 1
-    Name: diamond
+    Name: iron_horse_armor
     Damage: 0
-  weight: 10
-  perPlayerTotalLimit: 50
-  compassMaxDistance:
-  - 4000
-  - 4500
-  - 5000
+  weight: 25
+  perPlayerTotalLimit: 100
   compassMinDistance:
+  - 1000
+  - 4000
+  - 7000
+  compassMaxDistance:
   - 2000
-  - 2500
-  - 3000
+  - 6000
+  - 9000
 - lootTable: EnchantedBook
   chances:
   - 0.2
+  - 0.05
   - 0.01
-  - 0.001
-  perPlayerDayLimit: 5
+  preReqCategories:
+  - Gold
+  - IronHorseArmor
   icon:
     Amount: 1
     Name: enchanted_book
     Damage: 0
   weight: 15
-  perPlayerTotalLimit: 50
-  compassMaxDistance:
-  - 4000
-  - 4500
-  - 5000
+  perPlayerTotalLimit: 100
   compassMinDistance:
+  - 1000
+  - 4000
+  - 7000
+  compassMaxDistance:
   - 2000
-  - 2500
-  - 3000
-- lootTable: IronHorseArmor
+  - 6000
+  - 9000
+- lootTable: Diamond
   chances:
   - 0.1
-  - 0.01
-  - 0.001
-  perPlayerDayLimit: 5
+  - 0.02
+  - 0.004
   preReqCategories:
-  - Organic
-  - Tools
+  - EnchantedBook
   icon:
     Amount: 1
-    Name: iron_horse_armor
+    Name: diamond
     Damage: 0
   weight: 10
-  perPlayerTotalLimit: 50
-  compassMaxDistance:
-  - 4000
-  - 4500
-  - 5000
+  perPlayerTotalLimit: 100
   compassMinDistance:
   - 2000
-  - 2500
-  - 3000
+  - 9000
+  - 12000
+  compassMaxDistance:
+  - 3500
+  - 10000
+  - 15000
 CompassNBTTag: compass
