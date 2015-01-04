@@ -10,6 +10,7 @@ Worlds:
         ImageMapColor: ffcc00
         PasteHeight: 1
         SpawnVillagers: true
+        RotateRandomly: true
         StoreAsRespawnable: Villages
         CreateRestockableChests: true
         Schematics:
