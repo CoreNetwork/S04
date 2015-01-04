@@ -46,18 +46,11 @@ Group:
   Header: '&bTeam respawn &3(optional)'
   NameColor: '&f'
   CounterColor: '&f'
-Holograms:
-  Lists:
-  - world_the_end;-2010.5;65;-4005.5;0;0
-  - world_the_end;-2017.5;93;-1106.5;0;0
-  Counters:
-  - world_the_end;-2010.5;65.3;-4005.5;0;0
-  - world_the_end;-2017.5;93.3;-1106.5;0;0
 LuckyBoosterMinutes: 720
 Holograms18:
   Lists:
-  - teamRespawn01
-  - teamRespawn02
+  - respawn-list
+  - spawn-list
   Counters:
-  - teamRespawnCounter01
-  - teamRespawnCounter02
+  - respawn-counter
+  - spawn-counter
