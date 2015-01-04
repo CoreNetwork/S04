@@ -38,17 +38,3 @@ server.properties
 /plugins/WorldEdit/schematics/*
 
 /plugins/WorldGuard/cache/*
-
-plugins/MobManager/limiter.yml
-
-*.sqlite
-
-plugins/Mantle/animals.sqlite
-
-plugins/Mantle/data.sqlite
-
-plugins/Mantle/storage/regeneration.yml
-
-plugins/Mantle/storage/rchests.yml
-
-plugins/Mantle/world.png
