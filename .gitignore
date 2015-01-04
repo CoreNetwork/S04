@@ -1,11 +1,10 @@
 /copy
 /world
 /world_nether
-/world_the_end
+/old_world_nether
 /logs/*
+/plugins-disabled
 
-/*.jar
-/plugins/*.jar
 *.log
 *.sqlite
 
@@ -15,6 +14,8 @@ whitelist.json
 ops.json
 usercache.json
 server.properties
+
+/plugins/GroupManager/backup/*
 
 /plugins/GriefPreventionData/PlayerData/*
 /plugins/GriefPreventionData/ClaimData/*
@@ -28,6 +29,7 @@ server.properties
 /plugins/Mantle/storage/regeneration.yml
 
 /plugins/MobManager/limiter.yml
+/plugins/MobManager/ProtectedAnimals.dat
 
 /plugins/MCNSAChat/chatLog.txt
 /plugins/MCNSAChat/errorLog.txt
