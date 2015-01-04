@@ -14,10 +14,10 @@ Trapped:
       MinX: -8000
       MinZ: -8000
     world_nether:
-      MaxX: 1998
-      MaxZ: 1998
-      MinX: -1998
-      MinZ: -1998
+      MaxX: 8000
+      MaxZ: 8000
+      MinX: -8000
+      MinZ: -8000
     Other:
       MaxX: 8000
       MaxZ: 8000
@@ -61,13 +61,21 @@ Buying:
       SuccessButton: '&6<Resource>, <Amount>'
       SuccessSuffix: '&a]'
       SuccessNoNext: '&aSuccess!'
-Claimslist:
+ClaimsLimits:
+  Groups:
+    Special: 10
+    Savant: 9
+    Scribe: 8
+    Merchant: 7
+    Mercenary: 6
+    Raider: 5
+    Nomad: 4
+    Flatcorian: 3
+    Novice: 2
+  Tool: bone
   Messages:
-    Header: '&7<WorldName> &8(<ClaimsNow>/<ClaimsMax>)'
-    Line: '&8------------'
-    Claim: '&6<X>, <Z> &7(area: <Area>)'
-    SpecialCaseClaim: '&c<X>, <Z> (area: <Area>)'
-    NoClaims: '&cYou don''t have claims yet! Learn how to do it: &7/help Claims'
+    NoClaimsLeft: '&cYou used all of your <Claims> claims in this world. Rank up!'
+Claimslist:
   Worlds:
     World:
       Name: World
@@ -75,6 +83,12 @@ Claimslist:
     Nether:
       Name: Nether
       ClaimsMax: 5
+  Messages:
+    Header: '&7<WorldName> &8(<ClaimsNow>/<ClaimsMax>)'
+    Line: '&8------------'
+    Claim: '&6<X>, <Z> &7(area: <Area>)'
+    SpecialCaseClaim: '&c<X>, <Z> (area: <Area>)'
+    NoClaims: '&cYou don''t have claims yet! Learn how to do it: &7/help Claims'
 Blocks:
   Messages:
     Header: '&7Claim blocks:'
