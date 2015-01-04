@@ -500,12 +500,17 @@ groups:
     - bukkit.command.summon
     - bukkit.command.clear
     - bukkit.command.tp
+    - minecraft.command.tp
+    - minecraft.command.enchant
+    - minecraft.command.effect
+    - minecraft.command.null
     - challenges.commands.chm.*
     - challenges.commands.cha.*
     - core.player.*
     - core.map.*
     - core.teleport.*
     - core.tp
+
     - mantle.command.*
     - mantle.nanobot.command.*
     - griefprevention.admin.*
