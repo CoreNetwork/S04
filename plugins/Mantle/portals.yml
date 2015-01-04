@@ -1,10 +1,10 @@
 Enabled: true
-PortalRatio: 4
-InvestigationTool: 999
+PortalRatio: 8
+InvestigationTool: 280
 Overworld:
   PortalCreationBoundary:
-    MinX: -8000
-    MinZ: -8000
+    MinX: -8001
+    MinZ: -8001
     MaxX: 8000
     MaxZ: 8000
     MinY: 3
@@ -14,15 +14,15 @@ Overworld:
     WithHigherYThan: 4
 Nether:
   PortalCreationBoundary:
-    MaxX: 2000
-    MaxZ: 2000
-    MinX: -2000
-    MinZ: -2000
-    MinY: 63
-    MaxY: 152
+    MaxX: 1000
+    MaxZ: 1000
+    MinX: -1001
+    MinZ: -1001
+    MinY: 1
+    MaxY: 184
   MoveSpawnedPortals:
-    WithLowerYThan: 64
-    WithHigherYThan: 64
+    WithLowerYThan: 120
+    WithHigherYThan: 120
 Messages:
   CanMakePortal: '&aYou can make a Nether portal here if you''d like'
   CantMakePortal: '&cYou cannot make a Nether portal here because it would overlap
