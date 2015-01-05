@@ -6,12 +6,6 @@ Structures:
     TimeOffsetSeconds: 60
     RegenerateIntervalSeconds: 900
     RegenerateAtOnce: 3
-  Palaces:
-    RespawnVillagers: true
-    WarnHighClaimedPercentage: true
-    TimeOffsetSeconds: 500
-    RegenerateIntervalSeconds: 9000
-    RegenerateAtOnce: 1
 Restoration:
   VillageCheckPadding: 0
   WarnPercentage: 50

@@ -96,6 +96,17 @@ LootTables:
     Items:
     - item:
         name: gold_ingot
+        amount: 2
+    - item:
+        rolls: 15
+        chance: 0.5
+        name: gold_ingot
+    - item:
+        name: diamond
+    - item:
+        rolls: 3
+        chance: 0.5
+        name: diamond
 GuiCompassTitle: Pick loot category
 GuiItems:
   CategoryOk:
