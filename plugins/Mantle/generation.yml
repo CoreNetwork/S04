@@ -67,7 +67,7 @@ Paths:
     World: world_nether
     Start: -3000 -3000
     StartTile: 12 12
-    ImageMapFileName: netherMap.png
+    ImageMapFileName: map_nether_highway.png
     Structures:
       HighwayPartConnection:
         ImageMapColor: ffff00
