@@ -62,8 +62,8 @@ files:
     allow-symbolic-links: false
 
 history:
-    size: 15
-    expiration: 10
+    size: 0
+    expiration: 0
 
 wand-item: 271
 shell-save-type:

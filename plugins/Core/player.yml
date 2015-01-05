@@ -50,6 +50,10 @@ Message:
   LostEffect: You have lost <Effect> effect.
   EffectsCleared: All effects cleared.
   LostAllEffects: You have lost all effects!
+  FrozenMessages:
+    PlateWarp:
+      Start: '&3Don''t move or get damaged for <Time> second<PluralS>'
+      Interrupt: '&cYou moved. Try triggering the plate again.'
 VanishEnabled: true
 Kits:
   modtools:

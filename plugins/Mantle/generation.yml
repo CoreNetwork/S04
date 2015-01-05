@@ -50,7 +50,7 @@ Worlds:
     Dimensions:
       Min: -8000 -8000
       Max: 8000 8000
-    MapFileName: map_world_nether.png
+    MapFileName: map_nether.png
     Structures:
       Altar:
         ImageMapColor: f6ff00
