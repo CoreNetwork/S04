@@ -4,6 +4,7 @@
 /old_world_nether
 /logs/*
 /plugins-disabled
+/crash-reports
 
 *.log
 *.sqlite
@@ -16,6 +17,7 @@ usercache.json
 server.properties
 
 /plugins/GroupManager/backup/*
+/plugins/GroupManager/worlds/world/users.yml
 
 /plugins/GriefPreventionData/PlayerData/*
 /plugins/GriefPreventionData/ClaimData/*
