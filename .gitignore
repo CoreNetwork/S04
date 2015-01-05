@@ -8,6 +8,7 @@
 
 *.log
 *.sqlite
+*.tar.gz
 
 banned-players.json
 banned-ips.json
