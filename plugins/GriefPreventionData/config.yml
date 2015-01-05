@@ -6,8 +6,8 @@ GriefPrevention:
   Claims:
     Mode:
       world_the_end: Disabled
-      world: Survival
       world_nether: Survival
+      world: Survival
     PreventTheft: true
     ProtectCreatures: true
     PreventButtonsSwitches: true

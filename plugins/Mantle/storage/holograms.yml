@@ -56,6 +56,20 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
+    - 8c23a459-89bc-4e57-994f-7a322bae41cb
+    - 7627b7dc-f7af-448f-8045-5907f602a0f3
+    x: 32.46656988295803
+    needsUpdating: false
+    y: 98.0
+    z: -46.93131097274009
+    text:
+    - You can also use a compass
+    - to lead you to desired loot
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
     - 48e6c35d-2ffe-4e9a-8579-959947241d86
     x: -22.5
     needsUpdating: false
@@ -122,9 +136,9 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 9fa42cc1-7400-4dc2-8ce6-f52ec45038df
-    - ec7bf67f-830e-4618-933c-625cf2c60e5c
-    - 32c4a572-f83b-4d49-b5ec-a2d89ee4d8e7
+    - ee16fe84-bd17-469c-af6f-d225e6f0f706
+    - 57a7414c-0662-4610-b667-59aee3177892
+    - e57943e1-75b9-412a-ac54-5e46acb3b8d0
     x: 6.5
     needsUpdating: false
     y: 98.0
@@ -138,15 +152,29 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 9d457044-c5d0-446e-baf3-52e8bf18146b
-    - 395e9538-5f07-4c70-a8f3-fe7c3f616978
+    - c95edaa5-7140-4acd-b152-2d2bcc63567c
+    - d865cae4-8a8a-4c83-bd98-5c30945769d1
+    x: 14.5
+    needsUpdating: false
+    y: 97.5
+    z: -43.5
+    text:
+    - '&aAll villages have blacksmiths'
+    - '&awith loot chests'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 5abc46f1-65f4-4059-ab59-8ce15d6daa73
+    - ecb17f5c-6387-4511-b30e-2b303af697cc
     x: 26.5050166932
     needsUpdating: false
     y: 98.0
     z: -63.5
     text:
-    - '&aFlatcore''s Nether'
-    - '&ais completely flat.'
+    - '&aThe flattest Nether'
+    - '&ayou have ever seen.'
     deleteOnNextUpdate: false
 - Hologram:
     world: world_the_end
@@ -220,15 +248,57 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 67715b36-66f1-4c24-8429-03c43ef458dc
-    - 7b14ce45-2456-42b4-8b84-51e3eb4b38a1
-    x: 24.5
+    - 43166f2d-dbde-4205-9da2-8b7307017490
+    - 462c49fd-09ac-4882-a57e-d66442981c4e
+    x: 25.5
     needsUpdating: false
-    y: 99.0
-    z: -86.5
+    y: 97.0
+    z: -34.5
     text:
-    - Pigmen are angry and spawn
-    - on the surface!
+    - Every chest is unique to every player
+    - and restocks when village regenerates
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - dd7a5d32-8fdf-4488-a800-48a1d6e46707
+    - 8d97413a-36a2-474f-9541-e2fc5053fa99
+    x: 21.5
+    needsUpdating: false
+    y: 99.5
+    z: -87.5
+    text:
+    - Pigmen are
+    - always angry
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - c76573a6-9e4b-47da-aad6-d5aec076b9be
+    - 44777e60-cb09-4189-a4a0-636077d18a0a
+    x: 25.5
+    needsUpdating: false
+    y: 99.5
+    z: -88.5
+    text:
+    - Blazes spawn
+    - near fire
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - b881de42-7a7c-4f66-a309-6dc9e7f121ca
+    - 02efa041-98d2-42a0-95ee-e2a624ee9944
+    x: 29.5
+    needsUpdating: false
+    y: 99.5
+    z: -89.5
+    text:
+    - Wither Skeletons
+    - spawn underground
     deleteOnNextUpdate: false
 - Hologram:
     world: world_the_end
@@ -316,6 +386,20 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
+    - f71080ad-3fdb-4e4e-9aeb-7601f24c63b1
+    - a0878b20-6287-42c4-8dec-4c50ee83569a
+    x: 11.81729035870909
+    needsUpdating: false
+    y: 100.0
+    z: -83.52295188966244
+    text:
+    - Find rare loot in dungeons
+    - scattered around the Nether
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
     - 716bdd0c-d8c0-49e8-a1d3-8e60082b6c97
     x: 4276.5
     needsUpdating: true
@@ -342,36 +426,8 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 83c2e75d-d63b-43b9-b6c6-a08f607ef771
-    - fc5879d3-ccf7-4886-8a6f-dba2cb8eb693
-    x: 71.5
-    needsUpdating: false
-    y: 99.5
-    z: 39.5
-    text:
-    - '&8Baby Zombies can outrun you.'
-    - '&8Pillar up and strike from above.'
-    deleteOnNextUpdate: false
-- Hologram:
-    world: world_the_end
-    hidden: false
-    linkedEntities:
-    - 72a5235a-69d1-46f9-afb2-4ae3bbef17f8
-    - 2733d31d-d3ed-400a-bfc6-299c71e1b31e
-    x: 65.5
-    needsUpdating: false
-    y: 99.5
-    z: 39.5
-    text:
-    - '&8Some spiders have potion effects.'
-    - '&8This one is invisible.'
-    deleteOnNextUpdate: false
-- Hologram:
-    world: world_the_end
-    hidden: false
-    linkedEntities:
-    - c969947b-9217-4e98-8511-9364a259c66f
-    - 2da6098c-c55b-4ed0-8d6e-41da0e783560
+    - 2b54c109-063c-4a45-93fa-4313c8ccd9a8
+    - 1a84ccce-c08a-49a5-82cd-d62e602978a5
     x: 65.5
     needsUpdating: false
     y: 97.0
@@ -396,8 +452,22 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 77c0de68-392e-4771-9967-5e63351ecb59
-    - a0f5ac48-15fa-435e-a097-8d69efe86518
+    - c5a2573b-b3e2-4216-a0af-53fb10912941
+    - 6b6fc9b6-ebcd-4e54-b95f-f6ebdd18d8f2
+    x: 32.5
+    needsUpdating: false
+    y: 97.0
+    z: -76.5
+    text:
+    - There is more to Flat Nether
+    - than meets the eye
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 9d251d27-f894-4c5f-ac75-22a5cb5d99b6
+    - d64b0d40-e573-49e4-a230-eed65cbf1746
     x: 46.5
     needsUpdating: false
     y: 98.0
@@ -405,6 +475,20 @@ Holograms:
     text:
     - '&aIt''s important to'
     - '&aprotect your base.'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 725511fd-4e72-4de4-8592-e38a9ef07200
+    - e9fae353-3c86-451c-8b6d-7f031a258f87
+    x: 34.5
+    needsUpdating: false
+    y: 101.0
+    z: -82.5
+    text:
+    - Complete Nether Highway Ruins
+    - and use it for fast travel
     deleteOnNextUpdate: false
 - Hologram:
     world: world_the_end
@@ -461,34 +545,6 @@ Holograms:
     text:
     - '&aThat''s it.'
     - '&aDon''t die.'
-    deleteOnNextUpdate: false
-- Hologram:
-    world: world_the_end
-    hidden: false
-    linkedEntities:
-    - 323a91e5-9545-4a56-8f81-67efe1e268a7
-    - 714f9454-523a-43de-9c24-d7fcc6b94904
-    x: 65.5
-    needsUpdating: false
-    y: 99.5
-    z: 53.5
-    text:
-    - '&8Endermen can teleport you.'
-    - '&8Don''t hide under blocks.'
-    deleteOnNextUpdate: false
-- Hologram:
-    world: world_the_end
-    hidden: false
-    linkedEntities:
-    - 4a881c57-c442-4409-856f-876090b823c2
-    - c588b118-d757-4e66-a5bf-9b45489dcb6c
-    x: 71.5
-    needsUpdating: false
-    y: 99.5
-    z: 53.5
-    text:
-    - '&8Creepers deal massive damage.'
-    - '&8Up to 27 hearts.'
     deleteOnNextUpdate: false
 - Hologram:
     world: world_the_end
