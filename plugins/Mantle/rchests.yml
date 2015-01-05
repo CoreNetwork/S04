@@ -82,6 +82,14 @@ LootTables:
     Items:
     - item:
         name: iron_horse_armor
+  PalaceTrash:
+    Items:
+    - item:
+        name: stone
+  PalaceTreasure:
+    Items:
+    - item:
+        name: gold_ingot
 GuiCompassTitle: Pick loot category
 GuiItems:
   CategoryOk:
