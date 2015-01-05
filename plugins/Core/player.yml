@@ -21,6 +21,7 @@ Limits:
 Border:
   world: 10
   Other: 0
+DelayGracePeriodInTicks: 20
 Message:
   InventorySelfCleared: '&6Inventory cleared.'
   InventoryPlayerCleared: '&6<Player>''s inventory cleared.'
