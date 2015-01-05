@@ -1,0 +1,33 @@
+regions:
+    south-wall:
+        min: {x: -8002.0, y: 0.0, z: 8001.0}
+        max: {x: 8002.0, y: 256.0, z: 8001.0}
+        members: {}
+        flags: {build: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    north-wall:
+        min: {x: -8002.0, y: 0.0, z: -8002.0}
+        max: {x: 8002.0, y: 256.0, z: -8002.0}
+        members: {}
+        flags: {build: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    east-wall:
+        min: {x: 8001.0, y: 0.0, z: -8002.0}
+        max: {x: 8001.0, y: 256.0, z: 8002.0}
+        members: {}
+        flags: {build: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    west-wall:
+        min: {x: -8002.0, y: 0.0, z: -8002.0}
+        max: {x: -8002.0, y: 256.0, z: 8002.0}
+        members: {}
+        flags: {build: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
