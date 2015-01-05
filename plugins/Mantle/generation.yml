@@ -62,6 +62,92 @@ Worlds:
           ClaimPermission: 1
         Schematics:
         - nether-altar-1
+Paths:
+  netherHighway:
+    World: world
+    Start: -111 -111
+    StartTile: 12 12
+    ImageMapFileName: netherMap.png
+    Structures:
+      HighwayPartConnection:
+        ImageMapColor: ffff00
+        PasteHeight: 114
+        Schematics:
+        - Highway-d1-v1
+        - Highway-d1-v2
+        - Highway-d1-v3
+        - Highway-d1-v4
+        - Highway-d1-v5
+        - Highway-d1-v6
+      HighwayPartNormal:
+        ImageMapColor: 00ff00
+        PasteHeight: 114
+        Schematics:
+        - Highway-d2-v1
+        - Highway-d2-v2
+        - Highway-d2-v3
+        - Highway-d2-v4
+        - Highway-d2-v5
+        - Highway-d2-v6
+        - Highway-d3-v1
+        - Highway-d3-v2
+        - Highway-d3-v3
+        - Highway-d3-v4
+        - Highway-d3-v5
+        - Highway-d3-v6
+        - Highway-d4-v1
+        - Highway-d4-v2
+        - Highway-d4-v3
+        - Highway-d4-v4
+        - Highway-d4-v5
+        - Highway-d4-v6
+      HighwayPartEnding:
+        ImageMapColor: 7f7f7f
+        PasteHeight: 114
+        Schematics:
+        - Highway-d5-v1
+        - Highway-d5-v2
+        - Highway-d5-v3
+        - Highway-d5-v4
+        - Highway-d5-v5
+        - Highway-d5-v6
+        - Highway-d6-v1
+        - Highway-d6-v2
+        - Highway-d6-v3
+        - Highway-d6-v4
+        - Highway-d6-v5
+        - Highway-d6-v6
+      HighwayPartEnding5:
+        ImageMapColor: 7a7a7a
+        PasteHeight: 114
+        Schematics:
+        - Highway-d5-v1
+        - Highway-d5-v2
+        - Highway-d5-v3
+        - Highway-d5-v4
+        - Highway-d5-v5
+        - Highway-d5-v6
+      HighwayPartEnding6:
+        ImageMapColor: 4b4b4b
+        PasteHeight: 114
+        Schematics:
+        - Highway-d6-v1
+        - Highway-d6-v2
+        - Highway-d6-v3
+        - Highway-d6-v4
+        - Highway-d6-v5
+        - Highway-d6-v6
+      HighwayIntersection:
+        ImageMapColor: ff0000
+        PasteHeight: 114
+        IgnoreAir: true
+        Schematics:
+        - Highway-Cross-v1
+        - Highway-Cross-v2
+        - Highway-Cross-v3
+        - Highway-Cross-v4
+        - Highway-Cross-v5
+        - Highway-Cross-v6
 Messages:
   ServerFrozen: '&cGenerating structures. The server is frozen, monitor progress in
     console.'
