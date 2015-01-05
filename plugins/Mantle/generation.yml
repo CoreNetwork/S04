@@ -64,8 +64,8 @@ Worlds:
         - nether-altar-1
 Paths:
   netherHighway:
-    World: world
-    Start: -111 -111
+    World: world_nether
+    Start: -3000 -3000
     StartTile: 12 12
     ImageMapFileName: netherMap.png
     Structures:
