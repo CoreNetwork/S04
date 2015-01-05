@@ -85,7 +85,13 @@ LootTables:
   PalaceTrash:
     Items:
     - item:
-        name: stone
+        rolls: 32
+        chance: 0.85
+        name: rotten_flesh
+    - item:
+        rolls: 32
+        chance: 0.85
+        name: bone
   PalaceTreasure:
     Items:
     - item:
