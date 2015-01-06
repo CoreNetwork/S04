@@ -500,17 +500,21 @@ groups:
     - bukkit.command.summon
     - bukkit.command.clear
     - bukkit.command.tp
-    - minecraft.command.tp
+    - minecraft.command.give
+    - minecraft.command.gamemode
+    - minecraft.command.xp
     - minecraft.command.enchant
     - minecraft.command.effect
-    - minecraft.command.null
+    - minecraft.command.setblock
+    - minecraft.command.summon
+    - minecraft.command.clear
+    - minecraft.command.tp
     - challenges.commands.chm.*
     - challenges.commands.cha.*
     - core.player.*
     - core.map.*
     - core.teleport.*
     - core.tp
-
     - mantle.command.*
     - mantle.nanobot.command.*
     - griefprevention.admin.*
@@ -561,13 +565,17 @@ groups:
     - motdmanager.remove
     - bukkit.command.op.give
     - bukkit.command.op.take
-    - bukkit.command.xp
     - bukkit.command.seed
-    - bukkit.command.clear
     - bukkit.command.gamerule
-    - bukkit.command.effect
     - bukkit.command.time.add
     - bukkit.command.time.set
+    - minecraft.command.op
+    - minecraft.command.deop
+    - minecraft.command.save-all
+    - minecraft.command.stop
+    - minecraft.command.time
+    - minecraft.command.seed
+    - minecraft.command.gamerule
     - automessage.commands.reload
     - monsterhunt.admincmd.*
     - mcnsachat.write.admin
