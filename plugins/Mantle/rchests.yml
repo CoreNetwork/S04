@@ -434,7 +434,7 @@ RareCategories:
   preReqCategories:
   - Organic
   - Tools
-  - CombatGear
+  - Armor
   perPlayerTotalLimit: 500
   compassMinDistance:
   - 500
@@ -467,12 +467,13 @@ RareCategories:
   - 9000
   - 12000
 - lootTable: HorseArmor
+  displayName: Horse Armor
   chances:
   - 0.25
   - 0.05
   - 0.01
   preReqCategories:
-  - CombatGear
+  - Armor
   - Obsidian
   icon:
     Amount: 1
@@ -490,13 +491,14 @@ RareCategories:
   - 6000
   - 9000
 - lootTable: EnchantedBook
+  displayName: Enchanted Book
   chances:
   - 0.2
   - 0.05
   - 0.01
   preReqCategories:
   - Gold
-  - IronHorseArmor
+  - HorseArmor
   icon:
     Amount: 1
     Name: enchanted_book
