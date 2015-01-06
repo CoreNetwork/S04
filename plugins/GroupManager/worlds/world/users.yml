@@ -1,7 +1,7 @@
 users:
   e0ad905c-9de3-4958-892a-d307e47bf5aa:
     lastname: ridddle
-    group: Guardian
+    group: Overseer
     subgroups:
     - Mercenary
     - SubSky

@@ -43,7 +43,7 @@ Lucky100: []
 Lucky66: []
 Group:
   TimeLimit: 15
-  Header: '&bTeam respawn &3(/help TeamRespawn)'
+  Header: '&bTeam respawn'
   NameColor: '&f'
   CounterColor: '&f'
 LuckyBoosterMinutes: 720

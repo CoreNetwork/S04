@@ -139,7 +139,7 @@ Tiers:
         result:
           currency: 1
     - trade:
-        comment: selling enchanted fishing rod
+        comment: selling fishing rod
         itemA:
           currency: 3
         result:
@@ -154,7 +154,7 @@ Tiers:
         result:
           currency: 1
     - trade:
-        comment: selling enchanted bow
+        comment: selling bow
         itemA:
           currency: 7
         result:
@@ -171,7 +171,7 @@ Tiers:
           item: flint
           amount: 8
     - trade:
-        comment: selling enchanted flint & steel
+        comment: selling flint & steel
         itemA:
           currency: 2
         result:
@@ -190,6 +190,32 @@ Tiers:
           currency: 14
         result:
           item: bow
+          enchants:
+          - pick:
+            - weights 100 90 30 15 1
+            - group:
+              - enchant:
+                  power: 1
+            - group:
+              - enchant:
+                  punch: 1
+            - group:
+              - enchant:
+                  power: 1
+                  bonusAmountA: 1
+              - enchant:
+                  punch: 1
+                  bonusAmountA: 0,1
+            - group:
+              - enchant:
+                  power: 2
+            - group:
+              - enchant:
+                  power: 2
+                  bonusAmountA: 1,2
+              - enchant:
+                  punch: 1
+                  bonusAmountA: 1
   Shepherd:
     '0':
     - trade:
@@ -345,9 +371,43 @@ Tiers:
     - trade:
         comment: selling enchanted book
         itemA:
-          currency: 5
+          currency: 10,12
         result:
           item: enchanted_book
+          enchants:
+          - pick:
+            - weights 10 10 10 10 10 7 7 5 5
+            - group:
+              - enchant:
+                  efficiency: 1
+            - group:
+              - enchant:
+                  smite: 1
+            - group:
+              - enchant:
+                  bane_of_arthropods: 1
+            - group:
+              - enchant:
+                  knockback: 1
+            - group:
+              - enchant:
+                  thorns: 1
+            - group:
+              - enchant:
+                  sharpness: 1
+                  bonusAmountA: 1,2
+            - group:
+              - enchant:
+                  depth_strider: 1
+                  bonusAmountA: 1,2
+            - group:
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 2,3
+            - group:
+              - enchant:
+                  fortune: 1
+                  bonusAmountA: 2,3
     '1':
     - trade:
         comment: selling compass
@@ -386,9 +446,40 @@ Tiers:
     - trade:
         comment: selling enchanted book
         itemA:
-          currency: 10
+          currency: 20,24
         result:
           item: enchanted_book
+          enchants:
+          - pick:
+            - weights
+            - group:
+              - enchant:
+                  efficiency: 2
+            - group:
+              - enchant:
+                  smite: 2
+            - group:
+              - enchant:
+                  bane_of_arthropods: 2
+            - group:
+              - enchant:
+                  thorns: 2
+            - group:
+              - enchant:
+                  sharpness: 2
+                  bonusAmountA: 3,6
+            - group:
+              - enchant:
+                  depth_strider: 2
+                  bonusAmountA: 3,6
+            - group:
+              - enchant:
+                  unbreaking: 2
+                  bonusAmountA: 6,9
+            - group:
+              - enchant:
+                  fortune: 2
+                  bonusAmountA: 6,9
     '4':
     - trade:
         comment: selling name tag
@@ -491,6 +582,55 @@ Tiers:
           currency: 32,38
         result:
           item: diamond_chestplate
+          enchants:
+          - pick:
+            - weights 30 30 30 30 15 10 10 10 10 5
+            - group:
+              - enchant:
+                  blast_protection: 1
+            - group:
+              - enchant:
+                  fire_protection: 1
+            - group:
+              - enchant:
+                  projectile_protection: 1
+            - group:
+              - enchant:
+                  thorns: 1
+            - group:
+              - enchant:
+                  protection: 1
+                  bonusAmountA: 3,4
+            - group:
+              - enchant:
+                  blast_protection: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 3,4
+            - group:
+              - enchant:
+                  fire_protection: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 3,4
+            - group:
+              - enchant:
+                  projectile_protection: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 3,4
+            - group:
+              - enchant:
+                  thorns: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 3,4
+            - group:
+              - enchant:
+                  protection: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 6,8
     '3':
     - trade:
         comment: selling chainmail boots
@@ -546,6 +686,68 @@ Tiers:
           currency: 9,11
         result:
           item: iron_sword
+          enchants:
+          - pick:
+            - weights 10 10 10 8 7 8 8 7 7 4 5 2
+            - group:
+              - enchant:
+                  knockback: 1
+            - group:
+              - enchant:
+                  smite: 1
+            - group:
+              - enchant:
+                  bane_of_arthropods: 1
+            - group:
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 1,2
+            - group:
+              - enchant:
+                  sharpness: 1
+                  bonusAmountA: 2,3
+            - group:
+              - enchant:
+                  knockback: 1
+              - enchant:
+                  smite: 1
+                  bonusAmountA: 1,2
+            - group:
+              - enchant:
+                  knockback: 1
+              - enchant:
+                  bane_of_arthropods: 1
+                  bonusAmountA: 1,2
+            - group:
+              - enchant:
+                  knockback: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 2,3
+            - group:
+              - enchant:
+                  knockback: 1
+              - enchant:
+                  sharpness: 1
+                  bonusAmountA: 2,3
+            - group:
+              - enchant:
+                  smite: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 5,6
+            - group:
+              - enchant:
+                  bane_of_arthropods: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 3,4
+            - group:
+              - enchant:
+                  sharpness: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 6,7
     '2':
     - trade:
         comment: buying diamond
@@ -556,16 +758,110 @@ Tiers:
     - trade:
         comment: selling enchanted diamond sword
         itemA:
-          currency: 1
+          currency: 21,23
         result:
           item: diamond_sword
-          amount: 21,23
+          enchants:
+          - pick:
+            - weights 10 10 10 8 7 8 8 7 7 4 5 2
+            - group:
+              - enchant:
+                  knockback: 1
+            - group:
+              - enchant:
+                  smite: 1
+            - group:
+              - enchant:
+                  bane_of_arthropods: 1
+            - group:
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 2,4
+            - group:
+              - enchant:
+                  sharpness: 1
+                  bonusAmountA: 4,6
+            - group:
+              - enchant:
+                  knockback: 1
+              - enchant:
+                  smite: 1
+                  bonusAmountA: 2,4
+            - group:
+              - enchant:
+                  knockback: 1
+              - enchant:
+                  bane_of_arthropods: 1
+                  bonusAmountA: 2,4
+            - group:
+              - enchant:
+                  knockback: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 4,6
+            - group:
+              - enchant:
+                  knockback: 1
+              - enchant:
+                  sharpness: 1
+                  bonusAmountA: 4,6
+            - group:
+              - enchant:
+                  smite: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 10,12
+            - group:
+              - enchant:
+                  bane_of_arthropods: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 6,8
+            - group:
+              - enchant:
+                  sharpness: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 12,14
     - trade:
         comment: selling enchanted diamond axe
         itemA:
           currency: 21,23
         result:
           item: diamond_axe
+          enchants:
+          - pick:
+            - weights 10 10 6 5 4 2
+            - group:
+              - enchant:
+                  efficiency: 1
+            - group:
+              - enchant:
+                  unbreaking: 1
+            - group:
+              - enchant:
+                  sharpness: 1
+                  bonusAmountA: 4,7
+            - group:
+              - enchant:
+                  efficiency: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 4,6
+            - group:
+              - enchant:
+                  sharpness: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 8,10
+            - group:
+              - enchant:
+                  efficiency: 1
+              - enchant:
+                  sharpness: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 10,12
   Tool Smith:
     '0':
     - trade:
@@ -582,6 +878,39 @@ Tiers:
           currency: 7,9
         result:
           item: iron_shovel
+          enchants:
+          - pick:
+            - weights 10 10 6 5 4 2
+            - group:
+              - enchant:
+                  efficiency: 1
+            - group:
+              - enchant:
+                  unbreaking: 1
+            - group:
+              - enchant:
+                  fortune: 1
+                  bonusAmountA: 1,2
+            - group:
+              - enchant:
+                  efficiency: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 2,3
+            - group:
+              - enchant:
+                  fortune: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 4,5
+            - group:
+              - enchant:
+                  efficiency: 1
+              - enchant:
+                  fortune: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 5,6
     '1':
     - trade:
         comment: buying iron ingot
@@ -596,6 +925,39 @@ Tiers:
           currency: 9,11
         result:
           item: iron_pickaxe
+          enchants:
+          - pick:
+            - weights 10 10 6 5 4 2
+            - group:
+              - enchant:
+                  efficiency: 1
+            - group:
+              - enchant:
+                  unbreaking: 1
+            - group:
+              - enchant:
+                  fortune: 1
+                  bonusAmountA: 1,2
+            - group:
+              - enchant:
+                  efficiency: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 2,3
+            - group:
+              - enchant:
+                  fortune: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 4,5
+            - group:
+              - enchant:
+                  efficiency: 1
+              - enchant:
+                  fortune: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 5,6
     '2':
     - trade:
         comment: buying diamond
@@ -609,6 +971,39 @@ Tiers:
           currency: 21,23
         result:
           item: diamond_pickaxe
+          enchants:
+          - pick:
+            - weights 10 10 6 5 4 2
+            - group:
+              - enchant:
+                  efficiency: 1
+            - group:
+              - enchant:
+                  unbreaking: 1
+            - group:
+              - enchant:
+                  fortune: 1
+                  bonusAmountA: 3,6
+            - group:
+              - enchant:
+                  efficiency: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 3,6
+            - group:
+              - enchant:
+                  fortune: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 8,10
+            - group:
+              - enchant:
+                  efficiency: 1
+              - enchant:
+                  fortune: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 10,12
   Butcher:
     '0':
     - trade:
@@ -671,13 +1066,13 @@ Tiers:
         result:
           currency: 1
     - trade:
-        comment: selling enchanted leather boots
+        comment: selling leather boots
         itemA:
           currency: 2
         result:
           item: leather_boots
     - trade:
-        comment: selling enchanted leather pants
+        comment: selling leather pants
         itemA:
           currency: 3
         result:
@@ -692,7 +1087,7 @@ Tiers:
         result:
           currency: 1
     - trade:
-        comment: selling enchanted leather tunic
+        comment: selling leather tunic
         itemA:
           currency: 4
         result:

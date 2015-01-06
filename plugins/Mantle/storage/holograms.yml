@@ -98,24 +98,24 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - f8a0f60b-efc5-4953-941f-c5d9f45c4379
-    x: 59.5
+    - 402461c9-c9fc-443c-be92-61fcec11b401
+    x: 61.5
     needsUpdating: false
-    y: 98.0
-    z: 40.5
+    y: 99.0
+    z: 35.5
     text:
-    - '&bTeam respawn &3(/help TeamRespawn)'
+    - '&bTeam respawn'
     id: spawn-list
     deleteOnNextUpdate: false
 - Hologram:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 1bc5c2a7-9c83-4432-8d90-b5283e946b11
-    x: 59.5
+    - 0f3c3283-1313-4806-88c5-c9a098251c36
+    x: 61.5
     needsUpdating: false
-    y: 99.0
-    z: 40.5
+    y: 100.0
+    z: 35.5
     text:
     - ' '
     id: spawn-counter
@@ -440,6 +440,20 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
+    - 20f9a2e3-efbf-4014-95e9-c182982d65ee
+    - 140e9c8c-e3a9-4b04-bc22-3a8527303782
+    x: 67.41161257138536
+    needsUpdating: false
+    y: 95.5
+    z: 37.45869873733777
+    text:
+    - Want to spawn with your friends?
+    - Press the button to learn how
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
     - 67bf32e6-9147-4d13-a910-93995e723df2
     x: 96.5
     needsUpdating: false
@@ -587,7 +601,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - bb7eb1e5-b2b7-4659-a9a1-c7d36cdab074
+    - 59c7edad-4487-4a30-966b-326fce6f6359
     x: -10.5
     needsUpdating: false
     y: 98.5
@@ -599,19 +613,20 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - a30d2261-961d-40fa-a1d9-156049fb6467
+    - 9d411f85-918d-4acf-b817-eac75027aaea
     x: -14.528460757247489
     needsUpdating: false
     y: 100.0
     z: -505.43601577102436
     text:
-    - '&bTeam respawn &3(/help TeamRespawn)'
+    - '&bTeam respawn'
     id: respawn-list
     deleteOnNextUpdate: false
 - Hologram:
     world: world_the_end
     hidden: false
-    linkedEntities: []
+    linkedEntities:
+    - a072def0-557f-4f49-b7f7-40b0780d0882
     x: -14.428650625602979
     needsUpdating: false
     y: 101.0

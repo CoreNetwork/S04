@@ -2120,7 +2120,7 @@ Tiers:
                 efficiency: 1
             - enchant:
                 efficiency: 2
-                bonusAmountA: 2,3
+                bonusAmountA: 1,3
             - enchant:
                 efficiency: 3
                 bonusAmountA: 7,9
