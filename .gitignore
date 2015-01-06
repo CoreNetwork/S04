@@ -18,7 +18,6 @@ usercache.json
 server.properties
 
 /plugins/GroupManager/backup/*
-/plugins/GroupManager/worlds/world/users.yml
 
 /plugins/GriefPreventionData/PlayerData/*
 /plugins/GriefPreventionData/ClaimData/*

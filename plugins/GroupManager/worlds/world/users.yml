@@ -1,0 +1,13 @@
+users:
+  e0ad905c-9de3-4958-892a-d307e47bf5aa:
+    lastname: ridddle
+    group: Guardian
+    subgroups:
+    - Mercenary
+    - SubSky
+    - Root
+    - MercenaryAdept
+    permissions:
+    - griefprevention.claims.ignorelimit
+    info:
+      suffix: ''
