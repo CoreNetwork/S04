@@ -1,0 +1,10 @@
+CAN_ONLY_OPEN_OWN_CHEST: You can only open your own Ender Chest.
+DEFAULT_CHEST_TITLE: Editing the default Ender Chest
+ENDER_CHESTS_DISABLED: Ender Chests have been disabled, because chests cannot be saved or loaded. Ask the admin of this server to look in the console.
+NO_PERMISSION: You don't have permission to do this.
+OVERFLOWING_CHEST_CLOSE: Some slots in this Ender Chest were disabled, but somehow there were items in those slots. Dropping them on the ground.
+PLAYER_NOT_SEEN_ON_SERVER: The player %s was never seen on this server.
+PRIVATE_CHEST_TITLE: Ender Chest (%s)
+PUBLIC_CHEST_CLOSE_MESSAGE: This was a public Ender Chest. Remember that your items aren't safe.
+PUBLIC_CHEST_TITLE: Ender Chest (Public Chest)
+GROUP_NOT_FOUND: The group in which the inventory %s should be was not found.

@@ -61,7 +61,7 @@ Fishing:
       LUCK: 10
     Items:
       - Item:
-          Name: lily_pad
+          Name: waterlily
           Exp: 15
           Weight: 60
       - Item:

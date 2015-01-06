@@ -1,4 +1,4 @@
-Debug: true
+Debug: false
 Messages:
   NoPermission: '&cNo permission!'
   ConfigurationReloaded: '&aConfiguration reloaded successfully!'

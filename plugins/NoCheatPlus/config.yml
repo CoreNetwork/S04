@@ -2,14 +2,16 @@ savebackconfig: true
 configversion:
   notify: true
   created: 741
-  saved: 741
+  saved: 754
 logging:
   active: true
   debug: false
+  maxqueuesize: 5000
   backend:
     console:
       active: true
       prefix: '[NoCheatPlus] '
+      asynchronous: true
     file:
       active: true
       prefix: ''
@@ -257,6 +259,8 @@ checks:
   fight:
     canceldead: true
     toolchangepenalty: 500
+    pvp:
+      knockbackvelocity: true
     yawrate:
       active: false
     angle:
@@ -266,7 +270,6 @@ checks:
     critical:
       active: true
       falldistance: 0.06251
-      velocity: 0.1
       actions: vl>50 log:critical:0:5:cif cancel cmd:kickcrit
     direction:
       active: true

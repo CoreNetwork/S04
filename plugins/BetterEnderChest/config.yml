@@ -1,0 +1,32 @@
+BetterEnderChest:
+  language: en
+  drop: OBSIDIAN
+  dropSilkTouch: ITSELF
+  dropCreative: NOTHING
+  showDebugMessages: false
+  lockChestsOnError: true
+  manualWorldgroupManagement: false
+  enderChestCompatibilityMode: true
+  lastModifiedByVersion: 2.2.6
+  useUUIDs: true
+AutoSave:
+  autoSaveIntervalSeconds: 300
+  saveTickIntervalTicks: 10
+  chestsPerSaveTick: 3
+PrivateEnderChest:
+  rankUpgrades: 3
+  defaultSlots: 27
+  slotsUpgrade1: 36
+  slotsUpgrade2: 45
+  slotsUpgrade3: 54
+PublicEnderChest:
+  showOnOpeningUnprotectedChest: false
+  showOnUsingCommand: false
+  defaultSlots: 27
+Database:
+  enabled: false
+  host: localhost
+  port: 3306
+  databaseName: minecraft
+  username: root
+  password: ''

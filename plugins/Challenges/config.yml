@@ -1,0 +1,339 @@
+SwitchTimeOffset: 586800
+Messages:
+  ListWeeksHeader: '&6ID &2START DATE &7STATUS [NEWLINE] &8---------------------------------'
+  ListWeeksEntry: '&6#<ID> &2<Date> &7<Status>'
+  ListLevelsHeader: ' [NEWLINE] &bChallenge #<ID> &7(<From> - <To>): [NEWLINE] &8---------------------------------'
+  ListLevelsEntry: '&e[<Level>] &7<Desc> &b<Points> points total'
+  ChallengeInProgress: Challenge in Progress
+  ChallengeEnded: Challenge ended
+  LevelCreated: <Number> levels created
+  FutureOnly: '&cYou can only edit future challenges!'
+  CreateCommandResponse: '&6Editing challenge &e#<ID>&6, running from &e<Start>&6
+    to &e<End>&6:'
+  CreateCommandInstructions: '&6Use &e/cha createlevel &6to add new level. [NEWLINE]
+    &6Use &e/cha editlevel &6[&enumber&6] to edit existing one.'
+  NotInEditMode: '&cYou must be in edit mode first! Use &7/cha editweek [week difference]'
+  FinishEditingFirst: '&cYou must first finish existing edit!'
+  CreatingLevel: '&aCreating level <Number>'
+  EditingLevel: '&aEditing level <Number>'
+  EnterDescription: '&6Enter description for this level. &8If you reach chatbox limit,
+    just hit Enter and continue with next line. [NEWLINE] &6Enter &e/ok &6to finish
+    input.'
+  OldDescription: '&7Previous description: &6<Desc>&f &7(Send &f/ok &7to leave it
+    as is)'
+  MustEnterDescription: '&cYou must enter a description! Try again.'
+  DescriptionPartEntered: '&aDescription received. Keep typing or send &f/ok &ato
+    finish.'
+  EnterPoints: '&6Enter amount of points players will get for this level:'
+  OldPoints: '&7Previous points: &6<Number> &7(Send &f-1 &7to not edit)'
+  MustEnterNumberPoints: '&cYou must enter number of points for the level. Try again.'
+  LevelSaved: '&aLevel saved. [NEWLINE] &6Use &e/cha createlevel &6to add another
+    level. [NEWLINE] &6Use &e/cha editlevel &6[&enumber&6] to edit existing. [NEWLINE]
+    &6Use &e/cha save &6to exit editing mode.'
+  EditingModeExit: '&7You are now leaving editing mode.'
+  LevelDeleted: Level deleted.
+  ChHeader: ' [NEWLINE] &bChallenge #<ID> &7- <Left> left - (<From> to <To>) [NEWLINE]
+    &8--------------------------------------------'
+  ChEntry: '&e[Level <Level>] &6<Desc> &b<Status> [NEWLINE] &8--------------------------------------------'
+  ChAllCompleted: '&bYou have completed all levels of this challenge! [NEWLINE] &7Wait
+    until next week for another.'
+  ChFooter: '&bWhen completed, use &f/ch done &bto submit your entry. [NEWLINE] &7Use
+    &f/ch all &7to display all levels.'
+  ChNumFooter: '&bWhen completed, use &f/ch done &bto submit your entry.'
+  ChAllFooter: '&bWhen completed, use &f/ch done &bto submit current level.'
+  Points: +<Points> points
+  Point: +<Points> point
+  Completed: Completed!
+  WaitingInspection: Awaiting inspection
+  AlreadyCompleted: '&cYou have already completed that level!'
+  DoneUsage: 'Usage: &b/ch done'
+  InvalidLevel: '&cThere is no level <Level>.'
+  ChallengeSent: '&aChallenge entry has been sent: &6/status. [NEWLINE] &aGive us
+    time to review it. Use &6/ch &afor another.'
+  ChallengeSentMax: '&aChallenge entry has been sent: &6/status. [NEWLINE] &aGive
+    us some time to review it.'
+  ModSubmissionNotice: '&b<Player> has sent level <Level>&b! Review: &f/chm tp <ID>'
+  ModLoginNotice: '&bThere are challenges to review (&e<Amount>&b). &f/chm list'
+  CompletedHeader: ' [NEWLINE] &bUse &f/chm tp id &bto claim a submission and teleport
+    to it: [NEWLINE] &8---------------------------------'
+  CompletedEntry: '&bID: <ID> &7- &f<Player> &e[Level <Level>] <HandledBy>'
+  CompletedFooterPages: '&8--------------------------------- [NEWLINE] &8Page <Current>/<Max>'
+  CompletedFooter: '&8--------------------------------- [NEWLINE]'
+  CompletedAllDone: '&bAll entries have been inspected. Good job!'
+  Teleported: '&6Teleported to &7<ID>&6. Use &7/chm complete &6to approve it. [NEWLINE]
+    &6Use &7/chm deny reason &6to deny it.'
+  InvalidID: '&cInvalid ID! Try again.'
+  CompletionDone: '&6Marked &7<ID> &6as completed. &7<Player> &6gets &7+<Points>'
+  DeleteOnlyOpenChallenges: '&cYou can''t delete an already closed challenge!'
+  SubmissionRejected: '&cYour challenge entry was rejected. Make sure to complete
+    all objectives and try again.'
+  SubmissionRejectedMesage: '&cYour challenge entry was rejected with a comment: &7<Message>'
+  Deleted: '&6Submission was deleted and rejected.'
+  LockOnlyApproved: '&cCannot lock! Use &7/chm complete &cfirst.'
+  LockFutureOnly: '&cYou cannot lock past week''s submissions!'
+  locked: '&6Area locked. Use &7/chm lock&6 to lock more areas.'
+  NewChallengeAnnouncement: '&b-------- [NEWLINE] &bAttention Flatcore! There is a
+    new weekly challenge. [NEWLINE] &bCheck out &f/ch &band get some points! [NEWLINE]
+    &b--------'
+  GlobalPunished: '&cPlayer &7<Player> &chas just lost &7<Points> &cpoints due to:
+    &7<Reason>&c.'
+  GlobalDemoted: '&cPlayer &7<Player> &chas just been demoted to &7<Class> &cdue to:
+    &7<Reason>&c.'
+  GlobalPromoted: '&b<Jubilation>! &f<Player> &bis now a &f<Class>&b!'
+  MessagePunished: '&cYour points were deducted by &7<Amount>.'
+  MessagePunishedReason: '&cYour points were deducted by &7<Amount>, due to <Reason>.'
+  MessagePromoted: '&aYou have been promoted to &6<Class>&a!'
+  MessagePromotedReason: '&aYou have been promoted to &6<Class>&a! (<Reason>)'
+  MessageDemoted: '&cYou have been demoted to &7<Class>&c.'
+  MessageDemotedReason: '&cYou have been demoted to &7<Class>&c. (<Reason>)'
+  PlayerPoints: '&6Player &7<Player>&6 has &7<Points>&6 points and <PendingPoints>
+    pending.'
+  PlayerPointsAltered: '&6Changed points for &7<Player>&6 by &7<Change>&6.'
+  ReasonComplete: '&bCompleted &e[Level <Level>] &bof Challenge #<Week>.'
+  MessageEarnedPoints: '&bYou got extra points: +&e<Amount>.'
+  MessageEarnedPointsReason: '<Reason> Points: &e+ <Amount>.'
+  FlatPoints: '&aYou have &6<Points>&a points. Your rank: &6<Rank>&a.'
+  FlatPointsNextRank: '&aYou have &6<Points>&a points. Your rank: &6<Rank>&a. [NEWLINE]
+    You need &6<PointsLeft>&a more points to get &6<NewRank>&a.'
+  NoPermssion: '&cYou are not allowed to do that.'
+  HandledBy: ' &cHandled by <Mod>'
+  AlreadyHandled: '&cThis challenge entry is already handled by <Mod>.'
+  StoppedAdmin: Plugin stopped. Use &a/cha resume (id)&f to resume it.
+  ResumedAdmin: Plugin resumed at level <Level>.
+  UsingPreviousId: '&6Using ID from last teleport: &7<ID>&6.'
+  Stopped: '&6Challenges are currently stopped.'
+  ResumedAnnouncement: '&b-------- [NEWLINE] &bAttention Flatcore! There is a new
+    weekly challenge. [NEWLINE] &bCheck out &f/ch &band get some points! [NEWLINE]
+    &b--------'
+  Rejected: '&cRejected.'
+  NotSubmitted: '&7Not submitted yet'
+  StatusHeader: '[NEWLINE] &bChallenge #<ID> &7(<From> - <To>, <Left> left) [NEWLINE]
+    &8--------------------------------------------'
+  StatusEntry: '&e[Level <Level>] <Status>'
+  StatusWaitingReview: '&eSubmitted, awaiting review'
+  StatusApproved: '&6Approved <Time> ago! &b+<Points>!'
+  StatusRejected: '&cRejected <Time> ago without comment.'
+  StatusRejectedComment: '&cRejected <Time> ago. Reason: <Comment>'
+  StatusNotSubmitted: '&7Not submitted yet.'
+  StatusTpLevel: '&6[Level <Numbers>] &7<State>'
+  StatusTpLevels: '&6[Levels <Numbers>] &7<State>'
+  ExplodeEntry: '&6Level <Level>: &7/chm tp <ID>'
+  SubmissionUnclaimed: '&6Submission is not handled by anyone anymore.'
+  CompletionDoneNoPoints: '&6Entry completed, but player won''t receive any points.
+    Did you complete it twice?'
+  SubmissionUndone:
+    NoReason: '&9Your challenge submission for level &e<Level>&9 was undone. Make
+      sure you fully fulfilled objectives and try again.'
+    Reason: '&9Your challenge submission for level &e<Level>&9 was undone: &a<Message>'
+  ModListEntries:
+    Title: 'Challenge entries for <Player>:'
+    Week: '#<Week>: <Entries>'
+    Entry: <Color><ID>/<Level>
+  NoChallengesThatWeek: There are no challenges submitted for that week.
+  ModUndo:
+    Summary: Undone <Levels> levels from <Player>, total of <Points> points
+    NotFound: No challenges found to undo
+  TopHeader: Player              Points  Pending
+  StatusHeaderPast: '[NEWLINE] &bChallenge #<ID> &7(<From> - <To>) [NEWLINE] &8--------------------------------------------'
+  ModList:
+    Header: 'Challenge entries from week #<Week>:[NEWLINE]&8---------------------------------'
+    Seperator: '&8---------------------------------'
+  ModHistory:
+    Header: Challenge edit history[NEWLINE]&8---------------------------------
+    HeaderPlayer: Challenge edit history for <Player>[NEWLINE]&8---------------------------------
+    Entry: '&eLevel <Level>&7, &6#<ID> <State>&7, <time> ago'
+    EntryPlayer: '&eLevel <Level>&7, &6#<ID> <State> &7by <moderator>, <time> ago'
+  ModTop:
+    Header: Challenge edits rank list[NEWLINE]&8---------------------------------
+    Entry: '#<Rank> <Player> <Edits>'
+  FlatPointsPlayer: '&6Player &7<Player>&6 has &7<Points>&6 points and &7<PointsPending>&6
+    pending. [NEWLINE]&6Their rank is &7<Rank>&6.'
+  FlatPointsNextRankPlayer: '&6Player &7<Player>&6 has &7<Points>&6 points and &7<PointsPending>&6
+    pending. [NEWLINE] &6Rank: &7<Rank> &6and &7<PointsLeft> points &6to &7<NewRank>&6'
+  ModUnclaim:
+    Unclaim: '&6Your claim for a submission has been released.'
+    UnclaimId: '&6A claim for submission &7<ID>&6 has been released.'
+  ModSubmissions:
+    List: '&6All accepted submissions for level &7<Level>&6 in week &7<Week>&6:[NEWLINE]<List>'
+PlayerClasses:
+  Novice:
+    PointsNeeded: 0
+    Group: Novice
+  Flatcorian:
+    PointsNeeded: 1
+    Group: Flatcorian
+  Adept Flatcorian:
+    PointsNeeded: 3
+    Group: FlatcorianAdept
+  Veteran Flatcorian:
+    PointsNeeded: 7
+    Group: FlatcorianVeteran
+  Master Flatcorian:
+    PointsNeeded: 12
+    Group: FlatcorianMaster
+  Nomad:
+    PointsNeeded: 18
+    Group: Nomad
+  Adept Nomad:
+    PointsNeeded: 25
+    Group: NomadAdept
+  Veteran Nomad:
+    PointsNeeded: 33
+    Group: NomadVeteran
+  Master Nomad:
+    PointsNeeded: 42
+    Group: NomadMaster
+  Raider:
+    PointsNeeded: 52
+    Group: Raider
+  Adept Raider:
+    PointsNeeded: 63
+    Group: RaiderAdept
+  Veteran Raider:
+    PointsNeeded: 75
+    Group: RaiderVeteran
+  Master Raider:
+    PointsNeeded: 88
+    Group: RaiderMaster
+  Mercenary:
+    PointsNeeded: 102
+    Group: Mercenary
+  Adept Mercenary:
+    PointsNeeded: 117
+    Group: MercenaryAdept
+  Veteran Mercenary:
+    PointsNeeded: 133
+    Group: MercenaryVeteran
+  Master Mercenary:
+    PointsNeeded: 150
+    Group: MercenaryMaster
+  Merchant:
+    PointsNeeded: 168
+    Group: Merchant
+  Adept Merchant:
+    PointsNeeded: 187
+    Group: MerchantAdept
+  Veteran Merchant:
+    PointsNeeded: 207
+    Group: MerchantVeteran
+  Master Merchant:
+    PointsNeeded: 228
+    Group: MerchantMaster
+  Scribe:
+    PointsNeeded: 250
+    Group: Scribe
+  Adept Scribe:
+    PointsNeeded: 273
+    Group: ScribeAdept
+  Veteran Scribe:
+    PointsNeeded: 297
+    Group: ScribeVeteran
+  Master Scribe:
+    PointsNeeded: 322
+    Group: ScribeMaster
+  Savant:
+    PointsNeeded: 348
+    Group: Savant
+  Adept Savant:
+    PointsNeeded: 375
+    Group: SavantAdept
+  Veteran Savant:
+    PointsNeeded: 403
+    Group: SavantVeteran
+  Master Savant:
+    PointsNeeded: 432
+    Group: SavantMaster
+  Special:
+    PointsNeeded: 462
+    Group: Special
+ProtectedGroups:
+- Guardian
+CommandDescriptions:
+  ch:
+    help: '&b/ch help &8-&7 This listing.'
+    done: '&b/ch done &8-&7 Mark current level as done.'
+    points: '&b/points &8-&7 Display your points and rank.'
+    all: '&b/ch all &8-&7 Display all challenge levels.'
+    ch: '&b/ch &8-&7 Show your next challenge.'
+    status: '&a/ch status &8-&f Show status of your challenges'
+    top: '&a/ch top &8-&f Show all this week''s challenges'
+  cha:
+    help: '&b/cha help &8-&7 This listing'
+    create: '&b/cha create &8-&7 Create new weekly challenge.'
+    edit: '&b/cha edit &8[&bid&8] &8-&7 Edit weekly challenge'
+    save: '&b/cha save &8-&7 Exit challenge creation mode'
+    exit: '&b/cha exit &8-&7 Exit challenge creation mode.'
+    list: '&b/cha list &8-&7 List all weekly challenges.'
+    createlevel: '&b/cha createlevel &8-&7 Create a new challenge level'
+    editlevel: '&b/cha editlevel &8[&blevel&8] &8-&7 Edit a challenge level'
+    deletelevel: '&b/cha deletelevel &8[&blevel&8] &8-&7 Delete a challenge level'
+    stop: '&b/cha stop &8-&7 Stop challenge submissions'
+    resume: '&b/cha resume &8-&7 Stop challenge submissions'
+    reload: '&b/cha reload &8-&7 Reload configuration.'
+  chm:
+    help: '&b/chm help &8-&7 This listing'
+    list: '&b/chm list &8-&7 List all awaiting challenge entries.'
+    tp: '&b/chm tp &8[&bid&8] &8-&7 Teleport to a challenge entry.'
+    complete: '&b/chm complete &8-&7 Mark a challenge entry as completed.'
+    deny: '&b/chm deny &8[&bid&8] &8[&breason&8] &8-&7 Reject a challenge entry.'
+    lock: '&b/chm lock &8[&bid&8] &8-&7 Lock selection for a challenge entry.'
+    explode: '&b/chm explode &8[&bid&8] &8-&7 View all levels of specific submission'
+    unclaim: '&b/chm unclaim &8[&bid&8] &8-&f Remove moderator claim from submission'
+    points: '&b/chm points &8[&bplayer&8] [&bpoints&8] [&breason&8] &8-&7 Edit points.'
+    undo: '&b/chm undo &8[&bid&8] &8-&f Reverts an already completed challenge entry'
+    history: '&a/chm history &8-&f Shows a list of recent edits (either global or
+      for a specific moderator, if given)'
+    blame: '&a/chm blame &8-&f Shows the moderator who edited the challenge with the
+      given ID'
+    top: '&a/chm top &8-&f Shows a ranked list of moderators, sorted by amount of
+      edits'
+    all: '&a/chm all &8-&f Prints all submissions from a given level'
+ItemsPerPage: 10
+DebugMode: false
+Colors:
+  ChallengeState:
+    NotSubmitted: '&8'
+    Submitted: '&6'
+    Accepted: '&e'
+    Rejected: '&c'
+Jubilations:
+- Earnest Einstein
+- Titilating Tesla
+- Darned Darwin
+- Nifty Newton
+- Classy Curie
+- Freaky Faraday
+- Audacious Archimedes
+- Fearless Feynman
+- Lavish Lovelace
+- Gallant Galileo
+- Fascinating Franklin
+- Clever Cavendish
+- Bold Bohr
+- Keen Kepler
+- Notorious Noether
+- Pimpin' Pasteur
+- Heroic Hypatia
+Top:
+  MaxPerPage: 10
+  FootnoteColor: '&7'
+  Place:
+    Header: '&8#&6#'
+    Display: <Place>
+    Color: '&6'
+    LeadingZeroColor: '&8'
+  Points:
+    Header: '&ePts'
+    Display: <Points>
+    Color: '&e'
+    LeadingZeroColor: '&8'
+  Name:
+    Header: '&rName'
+    Display: <Player>
+    Color: '&r'
+RunCommandOnRankUp: true
+CommandOnRankUp: crankreload
+Message:
+  ModSubmissions:
+    NotFound: '&6No accepted submissions for level &7<Level>&6 in week &7<Week>&6
+      found.'
