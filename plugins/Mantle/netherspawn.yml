@@ -18,7 +18,7 @@ WitherSkeleton:
   SpawningIntervalTicks: 10
   SpawnChance: 1
   MinY: 30
-  MaxY: 50
+  MaxY: 55
   Strength: 5.0
   BowChance: 0.1
   Speed: 0.265
