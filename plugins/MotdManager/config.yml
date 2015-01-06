@@ -1,0 +1,9 @@
+# MotdManager Configuration file!
+# @author syamn <admin@sakura-server.net>
+# github: https://github.com/syamn/MotdManager
+
+MotdList:
+- '&4Can connect to server.'
+FakeMaxPlayer: disable
+Debug: false
+DontTouchThisConfig: 1.3

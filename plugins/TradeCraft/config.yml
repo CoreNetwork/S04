@@ -451,7 +451,7 @@ Tiers:
           item: enchanted_book
           enchants:
           - pick:
-            - weights
+            - weights 10 10 10 10 7 7 5 5
             - group:
               - enchant:
                   efficiency: 2
