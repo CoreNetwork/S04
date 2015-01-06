@@ -48,8 +48,8 @@ snapshots:
     directory:
 
 navigation-wand:
-    item: 345
-    max-distance: 100
+    item: 347
+    max-distance: 250
 
 scripting:
     timeout: 3000

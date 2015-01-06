@@ -15,7 +15,7 @@ Messages:
   CompassName: '&b[<Category>] <Distance> blocks away'
   CompassNameWithDistance: '&b[<Category>] <Distance> blocks away'
   CompassNameWithoutDistance: '&b[<Category>] Tracking...'
-  CompassNameBlank: Compass
+  CompassNameBlank: '&rCompass'
   CompassCantFindVillage: '&cCouldn''t find any villages close nearby, walk a bit
     and try again'
 LootTables:

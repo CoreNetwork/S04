@@ -62,7 +62,7 @@ Kits:
   - nbt make 280 toolkit-stick 1 silent
   - nbt make 334 toolkit-leather 2 silent
   - nbt make 352 toolkit-bone 3 silent
-  - nbt make 345 toolkit-compass 4 silent
+  - nbt make 347 toolkit-navwand 4 silent
   deathpit:
   - nbt make 299 limbo-chest 38 silent
   - nbt make 300 limbo-pants 37 silent
