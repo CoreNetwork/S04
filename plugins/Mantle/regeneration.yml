@@ -17,7 +17,7 @@ Messages:
   PostponedInsert: '~<Postponed>, '
   ApprovedInsert: +<Approved>
   Respawned: '&aStructure regenerated (<Distance> blocks away).'
-  NoStructures: '&cNo regenerating structures in the database.'
+  NoStructures: '&cNo regenerating structures for this world in the database.'
   LoginWarn: '&6<Structure>: <Percentage>% claimed. &7More: /mantle analyze'
   StructureDeleted: '&cStructure deleted from the database.'
   StructureWillNotBeRestored: '&cStructure #<ID> (<Distance> blocks away) cannot regenerate.'
