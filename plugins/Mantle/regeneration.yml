@@ -5,7 +5,7 @@ Structures:
     WarnHighClaimedPercentage: true
     TimeOffsetSeconds: 60
     RegenerateIntervalSeconds: 900
-    RegenerateAtOnce: 3
+    RegenerateAtOnce: 0
 Restoration:
   VillageCheckPadding: 0
   WarnPercentage: 50

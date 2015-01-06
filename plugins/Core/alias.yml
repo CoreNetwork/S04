@@ -108,7 +108,7 @@ Aliases:
 - match: //ex( .*)?
   route: //expand $1
 - match: //c( .*)?
-  route: //contract
+  route: //contract $1
 - match: //sh( .*)?
   route: //shift $1
 - match: //mv( .*)?
