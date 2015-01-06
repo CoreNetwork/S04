@@ -56,7 +56,7 @@ groups:
     - mantle.command.treasureraid.leave
     - limbo.check
     - limbo.top
-    - limbo.command.kill
+    - limbo.kill
     inheritance: []
     info:
       prefix: '&7'
