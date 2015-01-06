@@ -11,8 +11,26 @@ Fishing:
           Name: fish
           Amount: 1
           Damage: 0
-          Weight: 10
-          Exp: 50
+          Weight: 60
+          Exp: 2
+      - Item: 
+          Name: fish
+          Amount: 1
+          Damage: 1
+          Weight: 25
+          Exp: 4
+      - Item: 
+          Name: fish
+          Amount: 1
+          Damage: 2
+          Weight: 2
+          Exp: 10
+      - Item: 
+          Name: fish
+          Amount: 1
+          Damage: 3
+          Weight: 13
+          Exp: 7
   Junk:
     Weight: 100
     Statistic: JUNK_FISHED
@@ -21,7 +39,20 @@ Fishing:
       LUCK: -25
     Items:
       - Item:
+          Name: rotten_flesh
+          Weight: 40
+      - Item:
           Name: leather_boots
+          Weight: 20
+      - Item:
+          Name: leather
+          Weight: 20
+      - Item:
+          Name: stick
+          Weight: 10
+      - Item:
+          Name: potion
+          Weight: 10
   Treasure:
     Weight: 50
     Statistic: TREASURE_FISHED
@@ -30,4 +61,16 @@ Fishing:
       LUCK: 10
     Items:
       - Item:
-          Name: gold_ingot
+          Name: lily_pad
+          Exp: 15
+          Weight: 60
+      - Item:
+          Name: name_tag
+          Exp: 20
+          Weight: 30
+      - Item:
+          Name: chainmail_chestplate
+          Exp: 30
+          Penalty: 5
+          Weight: 10
+          
