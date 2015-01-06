@@ -29,18 +29,18 @@ Worlds:
       LavaDrain: 1.0
       StartingMF: 1
   world_nether:
-    '48':
-      Drain: 0.1
+    '100':
+      Drain: 0.05
       FireDrain: 1.0
       LavaDrain: 1.5
       StartingMF: 1
-    '32':
-      Drain: 0.2
+    '49':
+      Drain: 0.1
       FireDrain: 1.5
       LavaDrain: 2.0
       StartingMF: 2
-    '16':
-      Drain: 0.3
+    '23':
+      Drain: 0.15
       FireDrain: 2.0
       LavaDrain: 2.5
       StartingMF: 3
