@@ -230,7 +230,7 @@ LootTables:
   EnchantedBook:
     Items:
     - pick:
-      - group:
+      - pick:
         - weights 2 5 3 5 1 2 4
         - item:
             name: enchanted_book
@@ -253,7 +253,7 @@ LootTables:
         - item:
             name: enchanted_book
             nbt: loot-power-4
-      - group:
+      - pick:
         - weights 2 3 5 1 4 5
         - item:
             name: enchanted_book
