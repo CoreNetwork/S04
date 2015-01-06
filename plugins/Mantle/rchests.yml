@@ -229,9 +229,50 @@ LootTables:
           amount: 2
   EnchantedBook:
     Items:
-    - item:
-        name: enchanted_book
-        nbt: loot-efficiency-2
+    - pick:
+      - group:
+        - weights 2 5 3 5 1 2 4
+        - item:
+            name: enchanted_book
+            nbt: loot-sharpness-5
+        - item:
+            name: enchanted_book
+            nbt: loot-sharpness-4
+        - item:
+            name: enchanted_book
+            nbt: loot-smite-5
+        - item:
+            name: enchanted_book
+            nbt: loot-smite-4
+        - item:
+            name: enchanted_book
+            nbt: loot-looting-3
+        - item:
+            name: enchanted_book
+            nbt: loot-power-5
+        - item:
+            name: enchanted_book
+            nbt: loot-power-4
+      - group:
+        - weights 2 3 5 1 4 5
+        - item:
+            name: enchanted_book
+            nbt: loot-unbreaking-3
+        - item:
+            name: enchanted_book
+            nbt: loot-efficiency-5
+        - item:
+            name: enchanted_book
+            nbt: loot-efficiency-4
+        - item:
+            name: enchanted_book
+            nbt: loot-fortune-3
+        - item:
+            name: enchanted_book
+            nbt: loot-feather-falling-4
+        - item:
+            name: enchanted_book
+            nbt: loot-feather-falling-3
   HorseArmor:
     Items:
     - item:
@@ -265,6 +306,10 @@ LootTables:
           name: bread
           amount: 3
   PalaceTrash:
+    PlayerControl:
+      ChanceDiminishing:
+        SubtractChanceOnce: 1.0
+        ZeroChanceMessage: '&cLooted once, empty forever.'
     Items:
     - pick:
       - rolls 10
@@ -305,6 +350,10 @@ LootTables:
           amount: 6
           chance: 0.65
   PalaceTreasure:
+    PlayerControl:
+      ChanceDiminishing:
+        SubtractChanceOnce: 1.0
+        ZeroChanceMessage: '&cLooted once, empty forever.'
     Items:
     - item:
         name: gold_ingot
@@ -338,6 +387,184 @@ LootTables:
       - item:
           name: diamond
           amount: 3
+  CatacombsSecret:
+    PlayerControl:
+      ChanceDiminishing:
+        SubtractChanceOnce: 1.0
+        ZeroChanceMessage: '&cLooted once, empty forever.'
+    Items:
+    - pick:
+      - chance 1.0
+      - item:
+          name: golden helmet
+          id: 314
+          nbt: loot-ench-fire-protection-4
+      - item:
+          name: golden chestplate
+          id: 315
+          nbt: loot-ench-fire-protection-4
+      - item:
+          name: golden pants
+          id: 316
+          nbt: loot-ench-fire-protection-4
+      - item:
+          name: golden boots
+          id: 317
+          nbt: loot-ench-fire-protection-4
+  CatacombsMaze:
+    PlayerControl:
+      ChanceDiminishing:
+        SubtractChanceOnce: 1.0
+        ZeroChanceMessage: '&cLooted once, empty forever.'
+    Items:
+    - item:
+        name: gold_ingot
+        amount: 2
+    - pick:
+      - rolls 12
+      - weights 4 2
+      - item:
+          name: gold_ingot
+          amount: 2
+          chance: 0.5
+      - item:
+          name: gold_ingot
+          amount: 3
+          chance: 0.5
+    - item:
+        name: diamond
+    - pick:
+      - chance 0.35
+      - weights 3 1
+      - item:
+          name: diamond
+          amount: 1
+      - item:
+          name: diamond
+          amount: 2
+  CatacombsMurder:
+    Items:
+    - item:
+        name: stone
+  CatacombsMorgue:
+    Items:
+    - item:
+        name: stone
+  CatacombsPods:
+    Items:
+    - item:
+        name: stone
+  CatacombsBots:
+    Items:
+    - item:
+        name: stone
+  CatacombsTrap:
+    PlayerControl:
+      ChanceDiminishing:
+        SubtractChanceOnce: 1.0
+        ZeroChanceMessage: '&cLooted once, empty forever.'
+    Items:
+    - item:
+        name: gold_ingot
+        amount: 2
+    - pick:
+      - rolls 12
+      - weights 4 3 2
+      - item:
+          name: gold_ingot
+          amount: 2
+          chance: 0.5
+      - item:
+          name: gold_ingot
+          amount: 3
+          chance: 0.5
+      - item:
+          name: gold_ingot
+          amount: 4
+          chance: 0.5
+    - item:
+        name: diamond
+    - pick:
+      - rolls 2
+      - weights 3 2 1
+      - item:
+          name: diamond
+          amount: 1
+      - item:
+          name: diamond
+          amount: 2
+      - item:
+          name: diamond
+          amount: 3
+  CatacombsEggs:
+    PlayerControl:
+      ChanceDiminishing:
+        SubtractChanceOnce: 1.0
+        ZeroChanceMessage: '&cLooted once, empty forever.'
+    Items:
+    - pick:
+      - rolls 7
+      - weights 6 5 4 3
+      - item:
+          name: netherbrick
+          amount: 4
+          chance: 0.65
+      - item:
+          name: netherbrick
+          amount: 8
+          chance: 0.65
+      - item:
+          name: netherbrick
+          amount: 12
+          chance: 0.65
+      - item:
+          name: netherbrick
+          amount: 16
+          chance: 0.65
+    - pick:
+      - rolls 7
+      - weights 6 5 4 3
+      - item:
+          name: quartz
+          amount: 4
+          chance: 0.65
+      - item:
+          name: quartz
+          amount: 8
+          chance: 0.65
+      - item:
+          name: quartz
+          amount: 12
+          chance: 0.65
+      - item:
+          name: quartz
+          amount: 16
+          chance: 0.65
+  NetherAltar:
+    PlayerControl:
+      ChanceDiminishing:
+        SubtractChanceOnce: 1.0
+        ZeroChanceMessage: '&cLooted once, empty forever.'
+    Items:
+    - pick:
+      - rolls 7
+      - weights 6 5 4 3
+      - item:
+          name: quartz
+          amount: 4
+          chance: 0.65
+      - item:
+          name: quartz
+          amount: 8
+          chance: 0.65
+      - item:
+          name: quartz
+          amount: 12
+          chance: 0.65
+      - item:
+          name: quartz
+          amount: 16
+          chance: 0.65
 GuiCompassTitle: Pick loot category
 GuiItems:
   CategoryOk:

@@ -1077,7 +1077,6 @@ Tiers:
           currency: 3
         result:
           item: leather_pants
-          amount: null
     '1':
     - trade:
         comment: buying rabbit hide
