@@ -5,7 +5,6 @@ PreventSpawningNether:
 - Blaze
 - Zombie
 - Ghast
-- Magma_Cube
 MinimumDistanceToPlayerSquared: 625
 MaximumDistanceToPlayerSquared: 9216
 Blaze:
@@ -13,12 +12,12 @@ Blaze:
 MagmaCube:
   SpawningIntervalTicks: 10
   MaxY: 256
-  MinY: 116
+  MinY: 0
 WitherSkeleton:
   SpawningIntervalTicks: 10
   SpawnChance: 1
-  MinY: 30
-  MaxY: 55
+  MinY: 32
+  MaxY: 56
   Strength: 5.0
   BowChance: 0.1
   Speed: 0.265
