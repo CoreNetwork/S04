@@ -1,0 +1,8 @@
+display:
+  compound:
+    Name: "&bDiamonds"
+    Lore:
+    - '&7Rare category'
+    - '&8[Click to Select]'
+HideFlags:
+  int: 63

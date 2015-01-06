@@ -1,0 +1,8 @@
+display:
+  compound:
+    Name: "&bEnchanted Book"
+    Lore:
+    - '&7Rare category'
+    - '&8[Click to Select]'
+HideFlags:
+  int: 63

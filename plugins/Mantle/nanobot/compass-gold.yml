@@ -1,0 +1,9 @@
+display:
+  compound:
+    Name: "&bGold"
+    Lore:
+    - '&3Gold and iron ingots'
+    - '&7Rare category'
+    - '&8[Click to Select]'
+HideFlags:
+  int: 63

@@ -1,0 +1,9 @@
+display:
+  compound:
+    Name: "&bObsidian"
+    Lore:
+    - '&3Obsidian and iron'
+    - '&7Rare category'
+    - '&8[Click to Select]'
+HideFlags:
+  int: 63

@@ -1,0 +1,9 @@
+display:
+  compound:
+    Name: "&bArmor"
+    Lore:
+    - '&3Iron armor and iron'
+    - '&7Basic category'
+    - '&8[Click to Select]'
+HideFlags:
+  int: 63

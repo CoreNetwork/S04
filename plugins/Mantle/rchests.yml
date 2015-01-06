@@ -19,78 +19,78 @@ Messages:
   CompassCantFindVillage: '&cCouldn''t find any villages close nearby, walk a bit
     and try again'
 LootTables:
-  Organic:
+  Sapling:
     Items:
     - item:
         name: sapling
     - pick:
-        - rolls 2
-        - chance 0.25
-        - weights 6 2
-        - item:
-            name: sapling
-            amount: 1
-        - item:
-            name: sapling
-            amount: 2
+      - rolls 2
+      - chance 0.25
+      - weights 6 2
+      - item:
+          name: sapling
+          amount: 1
+      - item:
+          name: sapling
+          amount: 2
     - pick:
-        - chance 0.85
-        - weights 9 4 1
-        - item:
-            name: apple
-            amount: 1
-        - item:
-            name: apple
-            amount: 2
-        - item:
-            name: apple
-            amount: 3
+      - chance 0.85
+      - weights 9 4 1
+      - item:
+          name: apple
+          amount: 1
+      - item:
+          name: apple
+          amount: 2
+      - item:
+          name: apple
+          amount: 3
     - pick:
-        - chance 0.25
-        - rolls 2
-        - weights 9 4 1
-        - item:
-            name: bread
-            amount: 1
-        - item:
-            name: bread
-            amount: 2
-        - item:
-            name: bread
-            amount: 3
+      - chance 0.25
+      - rolls 2
+      - weights 9 4 1
+      - item:
+          name: bread
+          amount: 1
+      - item:
+          name: bread
+          amount: 2
+      - item:
+          name: bread
+          amount: 3
   Tools:
     Items:
     - item:
         name: iron_pickaxe
     - pick:
-        - rolls 3
-        - weights: 20 12 6
-        - item:
-            name: iron_ingot
-            amount: 3
-            chance: 0.9
-        - item:
-            name: iron_ingot
-            amount: 4
-            chance: 0.9
-        - item:
-            name: iron_ingot
-            amount: 5
-            chance: 0.9
+      - rolls 3
+      - weights: 20 12 6
+      - item:
+          name: iron_ingot
+          amount: 3
+          chance: 0.9
+      - item:
+          name: iron_ingot
+          amount: 4
+          chance: 0.9
+      - item:
+          name: iron_ingot
+          amount: 5
+          chance: 0.9
     - pick:
-        - rolls 2
-        - chance 0.65
-        - weights 9 4 1
-        - item:
-            name: bread
-            amount: 1
-        - item:
-            name: bread
-            amount: 2
-        - item:
-            name: bread
-            amount: 3
-  CombatGear:
+      - rolls 2
+      - chance 0.65
+      - weights 9 4 1
+      - item:
+          name: bread
+          amount: 1
+      - item:
+          name: bread
+          amount: 2
+      - item:
+          name: bread
+          amount: 3
+  Armor:
     Items:
     - pick:
       - weights 10 5
@@ -105,33 +105,33 @@ LootTables:
         - item:
             name: iron_leggings
     - pick:
-        - rolls 3
-        - weights: 16 8 4
-        - item:
-            name: iron_ingot
-            amount: 2
-            chance: 0.75
-        - item:
-            name: iron_ingot
-            amount: 3
-            chance: 0.75
-        - item:
-            name: iron_ingot
-            amount: 4
-            chance: 0.75
+      - rolls 3
+      - weights: 16 8 4
+      - item:
+          name: iron_ingot
+          amount: 2
+          chance: 0.75
+      - item:
+          name: iron_ingot
+          amount: 3
+          chance: 0.75
+      - item:
+          name: iron_ingot
+          amount: 4
+          chance: 0.75
     - pick:
-        - rolls 2
-        - chance 0.65
-        - weights 9 4 1
-        - item:
-            name: bread
-            amount: 1
-        - item:
-            name: bread
-            amount: 2
-        - item:
-            name: bread
-            amount: 3
+      - rolls 2
+      - chance 0.65
+      - weights 9 4 1
+      - item:
+          name: bread
+          amount: 1
+      - item:
+          name: bread
+          amount: 2
+      - item:
+          name: bread
+          amount: 3
   Obsidian:
     Items:
     - item:
@@ -141,213 +141,215 @@ LootTables:
         chance: 0.5
         name: obsidian
     - pick:
-        - rolls 2
-        - weights: 16 8 4
-        - item:
-            name: iron_ingot
-            amount: 2
-            chance: 0.75
-        - item:
-            name: iron_ingot
-            amount: 3
-            chance: 0.75
-        - item:
-            name: iron_ingot
-            amount: 4
-            chance: 0.75
+      - rolls 2
+      - weights: 16 8 4
+      - item:
+          name: iron_ingot
+          amount: 2
+          chance: 0.75
+      - item:
+          name: iron_ingot
+          amount: 3
+          chance: 0.75
+      - item:
+          name: iron_ingot
+          amount: 4
+          chance: 0.75
     - pick:
-        - rolls 2
-        - chance 0.65
-        - weights 6 2
-        - item:
-            name: bread
-            amount: 1
-        - item:
-            name: bread
-            amount: 2
+      - rolls 2
+      - chance 0.65
+      - weights 6 2
+      - item:
+          name: bread
+          amount: 1
+      - item:
+          name: bread
+          amount: 2
   Gold:
     Items:
     - pick:
-        - weights 10 5
-        - item:
-            name: gold_ingot
-        - item:
-            name: gold_ingot
-            amount: 2
+      - weights 10 5
+      - item:
+          name: gold_ingot
+      - item:
+          name: gold_ingot
+          amount: 2
     - pick:
-        - rolls 2
-        - weights: 16 8 4
-        - item:
-            name: iron_ingot
-            amount: 1
-            chance: 0.75
-        - item:
-            name: iron_ingot
-            amount: 2
-            chance: 0.75
-        - item:
-            name: iron_ingot
-            amount: 3
-            chance: 0.75
+      - rolls 2
+      - weights: 16 8 4
+      - item:
+          name: iron_ingot
+          amount: 1
+          chance: 0.75
+      - item:
+          name: iron_ingot
+          amount: 2
+          chance: 0.75
+      - item:
+          name: iron_ingot
+          amount: 3
+          chance: 0.75
     - pick:
-        - rolls 2
-        - chance 0.65
-        - weights 6 2
-        - item:
-            name: bread
-            amount: 1
-        - item:
-            name: bread
-            amount: 2
+      - rolls 2
+      - chance 0.65
+      - weights 6 2
+      - item:
+          name: bread
+          amount: 1
+      - item:
+          name: bread
+          amount: 2
   Diamond:
     Items:
     - item:
         name: diamond
     - pick:
-        - weights: 16 8 4
-        - item:
-            name: iron_ingot
-            amount: 1
-            chance: 0.75
-        - item:
-            name: iron_ingot
-            amount: 2
-            chance: 0.75
-        - item:
-            name: iron_ingot
-            amount: 3
-            chance: 0.75
+      - weights: 16 8 4
+      - item:
+          name: iron_ingot
+          amount: 1
+          chance: 0.75
+      - item:
+          name: iron_ingot
+          amount: 2
+          chance: 0.75
+      - item:
+          name: iron_ingot
+          amount: 3
+          chance: 0.75
     - pick:
-        - rolls 2
-        - chance 0.65
-        - weights 6 2
-        - item:
-            name: bread
-            amount: 1
-        - item:
-            name: bread
-            amount: 2
+      - rolls 2
+      - chance 0.65
+      - weights 6 2
+      - item:
+          name: bread
+          amount: 1
+      - item:
+          name: bread
+          amount: 2
   EnchantedBook:
     Items:
     - item:
         name: enchanted_book
         nbt: loot-efficiency-2
-  IronHorseArmor:
+  HorseArmor:
     Items:
     - item:
         name: iron_horse_armor
     - pick:
-        - rolls 3
-        - weights: 16 8 4
-        - item:
-            name: iron_ingot
-            amount: 2
-            chance: 0.75
-        - item:
-            name: iron_ingot
-            amount: 3
-            chance: 0.75
-        - item:
-            name: iron_ingot
-            amount: 4
-            chance: 0.75
+      - rolls 3
+      - weights: 16 8 4
+      - item:
+          name: iron_ingot
+          amount: 2
+          chance: 0.75
+      - item:
+          name: iron_ingot
+          amount: 3
+          chance: 0.75
+      - item:
+          name: iron_ingot
+          amount: 4
+          chance: 0.75
     - pick:
-        - rolls 2
-        - chance 0.65
-        - weights 9 4 1
-        - item:
-            name: bread
-            amount: 1
-        - item:
-            name: bread
-            amount: 2
-        - item:
-            name: bread
-            amount: 3
+      - rolls 2
+      - chance 0.65
+      - weights 9 4 1
+      - item:
+          name: bread
+          amount: 1
+      - item:
+          name: bread
+          amount: 2
+      - item:
+          name: bread
+          amount: 3
   PalaceTrash:
     Items:
     - pick:
-        - rolls 10
-        - weights 6 5 4 3
-        - item:
-            name: rotten_flesh
-            amount: 3
-            chance: 0.65
-        - item:
-            name: rotten_flesh
-            amount: 4
-            chance: 0.65
-        - item:
-            name: rotten_flesh
-            amount: 5
-            chance: 0.65
-        - item:
-            name: rotten_flesh
-            amount: 6
-            chance: 0.65
+      - rolls 10
+      - weights 6 5 4 3
+      - item:
+          name: rotten_flesh
+          amount: 3
+          chance: 0.65
+      - item:
+          name: rotten_flesh
+          amount: 4
+          chance: 0.65
+      - item:
+          name: rotten_flesh
+          amount: 5
+          chance: 0.65
+      - item:
+          name: rotten_flesh
+          amount: 6
+          chance: 0.65
     - pick:
-        - rolls 10
-        - weights 6 5 4 3
-        - item:
-            name: bone
-            amount: 3
-            chance: 0.65
-        - item:
-            name: bone
-            amount: 4
-            chance: 0.65
-        - item:
-            name: bone
-            amount: 5
-            chance: 0.65
-        - item:
-            name: bone
-            amount: 6
-            chance: 0.65
+      - rolls 10
+      - weights 6 5 4 3
+      - item:
+          name: bone
+          amount: 3
+          chance: 0.65
+      - item:
+          name: bone
+          amount: 4
+          chance: 0.65
+      - item:
+          name: bone
+          amount: 5
+          chance: 0.65
+      - item:
+          name: bone
+          amount: 6
+          chance: 0.65
   PalaceTreasure:
     Items:
     - item:
         name: gold_ingot
         amount: 2
     - pick:
-        - rolls 12
-        - weights 4 3 2
-        - item:
-            name: gold_ingot
-            amount: 2
-            chance: 0.5
-        - item:
-            name: gold_ingot
-            amount: 3
-            chance: 0.5
-        - item:
-            name: gold_ingot
-            amount: 4
-            chance: 0.5
+      - rolls 12
+      - weights 4 3 2
+      - item:
+          name: gold_ingot
+          amount: 2
+          chance: 0.5
+      - item:
+          name: gold_ingot
+          amount: 3
+          chance: 0.5
+      - item:
+          name: gold_ingot
+          amount: 4
+          chance: 0.5
     - item:
         name: diamond
     - pick:
-        - chance 0.5
-        - weights 3 2 1
-        - item:
-            name: diamond
-            amount: 1
-        - item:
-            name: diamond
-            amount: 2
-        - item:
-            name: diamond
-            amount: 3
+      - chance 0.5
+      - weights 3 2 1
+      - item:
+          name: diamond
+          amount: 1
+      - item:
+          name: diamond
+          amount: 2
+      - item:
+          name: diamond
+          amount: 3
 GuiCompassTitle: Pick loot category
 GuiItems:
   CategoryOk:
     Name: stained_glass_pane
     Amount: 1
     Damage: 5
+    NBT: compass-on
   CategoryNope:
     Name: barrier
     Amount: 1
     Damage: 0
+    NBT: compass-off
 DummyLootTableOW: OWVill
 Diminish:
   CheckInterval: 1200
@@ -360,7 +362,7 @@ Diminish:
     RestoreBy: 0.01
     RestoreInterval: 7200
 BasicCategories:
-- lootTable: Organic
+- lootTable: Sapling
   chances:
   - 1.0
   - 0.2
@@ -369,6 +371,7 @@ BasicCategories:
     Name: sapling
     Amount: 1
     Damage: 0
+    NBT: compass-sapling
   weight: 10
   compassMinDistance:
   - 100
@@ -387,6 +390,7 @@ BasicCategories:
     Amount: 1
     Name: iron_pickaxe
     Damage: 0
+    NBT: compass-tools
   weight: 10
   compassMinDistance:
   - 200
@@ -396,7 +400,7 @@ BasicCategories:
   - 800
   - 800
   - 800
-- lootTable: CombatGear
+- lootTable: Armor
   chances:
   - 1.0
   - 0.1
@@ -405,6 +409,7 @@ BasicCategories:
     Amount: 1
     Name: iron_chestplate
     Damage: 0
+    NBT: compass-armor
   weight: 10
   compassMinDistance:
   - 300
@@ -424,6 +429,7 @@ RareCategories:
     Amount: 1
     Name: obsidian
     Damage: 0
+    NBT: compass-obsidian
   weight: 25
   preReqCategories:
   - Organic
@@ -447,6 +453,7 @@ RareCategories:
     Amount: 1
     Name: gold_ingot
     Damage: 0
+    NBT: compass-gold
   weight: 25
   preReqCategories:
   - Obsidian
@@ -459,7 +466,7 @@ RareCategories:
   - 1000
   - 9000
   - 12000
-- lootTable: IronHorseArmor
+- lootTable: HorseArmor
   chances:
   - 0.25
   - 0.05
@@ -471,6 +478,7 @@ RareCategories:
     Amount: 1
     Name: iron_horse_armor
     Damage: 0
+    NBT: compass-horse-armor
   weight: 25
   perPlayerTotalLimit: 100
   compassMinDistance:
@@ -493,6 +501,7 @@ RareCategories:
     Amount: 1
     Name: enchanted_book
     Damage: 0
+    NBT: compass-enchanted-book
   weight: 15
   perPlayerTotalLimit: 100
   compassMinDistance:
@@ -514,6 +523,7 @@ RareCategories:
     Amount: 1
     Name: diamond
     Damage: 0
+    NBT: compass-diamond
   weight: 10
   perPlayerTotalLimit: 100
   compassMinDistance:
