@@ -63,20 +63,20 @@ LootTables:
     - item:
         name: iron_pickaxe
     - pick:
-      - rolls 3
+      - rolls 2
       - weights: 20 12 6
       - item:
           name: iron_ingot
+          amount: 1
+          chance: 0.9
+      - item:
+          name: iron_ingot
+          amount: 2
+          chance: 0.7
+      - item:
+          name: iron_ingot
           amount: 3
-          chance: 0.9
-      - item:
-          name: iron_ingot
-          amount: 4
-          chance: 0.9
-      - item:
-          name: iron_ingot
-          amount: 5
-          chance: 0.9
+          chance: 0.3
     - pick:
       - rolls 2
       - chance 0.65
@@ -87,9 +87,6 @@ LootTables:
       - item:
           name: bread
           amount: 2
-      - item:
-          name: bread
-          amount: 3
   Armor:
     Items:
     - pick:
@@ -105,7 +102,7 @@ LootTables:
         - item:
             name: iron_leggings
     - pick:
-      - rolls 3
+      - rolls 2
       - weights: 16 8 4
       - item:
           name: iron_ingot
@@ -114,11 +111,7 @@ LootTables:
       - item:
           name: iron_ingot
           amount: 3
-          chance: 0.75
-      - item:
-          name: iron_ingot
-          amount: 4
-          chance: 0.75
+          chance: 0.5
     - pick:
       - rolls 2
       - chance 0.65
@@ -129,9 +122,6 @@ LootTables:
       - item:
           name: bread
           amount: 2
-      - item:
-          name: bread
-          amount: 3
   Obsidian:
     Items:
     - item:
@@ -150,10 +140,6 @@ LootTables:
       - item:
           name: iron_ingot
           amount: 3
-          chance: 0.75
-      - item:
-          name: iron_ingot
-          amount: 4
           chance: 0.75
     - pick:
       - rolls 2
@@ -230,7 +216,7 @@ LootTables:
   EnchantedBook:
     Items:
     - pick:
-      - group:
+      - pick:
         - weights 2 5 3 5 1 2 4
         - item:
             name: enchanted_book
@@ -253,7 +239,7 @@ LootTables:
         - item:
             name: enchanted_book
             nbt: loot-power-4
-      - group:
+      - pick:
         - weights 2 3 5 1 4 5
         - item:
             name: enchanted_book
@@ -615,8 +601,8 @@ BasicCategories:
 - lootTable: Tools
   chances:
   - 1.0
-  - 0.2
-  - 0.05
+  - 0.025
+  - 0.005
   icon:
     Amount: 1
     Name: iron_pickaxe
@@ -661,9 +647,9 @@ RareCategories:
     Name: obsidian
     Damage: 0
     NBT: compass-obsidian
-  weight: 25
+  weight: 35
   preReqCategories:
-  - Organic
+  - Sapling
   - Tools
   - Armor
   perPlayerTotalLimit: 500
@@ -711,7 +697,7 @@ RareCategories:
     Name: iron_horse_armor
     Damage: 0
     NBT: compass-horse-armor
-  weight: 25
+  weight: 15
   perPlayerTotalLimit: 100
   compassMinDistance:
   - 1000

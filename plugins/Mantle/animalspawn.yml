@@ -8,7 +8,7 @@ Animals:
   Pig:
     weight: 100
   Sheep:
-    weight: 20
+    weight: 100
     Colors:
       White:
         weight: 81836
@@ -25,7 +25,25 @@ Animals:
   Cow:
     weight: 100
   Chicken:
-    weight: 50
+    weight: 100
+  Rabbit:
+    weight: 100
+    MaxAdditionalPackMobs: 0
+    Types:
+      Brown:
+        weight: 2500
+      White:
+        weight: 2500
+      Black:
+        weight: 2500
+      Black and white:
+        weight: 2500
+      Gold:
+        weight: 2500
+      Salt and pepper:
+        weight: 2500
+      The killer bunny:
+        weight: 1
   EntityHorse:
     weight: 1
     MaxAdditionalPackMobs: 0
@@ -60,10 +78,10 @@ Animals:
         weight: 10
       Donkey:
         weight: 1
-SpawningIntervalTicks: 24000
-ChunksSpawningAmount: 3
+SpawningIntervalTicks: 1200
+ChunksSpawningAmount: 30
 AdditionalPackMobs:
-  Min: 1
+  Min: 0
   Max: 3
 PreventSpawningAnimals:
 - Cow

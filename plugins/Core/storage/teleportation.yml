@@ -66,3 +66,39 @@ Warps:
   limbo-connect-four-se:
     location: world_the_end;-483.5249703608596;101.0;-5.470477406390941;-0.113504894;90.08577
     RunCommands: []
+  limbo-connect-four-sw-yellow:
+    location: world_the_end;-525.4754850662637;101.0;-4.473772458522621;1.3658767;-269.90475
+    RunCommands: []
+  limbo-connect-four-sw-blue:
+    location: world_the_end;-569.5197057015079;101.0;-5.52469171592125;1.496413;-90.04488
+    RunCommands: []
+  limbo-connect-four-nw-yellow:
+    location: world_the_end;-525.6160697990351;101.0;-34.51445615084846;1.5399644;-270.1851
+    RunCommands: []
+  limbo-connect-four-nw-blue:
+    location: world_the_end;-569.5133082135318;101.0;-35.50698358249566;1.4094098;-90.04497
+    RunCommands: []
+  limbo-connect-four-ne-blue:
+    location: world_the_end;-473.4824182801793;101.0;-35.52055704257496;1.4529124;269.93073
+    RunCommands: []
+  limbo-connect-four-ne-yellow:
+    location: world_the_end;-429.5413631606127;101.0;-34.477311033026595;1.539951;89.92124
+    RunCommands: []
+  limbo-connect-four-se-blue:
+    location: world_the_end;-473.49039890515843;101.0;-5.513417978928455;1.53993;270.0179
+    RunCommands: []
+  limbo-connect-four-se-yellow:
+    location: world_the_end;-429.5090048319418;101.0;-4.481829241085583;1.4094013;89.92132
+    RunCommands: []
+  limbo-tower-of-hanoi-sw:
+    location: world_the_end;-543.5134600740963;101.0;-481.4576669073873;1.1047926;-180.035
+    RunCommands: []
+  limbo-tower-of-hanoi-nw:
+    location: world_the_end;-543.5;101.0;-525.5;1.0613154;-180.0805
+    RunCommands: []
+  limbo-tower-of-hanoi-ne:
+    location: world_the_end;-455.52278377272484;101.0;-525.5698252277599;0.80024767;-179.9935
+    RunCommands: []
+  limbo-tower-of-hanoi-se:
+    location: world_the_end;-455.5100266193676;101.0;-481.5274589744696;1.3658842;-180.08029
+    RunCommands: []

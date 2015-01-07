@@ -509,7 +509,7 @@ Tiers:
         itemA:
           currency: 1
         result:
-          item: redstone_dust
+          item: redstone
           amount: 1,4
     - trade:
         comment: selling lapis lazuli
@@ -1076,7 +1076,7 @@ Tiers:
         itemA:
           currency: 3
         result:
-          item: leather_pants
+          item: leather_leggings
     '1':
     - trade:
         comment: buying rabbit hide

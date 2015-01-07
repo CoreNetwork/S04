@@ -56,12 +56,14 @@ Aliases:
   - /ticket( .*)?
   - /request( .*)?
   message: '&6Did you mean &7/ask&6?'
+- match: /ask( .*)?
+  route: /modreq $1
 - match: /status
   route: /ch status
 - match: /ch done (.+)
   message: '&cThis doesn''t work anymore. Send &7/ch done &cmultiple times.'
 - match: /canregen
-  route: /mantle testrespawn
+  message: '&cThis doesn''t work anymore, sorry.'
   sudo: true
 - match: /unlisten (.+)
   message: '&6To stop listening to a channel, just send &7/listen $1 &6again.'
@@ -74,9 +76,8 @@ Aliases:
 - match: /abandon( .*)?
   message: '&6Did you mean &7/abandonclaim &6or &7/abandonallclaims&6?'
 - match: /exit( .*)?
+  sudo: true
   route: /lim exit <Player>
-- match: /alright
-  route: /IAgree
 - match: /staff( .*)?
   message:
   - '&bGuardians: &7ArsenicWaffles, Leonheart515, ridddle, Tbzz'
@@ -133,3 +134,16 @@ Aliases:
   route: /dutymode
 - match: /kill
   route: /lim kill
+- match: /mchest
+  route:
+  - //hpos1
+  - //hpos2
+  - /chm complete
+  - /chm lock expand
+  - /chm list
+- match: /abandonclaim( .*)?
+  route: /core abandonclaim
+- match: /abandonallclaims( .*)?
+  route: /core abandonallclaims
+- match: /deleteclaim( .*)?
+  route: /core deleteclaim

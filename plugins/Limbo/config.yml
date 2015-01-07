@@ -22,9 +22,11 @@ Limbo:
   - sudo <Player> mantle hydration restore
   - clear <Player> silent
   - kit <Player> limbo silent
+  - slimeballs give <Player> 5
   - sudo <Player> warp limbo-library-start silent
   CommandsOnRespawn:
   - kit <Player> limbo silent
+  - slimeballs give <Player> 5
   - sudo <Player> warp limbo-library silent
   CommandsOnExit:
   - clear <Player> silent
@@ -40,6 +42,7 @@ Challenges:
     CommandsOnExit:
     - clear <Player> silent
     - kit <Player> limbo silent
+    - slimeballs give <Player> 5
     - sudo <Player> warp limbo-library silent
     CommandsOnRespawn:
     - clear <Player> silent
@@ -60,6 +63,7 @@ Challenges:
     CommandsOnExit:
     - clear <Player> silent
     - kit <Player> limbo silent
+    - slimeballs give <Player> 5
     - sudo <Player> checkpoint clear <Player>
     - sudo <Player> warp limbo-library silent
     CommandsOnRespawn:

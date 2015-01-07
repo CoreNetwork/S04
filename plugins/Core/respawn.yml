@@ -42,7 +42,7 @@ World: world
 Lucky100: []
 Lucky66: []
 Group:
-  TimeLimit: 15
+  TimeLimit: 30
   Header: '&bTeam respawn'
   NameColor: '&f'
   CounterColor: '&f'

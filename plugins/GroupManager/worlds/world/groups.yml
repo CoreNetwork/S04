@@ -34,6 +34,8 @@ groups:
     - core.claims.blocks.buy
     - core.claims.list
     - core.claims.trapped
+    - core.claims.abandon
+    - core.claims.abandonall
     - mcnsachat.player.seen
     - moblimiter.command.animals
     - moblimiter.command.villagers
@@ -515,6 +517,7 @@ groups:
     - core.map.*
     - core.teleport.*
     - core.tp
+    - core.claims.deleteclaim
     - mantle.command.*
     - mantle.nanobot.command.*
     - griefprevention.admin.*
