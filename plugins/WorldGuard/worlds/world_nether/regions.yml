@@ -31,3 +31,20 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    __deathzone__:
+        type: cuboid
+        min: {x: -8500.0, y: 190.0, z: -8500.0}
+        max: {x: 8500.0, y: 256.0, z: 8500.0}
+        priority: 0
+        flags: {enderpearl: deny, greeting: You should not be here., heal-amount: -2,
+            heal-delay: 1}
+        owners: {}
+        members: {}
+    __floor:
+        type: cuboid
+        min: {x: -8500.0, y: 119.0, z: -8500.0}
+        max: {x: 8500.0, y: 119.0, z: 8500.0}
+        priority: 0
+        flags: {passthrough: allow, ghast-fireball: deny}
+        owners: {}
+        members: {}

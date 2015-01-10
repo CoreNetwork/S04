@@ -124,13 +124,13 @@
 # #######################################################################
 
 WorldMaximum:
-  Monsters: 500
+  Monsters: 600
   Animals: 10000
   Water_Animals: 1000
   Ambient: 0
   Villager: 10000
 ChunkCalculatedMaximum:
-  Monsters: 10
+  Monsters: 15
   Animals: 20
   Water_Animals: 5
   Ambient: 0

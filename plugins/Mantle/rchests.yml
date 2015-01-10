@@ -18,6 +18,8 @@ Messages:
   CompassNameBlank: '&rCompass'
   CompassCantFindVillage: '&cCouldn''t find any villages close nearby, walk a bit
     and try again'
+  OpeningChestInClaimedVillage: '&cThis chest won''t give you loot as the village
+    is claimed!'
 LootTables:
   Sapling:
     Items:
@@ -555,6 +557,301 @@ LootTables:
         name: written_book
         nbt: cipher
         chance: 0.07
+  TreasureWave1a:
+    Items:
+    - pick:
+      - chance 1.0
+      - weights 10 8
+      - item:
+          name: book
+          nbt: spell-unsliming
+          amount: 3
+      - item:
+          name: book
+          nbt: spell-unsliming
+          amount: 4
+    - pick:
+      - chance 1.0
+      - weights 10 10
+      - item:
+          name: book
+          nbt: spell-growth
+          amount: 2
+      - item:
+          name: book
+          nbt: spell-decay
+          amount: 2
+    - pick:
+      - chance 0.5
+      - weights 10 4
+      - item:
+          name: book
+          nbt: spell-time
+          amount: 1
+      - item:
+          name: book
+          nbt: spell-time
+          amount: 2
+    - pick:
+      - chance 1.0
+      - weights 10 9 7
+      - item:
+          name: book
+          nbt: spell-fusing
+          amount: 8
+      - item:
+          name: book
+          nbt: spell-fusing
+          amount: 9
+      - item:
+          name: book
+          nbt: spell-fusing
+          amount: 10
+    - pick:
+      - weights 10 9 8 6 3 10 9 8 6 3 10 9 8 6 3
+      - rolls 3
+      - item:
+          id: 401
+          nbt: firework-aqua-ball
+      - item:
+          id: 401
+          nbt: firework-aqua-trail
+      - item:
+          id: 401
+          nbt: firework-aqua-twinkle
+      - item:
+          id: 401
+          nbt: firework-aqua-star
+      - item:
+          id: 401
+          nbt: firework-aqua-creeper
+      - item:
+          id: 401
+          nbt: firework-lime-ball
+      - item:
+          id: 401
+          nbt: firework-lime-trail
+      - item:
+          id: 401
+          nbt: firework-lime-twinkle
+      - item:
+          id: 401
+          nbt: firework-lime-star
+      - item:
+          id: 401
+          nbt: firework-lime-creeper
+      - item:
+          id: 401
+          nbt: firework-magenta-ball
+      - item:
+          id: 401
+          nbt: firework-magenta-trail
+      - item:
+          id: 401
+          nbt: firework-magenta-twinkle
+      - item:
+          id: 401
+          nbt: firework-magenta-star
+      - item:
+          id: 401
+          nbt: firework-magenta-creeper
+  TreasureWave2a:
+    Items:
+    - pick:
+      - chance 1.0
+      - weights 10 8
+      - item:
+          name: book
+          nbt: spell-peddling
+          amount: 3
+      - item:
+          name: book
+          nbt: spell-peddling
+          amount: 4
+    - pick:
+      - chance 1.0
+      - weights 10 10
+      - item:
+          name: book
+          nbt: spell-growth
+          amount: 3
+      - item:
+          name: book
+          nbt: spell-decay
+          amount: 3
+    - pick:
+      - chance 0.5
+      - item:
+          name: book
+          nbt: spell-wind
+    - pick:
+      - chance 1.0
+      - weights 10 8 5
+      - item:
+          name: book
+          nbt: spell-fusing
+          amount: 11
+      - item:
+          name: book
+          nbt: spell-fusing
+          amount: 12
+      - item:
+          name: book
+          nbt: spell-fusing
+          amount: 13
+    - pick:
+      - weights 10 9 8 6 3 10 9 8 6 3 10 9 8 6 3
+      - rolls 6
+      - item:
+          id: 401
+          nbt: firework-aqua-ball
+      - item:
+          id: 401
+          nbt: firework-aqua-trail
+      - item:
+          id: 401
+          nbt: firework-aqua-twinkle
+      - item:
+          id: 401
+          nbt: firework-aqua-star
+      - item:
+          id: 401
+          nbt: firework-aqua-creeper
+      - item:
+          id: 401
+          nbt: firework-lime-ball
+      - item:
+          id: 401
+          nbt: firework-lime-trail
+      - item:
+          id: 401
+          nbt: firework-lime-twinkle
+      - item:
+          id: 401
+          nbt: firework-lime-star
+      - item:
+          id: 401
+          nbt: firework-lime-creeper
+      - item:
+          id: 401
+          nbt: firework-magenta-ball
+      - item:
+          id: 401
+          nbt: firework-magenta-trail
+      - item:
+          id: 401
+          nbt: firework-magenta-twinkle
+      - item:
+          id: 401
+          nbt: firework-magenta-star
+      - item:
+          id: 401
+          nbt: firework-magenta-creeper
+  TreasureWave3a:
+    Items:
+    - pick:
+      - chance 1.0
+      - weights 10 8
+      - item:
+          name: book
+          nbt: spell-forging
+          amount: 3
+      - item:
+          name: book
+          nbt: spell-forging
+          amount: 4
+    - pick:
+      - chance 1.0
+      - weights 10 6 10 6
+      - item:
+          name: book
+          nbt: spell-unsliming
+          amount: 5
+      - item:
+          name: book
+          nbt: spell-unsliming
+          amount: 6
+      - item:
+          name: book
+          nbt: spell-peddling
+          amount: 5
+      - item:
+          name: book
+          nbt: spell-peddling
+          amount: 6
+    - pick:
+      - chance 0.5
+      - item:
+          name: book
+          nbt: spell-wind
+    - pick:
+      - chance 0.5
+      - item:
+          name: book
+          nbt: spell-time
+    - pick:
+      - chance 1.0
+      - weights 10 8 5
+      - item:
+          name: book
+          nbt: spell-fusing
+          amount: 13
+      - item:
+          name: book
+          nbt: spell-fusing
+          amount: 14
+      - item:
+          name: book
+          nbt: spell-fusing
+          amount: 15
+    - pick:
+      - weights 10 9 8 6 3 10 9 8 6 3 10 9 8 6 3
+      - rolls 9
+      - item:
+          id: 401
+          nbt: firework-aqua-ball
+      - item:
+          id: 401
+          nbt: firework-aqua-trail
+      - item:
+          id: 401
+          nbt: firework-aqua-twinkle
+      - item:
+          id: 401
+          nbt: firework-aqua-star
+      - item:
+          id: 401
+          nbt: firework-aqua-creeper
+      - item:
+          id: 401
+          nbt: firework-lime-ball
+      - item:
+          id: 401
+          nbt: firework-lime-trail
+      - item:
+          id: 401
+          nbt: firework-lime-twinkle
+      - item:
+          id: 401
+          nbt: firework-lime-star
+      - item:
+          id: 401
+          nbt: firework-lime-creeper
+      - item:
+          id: 401
+          nbt: firework-magenta-ball
+      - item:
+          id: 401
+          nbt: firework-magenta-trail
+      - item:
+          id: 401
+          nbt: firework-magenta-twinkle
+      - item:
+          id: 401
+          nbt: firework-magenta-star
+      - item:
+          id: 401
+          nbt: firework-magenta-creeper
 GuiCompassTitle: Pick loot category
 GuiItems:
   CategoryOk:
@@ -595,9 +892,9 @@ BasicCategories:
   - 100
   - 100
   compassMaxDistance:
-  - 600
-  - 600
-  - 600
+  - 800
+  - 800
+  - 800
 - lootTable: Tools
   chances:
   - 1.0
@@ -663,7 +960,7 @@ RareCategories:
   - 10000
 - lootTable: Gold
   chances:
-  - 0.25
+  - 0.4
   - 0.05
   - 0.01
   icon:
@@ -686,7 +983,7 @@ RareCategories:
 - lootTable: HorseArmor
   displayName: Horse Armor
   chances:
-  - 0.25
+  - 0.1
   - 0.05
   - 0.01
   preReqCategories:
@@ -733,9 +1030,9 @@ RareCategories:
   - 9000
 - lootTable: Diamond
   chances:
+  - 0.2
   - 0.1
-  - 0.02
-  - 0.004
+  - 0.05
   preReqCategories:
   - EnchantedBook
   icon:
@@ -750,7 +1047,7 @@ RareCategories:
   - 9000
   - 12000
   compassMaxDistance:
-  - 3500
+  - 4000
   - 10000
   - 15000
 CompassNBTTag: compass

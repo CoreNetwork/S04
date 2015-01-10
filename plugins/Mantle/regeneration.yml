@@ -4,8 +4,8 @@ Structures:
     RespawnVillagers: true
     WarnHighClaimedPercentage: true
     TimeOffsetSeconds: 60
-    RegenerateIntervalSeconds: 900
-    RegenerateAtOnce: 3
+    RegenerateIntervalSeconds: 300
+    RegenerateAtOnce: 1
 Restoration:
   VillageCheckPadding: 0
   WarnPercentage: 50

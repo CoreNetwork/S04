@@ -1,7 +1,7 @@
 Enabled: true
 Item:
-  ID: 341
-  NanobotTemplate: limbo-token
+  Name: slime_ball
+  NBT: limbo-slimeball
 ReleaseCommand: lim release <Player>
 Messages:
   Account:

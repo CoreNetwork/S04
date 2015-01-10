@@ -23,6 +23,10 @@ Groups:
       Name: Pigs
       ChunkLimit: 30
       ViewDistanceLimit: 150
+    RABBIT:
+      Name: Rabbits
+      ChunkLimit: 30
+      ViewDistanceLimit: 150
   Villagers:
     Name: Villagers and Golems
     ChunkLimit: -1

@@ -13,9 +13,9 @@ Ghast:
     DamageMultiplier: 2.0
     BlastRadiusMultiplier: 1.0
 Wither:
-  MinSpawningY: 20
-  DespawningY: 60
-  DespawningTimeoutSeconds: 120
+  MinSpawningY: 1
+  DespawningY: 1
+  DespawningTimeoutSeconds: 1
   MinionHealth: 4
   ExplosionRadius: 20
   ShowTarget: false
@@ -229,4 +229,5 @@ Messages:
   NoMilkingNether: '&cCows don''t produce milk in the Nether.'
 Reinforcements:
   Distance: 10
+  Enabled: false
 ZombieDoorBreakingChance: 1

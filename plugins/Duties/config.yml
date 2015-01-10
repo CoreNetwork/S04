@@ -45,6 +45,7 @@ Actions:
     - Broadcast
     Commands: []
     CommandsByConsole:
+    - unvanish %PLAYER_NAME% silent
     - ungod %PLAYER_NAME% silent
     - sudo %PLAYER_NAME% ignoreclaims
     - gamemode 0 %PLAYER_NAME% silent

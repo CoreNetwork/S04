@@ -28,7 +28,6 @@ Animals:
     weight: 100
   Rabbit:
     weight: 100
-    MaxAdditionalPackMobs: 0
     Types:
       Brown:
         weight: 2500
@@ -45,7 +44,7 @@ Animals:
       The killer bunny:
         weight: 1
   EntityHorse:
-    weight: 1
+    weight: 50
     MaxAdditionalPackMobs: 0
     Colors:
       Black:
@@ -78,8 +77,8 @@ Animals:
         weight: 10
       Donkey:
         weight: 1
-SpawningIntervalTicks: 1200
-ChunksSpawningAmount: 30
+SpawningIntervalTicks: 72000
+ChunksSpawningAmount: 5
 AdditionalPackMobs:
   Min: 0
   Max: 3

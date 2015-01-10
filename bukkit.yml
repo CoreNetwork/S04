@@ -25,8 +25,8 @@ settings:
   deprecated-verbose: default
   shutdown-message: Restarting because captain Picard told me to make it so.
 spawn-limits:
-  monsters: 500
-  animals: 10
+  monsters: 75
+  animals: 0
   water-animals: 5
   ambient: 0
 chunk-gc:

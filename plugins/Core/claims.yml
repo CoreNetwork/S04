@@ -99,7 +99,7 @@ Blocks:
     Other: '&6Bonus, other: &7<Amount>'
     Total: '&6Total: &7<Amount>'
     Used: '&6Used: &7<Amount>'
-    Available: '&6Available: &7<Amount>'
+    Available: '&eAvailable: &f<Amount>'
 Messages:
   CanBuild: '&6You can build here. Save yourelf.'
   RescueInProgress: '&6Please stand still for 5 seconds.'

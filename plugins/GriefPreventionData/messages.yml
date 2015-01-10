@@ -397,13 +397,13 @@ Messages:
   SiegeNoShovel:
     Text: You can't use your shovel tool while involved in a siege.
   SubdivisionVideo2:
-    Text: 'Click for Subdivision Help: {0}'
+    Text: ''
     Notes: 0:video URL
   CreativeBasicsVideo2:
-    Text: 'Click for Land Claim Help: {0}'
+    Text: ''
     Notes: '{0}: video URL'
   SurvivalBasicsVideo2:
-    Text: 'Click for Land Claim Help: {0}'
+    Text: ''
     Notes: '{0}: video URL'
   NotYourPet:
     Text: That belongs to {0} until it's given to you with /GivePet.

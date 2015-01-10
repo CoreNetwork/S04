@@ -34,7 +34,7 @@ GriefPrevention:
       AllClaimDays: 0
       AutomaticNatureRestoration:
         SurvivalWorlds: false
-    MaximumNumberOfClaimsPerPlayer: 3
+    MaximumNumberOfClaimsPerPlayer: 20
   Spam:
     Enabled: false
     LoginCooldownSeconds: 60

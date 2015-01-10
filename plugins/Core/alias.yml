@@ -69,10 +69,12 @@ Aliases:
   message: '&6To stop listening to a channel, just send &7/listen $1 &6again.'
 - match: /clisten (.+)
   message: '&6Did you mean &7/listen&6?'
-- match: /(animals|villagers)( .*)?
-  route: /ml $1 $2
+- match: /animals\s?(.*)
+  route: /ml animals $1
+- match: /villagers\s?(.*)
+  route: /ml villagers $1
 - match: /claims( .*)?
-  message: '&6To claim an area, right click with a bone. &7/help Claims'
+  route: /core claimslist
 - match: /abandon( .*)?
   message: '&6Did you mean &7/abandonclaim &6or &7/abandonallclaims&6?'
 - match: /exit( .*)?

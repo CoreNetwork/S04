@@ -19,7 +19,6 @@ NotificationTimesLeft:
 Limbo:
   CommandsOnEntry:
   - sudo <Player> rspawn unprotect silent
-  - sudo <Player> mantle hydration restore
   - clear <Player> silent
   - kit <Player> limbo silent
   - slimeballs give <Player> 5
@@ -143,5 +142,6 @@ CommandDescriptions:
       tracking time.'
     status: '&a/lim status &8-&f Retuns the limbo status of specified player (not
       time, status)'
+    kill: '&a/lim kill &8-&f Kill the player'
 ClearItemsOnDeath: true
 DeathMessageColor: '&c'

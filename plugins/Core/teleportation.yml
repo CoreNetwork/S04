@@ -40,6 +40,7 @@ Messages:
   OfflineTeleportConfirmed: '&6Offline teleport confirmed.'
   NoOfflineTeleports: '&cNo pending teleports to confirm.'
   OutOfBounds: '&cYou can''t teleport too far for performance reasons.'
+  RelativeNoOnline: You can't use relative coordinates on offline players!
 CommandDescriptions:
   help: '&a/warp help &8-&f List all possible commands'
   set: '&a/warp set &8-&f Set warp here'
