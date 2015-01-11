@@ -9,22 +9,22 @@ Spells:
     BroadcastCooldownSeconds: 180
     Messages:
       Use: '&6Wooosh! Spell of Growth cast.'
-      HintToCasterWhenBroadcasted: '&eEveryone got Absorption for 3m.'
+      HintToCasterWhenBroadcasted: '&eEveryone got Instant Health.'
       Broadcast:
       - '&6<Player> used a Spell of Growth!'
-      - '&7Bonus: 3 minutes of Absorption. /help Spells'
+      - '&7Bonus: Instant Health. /help Spells'
     Template: spell-growth
-    BoostOnBroadcast: BoostAbsorption2
+    BoostOnBroadcast: BoostHealth1
   Time:
     BroadcastCooldownSeconds: 180
     Messages:
       Use: '&6Wooosh! Spell of Time cast.'
-      HintToCasterWhenBroadcasted: '&eEveryone got Absorption for 3m.'
+      HintToCasterWhenBroadcasted: '&eEveryone got Instant Health II.'
       Broadcast:
       - '&6<Player> used a Spell of Time!'
-      - '&7Bonus: 3 minutes of Absorption. /help Spells'
+      - '&7Bonus: Instant Health II. /help Spells'
     Template: spell-time
-    BoostOnBroadcast: BoostAbsorption2
+    BoostOnBroadcast: BoostHealth2
   Deadweight:
     BroadcastCooldownSeconds: 180
     Messages:
@@ -38,55 +38,54 @@ Spells:
     BroadcastCooldownSeconds: 180
     Messages:
       Use: '&6Wooosh! Spell of Wind cast.'
-      HintToCasterWhenBroadcasted: '&eEveryone got Absorption for 3m.'
+      HintToCasterWhenBroadcasted: '&eEveryone got Instant Health II.'
       Broadcast:
       - '&6<Player> used a Spell of Wind!'
-      - '&7Bonus: 3 minutes of Absorption. /help Spells'
+      - '&7Bonus: Instant Health II. /help Spells'
     Template: spell-wind
-    BoostOnBroadcast: BoostAbsorption2
+    BoostOnBroadcast: BoostHealth2
   Decay:
     BroadcastCooldownSeconds: 180
     Messages:
       Use: '&6Wooosh! Spell of Decay cast.'
-      HintToCasterWhenBroadcasted: '&eEveryone got Absorption for 3m.'
+      HintToCasterWhenBroadcasted: '&eEveryone got Instant Health.'
       Broadcast:
       - '&6<Player> used a Spell of Decay!'
-      - '&7Bonus: 3 minutes of Absorption. /help Spells'
+      - '&7Bonus: Instant Health. /help Spells'
     Template: spell-decay
-    BoostOnBroadcast: BoostAbsorption2
+    BoostOnBroadcast: BoostHealth1
   Fusing:
     BroadcastCooldownSeconds: 180
     Messages:
       Use: '&6Wooosh! Spell of Fusing cast.'
-      HintToCasterWhenBroadcasted: '&eEveryone got Instant Health II.'
+      HintToCasterWhenBroadcasted: '&7More: www.core-network.us/spells'
       Broadcast:
       - '&6<Player> used a Spell of Fusing!'
-      - '&7Bonus: Instant Health II. /help Spells'
+      - '&7/help Spells'
     Template: spell-fusing
-    BoostOnBroadcast: BoostHealth1
   Unsliming:
     BroadcastCooldownSeconds: 600
     Messages:
-      HintToCasterWhenBroadcasted: '&eEveryone got Absorption III for 10m.'
+      HintToCasterWhenBroadcasted: '&eEveryone got Absorption for 3m.'
       Broadcast:
       - '&6<Player> used a Spell of Unsliming!'
-      - '&7Bonus: 10 minutes of Absorption III. /help Spells'
+      - '&7Bonus: 3 minutes of Absorption. /help Spells'
       UseNotSlimeChunk: '&7Spell of Unsliming cast. It wasn''t a slime chunk.'
       UseSlimeChunk: '&aSpell of Unsliming cast. Slime chunk was deactivated.'
     Template: spell-unsliming
-    BoostOnBroadcast: BoostAbsorption6
+    BoostOnBroadcast: BoostAbsorption2
   Peddling:
     BroadcastCooldownSeconds: 600
     Messages:
       Use: '&6Wooosh! Spell of Peddling cast.'
-      HintToCasterWhenBroadcasted: '&eEveryone got Absorption III for 10m.'
+      HintToCasterWhenBroadcasted: '&eEveryone got Instant Health III'
       Broadcast:
       - '&6<Player> used a Spell of Peddling!'
-      - '&7Bonus: 10 minutes of Absorption III. /help Spells'
+      - '&7Bonus: Instant Health III. /help Spells'
       NothingToSell: '&cYou don''t have anything to sell. Is the trade unlocked?'
       NotEnoughToSell: '&cNot enough items to complete the trade even once.'
     Template: spell-peddling
-    BoostOnBroadcast: BoostAbsorption6
+    BoostOnBroadcast: BoostHealth3
   Forging:
     BroadcastCooldownSeconds: 300
     Messages:
@@ -94,9 +93,9 @@ Spells:
       HintToCasterWhenBroadcasted: '&eEveryone got Absorption II for 5m.'
       Broadcast:
       - '&6<Player> used a Spell of Forging!'
-      - '&7Bonus: 5 minutes of Absorption II. /help Spells'
+      - '&7Bonus: Instant Health. /help Spells'
     Template: spell-forging
-    BoostOnBroadcast: BoostAbsorption4
+    BoostOnBroadcast: BoostHealth1
 ExpireOffsetSeconds: 0
 Lores:
   DateStore: yyyy-MM-dd

@@ -9,3 +9,11 @@ display:
     - "&8Right click to decay 32x32x32 area around you."
     - "&8Right click a chest to change the wool inside."
     - "ExpireAfterDays: 15"
+ench:
+- compound:
+    lvl:
+      short: 5
+    id:
+      short: 16
+HideFlags:
+  int: 63

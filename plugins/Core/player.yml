@@ -1,7 +1,7 @@
 Enabled: true
 Trapped:
   Surface:
-    world_nether: 64
+    world_nether: 120
 Limits:
   world:
     MaxX: 8000
@@ -9,10 +9,10 @@ Limits:
     MinX: -8000
     MinZ: -8000
   world_nether:
-    MaxX: 2000
-    MaxZ: 2000
-    MinX: -2000
-    MinZ: -2000
+    MaxX: 8000
+    MaxZ: 8000
+    MinX: -8000
+    MinZ: -8000
   Other:
     MaxX: 8000
     MaxZ: 8000

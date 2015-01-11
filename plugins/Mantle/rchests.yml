@@ -20,6 +20,8 @@ Messages:
     and try again'
   OpeningChestInClaimedVillage: '&cThis chest won''t give you loot as the village
     is claimed!'
+  CompassVillageRegeneratedWhileGone: '&cTargeted village regenerated while you were
+    gone. Please pick a new one.'
 LootTables:
   Sapling:
     Items:
@@ -62,11 +64,17 @@ LootTables:
           amount: 3
   Tools:
     Items:
-    - item:
-        name: iron_pickaxe
+    - pick:
+      - weights 20 10 5
+      - item:
+          name: iron_pickaxe
+      - item:
+          name: iron_shovel
+      - item:
+          name: iron_axe
     - pick:
       - rolls 2
-      - weights: 20 12 6
+      - weights 20 12 6
       - item:
           name: iron_ingot
           amount: 1
@@ -92,7 +100,7 @@ LootTables:
   Armor:
     Items:
     - pick:
-      - weights 10 5
+      - weights 15 5
       - pick:
         - item:
             name: iron_helmet
@@ -105,25 +113,22 @@ LootTables:
             name: iron_leggings
     - pick:
       - rolls 2
-      - weights: 16 8 4
+      - weights 16 8 4
       - item:
           name: iron_ingot
-          amount: 2
+          amount: 1
           chance: 0.75
       - item:
           name: iron_ingot
-          amount: 3
+          amount: 2
           chance: 0.5
     - pick:
-      - rolls 2
+      - rolls 3
       - chance 0.65
       - weights 9 4 1
       - item:
           name: bread
           amount: 1
-      - item:
-          name: bread
-          amount: 2
   Obsidian:
     Items:
     - item:
@@ -134,7 +139,7 @@ LootTables:
         name: obsidian
     - pick:
       - rolls 2
-      - weights: 16 8 4
+      - weights 16 8 4
       - item:
           name: iron_ingot
           amount: 2
@@ -156,27 +161,13 @@ LootTables:
   Gold:
     Items:
     - pick:
+      - rolls 2
       - weights 10 5
       - item:
           name: gold_ingot
       - item:
           name: gold_ingot
           amount: 2
-    - pick:
-      - rolls 2
-      - weights: 16 8 4
-      - item:
-          name: iron_ingot
-          amount: 1
-          chance: 0.75
-      - item:
-          name: iron_ingot
-          amount: 2
-          chance: 0.75
-      - item:
-          name: iron_ingot
-          amount: 3
-          chance: 0.75
     - pick:
       - rolls 2
       - chance 0.65
@@ -192,7 +183,7 @@ LootTables:
     - item:
         name: diamond
     - pick:
-      - weights: 16 8 4
+      - weights 16 8 4
       - item:
           name: iron_ingot
           amount: 1
@@ -219,55 +210,59 @@ LootTables:
     Items:
     - pick:
       - pick:
-        - weights 2 5 3 5 1 2 4
-        - item:
-            name: enchanted_book
-            nbt: loot-sharpness-5
+        - weights 15 50 15 50 10 15 40
         - item:
             name: enchanted_book
             nbt: loot-sharpness-4
         - item:
             name: enchanted_book
-            nbt: loot-smite-5
+            nbt: loot-sharpness-3
         - item:
             name: enchanted_book
             nbt: loot-smite-4
         - item:
             name: enchanted_book
-            nbt: loot-looting-3
+            nbt: loot-smite-3
         - item:
             name: enchanted_book
-            nbt: loot-power-5
+            nbt: loot-looting-2
         - item:
             name: enchanted_book
             nbt: loot-power-4
+        - item:
+            name: enchanted_book
+            nbt: loot-power-3
       - pick:
-        - weights 2 3 5 1 4 5
+        - weights 10 15 50 10 40 50
         - item:
             name: enchanted_book
             nbt: loot-unbreaking-3
         - item:
             name: enchanted_book
-            nbt: loot-efficiency-5
-        - item:
-            name: enchanted_book
             nbt: loot-efficiency-4
         - item:
             name: enchanted_book
-            nbt: loot-fortune-3
+            nbt: loot-efficiency-3
         - item:
             name: enchanted_book
-            nbt: loot-feather-falling-4
+            nbt: loot-fortune-2
         - item:
             name: enchanted_book
             nbt: loot-feather-falling-3
+        - item:
+            name: enchanted_book
+            nbt: loot-feather-falling-2
   HorseArmor:
     Items:
-    - item:
-        name: iron_horse_armor
+    - pick:
+      - weights 30 1
+      - item:
+          name: iron_horse_armor
+      - item:
+          name: golden_horse_armor
     - pick:
       - rolls 3
-      - weights: 16 8 4
+      - weights 16 8 4
       - item:
           name: iron_ingot
           amount: 2
@@ -290,9 +285,6 @@ LootTables:
       - item:
           name: bread
           amount: 2
-      - item:
-          name: bread
-          amount: 3
   PalaceTrash:
     PlayerControl:
       ChanceDiminishing:
@@ -375,6 +367,10 @@ LootTables:
       - item:
           name: diamond
           amount: 3
+    - item:
+        rolls: 2
+        name: nether_wart
+        chance: 0.75
   CatacombsSecret:
     PlayerControl:
       ChanceDiminishing:
@@ -481,9 +477,6 @@ LootTables:
       - item:
           name: diamond
           amount: 2
-      - item:
-          name: diamond
-          amount: 3
   CatacombsEggs:
     PlayerControl:
       ChanceDiminishing:
@@ -1051,3 +1044,4 @@ RareCategories:
   - 10000
   - 15000
 CompassNBTTag: compass
+CompassOldDestinationExpirationTimeSeconds: 600

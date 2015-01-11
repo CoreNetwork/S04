@@ -7,3 +7,11 @@ display:
     - "&7Turns all baby mobs into adults."
     - "&8Right click to affect 32x32x32 area around you."
     - "ExpireAfterDays: 15"
+ench:
+- compound:
+    lvl:
+      short: 5
+    id:
+      short: 16
+HideFlags:
+  int: 63

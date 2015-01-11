@@ -6,3 +6,11 @@ display:
     - "&3for the price of speed."
     - "&7Deadweight (0:45)"
     - "&8One use. Right click to cast"
+ench:
+- compound:
+    lvl:
+      short: 5
+    id:
+      short: 16
+HideFlags:
+  int: 63

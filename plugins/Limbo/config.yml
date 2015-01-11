@@ -23,14 +23,17 @@ Limbo:
   - kit <Player> limbo silent
   - slimeballs give <Player> 5
   - sudo <Player> warp limbo-library-start silent
+  - sudo gamemode <Player> 2 silent
   CommandsOnRespawn:
   - kit <Player> limbo silent
   - slimeballs give <Player> 5
   - sudo <Player> warp limbo-library silent
+  - sudo gamemode <Player> 2 silent
   CommandsOnExit:
   - clear <Player> silent
   - sudo <Player> checkpoint clear <Player>
   - sudo <Player> warp end-respawn silent
+  - sudo gamemode <Player> 0 silent
 Challenges:
   DeathPit:
     CommandsOnEntry:
@@ -42,11 +45,13 @@ Challenges:
     - clear <Player> silent
     - kit <Player> limbo silent
     - slimeballs give <Player> 5
+    - xp -100L <Player>
     - sudo <Player> warp limbo-library silent
     CommandsOnRespawn:
     - clear <Player> silent
     - kit <Player> deathpit silent
     - sudo <Player> warp limbo-death-pit silent
+    - sudo gamemode <Player> 2 silent
     Victory: '&b<Player> beat Death Pit in <DetailedTime>'
     VictoryRecord:
     - '&b<Player> beat Death Pit in <DetailedTime>, a new record!'
@@ -69,6 +74,7 @@ Challenges:
     - clear <Player> silent
     - sudo <Player> warp limbo-parkour silent
     - sudo <Player> checkpoint instant
+    - sudo gamemode <Player> 2 silent
     Victory: '&b<Player> finished Parkour in <DetailedTime>'
     VictoryRecord:
     - '&b<Player> finished Parkour in <DetailedTime>, a new record!'

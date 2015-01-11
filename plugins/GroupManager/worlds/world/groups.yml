@@ -52,10 +52,12 @@ groups:
     - griefprevention.commands.abandonallclaims
     - griefprevention.commands.subdivideclaims
     - GriefPrevention.Lava
-    - mantle.command.treasureraid.run
-    - mantle.command.treasureraid.check
-    - mantle.command.treasureraid.join
-    - mantle.command.treasureraid.leave
+    - mantle.command.treasurechase.run
+    - mantle.command.treasurechase.check
+    - mantle.command.treasurechase.join
+    - mantle.command.treasurechase.leave
+    - mantle.slimeballs.command.check
+    - mantle.slimeballs.command.pay
     - limbo.check
     - limbo.top
     - limbo.kill
@@ -447,6 +449,8 @@ groups:
     - commandhelper.alias.guardian
     - core.teleport.notify
     - core.player.notify
+    - mantle.slimeballs.command.pay.notification
+    - mantle.slimeballs.command.check.others
     - griefprevention.commands.adjustbonusclaimblocks
     - nocheatplus.checks.chat.color
     - nocheatplus.checks.chat.captcha

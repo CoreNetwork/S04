@@ -8,3 +8,11 @@ display:
     - "&7Returns some experience back."
     - "&8Right click to affect the inventory."
     - "ExpireAfterDays: 15"
+ench:
+- compound:
+    lvl:
+      short: 5
+    id:
+      short: 16
+HideFlags:
+  int: 63

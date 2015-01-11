@@ -124,7 +124,7 @@
 # #######################################################################
 
 WorldMaximum:
-  Monsters: 600
+  Monsters: 400
   Animals: 10000
   Water_Animals: 1000
   Ambient: 0

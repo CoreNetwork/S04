@@ -60,30 +60,30 @@ Directions:
 - south
 - south east
 Messages:
-  AddedToQueue: '&6Treasure Raid pass used. It''ll start when the day breaks.'
+  AddedToQueue: '&6Treasure Chase pass used. It''ll start when the day breaks.'
   AddedToQueueBroadcast:
-  - '&a<Player> sponsored a Treasure Raid! &6It''ll begin in <Time>m'
-  - '&aTo participate, &6/raid join. &aTo learn more, /help Raid'
-  NoHunt: '&6You don''t have any Treasure Raid passes. Sponsor the server while having
+  - '&a<Player> sponsored a Treasure Chase! &6It''ll begin in <Time>m'
+  - '&aTo participate, &6/raid join. &aTo learn more, &8[REDACTED]'
+  NoHunt: '&6You don''t have any Treasure Chase passes. Sponsor the server while having
     fun: store.core-network.us'
-  HuntBought: '&6Treasure Raid pass acquired! Type &7/raid run &6to queue it.'
-  HuntsLeft: '&6Treasure Raid passes left: &7<Amount>'
-  StartHunt: '&aTreasure Raid has started!'
-  EndHunt: '&aTreasure Raid has ended. Thanks for playing and supporting our server,
-    hope it was fun! &6Learn more: /help Raid'
-  JoinInLimbo: '&cYou cannot participate in Treasure Raid while in Limbo'
+  HuntBought: '&6Treasure Chase pass acquired! Type &7/raid run &6to queue it.'
+  HuntsLeft: '&6Treasure Chase passes left: &7<Amount>'
+  StartHunt: '&aTreasure Chase has started!'
+  EndHunt: '&aTreasure Chase has ended. Thanks for playing and supporting our server,
+    hope it was fun! &6Learn more: &8[REDACTED]'
+  JoinInLimbo: '&cYou cannot participate in Treasure Chase while in Limbo'
   JoinInNether: '&6Travel to Overworld to get directions to your crate.'
-  Join: '&aJoined Treasure Raid! &6You''ll get more info soon.'
-  Leave: '&6You left Treasure Raid.'
+  Join: '&aJoined Treasure Chase! &6You''ll get more info soon.'
+  Leave: '&6You left Treasure Chase.'
   RightClick: '&7Don''t right click, &6» punch « the crate &7to open it!'
   OnePerWave: '&6You already got your loot!'
   WaveNotificaton: '&6Crate: &7<X>, <Z> &6| &7<Distance> &6blocks away | &7<TimeLeft>s
     &6left'
   NextHuntScheduled: Next hunt will start in <Time> min.
-  EnterWhileRunning: '&aTreasure Raid is running right now! &6/raid join &afor next
+  EnterWhileRunning: '&aTreasure Chase is running right now! &6/raid join &afor next
     wave.'
-  EnterWhileRunningAlreadyIn: '&aTreasure Raid is still running!'
-  EnterWhileQueued: '&aTreasure Raid is scheduled to run in <Time> min. &6/raid join'
-  EnterWhileQueuedAlreadyIn: '&aTreasure Raid will begin in <Time> min.'
+  EnterWhileRunningAlreadyIn: '&aTreasure Chase is still running!'
+  EnterWhileQueued: '&aTreasure Chase is scheduled to run in <Time> min. &6/raid join'
+  EnterWhileQueuedAlreadyIn: '&aTreasure Chase will begin in <Time> min.'
   WaveActive: '&6Active wave: <Wave>. Please wait for next wave.'
 MinMinutesBeforeToStart: 4

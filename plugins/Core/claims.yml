@@ -5,7 +5,7 @@ EnabledWorlds:
 Trapped:
   ClearRadius: 7
   Surface:
-    world_nether: 64
+    world_nether: 120
     world: 4
   Limits:
     world:

@@ -204,11 +204,23 @@ DamageModifiers:
       duration: 3600
       amplifier: 0
       ambient: true
-  BoostHealth1:
+  BoostHealth3:
+  - addPotionEffect:
+      id: 6
+      duration: 0
+      amplifier: 2
+      ambient: true
+  BoostHealth2:
   - addPotionEffect:
       id: 6
       duration: 0
       amplifier: 1
+      ambient: true
+  BoostHealth1:
+  - addPotionEffect:
+      id: 6
+      duration: 0
+      amplifier: 0
       ambient: true
 Pigmen:
   ApplyDamageNodeOnSpawn: SlownessNode

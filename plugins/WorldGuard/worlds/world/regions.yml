@@ -20,9 +20,9 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
-    w105t1-1570d12b-895e-4b59-b9b9-b80edc72742a:
-        min: {x: 3998.0, y: 3.0, z: 49.0}
-        max: {x: 4000.0, y: 4.0, z: 51.0}
+    w105t1-4e6c09d3-5531-40cf-aa29-27e50371c975:
+        min: {x: 3973.0, y: 3.0, z: -3461.0}
+        max: {x: 3975.0, y: 4.0, z: -3459.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -30,9 +30,9 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
-    w105t1-4e6c09d3-5531-40cf-aa29-27e50371c975:
-        min: {x: 3973.0, y: 3.0, z: -3461.0}
-        max: {x: 3975.0, y: 4.0, z: -3459.0}
+    w105t1-1570d12b-895e-4b59-b9b9-b80edc72742a:
+        min: {x: 3998.0, y: 3.0, z: 49.0}
+        max: {x: 4000.0, y: 4.0, z: 51.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -53,6 +53,46 @@ regions:
     w105t1-d8f5bb3c-09b1-4265-9d53-c495b37c15e0:
         min: {x: -1483.0, y: 3.0, z: 2524.0}
         max: {x: -1481.0, y: 4.0, z: 2526.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t3-b27554e9-5a69-4115-b6fa-4d7abe46b9fc:
+        min: {x: 101.0, y: 4.0, z: 74.0}
+        max: {x: 103.0, y: 9.0, z: 76.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t3-bdb63d6e-6bf5-448e-b8d4-d61b8622d015:
+        min: {x: 1846.0, y: 3.0, z: -1451.0}
+        max: {x: 1849.0, y: 5.0, z: -1448.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t2-a3c2fe7a-148d-48e6-a5f1-a876406a70f0:
+        min: {x: 5006.0, y: 3.0, z: 8.0}
+        max: {x: 5010.0, y: 10.0, z: 12.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t1-750543b5-307b-46c1-8567-8dfc39b80ea1:
+        min: {x: 1096.0, y: 3.0, z: 4091.0}
+        max: {x: 1098.0, y: 4.0, z: 4093.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -100,19 +140,9 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
-    w105t1-02e86ffe-198b-4e27-9305-103c0461e333:
-        min: {x: -3143.0, y: 249.0, z: 5925.0}
-        max: {x: -3141.0, y: 250.0, z: 5927.0}
-        members: {}
-        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
-            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
-            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
-        owners: {}
-        type: cuboid
-        priority: 0
-    w105t1-27dc3dd9-6648-4d0e-9a6c-9dd90dd2be00:
-        min: {x: -434.0, y: 3.0, z: -424.0}
-        max: {x: -432.0, y: 4.0, z: -422.0}
+    w105t2-c3de4d74-b4c8-4303-b27e-bc79cfe38dd6:
+        min: {x: 1733.0, y: 3.0, z: -2907.0}
+        max: {x: 1736.0, y: 10.0, z: -2900.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -130,9 +160,39 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t1-27dc3dd9-6648-4d0e-9a6c-9dd90dd2be00:
+        min: {x: -434.0, y: 3.0, z: -424.0}
+        max: {x: -432.0, y: 4.0, z: -422.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t1-02e86ffe-198b-4e27-9305-103c0461e333:
+        min: {x: -3143.0, y: 249.0, z: 5925.0}
+        max: {x: -3141.0, y: 250.0, z: 5927.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t2-1ea0034f-6e34-45d3-9c70-102104dc7533:
         min: {x: 405.0, y: 3.0, z: 26.0}
         max: {x: 409.0, y: 9.0, z: 30.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t2-8c6fda86-88ff-4232-8c30-89f141c14dd3:
+        min: {x: -1491.0, y: 3.0, z: -1494.0}
+        max: {x: -1487.0, y: 10.0, z: -1490.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -190,6 +250,16 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t2-4de27512-9c68-4b43-9ee6-bacf17d46a47:
+        min: {x: 603.0, y: 3.0, z: -248.0}
+        max: {x: 607.0, y: 9.0, z: -244.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t2-d2d441b2-0e82-4abe-a049-caf658fc5ea9:
         min: {x: -994.0, y: 3.0, z: -1003.0}
         max: {x: -990.0, y: 10.0, z: -999.0}
@@ -230,9 +300,9 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
-    w105t2-f342a493-e161-4506-8577-d5eac89ad3ce:
-        min: {x: 1991.0, y: 3.0, z: 508.0}
-        max: {x: 1995.0, y: 10.0, z: 514.0}
+    w105t2-4e010ec8-f021-4f2f-8bce-be2947952c55:
+        min: {x: 1236.0, y: 3.0, z: 1219.0}
+        max: {x: 1240.0, y: 8.0, z: 1223.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -240,9 +310,9 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
-    w105t2-4e010ec8-f021-4f2f-8bce-be2947952c55:
-        min: {x: 1236.0, y: 3.0, z: 1219.0}
-        max: {x: 1240.0, y: 8.0, z: 1223.0}
+    w105t2-f342a493-e161-4506-8577-d5eac89ad3ce:
+        min: {x: 1991.0, y: 3.0, z: 508.0}
+        max: {x: 1995.0, y: 10.0, z: 514.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -290,6 +360,16 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t3-a5f5bf1f-405f-4e7a-a2d2-2cd24c2490ba:
+        min: {x: 3003.0, y: 3.0, z: 2988.0}
+        max: {x: 3006.0, y: 6.0, z: 2991.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t1-7fd92b89-7879-4c56-af9a-a0aec6d2328f:
         min: {x: 1474.0, y: 3.0, z: 1480.0}
         max: {x: 1476.0, y: 4.0, z: 1482.0}
@@ -330,6 +410,16 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t1-55bbaf24-86a1-4ccd-a547-4323ec641ab5:
+        min: {x: -698.0, y: 7.0, z: -706.0}
+        max: {x: -696.0, y: 8.0, z: -704.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t1-3fedcde2-a5c0-4e6a-adc5-f4e4167911f4:
         min: {x: 3004.0, y: 3.0, z: -2935.0}
         max: {x: 3006.0, y: 4.0, z: -2933.0}
@@ -340,9 +430,29 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t3-1bc5a4b6-ddc7-4b11-96ff-97cfb881c9a9:
+        min: {x: 4030.0, y: 3.0, z: -4031.0}
+        max: {x: 4034.0, y: 4.0, z: -4028.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t2-bf822b4a-afd6-4d33-968d-13ce25f1e3df:
         min: {x: 3737.0, y: 3.0, z: -1400.0}
         max: {x: 3741.0, y: 9.0, z: -1396.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t3-b697442e-beb8-4643-b086-ef598861d127:
+        min: {x: 1474.0, y: 3.0, z: 19.0}
+        max: {x: 1477.0, y: 4.0, z: 22.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -380,6 +490,16 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t2-b31b889f-8f9c-4ff0-9863-396044b966bf:
+        min: {x: -3439.0, y: 3.0, z: -3807.0}
+        max: {x: -3435.0, y: 8.0, z: -3804.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t1-9bb1bc4b-f4fa-4927-a668-e55c4ace3188:
         min: {x: 1495.0, y: 3.0, z: -1519.0}
         max: {x: 1497.0, y: 4.0, z: -1517.0}
@@ -410,6 +530,26 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t2-2f951a68-74b4-4b2a-8a16-b71ea008632e:
+        min: {x: -3001.0, y: 3.0, z: -2996.0}
+        max: {x: -2996.0, y: 8.0, z: -2992.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t1-c87e9385-1c2e-49d5-8a51-8d1b31ce3e31:
+        min: {x: 1904.0, y: 3.0, z: -1278.0}
+        max: {x: 1906.0, y: 4.0, z: -1276.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t1-a030185c-d580-40d7-890d-a2b7a6c1deff:
         min: {x: 4398.0, y: 3.0, z: 1020.0}
         max: {x: 4400.0, y: 4.0, z: 1022.0}
@@ -423,6 +563,16 @@ regions:
     w105t1-b697442e-beb8-4643-b086-ef598861d127:
         min: {x: 1471.0, y: 3.0, z: 20.0}
         max: {x: 1473.0, y: 4.0, z: 22.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t1-88475627-1459-4ef4-aef8-f2777aee3843:
+        min: {x: 2224.0, y: 3.0, z: 484.0}
+        max: {x: 2226.0, y: 4.0, z: 486.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -498,6 +648,16 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t3-5e368b6d-9676-45f2-a59b-10a885526755:
+        min: {x: -272.0, y: 3.0, z: 3837.0}
+        max: {x: -269.0, y: 5.0, z: 3840.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t2-455b2c0c-6060-4ab4-80ed-8670bbe25676:
         min: {x: -1651.0, y: 3.0, z: 2613.0}
         max: {x: -1647.0, y: 9.0, z: 2617.0}
@@ -511,6 +671,26 @@ regions:
     w105t1-735f9ceb-be02-4da8-bd62-c352c2f61325:
         min: {x: -3306.0, y: 3.0, z: 4344.0}
         max: {x: -3304.0, y: 4.0, z: 4346.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t2-a0a31f61-9e54-4a64-8eb6-618416b00490:
+        min: {x: 4580.0, y: 3.0, z: -2959.0}
+        max: {x: 4591.0, y: 22.0, z: -2952.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t2-359ef467-7e80-4774-850d-04cc4f5a261f:
+        min: {x: -1999.0, y: 3.0, z: -2015.0}
+        max: {x: -1995.0, y: 10.0, z: -2011.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -578,9 +758,29 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t1-c32b398b-7b63-44b8-9315-ea9cb6cd8d29:
+        min: {x: 1978.0, y: 3.0, z: -2160.0}
+        max: {x: 1980.0, y: 4.0, z: -2158.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t1-52315d11-93f7-4bcd-8e8a-fe305e91695d:
         min: {x: -2172.0, y: 3.0, z: 1880.0}
         max: {x: -2170.0, y: 4.0, z: 1882.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t1-5543862f-1e1a-4922-9146-a9abb79f66f4:
+        min: {x: 1145.0, y: 3.0, z: -1502.0}
+        max: {x: 1147.0, y: 4.0, z: -1500.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -598,9 +798,59 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t1-60eff24e-ca95-434c-bd0b-7173593411b6:
+        min: {x: 397.0, y: 3.0, z: -4598.0}
+        max: {x: 399.0, y: 4.0, z: -4596.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t1-8c6fda86-88ff-4232-8c30-89f141c14dd3:
+        min: {x: -1493.0, y: 3.0, z: -1502.0}
+        max: {x: -1491.0, y: 4.0, z: -1500.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t3-9783c350-9473-4b4f-95d1-afd666f60022:
+        min: {x: 4.0, y: 5.0, z: 48.0}
+        max: {x: 8.0, y: 13.0, z: 53.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t3-f25b3e97-9d34-402c-8fba-0cfca36da10e:
         min: {x: -3496.0, y: 4.0, z: -2298.0}
         max: {x: -3493.0, y: 5.0, z: -2295.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t2-f001a7f6-6ebf-4975-8afc-3108d31f0a5f:
+        min: {x: 4001.0, y: 3.0, z: 1211.0}
+        max: {x: 4005.0, y: 6.0, z: 1215.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t2-3498f560-cb37-4080-9cb3-caf5398c4a31:
+        min: {x: 4967.0, y: 3.0, z: -5242.0}
+        max: {x: 4973.0, y: 16.0, z: -5238.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -646,9 +896,49 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t3-f342a493-e161-4506-8577-d5eac89ad3ce:
+        min: {x: 2000.0, y: 2.0, z: 495.0}
+        max: {x: 2002.0, y: 7.0, z: 497.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t2-f0f551af-318f-4559-8a37-26fc52cfd9da:
+        min: {x: 1955.0, y: 3.0, z: -953.0}
+        max: {x: 1960.0, y: 6.0, z: -949.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t3-28726d4c-c0e3-4db3-b7f6-92345be90271:
+        min: {x: -8001.0, y: 3.0, z: -7979.0}
+        max: {x: -7996.0, y: 20.0, z: -7965.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t3-7fd92b89-7879-4c56-af9a-a0aec6d2328f:
         min: {x: 1481.0, y: 3.0, z: 1473.0}
         max: {x: 1483.0, y: 4.0, z: 1475.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t3-e0ad905c-9de3-4958-892a-d307e47bf5aa:
+        min: {x: -963.0, y: 3.0, z: 2853.0}
+        max: {x: -959.0, y: 6.0, z: 2857.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -706,6 +996,16 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t2-55bbaf24-86a1-4ccd-a547-4323ec641ab5:
+        min: {x: -723.0, y: 3.0, z: -709.0}
+        max: {x: -719.0, y: 7.0, z: -706.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t3-aaa919a8-636f-4057-a2d9-dcdb898a8af9:
         min: {x: -7458.0, y: 3.0, z: 7590.0}
         max: {x: -7454.0, y: 5.0, z: 7594.0}
@@ -726,6 +1026,26 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t3-27dc3dd9-6648-4d0e-9a6c-9dd90dd2be00:
+        min: {x: -425.0, y: 3.0, z: -398.0}
+        max: {x: -422.0, y: 5.0, z: -395.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t1-b93eb607-a4c9-4524-aa3f-3835fea2b2c8:
+        min: {x: 2782.0, y: 3.0, z: 2581.0}
+        max: {x: 2784.0, y: 4.0, z: 2583.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t1-b335ef10-e1e0-475c-ab49-da17993d41f8:
         min: {x: -2028.0, y: 3.0, z: 315.0}
         max: {x: -2026.0, y: 4.0, z: 317.0}
@@ -736,9 +1056,29 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t3-69cfbf67-78d0-49b9-a224-36c0d19e5d74:
+        min: {x: -464.0, y: 3.0, z: 2816.0}
+        max: {x: -462.0, y: 4.0, z: 2818.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t1-0cca66e2-8469-4c2e-8db1-6a9986ba5856:
         min: {x: -2004.0, y: 3.0, z: -2017.0}
         max: {x: -2002.0, y: 4.0, z: -2015.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t3-785e440e-40d6-449e-8970-858ce2e9637d:
+        min: {x: -1549.0, y: 3.0, z: -3320.0}
+        max: {x: -1545.0, y: 10.0, z: -3306.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -806,6 +1146,16 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t1-f001a7f6-6ebf-4975-8afc-3108d31f0a5f:
+        min: {x: 3939.0, y: 3.0, z: 1499.0}
+        max: {x: 3941.0, y: 4.0, z: 1501.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t2-e5643b8a-d77c-4ec9-84fe-04a469e70197:
         min: {x: 785.0, y: 3.0, z: 4474.0}
         max: {x: 789.0, y: 8.0, z: 4478.0}
@@ -866,9 +1216,9 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
-    w105t2-52315d11-93f7-4bcd-8e8a-fe305e91695d:
-        min: {x: -2175.0, y: 3.0, z: 1874.0}
-        max: {x: -2171.0, y: 9.0, z: 1878.0}
+    w105t2-c32b398b-7b63-44b8-9315-ea9cb6cd8d29:
+        min: {x: 1401.0, y: 13.0, z: -1281.0}
+        max: {x: 1405.0, y: 21.0, z: -1277.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -879,6 +1229,26 @@ regions:
     w105t1-364930e6-d13e-49a7-9b13-928bee5d469a:
         min: {x: 1978.0, y: 3.0, z: 601.0}
         max: {x: 1980.0, y: 4.0, z: 603.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t2-52315d11-93f7-4bcd-8e8a-fe305e91695d:
+        min: {x: -2175.0, y: 3.0, z: 1874.0}
+        max: {x: -2171.0, y: 9.0, z: 1878.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t2-5543862f-1e1a-4922-9146-a9abb79f66f4:
+        min: {x: 1148.0, y: 3.0, z: -1500.0}
+        max: {x: 1152.0, y: 8.0, z: -1496.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -907,6 +1277,16 @@ regions:
     w105t2-f25b3e97-9d34-402c-8fba-0cfca36da10e:
         min: {x: -3497.0, y: 3.0, z: -2292.0}
         max: {x: -3493.0, y: 9.0, z: -2288.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t2-b27554e9-5a69-4115-b6fa-4d7abe46b9fc:
+        min: {x: 88.0, y: 20.0, z: 69.0}
+        max: {x: 93.0, y: 24.0, z: 74.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -954,9 +1334,59 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t2-7404b20d-faf2-47ee-8986-c15117f9c6fd:
+        min: {x: -3426.0, y: 3.0, z: -3821.0}
+        max: {x: -3423.0, y: 10.0, z: -3816.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t2-f8dcf918-29e8-4785-af11-0b522dd1bc7a:
+        min: {x: -2395.0, y: 3.0, z: 1749.0}
+        max: {x: -2392.0, y: 8.0, z: 1753.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t2-fdee323e-7f0c-4c15-8d1c-0f277442342a:
+        min: {x: 154.0, y: 3.0, z: -3.0}
+        max: {x: 158.0, y: 8.0, z: 1.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t1-d656bc97-5cbf-489e-81ec-c21df0bdbd58:
         min: {x: -7728.0, y: 3.0, z: -8002.0}
         max: {x: -7726.0, y: 4.0, z: -8000.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t3-35caa41b-1559-4925-a7d0-aaa66cc24ddc:
+        min: {x: 768.0, y: 3.0, z: -40.0}
+        max: {x: 777.0, y: 8.0, z: -31.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t3-761691b5-df29-427a-9a01-e255688de798:
+        min: {x: 79.0, y: 3.0, z: -295.0}
+        max: {x: 83.0, y: 5.0, z: -291.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -992,9 +1422,29 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t3-e5643b8a-d77c-4ec9-84fe-04a469e70197:
+        min: {x: 808.0, y: 3.0, z: 4487.0}
+        max: {x: 811.0, y: 5.0, z: 4491.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t1-2883da6e-d0ec-4117-b12a-6fed06963ab3:
         min: {x: 6991.0, y: 3.0, z: -7990.0}
         max: {x: 6993.0, y: 4.0, z: -7988.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t2-d493e395-b696-42ef-b971-7188373e52ba:
+        min: {x: -4024.0, y: 3.0, z: -7982.0}
+        max: {x: -4012.0, y: 17.0, z: -7976.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -1042,6 +1492,16 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t1-e0ad905c-9de3-4958-892a-d307e47bf5aa:
+        min: {x: -2051.0, y: 3.0, z: 4982.0}
+        max: {x: -2047.0, y: 10.0, z: 4986.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t2-735f9ceb-be02-4da8-bd62-c352c2f61325:
         min: {x: -3306.0, y: 4.0, z: 4349.0}
         max: {x: -3302.0, y: 9.0, z: 4353.0}
@@ -1052,9 +1512,39 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t3-740f2309-0732-4019-8588-37c2a3b07efc:
+        min: {x: 394.0, y: 3.0, z: 26.0}
+        max: {x: 398.0, y: 11.0, z: 32.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t1-46184ccb-b4a0-4e72-a66e-5bd3f1e94db1:
         min: {x: -4966.0, y: 3.0, z: 5020.0}
         max: {x: -4964.0, y: 4.0, z: 5022.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t3-957c8d9c-8f85-423c-be98-db072ed7ed65:
+        min: {x: 756.0, y: 3.0, z: -40.0}
+        max: {x: 762.0, y: 11.0, z: -31.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t2-b93eb607-a4c9-4524-aa3f-3835fea2b2c8:
+        min: {x: 2798.0, y: 3.0, z: 2590.0}
+        max: {x: 2802.0, y: 10.0, z: 2594.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -1102,9 +1592,39 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t3-de204860-9ddb-4dd1-8738-19bc3e2b295c:
+        min: {x: -3494.0, y: 3.0, z: 3484.0}
+        max: {x: -3491.0, y: 5.0, z: 3487.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t2-b697442e-beb8-4643-b086-ef598861d127:
         min: {x: 1529.0, y: 3.0, z: -17.0}
         max: {x: 1533.0, y: 8.0, z: -13.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t1-b31b889f-8f9c-4ff0-9863-396044b966bf:
+        min: {x: -3444.0, y: 4.0, z: -3815.0}
+        max: {x: -3442.0, y: 5.0, z: -3813.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t1-f8dcf918-29e8-4785-af11-0b522dd1bc7a:
+        min: {x: -2395.0, y: 3.0, z: 1748.0}
+        max: {x: -2393.0, y: 4.0, z: 1750.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -1122,9 +1642,39 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t3-c32b398b-7b63-44b8-9315-ea9cb6cd8d29:
+        min: {x: 26.0, y: 3.0, z: 2504.0}
+        max: {x: 28.0, y: 5.0, z: 2507.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t2-5e368b6d-9676-45f2-a59b-10a885526755:
+        min: {x: -265.0, y: 3.0, z: 3852.0}
+        max: {x: -261.0, y: 8.0, z: 3856.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t2-9bb1bc4b-f4fa-4927-a668-e55c4ace3188:
         min: {x: 1498.0, y: 3.0, z: -1520.0}
         max: {x: 1502.0, y: 10.0, z: -1516.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t1-4f0d561b-6269-4b06-955d-c0bcf0f95ddf:
+        min: {x: 31.0, y: 0.0, z: 1500.0}
+        max: {x: 33.0, y: 1.0, z: 1502.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -1145,6 +1695,16 @@ regions:
     w105t3-3c018c9f-5055-4f0a-8c66-d2a849d7db20:
         min: {x: 2516.0, y: 3.0, z: 1472.0}
         max: {x: 2519.0, y: 7.0, z: 1474.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t1-2f951a68-74b4-4b2a-8a16-b71ea008632e:
+        min: {x: -2996.0, y: 3.0, z: -3001.0}
+        max: {x: -2994.0, y: 4.0, z: -2999.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -1192,6 +1752,16 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t3-23c3f730-035e-4bcd-a569-af9c42c8bb36:
+        min: {x: 1819.0, y: 2.0, z: 3550.0}
+        max: {x: 1822.0, y: 4.0, z: 3553.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t1-f342a493-e161-4506-8577-d5eac89ad3ce:
         min: {x: 1989.0, y: 3.0, z: 504.0}
         max: {x: 1991.0, y: 4.0, z: 506.0}
@@ -1225,6 +1795,16 @@ regions:
     w105t1-048b500d-e8f9-4b1b-87d4-a7c95e8c116b:
         min: {x: 287.0, y: 3.0, z: 128.0}
         max: {x: 289.0, y: 4.0, z: 130.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t1-f0f551af-318f-4559-8a37-26fc52cfd9da:
+        min: {x: 1952.0, y: 3.0, z: -952.0}
+        max: {x: 1954.0, y: 4.0, z: -950.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -1272,9 +1852,29 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t1-3498f560-cb37-4080-9cb3-caf5398c4a31:
+        min: {x: 4966.0, y: 3.0, z: -5236.0}
+        max: {x: 4968.0, y: 4.0, z: -5234.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t3-455b2c0c-6060-4ab4-80ed-8670bbe25676:
         min: {x: -5796.0, y: 1.0, z: 1293.0}
         max: {x: -5792.0, y: 5.0, z: 1298.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t2-0e9b022c-6ad8-4afd-9153-e8f1743f4849:
+        min: {x: 1962.0, y: 3.0, z: -424.0}
+        max: {x: 1966.0, y: 10.0, z: -420.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -1312,6 +1912,16 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t1-d1ae566f-c249-43ae-8af3-6268443ad040:
+        min: {x: -484.0, y: 3.0, z: -1018.0}
+        max: {x: -482.0, y: 4.0, z: -1016.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t1-0be77d72-827e-4480-bb2e-febe2ebc059e:
         min: {x: 3994.0, y: 3.0, z: 3349.0}
         max: {x: 3996.0, y: 4.0, z: 3351.0}
@@ -1325,6 +1935,26 @@ regions:
     w105t2-5f9f88d0-e087-4ad8-b092-e3c7a1f4d2f8:
         min: {x: -1283.0, y: 3.0, z: -538.0}
         max: {x: -1279.0, y: 9.0, z: -534.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t2-27dc3dd9-6648-4d0e-9a6c-9dd90dd2be00:
+        min: {x: -414.0, y: 3.0, z: -394.0}
+        max: {x: -410.0, y: 8.0, z: -390.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t1-1b26a0ba-6e90-4fe6-967a-bfb646918323:
+        min: {x: -1022.0, y: 3.0, z: -1467.0}
+        max: {x: -1020.0, y: 4.0, z: -1465.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -1402,9 +2032,39 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t1-92817f97-47de-4fba-9c70-eba70a9efa0d:
+        min: {x: -2867.0, y: 3.0, z: 1464.0}
+        max: {x: -2865.0, y: 4.0, z: 1466.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t3-3fedcde2-a5c0-4e6a-adc5-f4e4167911f4:
         min: {x: 2997.0, y: 3.0, z: -2942.0}
         max: {x: 3003.0, y: 6.0, z: -2936.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t1-ae2178c4-e93e-445c-bd8e-7f438ba1ebf8:
+        min: {x: 2027.0, y: 3.0, z: 423.0}
+        max: {x: 2029.0, y: 4.0, z: 425.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t1-061ec378-f680-4589-a18b-2f5481f5cb5b:
+        min: {x: -1.0, y: 3.0, z: 208.0}
+        max: {x: 1.0, y: 4.0, z: 210.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -1422,9 +2082,39 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t3-a0a31f61-9e54-4a64-8eb6-618416b00490:
+        min: {x: 4607.0, y: 3.0, z: -2956.0}
+        max: {x: 4610.0, y: 5.0, z: -2952.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t1-65d5edcb-0eca-4302-b363-0e50396c3776:
         min: {x: 991.0, y: 3.0, z: -1022.0}
         max: {x: 993.0, y: 4.0, z: -1020.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t3-1b7528b2-88fd-4d9e-b185-2396b1392e87:
+        min: {x: 1021.0, y: 3.0, z: 3.0}
+        max: {x: 1024.0, y: 5.0, z: 6.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t1-d3c14dea-e478-4a3b-883a-385c60b05d24:
+        min: {x: 1110.0, y: 3.0, z: 4088.0}
+        max: {x: 1112.0, y: 4.0, z: 4090.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -1462,9 +2152,29 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t2-88475627-1459-4ef4-aef8-f2777aee3843:
+        min: {x: 2223.0, y: 3.0, z: 489.0}
+        max: {x: 2227.0, y: 8.0, z: 493.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t2-c606ff18-8d38-4887-a88d-555b5388efcc:
         min: {x: -246.0, y: 3.0, z: 3221.0}
         max: {x: -242.0, y: 10.0, z: 3225.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t2-59e71a62-b8ba-46ca-9987-d5e757e67b74:
+        min: {x: 615.0, y: 3.0, z: -247.0}
+        max: {x: 620.0, y: 8.0, z: -243.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -1522,6 +2232,26 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t3-5f9f88d0-e087-4ad8-b092-e3c7a1f4d2f8:
+        min: {x: -1274.0, y: 3.0, z: -536.0}
+        max: {x: -1271.0, y: 5.0, z: -532.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t2-98bc254c-103f-4b95-b4cb-9544c6270b9d:
+        min: {x: 1557.0, y: 3.0, z: -693.0}
+        max: {x: 1561.0, y: 7.0, z: -689.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t1-9fa79f00-b00f-4908-bd30-525b09855154:
         min: {x: 12.0, y: 3.0, z: 2008.0}
         max: {x: 14.0, y: 4.0, z: 2010.0}
@@ -1552,6 +2282,16 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t2-53803126-5a0b-46c7-b532-4bbb034749b1:
+        min: {x: 1525.0, y: 3.0, z: -513.0}
+        max: {x: 1529.0, y: 10.0, z: -509.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t1-6f9c074a-8a9a-498a-a344-7624e7518a94:
         min: {x: 1980.0, y: 3.0, z: 11.0}
         max: {x: 1982.0, y: 4.0, z: 13.0}
@@ -1575,6 +2315,16 @@ regions:
     w105t1-c606ff18-8d38-4887-a88d-555b5388efcc:
         min: {x: -968.0, y: 3.0, z: 3323.0}
         max: {x: -966.0, y: 4.0, z: 3325.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t2-c87e9385-1c2e-49d5-8a51-8d1b31ce3e31:
+        min: {x: 1898.0, y: 3.0, z: -1296.0}
+        max: {x: 1902.0, y: 9.0, z: -1292.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -1632,9 +2382,79 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t1-1defd908-5162-4929-86d0-bbaec6488e00:
+        min: {x: -1635.0, y: 3.0, z: -4127.0}
+        max: {x: -1633.0, y: 4.0, z: -4125.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t3-30fcff27-aaee-49d6-a661-c5da8a9c2201:
+        min: {x: 7902.0, y: 3.0, z: -7950.0}
+        max: {x: 7915.0, y: 5.0, z: -7939.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t3-69cfbf67-78d0-49b9-a224-36c0d19e5d74-2:
+        min: {x: -477.0, y: 3.0, z: 2822.0}
+        max: {x: -473.0, y: 8.0, z: 2826.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t3-f9b767a5-f612-452f-b807-7873d80fde0f:
+        min: {x: -7650.0, y: 3.0, z: -7999.0}
+        max: {x: -7646.0, y: 8.0, z: -7992.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t1-4de27512-9c68-4b43-9ee6-bacf17d46a47:
+        min: {x: 601.0, y: 4.0, z: -266.0}
+        max: {x: 603.0, y: 5.0, z: -264.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t1-d2d441b2-0e82-4abe-a049-caf658fc5ea9:
         min: {x: -992.0, y: 3.0, z: -993.0}
         max: {x: -990.0, y: 4.0, z: -991.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t2-1b26a0ba-6e90-4fe6-967a-bfb646918323:
+        min: {x: -981.0, y: 3.0, z: -1467.0}
+        max: {x: -977.0, y: 7.0, z: -1462.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t2-9e1b1fa3-568f-4cf0-a394-28a01237fef8:
+        min: {x: -2138.0, y: 3.0, z: 4471.0}
+        max: {x: -2134.0, y: 10.0, z: 4475.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -1675,6 +2495,26 @@ regions:
     w105t3-52660096-f888-4347-b5fb-8d5d8ab473a4:
         min: {x: 42.0, y: 2.0, z: 1734.0}
         max: {x: 46.0, y: 4.0, z: 1738.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t2-ae2178c4-e93e-445c-bd8e-7f438ba1ebf8:
+        min: {x: 2037.0, y: 3.0, z: 424.0}
+        max: {x: 2041.0, y: 9.0, z: 428.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t1-5e368b6d-9676-45f2-a59b-10a885526755:
+        min: {x: 266.0, y: 3.0, z: -1913.0}
+        max: {x: 268.0, y: 4.0, z: -1911.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -1762,6 +2602,26 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t1-ec7dc99e-a096-4a00-a064-e66f1ac0fe8e:
+        min: {x: -2199.0, y: 3.0, z: 1180.0}
+        max: {x: -2197.0, y: 4.0, z: 1182.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t1-a62a3a8d-c5e0-4120-bd56-6ae22156b4a0:
+        min: {x: 3976.0, y: 3.0, z: 3271.0}
+        max: {x: 3978.0, y: 4.0, z: 3273.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t1-67e4d9f1-b509-472e-a01b-d37c9cc5af9c:
         min: {x: -25.0, y: 3.0, z: 61.0}
         max: {x: -23.0, y: 4.0, z: 63.0}
@@ -1785,6 +2645,16 @@ regions:
     w105t1-fe442afc-54ea-4299-8d34-d1ab10057c85:
         min: {x: -7793.0, y: 3.0, z: -8002.0}
         max: {x: -7791.0, y: 4.0, z: -8000.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t3-d29609d7-9550-40a9-984b-dce716949ea1:
+        min: {x: 1811.0, y: 3.0, z: 3550.0}
+        max: {x: 1814.0, y: 5.0, z: 3553.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -1822,6 +2692,16 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t2-dfb4c74a-3678-48e4-bd8c-1cef9aa6994b:
+        min: {x: 1229.0, y: 3.0, z: 4356.0}
+        max: {x: 1233.0, y: 8.0, z: 4360.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t2-66f8216c-9298-439f-9513-ed44c431fb1e:
         min: {x: -2501.0, y: 3.0, z: -1490.0}
         max: {x: -2497.0, y: 10.0, z: -1485.0}
@@ -1835,6 +2715,26 @@ regions:
     w105t2-de204860-9ddb-4dd1-8738-19bc3e2b295c:
         min: {x: -3485.0, y: 3.0, z: 3462.0}
         max: {x: -3481.0, y: 9.0, z: 3466.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t3-a3c2fe7a-148d-48e6-a5f1-a876406a70f0:
+        min: {x: 4995.0, y: 3.0, z: 10.0}
+        max: {x: 4998.0, y: 5.0, z: 13.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t2-ec7dc99e-a096-4a00-a064-e66f1ac0fe8e:
+        min: {x: -2570.0, y: 3.0, z: 2601.0}
+        max: {x: -2566.0, y: 8.0, z: 2605.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -1865,6 +2765,36 @@ regions:
     w105t1-c723855f-6089-4086-823a-d37801e6471e:
         min: {x: -2844.0, y: 3.0, z: 1165.0}
         max: {x: -2842.0, y: 4.0, z: 1167.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t1-53803126-5a0b-46c7-b532-4bbb034749b1:
+        min: {x: 1525.0, y: 5.0, z: -515.0}
+        max: {x: 1527.0, y: 6.0, z: -513.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t3-3a84d5f4-59e1-48af-b69f-bc80d2dda43b:
+        min: {x: 1546.0, y: 3.0, z: -704.0}
+        max: {x: 1549.0, y: 4.0, z: -701.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t2-4f0d561b-6269-4b06-955d-c0bcf0f95ddf:
+        min: {x: 13.0, y: 3.0, z: 1506.0}
+        max: {x: 16.0, y: 7.0, z: 1510.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -1922,6 +2852,26 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    w105t3-53803126-5a0b-46c7-b532-4bbb034749b1:
+        min: {x: 1518.0, y: 4.0, z: -513.0}
+        max: {x: 1519.0, y: 6.0, z: -512.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t3-a62a3a8d-c5e0-4120-bd56-6ae22156b4a0:
+        min: {x: 3973.0, y: 3.0, z: 3269.0}
+        max: {x: 3980.0, y: 8.0, z: 3276.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     w105t1-c6ab815a-8cd7-4790-814b-51fd927a2b16:
         min: {x: -1011.0, y: 3.0, z: 1998.0}
         max: {x: -1009.0, y: 4.0, z: 2000.0}
@@ -1955,6 +2905,16 @@ regions:
     w105t2-bdb63d6e-6bf5-448e-b8d4-d61b8622d015:
         min: {x: 1878.0, y: 3.0, z: -1650.0}
         max: {x: 1882.0, y: 9.0, z: -1646.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t2-158331a3-4dda-4e93-98fd-05ccb7f65333:
+        min: {x: 2322.0, y: 3.0, z: -2343.0}
+        max: {x: 2331.0, y: 18.0, z: -2337.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -2005,6 +2965,16 @@ regions:
     w105t2-6d821d7f-ef3e-4564-8fbc-3a7150fe5edc:
         min: {x: 893.0, y: 3.0, z: 2021.0}
         max: {x: 897.0, y: 8.0, z: 2025.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t1-158331a3-4dda-4e93-98fd-05ccb7f65333:
+        min: {x: 2328.0, y: 3.0, z: -2321.0}
+        max: {x: 2330.0, y: 4.0, z: -2319.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
@@ -2065,6 +3035,16 @@ regions:
     w105t2-3a84d5f4-59e1-48af-b69f-bc80d2dda43b:
         min: {x: 1558.0, y: 3.0, z: -701.0}
         max: {x: 1562.0, y: 9.0, z: -696.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,
+            entity-item-frame-destroy: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
+    w105t1-4e91ecec-9cf7-4734-a0e6-4640fdad11e9:
+        min: {x: 3815.0, y: 3.0, z: 3557.0}
+        max: {x: 3817.0, y: 4.0, z: 3559.0}
         members: {}
         flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
             chest-access: deny, pistons: deny, entity-painting-destroy: deny, ghast-fireball: deny,

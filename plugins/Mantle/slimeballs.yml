@@ -5,22 +5,21 @@ Item:
 ReleaseCommand: lim release <Player>
 Messages:
   Account:
-    HeaderEmpty: You don't have slimeballs!
-    HeaderNotEmpty: You have <Amount> slimeball<PluralS>!
-    Mod: '<Player>''s slimeballs: <Amount>'
+    HeaderEmpty: '&cYou don''t have slimeballs...'
+    HeaderNotEmpty: '&6You have <Amount> slimeball<PluralS>!'
+    Mod: '&6<Player>''s slimeballs: <Amount>'
     Footer: '&7[NEWLINE]&bEnchanted Slimeballs are simply extra lives. Grab a slimeball
       and right click to get released from Limbo.[NEWLINE]&3Every player gets one
       when they join.[NEWLINE]&3Get more here: http://redd.it/1vuj5j'
-  AccountOtherPlayer: <Player> currently has <Count> Slimeball<PluralS>!
-  PlayerDoesNotExist: <Player> does not exist!
+  AccountOtherPlayer: '&6<Player> currently has <Count> Slimeball<PluralS>!'
+  PlayerDoesNotExist: '&c<Player> does not exist!'
   SlimeballClickText:
     Prefix: '&3You are about to be released from Limbo. ['
     Button: '&bClick to confirm'
     Suffix: '&3]'
   Release:
-    Player: 'You tripped over your Slimeball and passed out. Now you have woken up
-      in different place...[NEWLINE]&3More: /slimeballs'
-    Notification: <Player> just slimed out of the Limbo! <Amount> balls remaining.
+    Player: '&aBy the power of slimeskull!'
+    Notification: '&8<Player> used a slimeball Remaining: <Amount>'
     EmptyAccount: '&cYou don''t have any slimeballs. &7/slimeballs'
   Awarded:
     Player: '&aYou received <Slimeballs> slimeball<PluralS>!'

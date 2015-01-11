@@ -11,7 +11,7 @@ Clicks:
   - /rspawn protect <Player>
   - /checkpoint clear
   - /clear silent
-  - /effect clear silent
+  - /core effect clear silent
   - /ungod <Player> silent
 - regions:
   - limbo-parkour-crystal

@@ -38,6 +38,11 @@ Messages:
   LuckyBoosterBought: You have bought a Lucky Booster!
   NoLuckyBooster: You have 0 boosters left!
   ActivatedLuckyBooster: You activated Lucky Booster!
+  ActivatedLuckyBoosterBroadcast: <Player> activated Lucky Booster!
+  TimeSyntax: <Hours>h <Minutes>m
+  LuckyAlreadyActive: Another lucky booster is already active! It has been sponsored by <Player>. <Time> left.
+  SpawnLuckyWithBooster: You had a lucky spawn thanks to <Player>! <Time> left.
+  SpawnLucky: You had a lucky spawn!
 World: world
 Lucky100: []
 Lucky66: []

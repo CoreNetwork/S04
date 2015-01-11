@@ -29,20 +29,20 @@ Worlds:
       LavaDrain: 1.0
       StartingMF: 1
   world_nether:
-    '48':
+    '108':
       Drain: 0.1
-      FireDrain: 1.0
-      LavaDrain: 1.5
-      StartingMF: 1
-    '32':
-      Drain: 0.2
-      FireDrain: 1.5
-      LavaDrain: 2.0
-      StartingMF: 2
-    '16':
-      Drain: 0.3
       FireDrain: 2.0
       LavaDrain: 2.5
+      StartingMF: 1
+    '54':
+      Drain: 0.2
+      FireDrain: 2.5
+      LavaDrain: 3.0
+      StartingMF: 2
+    '27':
+      Drain: 0.3
+      FireDrain: 3.0
+      LavaDrain: 3.5
       StartingMF: 3
 Notifications:
   '40': '&6You probably should drink something. &7/help Dehydration'
