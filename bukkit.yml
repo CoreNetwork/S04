@@ -23,10 +23,10 @@ settings:
   connection-throttle: 4000
   query-plugins: false
   deprecated-verbose: default
-  shutdown-message: Restarting because captain Picard told me to make it so.
+  shutdown-message: Restarting!
 spawn-limits:
   monsters: 75
-  animals: 0
+  animals: 10
   water-animals: 5
   ambient: 0
 chunk-gc:
@@ -44,7 +44,7 @@ database:
   password: walrus
   url: jdbc:sqlite:{DIR}{NAME}.db
 auto-updater:
-  enabled: true
+  enabled: false
   on-broken:
   - warn-console
   - warn-ops
@@ -53,7 +53,7 @@ auto-updater:
   - warn-ops
   preferred-channel: dev
   host: dl.bukkit.org
-  suggest-channels: true
+  suggest-channels: false
 worlds:
   world_nether:
     generator: TerrainControl
