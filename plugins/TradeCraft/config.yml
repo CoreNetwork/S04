@@ -1090,7 +1090,7 @@ Tiers:
         itemA:
           currency: 4
         result:
-          item: leather_tunic
+          item: leather_chestplate
     '2':
     - trade:
         comment: selling saddle

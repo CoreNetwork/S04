@@ -16,6 +16,7 @@ SpawnProtectionNotifications:
 - 90
 - 60
 - 30
+- 20
 - 10
 MobRemovalRadiusSquared: 625
 SpawnWarps:
@@ -35,23 +36,26 @@ Messages:
     mobs.'
   GroupJoin: '&bWait for everyone else to join the list and click the crystal.'
   GroupRemain: '&3Team respawn timed out. Try again or spawn on your own.'
-  LuckyBoosterBought: You have bought a Lucky Booster!
-  NoLuckyBooster: You have 0 boosters left!
-  ActivatedLuckyBooster: You activated Lucky Booster!
-  ActivatedLuckyBoosterBroadcast: <Player> activated Lucky Booster!
+  LuckyBoosterBought: '&6Bought a Lucky Respawn booster! Enable with &7/luckyrun'
+  NoLuckyBooster: '&6No boosters left! Get more: store.core-network.us'
+  ActivatedLuckyBooster: '&aLucky Respawn activated for 12 more hours'
+  ActivatedLuckyBoosterBroadcast: '&b<Player> sponsored Lucky Respawn for everyone!
+    [NEWLINE] &3It will stay active for 12 more hours. /help Respawn'
   TimeSyntax: <Hours>h <Minutes>m
+  SpawnLuckyWithBooster: '&bOooh, lucky! [NEWLINE] &bYou had a lucky respawn thanks
+    to <Player>''s patronage. [NEWLINE] &3Booster will end in <Time>. /help Respawn'
+  SpawnLucky: '&bOooh, lucky! You had a lucky respawn! &3/help Respawn'
   LuckyAlreadyActive: Another lucky booster is already active! It has been sponsored by <Player>. <Time> left.
-  SpawnLuckyWithBooster: You had a lucky spawn thanks to <Player>! <Time> left.
-  SpawnLucky: You had a lucky spawn!
 World: world
-Lucky100: []
-Lucky66: []
 Group:
   TimeLimit: 30
   Header: '&bTeam respawn'
   NameColor: '&f'
   CounterColor: '&f'
+LuckySquareLength: 4000
 LuckyBoosterMinutes: 720
+Lucky100: []
+Lucky66: []
 Holograms18:
   Lists:
   - respawn-list

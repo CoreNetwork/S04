@@ -101,10 +101,12 @@ Blocks:
     Used: '&6Used: &7<Amount>'
     Available: '&eAvailable: &f<Amount>'
 Messages:
-  CanBuild: '&6You can build here. Save yourelf.'
+  CanBuild: '&6You can build here. Save yourself.'
   RescueInProgress: '&6Please stand still for 5 seconds.'
   RescurePlayerMoved: '&cRescue cancelled due to movement.'
   NotEnabledIn: '&4You cannot use /trapped in this world.'
+  CannotBeRescuredFromHere: '&cYou cannot be rescured from here!'
+  CouldntFindSafeLocation: '&c/trapped couldn''t find a safe location for you.'
 ClaimLiquids:
   Worlds:
     world:

@@ -387,6 +387,9 @@ Aliases:
   - '&7------------'
 - match: /help Raid
   forward: /help TreasureChase
+- match: /raid\s?(.*)
+  message:
+  - '&6Treasure Raid is now &eTreasure Chase &6/help TreasureChase'
 - match: /help Ranks
   message:
   - ''
@@ -424,12 +427,16 @@ Aliases:
   message:
   - ''
   - '&7-- &fHelp: Random Respawn &7--------'
-  - '&7When you start on the server or respawn after serving your Limbo sentence, you are taken to a random place on the map. You also get 2 minutes of invincibility (you can still die to void and /kill). Beds can skip the night but cannot set your home / spawn point.'
+  - '&7When you start on the server or respawn after serving your Limbo sentence, you are taken to a random place on the map. You also get 2 minutes of mobs ignoring you. Beds can skip the night but cannot set your home / spawn point.'
   - ''
-  - '&7If you have a base, there is a &f33% &7chance for a &flucky spawn &7in a 5,000 by 5,000 square centered on your biggest claim.'
+  - '&7If you have a base, there is a &f33% &7chance for a &fLucky Respawn &7in a 4,000 by 4,000 square centered on your biggest claim. &6You can increase that chance to &e100% &6for everyone for 12h by running a Lucky Respawn booster: &estore.core-network.us'
   - '&7'
-  - '&7You can disable your next lucky spawn with &f/togglespawn&7. Type it again to reverse.'
+  - '&7To disable your next lucky respawn, &f/luckytoggle&7. Type again to reverse.'
   - '&7------------'
+- match: /luckyrun
+  route: /core runlucky
+- match: /luckytoggle
+  route: /togglespawn
 - match: /help Spawning
   message:
   - ''
@@ -446,9 +453,9 @@ Aliases:
   message:
   - ''
   - '&7-- &fHelp: Spells &7--------'
-  - '&7Spells are custom items found in loot structures: Graveyards, Keeps and Fortresses. Not all chests have them and you are not guaranteed to find them in every structure. They are designed to remove the grinding aspect from some common tasks. When cast, they also create a positive effect boost for every player on the server in that moment.'
+  - '&7Spells are custom items designed to remove the grinding aspect from some common tasks. They can disenchant and item, remove a slime chunk or instantly grow all saplings around you. When cast, they also create a positive effect boost for every player on the server in that moment.'
   - ''
-  - '&7You can also buy them in our shop or subscribe to get a bundle every month.'
-  - '&7To learn more about spells and how to get them:'
-  - '&fhttp://www.core-network.us/spells'
+  - '&6The way to get spells is to find them in &eTreasure Chase. &6You can buy one in &estore.core-network.us &6or wait for someone to sponsor it. /help TreasureChase'
+  - ''
+  - '&7Full documentation: &fhttp://www.core-network.us/spells'
   - '&7------------'

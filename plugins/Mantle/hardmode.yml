@@ -8,7 +8,7 @@ EndermanTeleport:
 Ghast:
   SpawningChance: 0.2
   MinimumSpawningY: 80
-  MaxmimumHorizontalTargetRangeSquared: 5184
+  MaxmimumHorizontalTargetRangeSquared: 9216
   Fireball:
     DamageMultiplier: 2.0
     BlastRadiusMultiplier: 1.0

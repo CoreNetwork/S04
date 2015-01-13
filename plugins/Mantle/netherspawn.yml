@@ -24,7 +24,7 @@ WitherSkeleton:
   Speed: 0.265
 Ghast:
   SpawningIntervalTicks: 10
-  SpawnChance: 0.01
+  SpawnChance: 0.025
   LightCheckY: 183
   MinSpawnY: 163
   MaxSpawnY: 179

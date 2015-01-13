@@ -7,7 +7,7 @@ Overworld:
     MinZ: -8001
     MaxX: 8000
     MaxZ: 8000
-    MinY: 3
+    MinY: 1
     MaxY: 250
   MoveSpawnedPortals:
     WithLowerYThan: 4

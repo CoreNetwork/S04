@@ -673,25 +673,20 @@ LootTables:
           nbt: spell-decay
           amount: 3
     - pick:
-      - chance 0.5
-      - item:
-          name: book
-          nbt: spell-wind
-    - pick:
       - chance 1.0
       - weights 10 8 5
       - item:
           name: book
           nbt: spell-fusing
-          amount: 11
+          amount: 5
       - item:
           name: book
           nbt: spell-fusing
-          amount: 12
+          amount: 6
       - item:
           name: book
           nbt: spell-fusing
-          amount: 13
+          amount: 7
     - pick:
       - weights 10 9 8 6 3 10 9 8 6 3 10 9 8 6 3
       - rolls 6
@@ -773,7 +768,7 @@ LootTables:
           nbt: spell-peddling
           amount: 6
     - pick:
-      - chance 0.5
+      - chance 0.25
       - item:
           name: book
           nbt: spell-wind
@@ -788,15 +783,15 @@ LootTables:
       - item:
           name: book
           nbt: spell-fusing
-          amount: 13
+          amount: 5
       - item:
           name: book
           nbt: spell-fusing
-          amount: 14
+          amount: 6
       - item:
           name: book
           nbt: spell-fusing
-          amount: 15
+          amount: 7
     - pick:
       - weights 10 9 8 6 3 10 9 8 6 3 10 9 8 6 3
       - rolls 9
