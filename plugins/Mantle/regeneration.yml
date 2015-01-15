@@ -4,11 +4,12 @@ Structures:
     RespawnVillagers: true
     WarnHighClaimedPercentage: true
     TimeOffsetSeconds: 60
-    RegenerateIntervalSeconds: 300
+    RegenerateIntervalSeconds: 120
     RegenerateAtOnce: 1
 Restoration:
   VillageCheckPadding: 0
   WarnPercentage: 50
+  VillageCheckVisualPadding: 128
 Messages:
   Analyzing: '&8Analyzing regenerating structures. Please wait...'
   AnalyzeHeader: '&7Structure claim status:'
@@ -24,3 +25,4 @@ Messages:
   DeleteNearbyStructure: '&6Confirm regeneration of #<ID> (<Distance> blocks away)
     with the command again.'
   VillageWillBeRestored: '&aStructure #<ID> (<Distance> blocks away) can regenerate.'
+RegenerateLayerEveryXTicks: 10

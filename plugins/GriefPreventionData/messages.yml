@@ -424,3 +424,9 @@ Messages:
     Text: You can't claim all of this because you're not allowed to build here.
   ResizeFailOverlapRegion:
     Text: You don't have permission to build there, so you can't claim that area.
+  NoBuildPortalPermission:
+    Text: You can't use this portal because you don't have {0}'s permission to build an exit portal in the destination land claim.
+    Notes: '0: Destination land claim owner''s name.'
+  ShowNearbyClaims:
+    Text: Found {0} land claims.
+    Notes: '0: Number of claims found.'

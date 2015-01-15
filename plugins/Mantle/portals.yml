@@ -8,7 +8,7 @@ Overworld:
     MaxX: 8000
     MaxZ: 8000
     MinY: 1
-    MaxY: 250
+    MaxY: 255
   MoveSpawnedPortals:
     WithLowerYThan: 4
     WithHigherYThan: 4
@@ -19,7 +19,7 @@ Nether:
     MinX: -1001
     MinZ: -1001
     MinY: 1
-    MaxY: 184
+    MaxY: 186
   MoveSpawnedPortals:
     WithLowerYThan: 120
     WithHigherYThan: 120

@@ -28,6 +28,7 @@ groups:
     - challenges.commands.ch.*
     - core.respawn.togglespawn
     - core.respawn.unprotect
+    - core.respawn.runlucky
     - core.map.checkpoint.tele
     - core.calc.calc
     - core.claims.blocks
@@ -36,6 +37,7 @@ groups:
     - core.claims.trapped
     - core.claims.abandon
     - core.claims.abandonall
+    - core.player.remind
     - mcnsachat.player.seen
     - moblimiter.command.animals
     - moblimiter.command.villagers
@@ -45,6 +47,7 @@ groups:
     - reportrts.command.complete.self
     - monsterhunt.usercmd.hunt
     - griefprevention.basicclaimcommands
+    - griefprevention.createclaims
     - griefprevention.commands.trapped
     - griefprevention.commands.trustlist
     - griefprevention.commands.abandonclaim
@@ -449,6 +452,7 @@ groups:
     - commandhelper.alias.guardian
     - core.teleport.notify
     - core.player.notify
+    - core.player.remind.player
     - mantle.slimeballs.command.pay.notification
     - mantle.slimeballs.command.check.others
     - griefprevention.commands.adjustbonusclaimblocks

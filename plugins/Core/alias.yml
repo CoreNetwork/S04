@@ -155,6 +155,12 @@ Aliases:
   route: /tp-id $1
 - match: /tp\s?(.*)
   route: /core tp $1
+- match: /effect\s?(.*)
+  route: /core effect $1
+- match: /enchant\s?(.*)
+  route: /core enchant $1
+- match: /remind\s?(.*)
+  route: /core remind $1
 - match: /rules
   message:
   - ''
@@ -203,7 +209,7 @@ Aliases:
   - '&7-- &fRule #3 &7--------'
   - '&7-- &fNo hacking, no exploiting, no item duplicating.'
   - ''
-  - '&7You cannot try to use any software to exploit the server or try to bypass normal survival rules. This includes but is not limited to: flight, illegal movement, unrealistic block breaking / placing, kill aura, reach hacks, chat and packet spam. You can enhance your interface with mini-maps, waypoints, inventory sorting and other things described in &f/help Mods&7. You are not allowed to duplicate items even if it''s possible in current version of Minecraft (exception: obsidian generators).'
+  - '&7You cannot try to use any software to exploit the server or try to bypass normal survival rules. This includes but is not limited to: flight, illegal movement, unrealistic block breaking / placing, kill aura, reach hacks, chat and packet spam. You can enhance your interface with mini-maps, waypoints, inventory sorting and other things described in &f/help Mods&7. You are not allowed to duplicate items even if it''s possible in current version of Minecraft (exception: farming portals for obsidian).'
   - ''
   - '&7Report all bugs and exploits you encounter in private - you will never be punished for responsible disclosure. Hiding the existence of bugs and using them to your advantage is not okay and will cause you trouble.'
   - ''
@@ -379,8 +385,8 @@ Aliases:
   - ''
   - '&7The event is accessible to everyone currently on the server and you will get a notification in chat when it''s about to happen. &fChase always starts with a brand new day&7 - it''s relatively safe but you can still lose all items if you die!'
   - ''
-  - '&7You can purchase Treasure Chase passes in our store:'
-  - '&fhttp://store.core-network.us &7or you can &f/subscribe &7for some.'
+  - '&6You can purchase Treasure Chase passes in our store:'
+  - '&ehttp://store.core-network.us'
   - ''
   - '&7Sponsor commands: &f/chase run &7and &f/chase check'
   - '&7Participant commands: &f/chase join &7and &f/chase leave'

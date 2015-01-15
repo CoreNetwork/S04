@@ -23,8 +23,8 @@ WitherSkeleton:
   BowChance: 0.1
   Speed: 0.265
 Ghast:
-  SpawningIntervalTicks: 10
-  SpawnChance: 0.025
+  SpawningIntervalTicks: 600
+  SpawnChance: 0.0
   LightCheckY: 183
   MinSpawnY: 163
   MaxSpawnY: 179

@@ -11,22 +11,12 @@
 # Forums: http://www.spigotmc.org/
 
 config-version: 8
-messages:
-  whitelist: Setting up new features, please try again later.
-  unknown-command: Unknown command.
-  server-full: Would you look at that, the server is full. Try again later?
-  outdated-client: Outdated client! Please use {0}
-  outdated-server: Outdated server! I'm still on {0}
-  restart: Restarting because captain Picard told me to make it so.
 settings:
+  debug: false
   save-user-cache-on-stop-only: false
-  late-bind: false
-  player-shuffle: 0
-  sample-count: 12
   moved-too-quickly-threshold: 100.0
   moved-wrongly-threshold: 0.0625
   filter-creative-items: true
-  user-cache-size: 1000
   timeout-time: 60
   restart-on-crash: false
   restart-script: ./start.sh
@@ -39,16 +29,18 @@ settings:
     attackDamage:
       max: 2048.0
   global-api-cache: false
+  user-cache-size: 1000
   int-cache-limit: 1024
+  player-shuffle: 0
+  late-bind: false
   bungeecord: false
-  debug: false
+  sample-count: 12
   log-filters:
   - ^(.*)(/login)(.*)$
   prevent-proxies: false
   bungeecord-addresses: []
 commands:
   tab-complete: 3
-  silent-commandblock-console: true
   spam-exclusions: []
   log: true
   replace-commands:
@@ -58,6 +50,7 @@ commands:
   - tp
   - effect
   - enchant
+  silent-commandblock-console: true
   command-block-overrides:
   - setblock
   - summon
@@ -68,22 +61,30 @@ commands:
 stats:
   disable-saving: false
   forced-stats: {}
+messages:
+  restart: Restarting because captain Picard told me to make it so.
+  whitelist: Setting up new features, please try again later.
+  unknown-command: Unknown command.
+  server-full: Would you look at that, the server is full. Try again later?
+  outdated-client: Outdated client! Please use {0}
+  outdated-server: Outdated server! I'm still on {0}
 world-settings:
   default:
     verbose: false
-    mob-spawn-range: 5
+    nerf-spawner-mobs: false
+    hanging-tick-frequency: 100
+    zombie-aggressive-towards-villager: true
+    arrow-despawn-rate: 1200
     view-distance: 8
     chunks-per-tick: 3000
     clear-tick-list: false
     merge-radius:
       exp: 3.0
       item: 1.0
-    hanging-tick-frequency: 100
-    enable-zombie-pigmen-portal-spawns: false
     item-despawn-rate: 6000
-    nerf-spawner-mobs: false
-    zombie-aggressive-towards-villager: true
-    arrow-despawn-rate: 1200
+    enable-zombie-pigmen-portal-spawns: false
+    wither-spawn-sound-radius: 0
+    mob-spawn-range: 5
     anti-xray:
       enabled: false
       engine-mode: 1
@@ -112,16 +113,6 @@ world-settings:
       pumpkin-modifier: 100
       sapling-modifier: 100
       wheat-modifier: 100
-    max-entity-collisions: 4
-    dragon-death-sound-radius: 0
-    seed-village: 10387312
-    seed-feature: 14357617
-    hunger:
-      walk-exhaustion: 0.2
-      sprint-exhaustion: 0.8
-      combat-exhaustion: 0.3
-      regen-exhaustion: 3.0
-    max-tnt-per-tick: 100
     entity-activation-range:
       animals: 32
       monsters: 32
@@ -140,7 +131,16 @@ world-settings:
     random-light-updates: false
     save-structure-info: false
     max-bulk-chunks: 5
-    wither-spawn-sound-radius: 0
+    max-entity-collisions: 4
+    dragon-death-sound-radius: 0
+    seed-village: 10387312
+    seed-feature: 14357617
+    hunger:
+      walk-exhaustion: 0.2
+      sprint-exhaustion: 0.8
+      combat-exhaustion: 0.3
+      regen-exhaustion: 3.0
+    max-tnt-per-tick: 100
   world_nether:
     random-light-updates: false
     view-distance: 8

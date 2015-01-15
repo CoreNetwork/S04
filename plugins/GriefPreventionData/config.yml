@@ -35,6 +35,7 @@ GriefPrevention:
       AutomaticNatureRestoration:
         SurvivalWorlds: false
     MaximumNumberOfClaimsPerPlayer: 20
+    CreationRequiresWorldGuardBuildPermission: false
   Spam:
     Enabled: false
     LoginCooldownSeconds: 60
@@ -45,7 +46,10 @@ GriefPrevention:
     AllowedIpAddresses: 1.2.3.4; 5.6.7.8
     DeathMessageCooldownSeconds: 0
   PvP:
-    Worlds: []
+    RulesEnabledInWorld:
+      world: false
+      world_nether: false
+      world_the_end: false
     ProtectFreshSpawns: false
     PunishLogout: false
     CombatTimeoutSeconds: 0
@@ -68,8 +72,8 @@ GriefPrevention:
   LimitPistonsToLandClaims: true
   FireSpreads: true
   FireDestroys: true
-  AdminsGetWhispers: true
-  AdminsGetSignNotifications: true
+  AdminsGetWhispers: false
+  AdminsGetSignNotifications: false
   WhisperCommands: /tell;/pm;/r;/w;/t;/msg
   SmartBan: false
   Siege:

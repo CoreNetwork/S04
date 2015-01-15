@@ -54,6 +54,3 @@ auto-updater:
   preferred-channel: dev
   host: dl.bukkit.org
   suggest-channels: false
-worlds:
-  world_nether:
-    generator: TerrainControl

@@ -55,6 +55,8 @@ Message:
     PlateWarp:
       Start: '&3Don''t move or get damaged for <Time> second<PluralS>'
       Interrupt: '&cYou moved. Try triggering the plate again.'
+  ReminderAdded: '&6Reminder added.'
+  ReminderSyntax: '&cUsage: /remind me in 10m to Harvest wheat farm'
 VanishEnabled: true
 Kits:
   modtools:
@@ -69,4 +71,8 @@ Kits:
   - nbt make 301 limbo-boots 36 silent
   - nbt make 267 limbo-sword 0 silent
   limbo:
-  - nbt make 387 limbo-book 8 silent
+  - nbt make 346 limbo-rod 8 silent
+Reminder:
+  DisplayedTimeTicks: 100
+  MainColor: aqua
+  SubtitleColor: dark_aqua
