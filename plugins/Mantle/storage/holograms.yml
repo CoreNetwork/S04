@@ -98,7 +98,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 35dcb686-3a11-4a86-88d3-96ac52eabbf9
+    - ecd8b19a-33b5-4f6d-8ad8-ab3db5ff42cd
     x: 61.5
     needsUpdating: false
     y: 99.0
@@ -111,7 +111,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 8f033338-bbf2-413c-80af-819631332f76
+    - 47bba57e-4833-467e-826d-6dd39baf8636
     x: 61.5
     needsUpdating: false
     y: 100.0
@@ -601,7 +601,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 1bfc4a09-c1e8-4f1f-8eb8-c903ae37bf6f
+    - 96dd8f3c-2e38-4737-a84b-c89a4fce8c09
     x: -10.5
     needsUpdating: false
     y: 98.5
@@ -613,7 +613,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 1db88103-f802-4439-a30f-f564fa871869
+    - 17a574ea-07b0-4a34-a0e3-d36d612b9ca0
     x: -14.528460757247489
     needsUpdating: false
     y: 100.0
@@ -626,7 +626,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 3a9c1731-dc26-4272-a224-44848f14869b
+    - f6411873-5ffe-4b3d-a200-b909ecafce06
     x: -14.428650625602979
     needsUpdating: false
     y: 101.0

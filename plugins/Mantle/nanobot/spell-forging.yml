@@ -4,7 +4,7 @@ display:
     Lore:
     - "&6Melts blocks in a blink of an eye."
     - "&7Affects cobblestone, netherrack and wood."
-    - "&7Requires fuel (coal, charcoal or blaze rods)."
+    - "&7Requires wood, charcoal/coal or blaze rods in inventory."
     - "&8Right click to affect blocks in inventory."
     - "&8Right click a chest to melt blocks inside."
     - "ExpireAfterDays: 15"

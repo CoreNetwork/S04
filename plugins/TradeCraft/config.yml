@@ -669,7 +669,7 @@ Tiers:
     - trade:
         comment: selling iron axe
         itemA:
-          currency: 1
+          currency: 6,8
         result:
           item: iron_axe
     '1':

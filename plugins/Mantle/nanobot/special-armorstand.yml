@@ -1,0 +1,8 @@
+display:
+  compound:
+    Name: "&6Armor Stand"
+    Lore:
+    - '&7Left arm <LeftArmPose>, right arm <RightArmPose>'
+    - '&7Can be placed only by subscribers'
+    - '&7in land they claimed by them.'
+    - '&8Will disappear when unclaimed.'

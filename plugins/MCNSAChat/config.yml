@@ -14,7 +14,7 @@ consoleLogServerInfo: false
 hideJoinPlayerList: false
 displayWelcome: true
 consoleSender-colour: '&b'
-consoleSender: '&c@&bridddle'
+consoleSender: '&c@&b'
 database-isSQL: true
 database-url: /Users/riddle/Projects/flatcore4/plugins/MCNSAChat/chat.db
 strings:
@@ -22,7 +22,7 @@ strings:
   player-join: '&e%player% joined %server%.'
   player-quit: '&7%player% left'
   message: '&7<&3%server%&f%channel%&7> %prefix%%player%%suffix%: &f%message%'
-  action: '&7<&3%server%&f%channel%&7> * %prefix%%player%%suffix% &f%message%'
+  action: '&7<&3%server%&f%channel%&7> * &7&o%player% %message%&r&7*'
   pm_send: '&3(to %to%) %message%'
   pm_receive: '&3(from %from%) %message%'
   timeout-mod: '&e%player% has been put in timeout for %time%m.'
@@ -50,8 +50,8 @@ greetings:
   '5184000': '&e%player% rejoined Flatcore after %months% months!'
 lockdown: false
 lockdown-time: 15
-lockdown-reason: '15'
-lockdown-unlock-time: 1390260337853
+lockdown-reason: ''
+lockdown-unlock-time: 0
 banned-silent: ''
 banned-notify: ''
 ranking-string: '&7 &2 &a &3 &e &6 &c &d &8 &b'

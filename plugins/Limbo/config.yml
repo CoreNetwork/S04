@@ -41,6 +41,7 @@ Challenges:
     - clear <Player> silent
     - kit <Player> deathpit silent
     - sudo <Player> warp limbo-death-pit silent
+    - xp -100L <Player>
     CommandsOnExit:
     - clear <Player> silent
     - kit <Player> limbo silent

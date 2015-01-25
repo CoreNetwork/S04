@@ -154,7 +154,7 @@ Messages:
     Unclaim: '&6Your claim for a submission has been released.'
     UnclaimId: '&6A claim for submission &7<ID>&6 has been released.'
   ModSubmissions:
-    List: '&6All accepted submissions for level &7<Level>&6 in week &7<Week>&6:[NEWLINE]<List>'
+    List: '&6There are <Total> accepted entries for level &7<Level>&6 in week &7<Week>&6:[NEWLINE]<List>'
 PlayerClasses:
   Novice:
     PointsNeeded: 0

@@ -1,0 +1,7 @@
+display:
+  compound:
+    Name: "&6<OriginalName>"
+    Lore:
+    - '&7Can be placed only by subscribers'
+    - '&7in land they claimed by them.'
+    - '&8Will disappear when unclaimed.'

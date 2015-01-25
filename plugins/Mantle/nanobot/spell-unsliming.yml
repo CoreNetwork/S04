@@ -5,6 +5,7 @@ display:
     - "&6Perish gelatinous cubes forever."
     - "&7Deactivates a Slime chunk."
     - "&7Will always cast, slime chunk or not."
+    - "&7Requires 256 slimeballs in inventory."
     - "&8Right click to affect current chunk."
     - "ExpireAfterDays: 15"
 ench:

@@ -1,0 +1,7 @@
+display:
+  compound:
+    Name: "&6White Banner"
+    Lore:
+    - '&7Can be placed only by subscribers'
+    - '&7in land they claimed themselves.'
+    - '&8Will disappear when unclaimed.'

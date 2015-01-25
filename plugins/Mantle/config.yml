@@ -43,3 +43,10 @@ CommandDescriptions:
     updateline: '&a/holo updateline &8-&f Update single line of the hologram - NOT
       PERSISTENT'
     reload: '&a/holo reload &8-&f Reload all holograms'
+  slimeballs:
+    help: '&a/slimeballs help &8-&f List all possible commands'
+    give: '&a/slimeballs give &8-&f Give slimeballs to player (when spawning in limbo)'
+    award: '&a/slimeballs award &8-&f Award slimeballs to someone'
+    import: '&a/slimeballs import &8-&f Import from CH'
+    pay: '&a/slimeballs pay &8-&f Pay slimeball to get out of limbo'
+    check: '&a/slimeballs check &8-&f Check your current slimy balance'

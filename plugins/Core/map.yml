@@ -3,10 +3,22 @@ TeleportDelay: 3
 Clicks:
 - regions:
   - end-spawn-crystal
+  block:
+  - emerald_block
+  commands:
+  - /dm <Player> &aYou have &65 minutes &aof invincibility. [NEWLINE] &aFind a village for the best chance of survival!
+  - /rspawn
+  - /rspawn protect <Player>
+  - /checkpoint clear
+  - /clear silent
+  - /core effect clear silent
+  - /ungod <Player> silent
+- regions:
   - end-respawn-crystal
   block:
   - emerald_block
   commands:
+  - /dm <Player> &aYou have &65 minutes &aof invincibility. &aDon't make the same mistake twice, find a village first, then try to find your &6/claims.
   - /rspawn
   - /rspawn protect <Player>
   - /checkpoint clear

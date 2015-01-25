@@ -558,22 +558,22 @@ LootTables:
       - item:
           name: book
           nbt: spell-unsliming
-          amount: 3
+          amount: 2
       - item:
           name: book
           nbt: spell-unsliming
-          amount: 4
+          amount: 3
     - pick:
       - chance 1.0
       - weights 10 10
       - item:
           name: book
           nbt: spell-growth
-          amount: 2
+          amount: 1
       - item:
           name: book
           nbt: spell-decay
-          amount: 2
+          amount: 1
     - pick:
       - chance 0.5
       - weights 10 4
@@ -656,22 +656,22 @@ LootTables:
       - item:
           name: book
           nbt: spell-peddling
-          amount: 3
+          amount: 2
       - item:
           name: book
           nbt: spell-peddling
-          amount: 4
+          amount: 3
     - pick:
       - chance 1.0
       - weights 10 10
       - item:
           name: book
           nbt: spell-growth
-          amount: 3
+          amount: 2
       - item:
           name: book
           nbt: spell-decay
-          amount: 3
+          amount: 2
     - pick:
       - chance 1.0
       - weights 10 8 5
@@ -743,30 +743,30 @@ LootTables:
       - item:
           name: book
           nbt: spell-forging
-          amount: 3
+          amount: 2
       - item:
           name: book
           nbt: spell-forging
-          amount: 4
+          amount: 3
     - pick:
       - chance 1.0
       - weights 10 6 10 6
       - item:
           name: book
           nbt: spell-unsliming
-          amount: 5
+          amount: 3
       - item:
           name: book
           nbt: spell-unsliming
-          amount: 6
+          amount: 4
       - item:
           name: book
           nbt: spell-peddling
-          amount: 5
+          amount: 3
       - item:
           name: book
           nbt: spell-peddling
-          amount: 6
+          amount: 4
     - pick:
       - chance 0.25
       - item:

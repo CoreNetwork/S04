@@ -43,7 +43,7 @@ Groups:
 EnabledWorlds:
 - world
 - world_nether
-ViewDistanceChunks: 9
+ViewDistanceChunks: 8
 NoHorseBreed: false
 Debug: false
 NoPigmenPortal: false

@@ -1,0 +1,7 @@
+ItemOpenInvItemID: 280
+CheckForUpdates: true
+NotifySilentChest: true
+NotifyAnyChest: true
+AnyChest:
+  ridddle:
+    toggle: true

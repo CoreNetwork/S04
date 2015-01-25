@@ -11,8 +11,11 @@ Border:
     MinZ: -7950
     MaxX: 7950
     MaxZ: 7950
-SpawnProtectionLength: 120
+SpawnProtectionLength: 300
 SpawnProtectionNotifications:
+- 240
+- 180
+- 120
 - 90
 - 60
 - 30
@@ -28,7 +31,7 @@ Messages:
   SpawnProtectionStart: '&6You are invincible for <Time>s'
   SpawnProtectionNotification: '&6Invincibility will expire in <Time>s.'
   SpawnProtectionEndClaims: '&aYou are no longer invincible! Find food and weapons
-    before you try to reach your &6/base'
+    before you try to reach your &6/claims'
   SpawnProtectionEndNoClaims: '&aYou are no longer invincible! Find a village and
     food.'
   UnprotectNotProtected: '&cYou are already not protected.'
@@ -70,3 +73,4 @@ Holograms:
   Counters:
   - world_the_end;-2010.5;65.3;-4005.5;0;0
   - world_the_end;-2017.5;93.3;-1106.5;0;0
+ProtectionAbuseDelaySeconds: 5

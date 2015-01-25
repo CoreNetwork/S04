@@ -371,6 +371,9 @@ groups:
     - nocheatplus.checks.chat.commands
     - nocheatplus.checks.chat.text
     - nocheatplus.checks.chat.relog
+    - mantle.perks.nameplate
+    - mantle.perks.advsigns
+    - mantle.perks.advbanners
     inheritance: []
     info:
       prefix: ''
@@ -379,10 +382,14 @@ groups:
   SubSky:
     default: false
     permissions:
-    - simplesigncolor.use
     - nocheatplus.checks.chat.commands
     - nocheatplus.checks.chat.text
     - nocheatplus.checks.chat.relog
+    - mantle.perks.nameplate
+    - mantle.perks.advsigns
+    - mantle.perks.advbanners
+    - mantle.slimeballs.command.advskulls
+    - mantle.perks.advarmorstand
     inheritance: []
     info:
       prefix: ''
@@ -433,6 +440,9 @@ groups:
     - bukkit.command.kick
     - bukkit.command.ban.player
     - bukkit.command.unban.player
+    - minecraft.command.ban
+    - minecraft.command.pardon
+    - minecraft.command.kick
     - mcnsachat.admin.*
     - mcnsachat.admin.notify
     - mcnsachat.lockdown.timed
@@ -453,6 +463,7 @@ groups:
     - core.teleport.notify
     - core.player.notify
     - core.player.remind.player
+    - mantle.slimeballs.command.award
     - mantle.slimeballs.command.pay.notification
     - mantle.slimeballs.command.check.others
     - griefprevention.commands.adjustbonusclaimblocks
@@ -549,8 +560,6 @@ groups:
     - OpenInv.openinv
     - OpenInv.editinv
     - OpenInv.openself
-    - OpenInv.openender
-    - OpenInv.editender
     - OpenInv.crossworld
     - OpenInv.search
     - OpenInv.silent

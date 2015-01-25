@@ -44,9 +44,10 @@ Aliases:
   message: '&6We have just one server here.'
 - match: /ping( .*)?
   message: '&6Pinging was disabled due to its unreliability.'
-- match:
-  - /[a-zA-Z0-9_]+\:([a-zA-Z0-9_]+)( .*)?
-  route: /$1 $2
+- match: '/[a-zA-Z0-9_]+\:([a-zA-Z0-9_]+)\s?(.*)'
+  forward: /$1 $2
+- match: /\?\s?(.*)
+  forward: /help $1
 - match: /cp
   route: /checkpoint
 - match: /limbo
@@ -93,9 +94,7 @@ Aliases:
 - match: /sethome( .*)?
   message: '&cYou cannot set home on Flatcore. Beds don''t work either.'
 - match: /home( .*)?
-  message: '&cNo /home on Flatcore. If you have a base, use /blocks.'
-- match: /\?( .*)?
-  reference: /help $1
+  message: '&cNo /home on Flatcore. If you have a base, use /claims.'
 - match: /base( .*)?
   route: /core claimslist
 - match: //j
@@ -263,6 +262,7 @@ Aliases:
   - '&b/help &fLoot &8-&7 Where and how to get loot.'
   - '&b/help &fRanks &8-&7 Player ranks and how to rank up.'
   - '&b/help &fSpawning &8-&7 Altered mob spawning mechanics.'
+  - '&6/help &eSubscribe &8-&6 Support us and get cool perks.'
   - '&8 ----'
   - '&b/help &fMore &8-&7 Display detailed help topics.'
   - ''
@@ -274,7 +274,8 @@ Aliases:
   - '&b/help &fRespawn &8-&7 Explanation for random spawn.'
   - '&b/help &fSubclaims &8-&7 How to make claim subdivisions.'
   - '&b/help &fSpells &8-&7 One-off commands in magic form.'
-  - '&b/help &fTreasureChase &8-&7 Fun event for everyone.'
+  - '&b/help &fStretchGoal &8-&7 Want more challenges? Read!'
+  - '&6/help &eTreasureChase &8-&6 Fun event for everyone.'
   - '&8 ----'
 - match: /help Blocks
   message:
@@ -437,7 +438,7 @@ Aliases:
   - ''
   - '&7If you have a base, there is a &f33% &7chance for a &fLucky Respawn &7in a 4,000 by 4,000 square centered on your biggest claim. &6You can increase that chance to &e100% &6for everyone for 12h by running a Lucky Respawn booster: &estore.core-network.us'
   - '&7'
-  - '&7To disable your next lucky respawn, &f/luckytoggle&7. Type again to reverse.'
+  - '&7To run a booster, &f/luckyrun&7. To disable your next lucky respawn, &f/luckytoggle&7. Type again to reverse.'
   - '&7------------'
 - match: /luckyrun
   route: /core runlucky
@@ -465,3 +466,37 @@ Aliases:
   - ''
   - '&7Full documentation: &fhttp://www.core-network.us/spells'
   - '&7------------'
+- match: /help Subscribe
+  message:
+  - ''
+  - '&6-- &eHelp: Subscribe &6--------'
+  - '&6The team behind Flatcore puts a lot of energy and time to make the server stable, fast and rich in features. We love it and we hope you love it as well.'
+  - ''
+  - '&6What is problematic for us is keeping up with the cost - hosting the server and adding custom features. If you can afford it, please check this page and decide if subscribing is something you would like to do.'
+  - '&e»» http://www.core-network.us/subscribe ««'
+  - ''
+  - '&6We keep all subscriber perks balanced or cosmetic. You can learn about them by clicking the link above. &eWe truly need you help to keep running Flatcore. &6Thank you!'
+  - ''
+  - '&7More: /help Respawn and /help TreasureChase'
+  - '&7------------'
+- match: /subscribe
+  forward: /help Subscribe
+- match: /help StretchGoal
+  message:
+  - ''
+  - '&7-- &fHelp: Stretch Goal &7--------'
+  - '&7Stretch Goal is a group effort to unlock an extra challenge for the following week. Every week we measure community''s involvement in level 3 entries and if it''s high enough we add another level next week.'
+  - ''
+  - '&7The number may change each week as it''s based on the percentrage of challenge entries from the previous week. To see what the current goal is, check this week''s challenge post on &fhttp://reddit.com/r/corenet'
+  - ''
+  - '&7To check the progress of the week, type &f/ch goal &7in chat.'
+  - '&7------------'
+- match: /help\s?.+
+  forward: /help
+  comment: 'This thing has to be below all help entries!'
+- match: /ch goal
+  sudo: true
+  message: '&6Learn more: &7/help StretchGoal'
+  route: /chm all 3
+- match: /buyclaimblocks
+  route: /blocks buy

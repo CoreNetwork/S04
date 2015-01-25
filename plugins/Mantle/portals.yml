@@ -27,6 +27,8 @@ Messages:
   CanMakePortal: '&aYou can make a Nether portal here if you''d like'
   CantMakePortal: '&cYou cannot make a Nether portal here because it would overlap
     a claim in <OtherDimension>.'
+  CantCrossWouldCreateInForeignClaim: '&cYou cannot cross this portal, it would create
+    a portal in foreign claim.'
 Signs:
   PortalOutOfBoundaries:
     TooHigh: '&cWarning![NEWLINE]Your portal[NEWLINE]Is[NEWLINE]too high!'

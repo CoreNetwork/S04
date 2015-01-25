@@ -1,0 +1,15 @@
+Enabled: true
+SpecialArmorStandNanobotFile: special-armorstand
+Messages:
+  ArmorStandWrongPermission: '&6Only subscribers can use this armor stand. &7/subscribe'
+  ArmorStandWrongClaim: '&cThose armor stands can be only placed inside your own claim.'
+  BannerWrongPermission: '&6Only subscribers can use this banner. &7/subscribe'
+  BannerWrongClaim: '&cThose banners can be only placed inside your own claim.'
+  SkullWrongPermission: '&6Only subscribers can use this head. &7/subscribe'
+  SkullWrongClaim: '&cThose heads can be only placed inside your own claim.'
+  SkullOnlyOneInHand: '&cPlease hold exactly one Wither Skeleton Skull in your hand.'
+SpecialSkullNanobotFile: special-skull
+BannerRole:
+- '&7Can be placed only by subscribers'
+- '&7in land they claimed themselves.'
+- '&8Will disappear when unclaimed.'

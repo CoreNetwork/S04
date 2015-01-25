@@ -12,7 +12,7 @@ Spells:
       HintToCasterWhenBroadcasted: '&eEveryone got Instant Health.'
       Broadcast:
       - '&6<Player> used a Spell of Growth!'
-      - '&7Bonus: Instant Health. /help Spells'
+      NoItems: '&cNot enough bones or bonemeal'
     Template: spell-growth
     BoostOnBroadcast: BoostHealth1
   Time:
@@ -22,7 +22,6 @@ Spells:
       HintToCasterWhenBroadcasted: '&eEveryone got Instant Health II.'
       Broadcast:
       - '&6<Player> used a Spell of Time!'
-      - '&7Bonus: Instant Health II. /help Spells'
     Template: spell-time
     BoostOnBroadcast: BoostHealth2
   Deadweight:
@@ -32,7 +31,6 @@ Spells:
       HintToCasterWhenBroadcasted: '&eEveryone got Absorption for 3m.'
       Broadcast:
       - '&6<Player> used a Spell of Deadweight!'
-      - '&7Bonus: 3 minutes of Absorption. /help Spells'
     Template: spell-deadweight
   Wind:
     BroadcastCooldownSeconds: 180
@@ -41,7 +39,6 @@ Spells:
       HintToCasterWhenBroadcasted: '&eEveryone got Instant Health II.'
       Broadcast:
       - '&6<Player> used a Spell of Wind!'
-      - '&7Bonus: Instant Health II. /help Spells'
     Template: spell-wind
     BoostOnBroadcast: BoostHealth2
   Decay:
@@ -51,7 +48,7 @@ Spells:
       HintToCasterWhenBroadcasted: '&eEveryone got Instant Health.'
       Broadcast:
       - '&6<Player> used a Spell of Decay!'
-      - '&7Bonus: Instant Health. /help Spells'
+      NoItems: '&cNot enough rotten flesh'
     Template: spell-decay
     BoostOnBroadcast: BoostHealth1
   Fusing:
@@ -59,9 +56,7 @@ Spells:
     Messages:
       Use: '&6Wooosh! Spell of Fusing cast.'
       HintToCasterWhenBroadcasted: '&7More: www.core-network.us/spells'
-      Broadcast:
-      - '&6<Player> used a Spell of Fusing!'
-      - '&7/help Spells'
+      Broadcast: []
     Template: spell-fusing
   Unsliming:
     BroadcastCooldownSeconds: 600
@@ -69,9 +64,9 @@ Spells:
       HintToCasterWhenBroadcasted: '&eEveryone got Absorption for 3m.'
       Broadcast:
       - '&6<Player> used a Spell of Unsliming!'
-      - '&7Bonus: 3 minutes of Absorption. /help Spells'
       UseNotSlimeChunk: '&7Spell of Unsliming cast. It wasn''t a slime chunk.'
       UseSlimeChunk: '&aSpell of Unsliming cast. Slime chunk was deactivated.'
+      NoItems: '&cNot enough slimeballs in inventory'
     Template: spell-unsliming
     BoostOnBroadcast: BoostAbsorption2
   Peddling:
@@ -81,7 +76,6 @@ Spells:
       HintToCasterWhenBroadcasted: '&eEveryone got Instant Health III'
       Broadcast:
       - '&6<Player> used a Spell of Peddling!'
-      - '&7Bonus: Instant Health III. /help Spells'
       NothingToSell: '&cYou don''t have anything to sell. Is the trade unlocked?'
       NotEnoughToSell: '&cNot enough items to complete the trade even once.'
     Template: spell-peddling
@@ -90,10 +84,9 @@ Spells:
     BroadcastCooldownSeconds: 300
     Messages:
       Use: '&6Wooosh! Spell of Forging cast.'
-      HintToCasterWhenBroadcasted: '&eEveryone got Absorption II for 5m.'
+      HintToCasterWhenBroadcasted: '&eEveryone got Instant Health.'
       Broadcast:
       - '&6<Player> used a Spell of Forging!'
-      - '&7Bonus: Instant Health. /help Spells'
     Template: spell-forging
     BoostOnBroadcast: BoostHealth1
 ExpireOffsetSeconds: 0

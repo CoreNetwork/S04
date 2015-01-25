@@ -57,6 +57,13 @@ Message:
       Interrupt: '&cYou moved. Try triggering the plate again.'
   ReminderAdded: '&6Reminder added.'
   ReminderSyntax: '&cUsage: /remind me in 10m to Harvest wheat farm'
+  ReminderTooLong: You can't set reminders for longer than 24h
+  TooManyReminders: You have too many reminders set. Wait for some to remind you.
+  ExperienceCleared: Experience cleared.
+  ExperienceAdded: <Amount> experience added.
+  LevelsAdded: <Amount> levels added.
+  XpSyntax: 'Usage: /core xp [<player>] (<experience> | <levels> | clear) [silent]'
+  RemindersCleared: All reminders cleared
 VanishEnabled: true
 Kits:
   modtools:
@@ -76,3 +83,5 @@ Reminder:
   DisplayedTimeTicks: 100
   MainColor: aqua
   SubtitleColor: dark_aqua
+  MaximumTime: 86400
+  MaximumPending: 10

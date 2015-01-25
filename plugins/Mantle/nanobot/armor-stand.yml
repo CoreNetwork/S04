@@ -1,0 +1,5 @@
+RepairCost:
+  int: 1
+display:
+  compound:
+    Name: Armor Standd

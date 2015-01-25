@@ -4,6 +4,7 @@ PreventSpawningNether:
 - Skeleton
 - Blaze
 - Zombie
+- PigZombie
 - Ghast
 - Magma_Cube
 MinimumDistanceToPlayerSquared: 625
@@ -14,6 +15,7 @@ MagmaCube:
   SpawningIntervalTicks: 10
   MaxY: 256
   MinY: 116
+  MinLightLevel: 8
 WitherSkeleton:
   SpawningIntervalTicks: 10
   SpawnChance: 1
