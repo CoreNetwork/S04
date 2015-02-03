@@ -1,0 +1,17 @@
+generation:
+  int: 0
+pages:
+- '"Now that we are fed, it might be best if we start to organise some tools. Just
+  the basics at first, that is: Offense, Construction, and Demolition.\n\nThat\u0027s
+  right, we need to organise our §9O.C.Ds§0. "'
+- '"The villages here seem to have fairly well-built crafting tables in their houses,
+  so those should make do to start our work.\n\nPersonally, I found it easiest to
+  grab some logs from around the farms to get some planks for a pickaxe."'
+- '"Their churches make an excellent source for some cobblestone to make stone tools
+  - namely a sword and an axe just in case these villagers turn on me tonight.\n\n"'
+- '"I\u0027ve had some luck finding some iron tools and ingots in the chests in the
+  blacksmith buildings, but that doesn\u0027t seem to be too reliable..."'
+author: SkeletonCakes
+title: 'Journal Entry #3'
+resolved:
+  byte: 1

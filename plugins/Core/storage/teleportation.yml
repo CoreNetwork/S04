@@ -102,3 +102,9 @@ Warps:
   limbo-tower-of-hanoi-se:
     location: world_the_end;-455.5100266193676;101.0;-481.5274589744696;1.3658842;-180.08029
     RunCommands: []
+  cipher:
+    location: world_nether;6500.505521221246;100.0;1250.5075880903366;5.6300197;0.14926147
+    RunCommands: []
+  end-dev:
+    location: world_the_end;-500.0;101.0;-1000.0;35.849987;-1.13248824E-7
+    RunCommands: []

@@ -1,0 +1,21 @@
+generation:
+  int: 0
+pages:
+- '"The temperature, much like the sun, is beginning to drop and now that I\u0027ve
+  ogranised some food and weapons, I should be looking for somewhere to rest and keep
+  warm.§0\n§0\n§0If you aren\u0027t good with roommates, now might be a good time
+  to collect some extra"'
+- '"resources from the village.§0\n§0\n§0Here\u0027s a checklist that can help:§0\n§0[]
+  Wood§0\n§0[] Cobblestone§0\n§0[] Food§0\n§0[] Torches§0\n§0[] Workbench§0\n§0[]
+  Furnace"'
+- '"Hopefully, you can collect most of that from the village and ideally bring a bucket
+  or two of water... that can\u0027t ever hurt.§0\n§0\n§0If moving out doesn\u0027t
+  seem like a plausible option, you could try moving in."'
+- '"A good spot for temporary stays is the upper floor of their churches, the villagers
+  don\u0027t seem to bother you much up there and it seems to be above the scratch
+  marks on the walls...\n\nI don\u0027t know what left those, but I hope it doesn\u0027t
+  come back tonight."'
+author: SkeletonCakes
+title: 'Journal Entry #4'
+resolved:
+  byte: 1

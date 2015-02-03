@@ -10,7 +10,7 @@ Messages:
     Mod: '&6<Player>''s slimeballs: <Amount>'
     Footer: '&7[NEWLINE]&bEnchanted Slimeballs are simply extra lives. Grab a slimeball
       and right click to get released from Limbo.[NEWLINE]&3Every player gets one
-      when they join.[NEWLINE]&3Get more here: http://redd.it/1vuj5j'
+      when they join.[NEWLINE]&3Get more here: http://redd.it/2tzvrd'
   AccountOtherPlayer: '&6<Player> currently has <Count> Slimeball<PluralS>!'
   PlayerDoesNotExist: '&c<Player> does not exist!'
   SlimeballClickText:

@@ -1,0 +1,19 @@
+generation:
+  int: 0
+pages:
+- '"Reanimated corpses. Seem to be corpses of both villagers (see §lSECTION 10§r)
+  and potentially lost adventurers.\n\nIntense hunger for flesh, though ignore us
+  when we are nearby villagers; maybe shows signs of preference?"'
+- '"Appear to be affected by the sun\u0027s light and will begin combusting during
+  dawn. A helmet left on the corpse will delay this effect, as will submerging the
+  reanimated corpse in water.\n\nSmaller reanimated corpses, presumably belonging
+  to younger villagers"'
+- '"(despite the apparent absence of these kids), seem to run much more quickly. Attempts
+  to breed individuals have no been made but it seems unlikely that reproduction is
+  the source of these smaller revenants."'
+- '"Swarms quickly and will break through doors slowly, best dispatched through lethal
+  force."'
+author: SkeletonCakes
+title: Section 13
+resolved:
+  byte: 1

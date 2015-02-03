@@ -98,7 +98,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - ecd8b19a-33b5-4f6d-8ad8-ab3db5ff42cd
+    - 18bb3135-e63a-40e8-a420-1f36dcd7795a
     x: 61.5
     needsUpdating: false
     y: 99.0
@@ -111,7 +111,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 47bba57e-4833-467e-826d-6dd39baf8636
+    - e890b9ed-8a12-4deb-993b-e24520de28e2
     x: 61.5
     needsUpdating: false
     y: 100.0
@@ -576,6 +576,18 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
+    - 80c352a6-6634-4092-a5e7-c8e232ef5acb
+    x: -510.08931059427124
+    needsUpdating: false
+    y: 104.5
+    z: -1062.0848322604465
+    text:
+    - '&bLore Books'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
     - 4700ddc8-a2e7-4e11-a3f6-dc585cca7e6e
     x: -12.5
     needsUpdating: false
@@ -601,7 +613,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 96dd8f3c-2e38-4737-a84b-c89a4fce8c09
+    - 224f916b-c351-45f6-a235-043532d752ea
     x: -10.5
     needsUpdating: false
     y: 98.5
@@ -613,7 +625,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 17a574ea-07b0-4a34-a0e3-d36d612b9ca0
+    - 4a4b2b01-f219-4ead-bde1-5e0527311fc9
     x: -14.528460757247489
     needsUpdating: false
     y: 100.0
@@ -626,7 +638,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - f6411873-5ffe-4b3d-a200-b909ecafce06
+    - 0f53f4cd-2ba7-4dd1-a6fe-c44384856349
     x: -14.428650625602979
     needsUpdating: false
     y: 101.0

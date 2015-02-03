@@ -85,8 +85,9 @@ Aliases:
   route: /lim exit <Player>
 - match: /staff( .*)?
   message:
-  - '&bGuardians: &7ArsenicWaffles, Leonheart515, ridddle, Tbzz'
-  - '&bCommunity Managers: &7Mimal'
+  - '&bGuardians: &fHarflin, Leonheart515, Mimal, ridddle, SkeletonCakes, Tbzz'
+  - '&7If you need help, see if we''re online: /list... or use /ask'
+  - ''
 - match: /afk( .*)?
   message: '&7You can be AFK for 1h. No command needed.'
 - match: /tp[a|o]( .*)?
@@ -270,6 +271,7 @@ Aliases:
   message:
   - ''
   - '&b/help &fBlocks &8-&7 How to get more claim blocks.'
+  - '&b/help &fDehydration &8-&7 A survival mechanic in Nether.'
   - '&b/help &fMods &8-&7 List of allowed client-side mods.'
   - '&b/help &fRespawn &8-&7 Explanation for random spawn.'
   - '&b/help &fSubclaims &8-&7 How to make claim subdivisions.'
@@ -491,6 +493,24 @@ Aliases:
   - ''
   - '&7To check the progress of the week, type &f/ch goal &7in chat.'
   - '&7------------'
+- match: /help Dehydration
+  message:
+  - ''
+  - '&7-- &fHelp: Dehydration &7--------'
+  - '&7When visiting the lava cavern part of the underground Nether, you will slowly lose hydration. When you become dehydrated, you will start experiencing negative effects (debuffs). To combat dehydration, you need to drink. Items you can drink:'
+  - ''
+  - '&fWater Bottle&7, +20 hydration, +10 saturation'
+  - '&fMilk Bucket&7, +25 hydration, +5 saturation'
+  - '&fFire Resistance Potion (3:00)&7, +40 hydration, +35 saturation'
+  - '&fFire Resistance Potion (8:00)&7, +50 hydration, +45 saturation'
+  - '&fAny other potion&7, +5 hydration, +1 saturation'
+  - ''
+  - '&7Saturation is used up first (works like hunger). You become dehydrated quicker, the lower you go. Being in lava or on fire rapidly drains hydration. Being in overworld will restore your hydration slowly.'
+  - ''
+  - '&fWhen your hydration hits 0&7, you will get &fHunger I&7 and depending on your depth, varying levels of &fMining Fatigue and Slowness &7(48 to 32: level 1, 32 to 16: level 2, 16 to 0: level 3). Those effects will last for &f3 minutes &7and increase their level by 1 for another 3 minutes (Hunger will always be level 1) if you''re still dehydrated. Max debuff level is 5 (you cannot mine blocks with Mining Fatigue 5). To get rid of effects completely you need to get back to the surface and wait until they run out or drink so that your hydration is equal to Effect''s Level * 20.'
+  - '&7------------'
+- match: /help Hydration
+  forward: /help Dehydration
 - match: /help\s?.+
   forward: /help
   comment: 'This thing has to be below all help entries!'
@@ -500,3 +520,5 @@ Aliases:
   route: /chm all 3
 - match: /buyclaimblocks
   route: /blocks buy
+- match: /head\s?(.*)
+  route: /perks skull $1

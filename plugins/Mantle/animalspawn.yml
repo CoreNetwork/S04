@@ -77,7 +77,7 @@ Animals:
         weight: 10
       Donkey:
         weight: 1
-SpawningIntervalTicks: 6000
+SpawningIntervalTicks: 72000
 ChunksSpawningAmount: 5
 AdditionalPackMobs:
   Min: 0

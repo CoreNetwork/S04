@@ -243,3 +243,7 @@ Reinforcements:
   Distance: 10
   Enabled: false
 ZombieDoorBreakingChance: 1
+Skeleton:
+  FirstArrowDelayMultiplier: 0.3
+Witch:
+  FirstPotionDelayMultiplier: 0.3

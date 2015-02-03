@@ -1,4 +1,4 @@
-Enabled: false
+Enabled: true
 ScoreboardLine: ''
 FireDehydrationMultiplier: 10
 MiningFatigueDurationSeconds: 180
@@ -30,17 +30,16 @@ Worlds:
       StartingMF: 1
   world_nether:
     '108':
-      Drain: 0.1
       FireDrain: 2.0
       LavaDrain: 2.5
-      StartingMF: 1
+      StartingMF: 2
     '54':
-      Drain: 0.2
+      Drain: 0.1111
       FireDrain: 2.5
       LavaDrain: 3.0
       StartingMF: 2
     '27':
-      Drain: 0.3
+      Drain: 0.1666
       FireDrain: 3.0
       LavaDrain: 3.5
       StartingMF: 3

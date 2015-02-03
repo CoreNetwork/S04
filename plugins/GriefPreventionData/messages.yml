@@ -430,3 +430,5 @@ Messages:
   ShowNearbyClaims:
     Text: Found {0} land claims.
     Notes: '0: Number of claims found.'
+  NoChatUntilMove:
+    Text: Sorry, but you have to move a little more before you can chat.  We get lots of spam bots here.  :)
