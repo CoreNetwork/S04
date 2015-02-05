@@ -247,3 +247,6 @@ Skeleton:
   FirstArrowDelayMultiplier: 0.3
 Witch:
   FirstPotionDelayMultiplier: 0.3
+Animals:
+  AIMaximumPlayerDistance: 32
+  EnableAINerf: true

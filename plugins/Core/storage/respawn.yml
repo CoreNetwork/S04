@@ -655,8 +655,4 @@ amount:
   7fd92b89-7879-4c56-af9a-a0aec6d2328f: 1
   9fa79f00-b00f-4908-bd30-525b09855154: 1
   46184ccb-b4a0-4e72-a66e-5bd3f1e94db1: 3
-running:
-- name: KRecanati
-  startTime: 1422893800573
-  endTime: 1422937000573
-  uuid: 1b7528b2-88fd-4d9e-b185-2396b1392e87
+running: []

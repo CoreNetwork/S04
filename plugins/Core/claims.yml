@@ -107,6 +107,7 @@ Messages:
   NotEnabledIn: '&4You cannot use /trapped in this world.'
   CannotBeRescuredFromHere: '&cYou cannot be rescured from here!'
   CouldntFindSafeLocation: '&c/trapped couldn''t find a safe location for you.'
+  NoEggsInOtherClaim: You are not allowed to throw eggs in claim you can't build in!
 ClaimLiquids:
   Worlds:
     world:
