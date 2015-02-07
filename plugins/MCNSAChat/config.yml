@@ -53,5 +53,5 @@ lockdown-time: 15
 lockdown-reason: ''
 lockdown-unlock-time: 0
 banned-silent: ''
-banned-notify: ''
+banned-notify: /^connected with an? [a-zA-Z0-9\s]+ using MineChat$/g
 ranking-string: '&7 &2 &a &3 &e &6 &c &d &8 &b'
