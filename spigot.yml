@@ -13,16 +13,10 @@
 config-version: 8
 settings:
   debug: false
-  save-user-cache-on-stop-only: false
-  player-shuffle: 0
-  sample-count: 12
-  user-cache-size: 1000
   late-bind: false
   bungeecord: false
+  sample-count: 12
   int-cache-limit: 1024
-  moved-too-quickly-threshold: 100.0
-  moved-wrongly-threshold: 0.0625
-  filter-creative-items: true
   timeout-time: 60
   restart-on-crash: false
   restart-script: ./start.sh
@@ -35,29 +29,16 @@ settings:
     attackDamage:
       max: 2048.0
   global-api-cache: false
+  save-user-cache-on-stop-only: false
+  user-cache-size: 1000
+  moved-too-quickly-threshold: 100.0
+  moved-wrongly-threshold: 0.0625
+  filter-creative-items: true
+  player-shuffle: 0
   log-filters:
   - ^(.*)(/login)(.*)$
   prevent-proxies: false
   bungeecord-addresses: []
-commands:
-  tab-complete: 3
-  silent-commandblock-console: true
-  spam-exclusions: []
-  log: true
-  replace-commands:
-  - setblock
-  - summon
-  - testforblock
-  - tp
-  - effect
-  - enchant
-  command-block-overrides:
-  - setblock
-  - summon
-  - testforblock
-  - tp
-  - effect
-  - enchant
 messages:
   whitelist: Setting up new features, please try again later.
   unknown-command: Unknown command.
@@ -65,6 +46,25 @@ messages:
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
   restart: Restarting because captain Picard told me to make it so.
+commands:
+  silent-commandblock-console: true
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
+  - tp
+  - effect
+  - enchant
+  tab-complete: 3
+  spam-exclusions: []
+  log: true
+  command-block-overrides:
+  - setblock
+  - summon
+  - testforblock
+  - tp
+  - effect
+  - enchant
 stats:
   disable-saving: false
   forced-stats: {}
@@ -75,16 +75,16 @@ world-settings:
     merge-radius:
       item: 1.0
       exp: 3.0
-    view-distance: 8
     chunks-per-tick: 3000
     clear-tick-list: false
-    mob-spawn-range: 5
-    enable-zombie-pigmen-portal-spawns: false
     hanging-tick-frequency: 100
+    view-distance: 8
+    mob-spawn-range: 5
     arrow-despawn-rate: 1200
     wither-spawn-sound-radius: 0
     zombie-aggressive-towards-villager: true
     nerf-spawner-mobs: false
+    enable-zombie-pigmen-portal-spawns: false
     anti-xray:
       enabled: false
       engine-mode: 1
