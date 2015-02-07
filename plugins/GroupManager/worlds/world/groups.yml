@@ -83,6 +83,7 @@ groups:
     default: false
     permissions:
     - moreblocks.flatcorianadept
+    - pwnfilter.ignore.caps
     inheritance:
     - flatcorian
     info:
@@ -417,14 +418,7 @@ groups:
     - nocheatplus.checks.chat.text
     - nocheatplus.checks.chat.relog
     - bukkit.command.tps
-    inheritance: []
-    info:
-      prefix: ''
-      build: true
-      suffix: ''
-  SurvivalAdmin:
-    default: false
-    permissions: []
+    - pwnfilter.ignore.slurs
     inheritance: []
     info:
       prefix: ''

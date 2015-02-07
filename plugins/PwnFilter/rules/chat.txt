@@ -1,0 +1,16 @@
+# This is a base file for you to configure.
+# To maintain backward compatibility with PwnFilter 3.1.x this just
+# points to the main rules.txt, which was moved from the plugin directory.
+# Please refer to http://dev.bukkit.org/bukkit-plugins/pwnfilter
+# for more documentation on how to configure these files.
+
+match [\w ]{8,}
+ignore permission pwnfilter.ignore.caps
+then lower
+then warn &cDon't abuse caps lock. Read: www.core-network.us/conduct
+
+match \b(sand)?n[i1]?gg*(er|est|3r|uh|a)?\b|\bfag\b|\bf[a4]gg*[yio0]?(balls?|boy|t|th|tron)?(ry)?\b|\bwetback\b
+ignore permission pwnfilter.ignore.slurs
+then deny
+then console chansay MOD &8%player% said: &o%rawstring%
+then warn &cUnacceptable language. Read: www.core-network.us/conduct
