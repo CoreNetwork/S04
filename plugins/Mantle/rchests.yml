@@ -972,8 +972,8 @@ RareCategories:
   displayName: Horse Armor
   chances:
   - 0.1
-  - 0.05
-  - 0.01
+  - 0.02
+  - 0.005
   preReqCategories:
   - Armor
   - Obsidian
@@ -996,8 +996,8 @@ RareCategories:
   displayName: Enchanted Book
   chances:
   - 0.2
-  - 0.05
-  - 0.01
+  - 0.02
+  - 0.005
   preReqCategories:
   - Gold
   - HorseArmor

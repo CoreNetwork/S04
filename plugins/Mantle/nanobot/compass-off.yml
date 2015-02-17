@@ -1,3 +1,6 @@
 display:
   compound:
     Name: "&cUnavailable category"
+    Lore:
+    - '&7This category is unavailable either because it'
+    - '&7was depleted or lesser category is still locked.'

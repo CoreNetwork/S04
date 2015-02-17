@@ -106,7 +106,7 @@ Messages:
   Join:
     InLimbo: '&cYou cannot participate in Treasure Chase while in Limbo.'
     InNether: '&6Travel to Overworld to get directions to your crate.'
-    Queued: '&aJoined! Treasure Chase will start in <Time>'
+    Queued: '&aJoined! Treasure Chase will start in <Time> min.'
     Running: '&aJoined! Treasure Chase is already running!'
     AlreadyIn: '&6Don''t worry, you already joined. &7To revert: /chase leave'
     Leave: '&6You left Treasure Chase. &7To revert: /chase join'

@@ -4,29 +4,40 @@ PreventSpawningNether:
 - Skeleton
 - Blaze
 - Zombie
+- PigZombie
+- Ghast
 - Magma_Cube
 MinimumDistanceToPlayerSquared: 625
 MaximumDistanceToPlayerSquared: 9216
 Blaze:
-  SpawnChance: 0.45
+  SpawningIntervalTicks: 1
+  SpawnChance: 0.1
 MagmaCube:
-  SpawnChance: 1
+  SpawningIntervalTicks: 10
+  MaxY: 256
   MinY: 116
-  MaxY: 192
   MinLightLevel: 8
+  SpawnChance: 0.1
 WitherSkeleton:
-  SpawnChance: 0.2
+  SpawningIntervalTicks: 10
+  SpawnChance: 1
   MinY: 30
   MaxY: 55
   Strength: 5.0
-  BowChance: 0.5
+  BowChance: 0.1
   Speed: 0.265
 Ghast:
+  SpawningIntervalTicks: 600
+  SpawnChance: 0.0
+  LightCheckY: 183
+  MinSpawnY: 163
+  MaxSpawnY: 179
+  MinMoveDown: 4
+  MaxMoveDown: 6
   MinY: 110
-  MaxY: 192
+  MaxY: 256
   MinMoveUp: 4
   MaxMoveUp: 6
-  SpawnChance: 0.2
 AdditionalPackMobs:
   Min: 0
   Max: 3

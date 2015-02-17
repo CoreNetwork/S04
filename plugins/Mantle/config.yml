@@ -50,3 +50,12 @@ CommandDescriptions:
     import: '&a/slimeballs import &8-&f Import from CH'
     pay: '&a/slimeballs pay &8-&f Pay slimeball to get out of limbo'
     check: '&a/slimeballs check &8-&f Check your current slimy balance'
+  chase:
+    help: '&a/chase help &8-&f List all possible commands'
+    leave: '&a/chase leave &8-&f Callers leaves the treasure chase'
+    buy: '&a/chase buy &8-&f Adds one chase to callers pool, run later with /chase
+      run'
+    run: '&a/chase run &8-&f Adds a treasure chase to the queue'
+    check: '&a/chase check &8-&f Returns amount of treasure chases owned by caller.'
+    join: '&a/chase join &8-&f Callers joins the treasure chase'
+    info: '&a/chase info &8-&f Returns info about chase status.'

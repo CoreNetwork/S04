@@ -29,7 +29,7 @@ Worlds:
       LavaDrain: 1.0
       StartingMF: 1
   world_nether:
-    '108':
+    '192':
       FireDrain: 2.0
       LavaDrain: 2.5
       StartingMF: 2
