@@ -8,7 +8,7 @@ Warps:
     location: world_the_end;-0.5142103949734168;101.0;-499.46538724347727;0.1910569;-269.97714
     RunCommands:
     - core effect <Player> nightvision 24h silent
-    - clear <Player> silent
+    - core clear <Player> silent
   end-spawn-test1-wrong:
     location: world_the_end;-8.75193245272107;105.0;-38.59763023628716;39.1779;-223.48853
     RunCommands: []

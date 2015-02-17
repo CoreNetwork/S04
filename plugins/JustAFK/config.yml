@@ -1,9 +1,9 @@
 # JustAFK Configuration
 tagmessages: false
 autokick: true
-hideawayplayers: true
+hideawayplayers: false
 broadcastawaymsg: false
 movementcheckfreq: 3540
 kicktime: 60
-kickreason: Being away for more than 1h = unnecessary stress for the server.
+kickreason: You can only be AFK on Flatcore for 1h.
 kickwhileinvehicle: true

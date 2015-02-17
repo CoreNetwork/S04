@@ -10,7 +10,7 @@ Clicks:
   - /rspawn
   - /rspawn protect <Player>
   - /checkpoint clear
-  - /clear silent
+  - /core clear silent
   - /core effect clear silent
   - /ungod <Player> silent
 - regions:
@@ -22,7 +22,7 @@ Clicks:
   - /rspawn
   - /rspawn protect <Player>
   - /checkpoint clear
-  - /clear silent
+  - /core clear silent
   - /core effect clear silent
   - /ungod <Player> silent
 - regions:

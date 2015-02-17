@@ -126,7 +126,7 @@
 DisabledMobs:
 - ZOMBIE
 WorldMaximum:
-  Monsters: 500
+  Monsters: 400
   Animals: 10000
   Water_Animals: 0
   Ambient: 0
@@ -139,7 +139,7 @@ ChunkCalculatedMaximum:
   Villager: 0
 BreedingMaximumPerChunk: 150
 NumAnimalsForFarm: 3
-DespawnSearchDistance: 104
+DespawnSearchDistance: 72
 UndergroundSearchDistance: 16
 DespawnSearchHeight: 16
 GroundHeight: 1

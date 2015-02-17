@@ -5,7 +5,7 @@ Groups:
     WarnOverLimit: true
     HORSE:
       Name: Horses
-      ChunkLimit: 16
+      ChunkLimit: 30
       ViewDistanceLimit: 150
     COW:
       Name: Cows

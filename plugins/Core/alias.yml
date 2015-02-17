@@ -342,13 +342,12 @@ Aliases:
   - '&7-- &fHelp: Mob Limits &7--------'
   - '&7In order to not kill the server with tens of thousands of mobs, there are limits to how many animals, villagers, golems and monsters you can have in your base or grinders. They are reasonable and allow prosperity:'
   - '&7'
-  - '&f1.&7 You cannot have more than 150 animals and 90 villagers (golems included) in your view distance. To create bigger farms, move your mobs into multiple 208x208 areas. Count mobs with &f/animals &7and &f/villagers'
-  - '&f2.&7 You need to spread animals apart. If you have more than 16 horses or 30 chickens, rabbits, sheep, cows or pigs in one chunk (/faq Chunk), the excess number will despawn if you leave your base (see footnote).'
+  - '&f1.&7 You cannot have more than 150 animals and 90 villagers (and 32 golems) in your view distance. To create bigger farms, move your mobs into multiple 208x208 areas. Count mobs with &f/animals &7and &f/villagers'
+  - '&f2.&7 You need to spread animals apart. If you have more than 30 chickens, rabbits, sheep, cows, pigs or horses in one chunk (/faq Chunk), the excess number will despawn if you leave your base (see footnote).'
   - '&f3.&7 You need to spread villagers and golems apart. If you have more than 30 villagers or 4 golems in one chunk (/faq Chunk), the excess number will despawn if you leave your base (see footnote).'
-  - '&f4.&7 You can use monster grinders but monsters will despawn when you leave your base.'
-  - '&f5.&7 Squid are not limited in any way. (/faq Squid)'
+  - '&f4.&7 Squid are not limited in any way. (/faq Squid)'
   - ''
-  - '&7Leaving your base is technically walking more than 9 chunks (8 in Nether), dying and going to Limbo or logging out. Server reboot will apply these limits too.'
+  - '&7Leaving your base is technically walking more than 8 chunks, dying and going to Limbo or logging out. Server reboot will apply these limits too.'
   - '&7To learn about monster spawning, &f/help Spawning&7. Animals, villagers, golems and squid spawn under normal conditions.'
   - '&7------------'
 - match: /limits
@@ -514,6 +513,118 @@ Aliases:
 - match: /help\s?.+
   forward: /help
   comment: 'This thing has to be below all help entries!'
+- match: /faq camera
+  message:
+  - '&7----------------'
+  - '&7To change your camera perspective, press &fF5&7. Pressing it will cycle your view: third person view from behind, third person view from the front and back to first person view. If you''re on &fMac&7, you probably need to press &fFn + F5&7 for the key to work unless you changed it in system preferences.'
+  - ''
+- match: /faq chunks?
+  message:
+  - '&7----------------'
+  - '&7Chunks are 16 by 16 areas which make a Minecraft world. To see chunk''s boundaries, &fpress F3 &7and look at &fChunk: x y z&7. Only x and z are of importance, 0 being first block of the chunk, 15 being last.'
+  - ''
+- match: /faq coord(inate)?s
+  message:
+  - '&7----------------'
+  - '&7Press F3 and look in top left corner. Your coordinates are after &fXYZ:&7 - first and last number of those three.'
+  - ''
+- match: /faq death ?pit
+  message:
+  - '&7----------------'
+  - '&7Death Pit is a Limbo challenge which you can use to escape before 1h is up. To do that, kill monsters and earn 20 levels of experience. Then go through the creeper maze, stone brick maze, creeper bombing alley, to the red flag tower. Watch the video if you have trouble figuring it out:'
+  - '&fhttps://v.usetapes.com/aGZB4xdlVJ'
+  - ''
+- match: /faq food|hunger
+  message:
+  - '&7----------------'
+  - '&7Hunger in Minecraft isn''t just what you see on the screen. There is a second hidden bar which is used up before the visible one: saturation. You increase saturation with food like steak or cooked pork. Eating cookies or carrots changes it very little – that''s why you have to eat them more often.'
+  - ''
+- match: /faq ladders?
+  message:
+  - '&7----------------'
+  - '&7While mobs do not actively look for ladders to climb, they can use them if they are trying to walk forward and are pushed into a ladder. This is rather common for slimes (as they hop) but can also occur when mobs are knocked (skeleton shooting a creeper, iron golem punching a zombie) or when they occasionally jump up (zombie emerging from water). Basically, whenever a mob walks into a ladder block, it will start going up - it doesn''t mean it is consciously using the ladder.'
+  - ''
+- match: /faq flowers?
+  message:
+  - '&7----------------'
+  - '&7Flowers can be created with bonemeal. To make tulips you need to find a specific place they can grow in. The world is divided in mulitple patches which allow tulips to sprout, if a flower is forced to spawn there with bonemeal (this doesn''t mean they will only appear, sometimes tall grass will form).'
+  - '&fExplained visually: http://imgur.com/a/QVNaB'
+  - ''
+- match: /faq farm(ing)?
+  message:
+  - '&7----------------'
+  - '&7Farming is relatively simple but you can do more to make it more efficient and way much faster. Watch the following video to learn how growth rates work and how bonus growth multipliers are applied.'
+  - '&fVideo: https://www.youtube.com/watch?v=4qC6-1VuDng'
+  - ''
+- match: /faq iron ?farm(ing)?
+  message:
+  - '&7----------------'
+  - '&7Nim''s design is the simplest one and requires the least amount of resources:'
+  - '&fVideo: https://www.youtube.com/watch?v=Dev3Ls8papM'
+  - '&7Docm77''s design is probably the most widely used and very reliable to use on an server.'
+  - '&fVideo: https://www.youtube.com/watch?v=xE04Ui90sQY&t=5m20s'
+  - ''
+- match: /faq refraction
+  message:
+  - '&7----------------'
+  - '&7Light refraction explained visually:'
+  - '&fhttp://i.imgur.com/wALKUwo.png'
+  - ''
+- match: /faq schematica
+  message:
+  - '&7----------------'
+  - '&cAuto-placing with Schematica is not allowed.'
+  - '&7You can use it to preview your schematics and build manually. Auto-build is not allowed because it allows players to place blocks without using any other block to place against. This is not what the server expects from your client data being sent (/help Mods), therefore is not allowed.'
+  - ''
+- match: /faq squid
+  message:
+  - '&7----------------'
+  - '&7Squid spawn in any water block between levels 46 and 62 (inclusive). Squid spawning is vanilla; the more water you have the more squid you will get.'
+  - ''
+- match: /faq villages?
+  message:
+  - '&7----------------'
+  - '&7To understand valid houses in villages, villager mating and iron golem spawning, read this complete guide: &fhttp://bit.ly/OFRRbZ'
+  - '&7There is no easy way to explain the subject, so don''t ask unless you read it.'
+  - ''
+- match: /faq fish(ing)?
+  message:
+  - '&7----------------'
+  - '&7The easiest way to fish: &fhttps://vimeo.com/68224125'
+  - '&7Image album: &fhttp://imgur.com/a/V308o'
+  - ''
+- match: /faq trees?
+  message:
+  - '&7----------------'
+  - '&7To make a tree farm, put a slab/fence:'
+  - '&71. 7 blocks of air above sapling to prevent a tree from growing with any branches.'
+  - '&72. 8 blocks of air above sapling to get the most saplings, with occasional 1 sideways log as branch.'
+  - ''
+- match: /faq mushrooms?
+  message:
+  - '&7----------------'
+  - '&7To successfully plant a mushroom in overworld, you need to lower skylight to 12 or below. You also need appropriate space for the mushroom to grow when bonemealed:'
+  - '&fminecraftwiki.net/wiki/Tutorials/Mushroom_farming'
+  - ''
+- match: /faq snow(ing)?
+  message:
+  - '&7----------------'
+  - '&7It never rains on the server (/faq rain) but even if it did, you wouldn''t be able to get snow because of the biome we''re in. We would need to use Extreme Hills to be able to use this mechanic.'
+  - ''
+- match: /faq rain(ing)?
+  message:
+  - '&7----------------'
+  - '&7Rain is disabled on the server to not lag players who might be using low performance computers. Superflat is friendly to people''s machines because it has very few blocks to process and render. We might add limited rain in the future in a smart way.'
+  - ''
+- match: /faq
+  message:
+  - '&7----------------'
+  - '&7Available topics via &f/faq <topic>'
+  - '&bCamera&7, &bChunk&7, &bCoords&7, &bDeathPit&7, &bFarming&7, &bFishing&7, &bFlowers&7, &bHunger&7, &bIronFarming&7, &bLadders&7, &bMushrooms&7, &bRain&7, &bRefraction&7, &bSchematica&7, &bSlimes&7, &bSnow&7, &bSquid&7, &bTrees&7, &bVillages&7'
+  - ''
+- match: /faq\s?.+
+  forward: /faq
+  comment: 'This thing has to be below all faq entries!'
 - match: /ch goal
   sudo: true
   message: '&6Learn more: &7/help StretchGoal'
@@ -522,3 +633,7 @@ Aliases:
   route: /blocks buy
 - match: /head\s?(.*)
   route: /perks skull $1
+- match: /cake
+  message: '&cTold you to not run unknown commands from strangers'
+  sudo: true
+  route: /core effect nausea 1m silent

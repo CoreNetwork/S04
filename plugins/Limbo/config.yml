@@ -19,18 +19,21 @@ NotificationTimesLeft:
 Limbo:
   CommandsOnEntry:
   - sudo <Player> rspawn unprotect silent
-  - clear <Player> silent
+  - core clear <Player> silent
   - kit <Player> limbo silent
   - slimeballs give <Player> 5
   - sudo <Player> warp limbo-library-start silent
   - sudo gamemode <Player> 2 silent
+  - sudo core effect clear <Player> silent
+  - core xp <Player> clear silent
+  - sudo <Player> mantle hydration restore
   CommandsOnRespawn:
   - kit <Player> limbo silent
   - slimeballs give <Player> 5
   - sudo <Player> warp limbo-library silent
   - sudo gamemode <Player> 2 silent
   CommandsOnExit:
-  - clear <Player> silent
+  - core clear <Player> silent
   - sudo <Player> checkpoint clear <Player>
   - sudo <Player> warp end-respawn silent
   - sudo gamemode <Player> 0 silent
@@ -38,18 +41,18 @@ Challenges:
   DeathPit:
     CommandsOnEntry:
     - dm <Player> &3Death Pit is about getting &b20 levels &3of exp, killing mobs and reaching a mini tower with &bred flag &3(find it - start by going left, through Creeper tunnel). You can exit any time with &b/exit
-    - clear <Player> silent
+    - core clear <Player> silent
     - kit <Player> deathpit silent
     - sudo <Player> warp limbo-death-pit silent
-    - xp -100L <Player>
+    - core xp <Player> clear silent
     CommandsOnExit:
-    - clear <Player> silent
+    - core clear <Player> silent
     - kit <Player> limbo silent
     - slimeballs give <Player> 5
-    - xp -100L <Player>
+    - core xp <Player> clear silent
     - sudo <Player> warp limbo-library silent
     CommandsOnRespawn:
-    - clear <Player> silent
+    - core clear <Player> silent
     - kit <Player> deathpit silent
     - sudo <Player> warp limbo-death-pit silent
     - sudo gamemode <Player> 2 silent
@@ -63,16 +66,16 @@ Challenges:
   Parkour:
     CommandsOnEntry:
     - dm <Player> &3Parkour is about going through all 11 checkpoints towards diamond crystal up top. Press buttons to save checkpoints, restore them with &b/checkpoint&3. You can exit any time with &b/exit
-    - clear <Player> silent
+    - core clear <Player> silent
     - sudo <Player> warp limbo-parkour silent
     CommandsOnExit:
-    - clear <Player> silent
+    - core clear <Player> silent
     - kit <Player> limbo silent
     - slimeballs give <Player> 5
     - sudo <Player> checkpoint clear <Player>
     - sudo <Player> warp limbo-library silent
     CommandsOnRespawn:
-    - clear <Player> silent
+    - core clear <Player> silent
     - sudo <Player> warp limbo-parkour silent
     - sudo <Player> checkpoint instant
     - sudo gamemode <Player> 2 silent
