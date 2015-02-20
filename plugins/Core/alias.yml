@@ -76,8 +76,6 @@ Aliases:
   route: /ml animals $1
 - match: /villagers\s?(.*)
   route: /ml villagers $1
-- match: /claims( .*)?
-  route: /core claimslist
 - match: /abandon( .*)?
   message: '&6Did you mean &7/abandonclaim &6or &7/abandonallclaims&6?'
 - match: /exit( .*)?
@@ -85,8 +83,9 @@ Aliases:
   route: /lim exit <Player>
 - match: /staff( .*)?
   message:
-  - '&bGuardians: &fHarflin, Leonheart515, Mimal, ridddle, SkeletonCakes, Tbzz'
   - '&7If you need help, see if we''re online: /list... or use /ask'
+  - '&bGuardians: &7hannahbanana, harflin, Leonheart515, mimal, ridddle, SkeletonCakes, Tbzz'
+  - '&6Developers: &7Ginaw, matejdro, narrowtux'
   - ''
 - match: /afk( .*)?
   message: '&7You can be AFK for 1h. No command needed.'
@@ -98,6 +97,12 @@ Aliases:
   message: '&cNo /home on Flatcore. If you have a base, use /claims.'
 - match: /base( .*)?
   route: /core claimslist
+- match: /claims?list( .*)?
+  message: '&6Did you mean: &7/claims &6or &7/blocks'
+- match: /claims
+  route: /core claimslist
+- match: /claims\s?(.*)
+  route: /claimslist $1
 - match: //j
   route: /jumpto
 - match: //as
@@ -356,9 +361,11 @@ Aliases:
   message:
   - ''
   - '&7-- &fHelp: Loot &7------'
-  - '&7Flatcore has two loot system. First is what you might know from singleplayer - chests in blacksmiths, in villages. The difference is that they give all players unique loot and cannot be broken unless you claim the village (which will disable loot properties of the chest). Blacksmith chests will restock when village regenerates and should always give you some basic loot. Rare loot is a bit harder to get.'
+  - '&7Every village contains &ftwo blacksmiths &7with &funique loot per player &7in chests which restock upon village regeneration. Looting a chest will generate at least one basic set, plus a chance for a rare set. A &fcompass &7can direct you to any category (if it''s been progressively unlocked). Every chest you loot with a rare set counts toward its &fcap&7. Once you cap out every set, only basic sets will generate.'
   - ''
   - '&7The second loot system is located in the Nether. There are two types of dungeons (Nether Palace and Nether Catacombs) you can visit and one decorative Nether Altar. Those structures are admin claimed and heavily guarded. Bring your best gear to try to get best loot in game in many chests. Those chests can be looted only once.'
+  - ''
+  - 'In depth info: &fhttp://www.core-network.us/flatcore/loot'
   - ''
   - '&7------------'
 - match: /help Mods
@@ -461,7 +468,7 @@ Aliases:
   message:
   - ''
   - '&7-- &fHelp: Spells &7--------'
-  - '&7Spells are custom items designed to remove the grinding aspect from some common tasks. They can disenchant and item, remove a slime chunk or instantly grow all saplings around you. When cast, they also create a positive effect boost for every player on the server in that moment.'
+  - '&7Spells are custom items designed to remove the grinding aspect from some common tasks. They can disenchant an item, remove a slime chunk or instantly grow all saplings around you. When cast, they also create a positive effect boost for every player on the server in that moment.'
   - ''
   - '&6The way to get spells is to find them in &eTreasure Chase. &6You can buy one in &estore.core-network.us &6or wait for someone to sponsor it. /help TreasureChase'
   - ''

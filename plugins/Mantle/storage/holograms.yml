@@ -98,9 +98,9 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 01a6edb7-81c5-4e88-8936-674cc7173706
+    - ff089d76-d8b4-4f6a-b6b6-1c02b6510534
     x: 61.5
-    needsUpdating: false
+    needsUpdating: true
     y: 99.0
     z: 35.5
     text:
@@ -111,13 +111,13 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 80920d3c-9faa-4397-9320-c9517f006a60
+    - f6748007-d249-4f46-ad20-5f0729bad6de
     x: 61.5
-    needsUpdating: false
+    needsUpdating: true
     y: 100.0
     z: 35.5
     text:
-    - ' '
+    - §f30
     id: spawn-counter
     deleteOnNextUpdate: false
 - Hologram:
@@ -613,7 +613,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 44a21fb7-ac7c-42b2-ada9-c29e52b44f52
+    - 940db5ea-eea5-404f-ba17-0a336e53c449
     x: -10.5
     needsUpdating: false
     y: 98.5
@@ -625,7 +625,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 355264fc-ed55-48d9-afee-66a22f4c67b9
+    - 9165830a-2933-4ea8-ab65-d8eda76c4ce6
     x: -14.528460757247489
     needsUpdating: false
     y: 100.0
@@ -638,12 +638,12 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 53a6694a-145b-4d4f-81f6-743f6a8e2e3d
+    - 4f1bbdbd-25f4-4f2e-adbd-ca8884064809
     x: -14.428650625602979
     needsUpdating: false
     y: 101.0
     z: -505.4189466240966
     text:
-    - ' '
+    - §f30
     id: respawn-counter
     deleteOnNextUpdate: false

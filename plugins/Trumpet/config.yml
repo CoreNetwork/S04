@@ -1,0 +1,44 @@
+Debug: false
+AnnouncementBaseIntervalMinutes: 30
+AnnouncementMinimumIntervalMinutes: 3
+AnnouncementMaximumIntervalMinutes: 90
+MessagePrefix: '&c'
+Messages:
+  NoPermission: No permission!
+  ConfigurationReloaded: Configuration reloaded successfully!
+Ranks:
+  Special:
+  - Guardian
+  - SubSky
+  - SubGrass
+  Ladder:
+  - Novice
+  - Flatcorian
+  - FlatcorianAdept
+  - FlatcorianVeteran
+  - FlatcorianMaster
+  - Nomad
+  - NomadAdept
+  - NomadVeteran
+  - NomadMaster
+  - Raider
+  - RaiderAdept
+  - RaiderVeteran
+  - RaiderMaster
+  - Mercenary
+  - MercenaryAdept
+  - MercenaryVeteran
+  - MercenaryMaster
+  - Merchant
+  - MerchantAdept
+  - MerchantVeteran
+  - MerchantMaster
+  - Scribe
+  - ScribeAdept
+  - ScribeVeteran
+  - ScribeMaster
+  - Savant
+  - SavantAdept
+  - SavantVeteran
+  - SavantMaster
+  - Special
