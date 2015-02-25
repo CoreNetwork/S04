@@ -2,7 +2,7 @@ Debug: false
 AnnouncementBaseIntervalMinutes: 30
 AnnouncementMinimumIntervalMinutes: 3
 AnnouncementMaximumIntervalMinutes: 90
-MessagePrefix: '&c'
+MessagePrefix: '&6'
 Messages:
   NoPermission: No permission!
   ConfigurationReloaded: Configuration reloaded successfully!

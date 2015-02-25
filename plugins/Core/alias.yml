@@ -72,6 +72,8 @@ Aliases:
   message: '&6To stop listening to a channel, just send &7/listen $1 &6again.'
 - match: /clisten (.+)
   message: '&6Did you mean &7/listen&6?'
+- match: /untrack
+  route: /mantle untrack
 - match: /animals\s?(.*)
   route: /ml animals $1
 - match: /villagers\s?(.*)
@@ -517,6 +519,15 @@ Aliases:
   - '&7------------'
 - match: /help Hydration
   forward: /help Dehydration
+- match: /help Trades
+  message:
+  - ''
+  - '&7-- &fHelp: Trades &7--------'
+  - '&7Minecraft 1.8 deeply altered trading and restocking locked deals. Trades are now categorized in tiers, where by default only tier one is unlocked. Every tier is the same for every profession. To unlock more tiers you have to use a brand new trade (100% chance) or one of the ones already used (20% chance). Restocking follows the same logic and percentages.'
+  - ''
+  - '&7To learn what kind of trades are available, visit this URL:'
+  - '&fhttp://www.core-network.us/flatcore/trading'
+  - '&7------------'
 - match: /help\s?.+
   forward: /help
   comment: 'This thing has to be below all help entries!'

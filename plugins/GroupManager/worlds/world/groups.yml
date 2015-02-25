@@ -55,12 +55,14 @@ groups:
     - griefprevention.commands.abandonallclaims
     - griefprevention.commands.subdivideclaims
     - GriefPrevention.Lava
-    - mantle.command.treasurechase.run
-    - mantle.command.treasurechase.check
-    - mantle.command.treasurechase.join
-    - mantle.command.treasurechase.leave
+    - mantle.treasurechase.command.run
+    - mantle.treasurechase.command.check
+    - mantle.treasurechase.command.join
+    - mantle.treasurechase.command.leave
+    - mantle.treasurechase.command.info
     - mantle.slimeballs.command.check
     - mantle.slimeballs.command.pay
+    - mantle.command.untrack
     - limbo.check
     - limbo.top
     - limbo.kill
@@ -391,6 +393,7 @@ groups:
     - mantle.perks.advbanners
     - mantle.slimeballs.command.advskulls
     - mantle.perks.advarmorstand
+    - mantle.perks.advskulls
     inheritance: []
     info:
       prefix: ''
@@ -417,8 +420,15 @@ groups:
     - nocheatplus.checks.chat.commands
     - nocheatplus.checks.chat.text
     - nocheatplus.checks.chat.relog
-    - bukkit.command.tps
     - pwnfilter.ignore.slurs
+    inheritance: []
+    info:
+      prefix: ''
+      build: true
+      suffix: ''
+  SurvivalAdmin:
+    default: false
+    permissions: []
     inheritance: []
     info:
       prefix: ''
@@ -447,6 +457,7 @@ groups:
     - challenges.commands.chm.list
     - challenges.commands.chm.points
     - challenges.commands.chm.top
+    - challenges.commands.chm.allsubmissions
     - challenges.commands.chm.blame
     - challenges.commands.chm.history
     - challenges.commands.chm.help
@@ -497,6 +508,7 @@ groups:
     - limbo.finish
     - limbo.stats
     - limbo.status
+    - usernamehistory.original
     inheritance:
     - communitymanager
     info:
@@ -532,6 +544,7 @@ groups:
     - core.tp
     - core.claims.deleteclaim
     - mantle.command.*
+    - mantle.hydration.command.*
     - mantle.nanobot.command.*
     - griefprevention.admin.*
     - griefprevention.admin.claims
@@ -569,6 +582,15 @@ groups:
       prefix: '&b'
       build: true
       suffix: '&c*&b'
+  Developer:
+    default: false
+    permissions:
+    - lagmeter.*
+    inheritance: []
+    info:
+      prefix: ''
+      build: true
+      suffix: ''
   Root:
     default: false
     permissions:
