@@ -298,6 +298,7 @@ IgnoredMobs:
 - HORSE_BLACK_WHITE_DOTS
 - IRON_GOLEM
 - HORSE_CREAMY_WHITEFIELD
+- RABBIT
 DisabledMobs: []
 EnabledSpawnReasons:
 - DEFAULT
