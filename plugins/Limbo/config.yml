@@ -63,6 +63,21 @@ Challenges:
     VictoryPersonalBest:
     - '&b<Player> finished Death Pit in <DetailedTime>!'
     - '&3Beat their own time (<PreviousDetailedTime>) for a new personal best!'
+    ExperienceRewardedBack:
+    - TimeUnderMinutes: 10.0
+      ExpBack: 1.0
+    - TimeUnderMinutes: 11.0
+      ExpBack: 0.85
+    - TimeUnderMinutes: 12.0
+      ExpBack: 0.75
+    - TimeUnderMinutes: 13.5
+      ExpBack: 0.65
+    - TimeUnderMinutes: 15.0
+      ExpBack: 0.5
+    - TimeUnderMinutes: 20.0
+      ExpBack: 0.35
+    - TimeUnderMinutes: 30.0
+      ExpBack: 0.25
   Parkour:
     CommandsOnEntry:
     - dm <Player> &3Parkour is about going through all 11 checkpoints towards diamond crystal up top. Press buttons to save checkpoints, restore them with &b/checkpoint&3. You can exit any time with &b/exit
@@ -86,6 +101,21 @@ Challenges:
     VictoryPersonalBest:
     - '&b<Player> finished Parkour in <DetailedTime>!'
     - '&3Beat their own time (<PreviousDetailedTime>) for a new personal best!'
+    ExperienceRewardedBack:
+    - TimeUnderMinutes: 9.0
+      ExpBack: 1.0
+    - TimeUnderMinutes: 10.0
+      ExpBack: 0.85
+    - TimeUnderMinutes: 11.0
+      ExpBack: 0.75
+    - TimeUnderMinutes: 12.5
+      ExpBack: 0.65
+    - TimeUnderMinutes: 15.0
+      ExpBack: 0.5
+    - TimeUnderMinutes: 20.0
+      ExpBack: 0.35
+    - TimeUnderMinutes: 30.0
+      ExpBack: 0.25
 TopPerPage: 10
 Top:
   FootnoteColor: '&7'

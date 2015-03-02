@@ -160,6 +160,8 @@ Aliases:
   route: /core deleteclaim
 - match: /tp-id\s?(.*)
   route: /tp-id $1
+- match: /tps
+  route: /tps
 - match: /tp\s?(.*)
   route: /core tp $1
 - match: /effect\s?(.*)
@@ -581,6 +583,13 @@ Aliases:
   - '&fVideo: https://www.youtube.com/watch?v=Dev3Ls8papM'
   - '&7Docm77''s design is probably the most widely used and very reliable to use on an server.'
   - '&fVideo: https://www.youtube.com/watch?v=xE04Ui90sQY&t=5m20s'
+  - ''
+- match: /faq mumble
+  message:
+  - '&7----------------'
+  - '&7Guide: https://flatcore.hackpad.com/vmrQcCDyRmF'
+  - '&7Mumble address, default port:'
+  - '&fcore-network.us'
   - ''
 - match: /faq refraction
   message:

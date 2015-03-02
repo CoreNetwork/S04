@@ -1,6 +1,6 @@
 Debug: false
 AnnouncementBaseIntervalMinutes: 30
-AnnouncementMinimumIntervalMinutes: 3
+AnnouncementMinimumIntervalMinutes: 30
 AnnouncementMaximumIntervalMinutes: 90
 MessagePrefix: '&6'
 Messages:
@@ -42,3 +42,60 @@ Ranks:
   - SavantVeteran
   - SavantMaster
   - Special
+Announcements:
+- anno:
+  - if stat.playOneMinute is lt 5184000:
+    - pick:
+      - message: 'Visit the superflat themed subreddit: <link-flatcore>'
+      - message: 'Visit the subreddit that started it all: <link-flatcore>'
+- anno:
+  - if stat.playOneMinute is lt 5184000:
+    - pick:
+      - message: 'Visit our community subreddit: <link-corenet>'
+      - message: 'Discuss things among our community: <link-corenet>'
+- anno:
+  - if stat.playOneMinute is lt 5184000:
+    - pick:
+      - message: 'Play your favorite music or just tune in: plug.dj/flatcore'
+- anno:
+  - if stat.playOneMinute is lt 5184000:
+    - pick:
+      - message: Typing can be quite dangerous. Talk via Mumble. <help-mumble>
+      - message: We have a Mumble server so you talk with us. <help-mumble>
+- anno:
+  - if stat.playOneMinute is lt 5184000:
+    - pick:
+      - message: 'If you''re one of the tweeting folks, check us out: <link-twitter>'
+- anno:
+  - if stat.playOneMinute is lt 5184000:
+    - pick:
+      - message: 'Interested in the nitty gritty, follow our changelog: <link-changelog>'
+      - message: 'Get info about every little detail from our changelog: <link-changelog>'
+ButtonFormat:
+  Left: '&6['
+  Right: '&6]'
+  TextColor: '&e'
+Buttons:
+  help-mumble:
+    label: Learn more
+    action: /faq mumble
+  link-corenet:
+    label: /r/corenet
+    hover:
+    - '&7Click to open the link'
+    action: http://www.reddit.com/r/corenet
+  link-flatcore:
+    label: /r/flatcore
+    hover:
+    - '&7Click to open the link'
+    action: http://www.reddit.com/r/flatcore
+  link-twitter:
+    label: '@flatcorian'
+    hover:
+    - '&7Click to open the link'
+    action: https://twitter.com/flatcorian
+  link-changelog:
+    label: Click me
+    hover:
+    - '&7Click to open the link'
+    action: http://flatcorian.tumblr.com

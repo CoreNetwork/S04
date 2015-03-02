@@ -509,6 +509,7 @@ groups:
     - limbo.stats
     - limbo.status
     - usernamehistory.original
+    - worldguard.notify
     inheritance:
     - communitymanager
     info:
@@ -543,6 +544,7 @@ groups:
     - core.teleport.*
     - core.tp
     - core.claims.deleteclaim
+    - core.claims.fluids.override
     - mantle.command.*
     - mantle.hydration.command.*
     - mantle.nanobot.command.*
@@ -564,6 +566,7 @@ groups:
     - commandhelper.alias.overseer
     - worldedit.*
     - worldguard.*
+    - worldguard.bypass
     - OpenInv.openinv
     - OpenInv.editinv
     - OpenInv.openself

@@ -2,7 +2,7 @@ savebackconfig: true
 configversion:
   notify: true
   created: 754
-  saved: 754
+  saved: 785
 logging:
   active: true
   debug: false
@@ -286,10 +286,6 @@ checks:
       minage: 1100
       maxage: 5000
       actions: log:godmode:2:5:if cancel vl>60 log:godmode:2:5:icf cancel
-    knockback:
-      active: false
-      interval: 50
-      actions: cancel vl>50 log:knockback:0:5:cif cancel
     noswing:
       active: false
       actions: cancel vl>10 log:noswing:0:5:if cancel
@@ -339,6 +335,9 @@ checks:
       whitelist: false
       items: []
       actions: log:fastconsume:2:5:if cancel
+    gutenberg:
+      active: true
+      actions: cancel log:gutenberg:0:10:icf cmd:kickinvaliddata
     items:
       active: false
     open:
@@ -381,6 +380,20 @@ checks:
         active: true
         blockchangeonly: true
       actions: vl>10 log:passable:0:5:if cancel vl>50 log:passable:0:5:icf cancel
+      untracked:
+        teleport:
+          active: true
+        command:
+          active: true
+          tryteleport: true
+          prefixes:
+          - sethome
+          - home set
+          - setwarp
+          - warp set
+          - setback
+          - set back
+          - back set
     survivalfly:
       active: true
       extended:
@@ -417,6 +430,7 @@ checks:
       active: true
       seconds: 5
       maxpackets: 300
+      cancelredundant: true
     sounddistance:
       active: true
       maxdistance: 320
@@ -434,6 +448,7 @@ strings:
   bvisible: '&7[player] tried to use a block out of reach (vis).  &8[violations]'
   bwrong: '&7[player] broke another block than clicked. &8[violations]'
   captcha: '&7[player] failed captcha repeatedly. &8[violations]'
+  chatnormal: '&7[player]: potentially annoying chat. &8[violations]'
   color: '&7[player] sent colored chat message. &8[violations]'
   commands: '&7[player] issued too many commands. &8[violations]'
   combspeed: '&7[player] does things very fast. &8[violations]'
@@ -451,7 +466,7 @@ strings:
   freach: '&7[player] tried to attack entity out of reach. &8[violations]'
   fselfhit: '&7[player] tried to self-hit. &8[violations]'
   fspeed: '&7[player] tried to spam-attack.  &8[violations]'
-  chatnormal: '&7[player]: potentially annoying chat. &8[violations]'
+  gutenberg: '[player] failed [check]: created a book with too many pages. VL [violations].'
   godmode: '&7[player] avoided taking damage. &8[violations]'
   improbable: '&7[player] failed is improbable. &8[violations]'
   instantbow: '&7[player] fired bow too fast. &8[violations]'
@@ -464,10 +479,11 @@ strings:
   kickchat5: ncp tempkick [player] 5 Our robot overlords need you to be a slower typer.
   kickchatfast: ncp kick [player] Our robot overlords need you to be a slower typer.
   kickchatnormal: ncp kick [player] Our robot overlords need you to be a slower typer.
-  kickfly: ncp delay ncp kick [player] Our robot overlords detected you flying. They might be wrong.
   kickcommands: ncp tempkick [player] 1 Our robot overlords need you to be a slower typer.
+  kickfly: ncp delay ncp kick [player] Our robot overlords detected you flying. They might be wrong.
   kickfrequency: ncp kick [player] Our robot overlords would like you to do it less often.
   kickgod: ncp kick [player] Our robot overlords think you are using godmode.
+  kickinvaliddata: ncp kick [player] Invalid data.
   kickpackets: ncp delay ncp kick [player] Our robot overlords think you are laging or spamming packets.
   kickselfhit: ncp kick [player] Our robot overlords noticed you like to hit yourself. Seek help?
   kickwb: ncp kick [player] Our robot overlords noticed block breaking out of sync.
@@ -485,6 +501,10 @@ strings:
   kickbdirection: ncp kick [player] Our robot overlords need you to place blocks manually.
   kickcrit: ncp kick [player] Our robot overlords think you are faking critical hits
 compatibility:
+  exemptions:
+    remove:
+      join: true
+      leave: true
   managelisteners: false
   bukkitapionly: false
   blocks:

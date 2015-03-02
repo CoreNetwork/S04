@@ -76,3 +76,81 @@ CommandDescriptions:
   move: '&a/chp move &8-&f Move checkpoint to your position'
 OrbClearBoxSize: 10
 OrbClearInterval: 60
+Clock:
+  HoloList:
+  - clock-spawn
+  - clock-respawn
+  TimeRanges:
+  - beginning: 0
+    end: 1000
+    message: '&eSunrise (6:30 AM)'
+  - beginning: 1001
+    end: 2000
+    message: '&eSunrise (7:30 AM)'
+  - beginning: 2001
+    end: 3000
+    message: '&eDay (8:30 AM)'
+  - beginning: 3001
+    end: 4000
+    message: '&eDay (9:30 AM)'
+  - beginning: 4001
+    end: 5000
+    message: '&eDay (10:30 AM)'
+  - beginning: 5001
+    end: 6000
+    message: '&eAlmost Noon (11:30 AM)'
+  - beginning: 6001
+    end: 7000
+    message: '&eNoon (12:30 PM)'
+  - beginning: 7001
+    end: 8000
+    message: '&eAfternoon (1:30 PM)'
+  - beginning: 8001
+    end: 9000
+    message: '&eAfternoon (2:30 PM)'
+  - beginning: 9001
+    end: 10000
+    message: '&eAfternoon (3:30 PM)'
+  - beginning: 10001
+    end: 11000
+    message: '&eAfternoon (4:30 PM)'
+  - beginning: 11001
+    end: 12000
+    message: '&eAfternoon (5:30 PM)'
+  - beginning: 12001
+    end: 13000
+    message: '&eLate Afternoon (6:30 PM)'
+  - beginning: 13001
+    end: 14000
+    message: '&6Sunset (7:30 PM)'
+  - beginning: 14001
+    end: 15000
+    message: '&6Sunset (8:30 PM)'
+  - beginning: 15001
+    end: 16000
+    message: '&9Night (9:30 PM)'
+  - beginning: 16001
+    end: 17000
+    message: '&9Night (10:30 PM)'
+  - beginning: 17001
+    end: 18000
+    message: '&9Almost Midnight (11:30 PM)'
+  - beginning: 18001
+    end: 19000
+    message: '&9Midnight (0:30 AM)'
+  - beginning: 19001
+    end: 20000
+    message: '&9Night (1:30 AM)'
+  - beginning: 20001
+    end: 21000
+    message: '&9Night (2:30 AM)'
+  - beginning: 21001
+    end: 22000
+    message: '&9Night (3:30 AM)'
+  - beginning: 22001
+    end: 23000
+    message: '&9Night (4:30 AM)'
+  - beginning: 23001
+    end: 24000
+    message: '&9Night (5:30 AM)'
+  UpdateFrequency: 200
