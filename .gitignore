@@ -30,7 +30,6 @@ server.properties
 /plugins/Mantle/storage/rchests.yml
 /plugins/Mantle/storage/regeneration.yml
 
-/plugins/MobManager/limiter.yml
 /plugins/MobManager/ProtectedAnimals.dat
 
 /plugins/MCNSAChat/chatLog.txt

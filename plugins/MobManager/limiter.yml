@@ -1,0 +1,312 @@
+# MobManager v3.0.3 by Michael McKnight (ShadowDog007)
+# http://dev.bukkit.org/bukkit-mods/mobmanager/
+# Limiter Global Config
+# NOTES ----------------------------------------------------------------|
+# MobTypes:
+#    Monsters:       Blaze, Creeper, Enderman, Giant,
+#                    Silverfish, Skeleton, WitherSkeleton, Spider,
+#                    CaveSpider, Witch, Wither, Zombie, PigZombie,
+#                    Ghast, Slime, MagmaCube
+# 
+#     Animals:       Chicken, Cow, MushroomCow, Ocelot,
+#                    Pig, Sheep, Wolf, IronGolem, Snowman
+#                    
+#     Water_Animals: Squid
+#     
+#     Ambient:       Bat
+#     
+#     Villager:      Villager
+# ----------------------------------------------------------------------|
+# #######################################################################
+# EnabledWorlds
+# #######################################################################
+# List of all the worlds which MobManagers Limiter is active in
+# MobManagers Limiter will not have any effect on worlds not listed here
+# 
+# #######################################################################
+# DisableWarnings
+# #######################################################################
+# If true some unimportant warnings are disabled
+#     to prevent console from being filled
+#   
+# NOTE: Warnings which are removed 'should' not
+#     happen at all. They also should not prevent
+#     MobManger from functioning properly
+# 
+# #######################################################################
+# IgnoreCreativePlayers
+# #######################################################################
+# If true MobManager will not track the movements of players in
+#     creative mode. This means that Mobs will not spawn near
+#     players which are in creative mode.
+#     (Unless there are other players nearby not in creative mode)
+# 
+# #######################################################################
+# UseAsyncDespawnScanner
+# #######################################################################
+# If true MobManager will scan for mobs to despawn in a separate thread
+#     leaving more CPU time for your server to run
+# 	(Helps prevent tick-rate lag)
+# 
+# WARNING: This feature is in beta, it has not been thoroughly tested
+#     for bugs.
+#     It may produce some errors (Should only effect Mob despawning)
+#     Use at your own risk.
+#     
+# WARNING: If this is enabled Plugin Integration with EpicBossRecoded
+#     will not work.
+# 
+# #######################################################################
+# RemoveTamedAnimals
+# #######################################################################
+# If false MobManager will never despawn any animals which have been
+#     tamed by a player.
+# 	
+# #######################################################################
+# CountTamedAnimals
+# #######################################################################
+# If false MobManager will not count tamed animals towards Animal limits
+# 
+# #######################################################################
+# EnableAnimalDespawning
+# #######################################################################
+# If false MobManager will never despawn Animals
+# If true MobManager will run as normal
+# 
+# WARNING: All players animals will be despawned unless they feed them
+#     every X number of days of DaysTillFarmAnimalCleanup
+#     
+#     If you are just installing MobManager this will be disabled while
+#     the protected entities list builds up (See EnableAnimalTracking)
+# 
+# #######################################################################    
+# EnableAnimalTracking
+# #######################################################################
+# If true, tracks players animals regardless of EnableAnimalDespawning
+#     so you can build up a list of animals which should be protected
+#     before enabling animal despawning
+# 
+# #######################################################################
+# DaysTillFarmAnimalCleanup
+# #######################################################################
+# Number in Days (Real Time Days)
+# 
+# When a player feeds an animal (Attempts to breed it) or when a animal
+#     is bred, it is marked with the time the event occurred.
+#     The animal will not despawn until this time is more than
+# 	'DaysTillFarmAnimalCleanup'
+# 
+# Example: DaysTillFarmAnimalCleanup: 1
+#     After breeding my Sheep they will not despawn, not matter what
+# 	unless I do not feed them for a full day (Real time)
+# 	
+# SideNote: Kind of brings in a hunger kind of thing with animals :)
+#     PreeCool IMO
+# 
+# #######################################################################
+# ProtectedFarmAnimalSaveInterval
+# #######################################################################
+# Positive number in Ticks (20 ticks == 1 second)
+# 
+# This setting is used to determine how often in ticks
+#     the last interact times for animals are saved to a file.
+# 	
+# NOTE: This setting is directly related to DaysTillFarmAnimalCleanup
+# 
+# #######################################################################
+# TicksPerRecount
+# #######################################################################
+# How often (In ticks, 20 ticks = 1 second) the mobs
+#     in a world is allowed to be recounted
+# 
+# MobManager keeps track of the mob count by listening for deaths of
+#     mobs. Sometimes this count can not be accurate, so mobs are
+#     recounted. 
+# 
+# NOTE: MobManager also can't count mobs which are removed
+#     by other plugins (Depending on how its done)
+#     So decreasing this count will also decrease the time it
+#     takes for mobs to respawn
+# 
+# #######################################################################
+# TicksPerDespawnScan
+# #######################################################################
+# How often in ticks the mob despawn scan is run.
+# 
+# The mob despawn scan checks all the mobs currently
+#     currently alive in each world to check if
+#     players are nearby, if they are not they are despawned
+#    
+# NOTE: Animals are only despawned if there are enough animals
+#     inside of the one chunk. This number can be controlled
+#     via your world config files
+# 
+# #######################################################################
+# MinTicksLivedForDespawn
+# #######################################################################
+# This value is used by the Despawn Scanner to determine if a mob is old
+#     enough to be despawned.
+# 	
+# Value is in Ticks (20 Ticks = 1 Second)
+# 
+# If a mob has been alive for less than this value they will
+#     not be despawned.
+# 	
+# Hint: If you remove checks for a given spawn reason,
+#       mobs which are allowed to spawn can be despawned very quickly
+#       If you notice this happening, increasing this value will fix
+#       the problem
+#     
+# #######################################################################
+# DisabledMobs
+# #######################################################################
+# A string list of all the mobs which will not be allowed to
+#     spawn if they are spawning naturally
+#     
+# If a mob is spawned with a spawn egg or via another plugin
+#     they will still be counted towards the mob cap
+#     
+# Valid Mobs can be found at the top of config.yml
+# 
+# #######################################################################
+# IgnoredMobs
+# #######################################################################
+# A string list of all the mobs which will be:
+#     - Ignored when that mob is spawned
+#       i.e. The mob will not contribute to the mob counts
+#       Nor will it be prevented from spawning
+#     - Ignored when a despawn task is run
+#       i.e. Mobs which will not be despawned by MobManager
+#     
+# Valid Mobs can be found at the top of config.yml
+# 
+# #######################################################################
+# EnabledSpawnReasons
+# #######################################################################
+# When a Mob spawns, it is spawned with a given 'SpawnReason'
+#     This list defines which of those 'SpawnReasons' that MobManager
+# 	will check for.
+# If a mob spawns with a listed 'SpawnReason' it will be checked to make
+#     sure that it does not breach the mob limits
+# 	
+# Hint: If you want more mobs spawning from MobSpawners you can remove
+#       'SPAWNER' from EnabledSpawnReasons
+# 
+# Note: By default only Natural Spawns are checked
+# 
+# Valid spawn reasons can be found here:
+#     http://jd.bukkit.org/apidocs/org/bukkit/event/entity/CreatureSpawnEvent.SpawnReason.html
+#     
+# #######################################################################
+# DespawnSearchDistance
+# #######################################################################
+# When a mob spawns MobManager searches for players
+#     around the mob. If it finds a player within range
+#     the mob is allowed to spawn.
+# DespawnSearchDistance is the distance in blocks around
+#     the spawned mob which MobManager will check for players
+# 
+# Used as a default for worlds which have
+#     invalid values set for the same setting
+#     
+# #######################################################################
+# DespawnSearchHeight
+# #######################################################################
+# When a mob spawns MobManager searches for players
+#     around the mob. If it finds a player within range
+#     the mob is allowed to spawn.
+# DespawnSearchDistance is the distance in blocks above and below
+#     the spawned mob which MobManager will check for players
+# 
+# Used as a default for worlds which have
+#     invalid values set for the same setting
+# 
+# #######################################################################
+# FlyingMobAditionalBlockDepth
+# #######################################################################
+# How many extra layers below normal will be checked
+#     for players when a flying mob attempts to spawn
+# 
+# This allows a higher chance for flying mobs to spawn
+# 
+# #######################################################################
+
+EnabledWorlds:
+- world
+- world_nether
+- world_the_end
+DisableWarnings: true
+UseAsyncDespawnScanner: false
+IgnoreCreativePlayers: true
+RemoveTamedAnimals: false
+CountTamedAnimals: false
+EnableAnimalDespawning: false
+EnableAnimalTracking: false
+DaysTillFarmAnimalCleanup: 30.0
+ProtectedFarmAnimalSaveInterval: 6000
+TicksPerRecount: 100
+TicksPerDespawnScan: 100
+MinTicksLivedForDespawn: 200
+IgnoredMobs:
+- COW
+- HORSE_WHITE_WHITEFIELD
+- HORSE_BLACK
+- UNKNOWN
+- OCELOT
+- HORSE_CREAMY_WHITE_DOTS
+- HORSE_DARK_BROWN_WHITE
+- HORSE_CREAMY_BLACK_DOTS
+- HORSE_DARK_BROWN_BLACK_DOTS
+- HORSE_GRAY_WHITE_DOTS
+- HORSE_DARK_BROWN_WHITEFIELD
+- HORSE_BROWN_BLACK_DOTS
+- HORSE_GRAY_WHITEFIELD
+- HORSE_CHESTNUT
+- HORSE_GRAY_WHITE
+- HORSE_BLACK_BLACK_DOTS
+- SHEEP
+- HORSE_BROWN_WHITE_DOTS
+- HORSE_GRAY
+- HORSE_BROWN
+- HORSE_CREAMY_WHITE
+- HORSE_BLACK_WHITE
+- HORSE_CHESTNUT_WHITE
+- HORSE_WHITE_WHITE_DOTS
+- HORSE_CHESTNUT_BLACK_DOTS
+- WOLF
+- CHICKEN
+- HORSE_CREAMY
+- HORSE
+- HORSE_WHITE_WHITE
+- HORSE_BROWN_WHITEFIELD
+- VILLAGER
+- HORSE_CHESTNUT_WHITE_DOTS
+- HORSE_BROWN_WHITE
+- WITHER
+- HORSE_DARK_BROWN_WHITE_DOTS
+- HORSE_GRAY_BLACK_DOTS
+- HORSE_DONKEY
+- HORSE_CHESTNUT_WHITEFIELD
+- SNOWMAN
+- HORSE_DARK_BROWN
+- HORSE_MULE
+- PIG
+- HORSE_BLACK_WHITEFIELD
+- SQUID
+- HORSE_WHITE_BLACK_DOTS
+- HORSE_WHITE
+- HORSE_BLACK_WHITE_DOTS
+- IRON_GOLEM
+- HORSE_CREAMY_WHITEFIELD
+DisabledMobs: []
+EnabledSpawnReasons:
+- DEFAULT
+- NATURAL
+- JOCKEY
+- CHUNK_GEN
+- VILLAGE_INVASION
+- BREEDING
+- EGG
+DespawnSearchDistance: 72
+DespawnSearchHeight: 32
+FlyingMobAditionalBlockDepth: 49
