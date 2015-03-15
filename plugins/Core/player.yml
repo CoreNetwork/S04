@@ -64,6 +64,8 @@ Message:
   LevelsAdded: <Amount> levels added.
   XpSyntax: 'Usage: /core xp [<player>] (<experience> | <levels> | clear) [silent]'
   RemindersCleared: All reminders cleared
+  InventorySelfHealed: Healed!
+  InventoryPlayerHealed: <Player> has been healed.
 VanishEnabled: true
 Kits:
   modtools:

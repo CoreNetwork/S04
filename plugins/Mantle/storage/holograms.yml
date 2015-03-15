@@ -31,7 +31,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - abfa9a1a-51d7-4c52-8c71-e715564ac47c
+    - 4e439380-4a61-46a1-af0f-565ceaa099e2
     x: 58.5
     needsUpdating: false
     y: 97.25
@@ -43,13 +43,13 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - a3cf6558-145f-4441-8839-e74e246634e8
+    - 53ef20be-3d04-4a22-b2c2-21429acbb459
     x: 58.5
     needsUpdating: true
     y: 97.0
     z: 53.5
     text:
-    - §6Sunset (7:30 PM)
+    - §eAlmost Noon (11:30 AM)
     id: clock-spawn
     deleteOnNextUpdate: false
 - Hologram:
@@ -98,7 +98,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 0f25717a-dd85-4970-9fef-ff0206f2a1a4
+    - 88013aea-94b4-42bd-a650-70798f893841
     x: 61.5
     needsUpdating: false
     y: 99.0
@@ -111,7 +111,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - c77303e3-3e33-4463-b4ce-a8a2f075584b
+    - 6fe06cf0-6892-43d1-b290-36c14fe52504
     x: 61.5
     needsUpdating: false
     y: 100.0
@@ -588,7 +588,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - bb26dea2-17fb-425a-894d-77b946e4fca4
+    - f68cf8fc-c828-4723-952c-88f3b5f1836e
     x: -12.5
     needsUpdating: false
     y: 99.25
@@ -600,20 +600,20 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 5cf015fa-df1b-4e1f-b172-13b1043c42c9
+    - 2c65b2d8-9876-45c2-8989-e8a791537140
     x: -12.5
-    needsUpdating: false
+    needsUpdating: true
     y: 99.0
     z: -491.5
     text:
-    - §6Sunset (7:30 PM)
+    - §eAlmost Noon (11:30 AM)
     id: clock-respawn
     deleteOnNextUpdate: false
 - Hologram:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - b2d2e5ac-fdb9-4d01-9cd1-b3f7adba5a6a
+    - ef674100-0a5d-4b03-9755-33912e8e2423
     x: -10.5
     needsUpdating: false
     y: 98.5
@@ -625,7 +625,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - f74e8aa8-9db5-41c8-bf4b-057e24c08418
+    - 1fa67f92-cc4e-484c-a67a-593ceb25e20c
     x: -14.528460757247489
     needsUpdating: false
     y: 100.0
@@ -638,7 +638,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 1cb8d18a-db8a-4279-b390-7b3b138bd39a
+    - 745d7be2-526e-42ca-9d9e-3a5b4d0aa7d3
     x: -14.428650625602979
     needsUpdating: false
     y: 101.0

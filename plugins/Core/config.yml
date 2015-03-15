@@ -15,3 +15,15 @@ CommandDescriptions:
     enchant: '&a/core enchant &8-&f Custom enchant command.'
     claimslist: '&a/core claimslist &8-&f List your claims'
     shutdown: '&a/core shutdown &8-&f Shutdown with grace period'
+    runlucky: '&a/core runlucky &8-&f Adds a lucky booster time'
+    deleteclaim: '&a/core deleteclaim &8-&f Deletes the claim you''re currently standing
+      in'
+    clear: '&a/core clear &8-&f Clear player inventory.'
+    buylucky: '&a/core buylucky &8-&f Adds one lucky booster to callers pool, run
+      later with /core runlucky'
+    gamemode: '&a/core gamemode &8-&f Change player gamemode'
+    remind: '&a/core remind &8-&f Remind me'
+    abandonallclaims: '&a/core abandonallclaims &8-&f Abandons all claims'
+    xp: '&a/core xp &8-&f Give XP'
+    abandonclaim: '&a/core abandonclaim &8-&f Abandons the claim you''re currently
+      in.'

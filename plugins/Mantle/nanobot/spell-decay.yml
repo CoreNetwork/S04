@@ -6,15 +6,15 @@ display:
     - "&7Decays leaves, mushrooms, flowers and grass."
     - "&7Turns grass into dirt when stood upon."
     - "&7Removes the dye from wool in inventory."
-    - "&7Requires 2x64 rotten flesh in inventory."    
+    - "&7Requires 64 rotten flesh in inventory."    
     - "&8Right click to decay 32x32x32 area around you."
     - "&8Right click a chest to change the wool inside."
     - "ExpireAfterDays: 15"
 ench:
 - compound:
     lvl:
-      short: 5
+      short: 1
     id:
-      short: 16
+      short: 1
 HideFlags:
   int: 63

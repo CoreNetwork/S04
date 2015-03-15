@@ -96,7 +96,7 @@ Blocks:
     Gameplay: '&6Normal gameplay: &7<Amount>'
     Ranks: '&6Bonus, ranks: &7<Amount>'
     Bought: '&6Bonus, bought: &7<Amount>'
-    Other: '&6Bonus, other: &7<Amount>'
+    Other: '&6Monster Hunt: &7<Amount>'
     Total: '&6Total: &7<Amount>'
     Used: '&6Used: &7<Amount>'
     Available: '&eAvailable: &f<Amount>'
@@ -119,3 +119,7 @@ ClaimLiquids:
   Messages:
     DenyHeight: '&cYou can only place <Liquid> below y = <Height>'
     DenyClaim: '&cYou can only place <Liquid> in a claim.'
+Worker:
+  Interval: 5
+  Speed: 102400
+  Count: 4

@@ -287,6 +287,8 @@ Aliases:
   - '&b/help &fSpells &8-&7 One-off commands in magic form.'
   - '&b/help &fStretchGoal &8-&7 Want more challenges? Read!'
   - '&6/help &eTreasureChase &8-&6 Fun event for everyone.'
+  - ''
+  - '&7You can also try &f/faq &7for more info'
   - '&8 ----'
 - match: /help Blocks
   message:
@@ -583,6 +585,8 @@ Aliases:
   - '&fVideo: https://www.youtube.com/watch?v=Dev3Ls8papM'
   - '&7Docm77''s design is probably the most widely used and very reliable to use on an server.'
   - '&fVideo: https://www.youtube.com/watch?v=xE04Ui90sQY&t=5m20s'
+  - '&7inasm''s design is also very reliable and easy to make.'
+  - '&fLink: http://redd.it/2yq2h7 &7(comments & video)'
   - ''
 - match: /faq mumble
   message:
@@ -655,7 +659,7 @@ Aliases:
 - match: /ch goal
   sudo: true
   message: '&6Learn more: &7/help StretchGoal'
-  route: /chm all 3
+  route: /chm all 4
 - match: /buyclaimblocks
   route: /blocks buy
 - match: /head\s?(.*)

@@ -6,7 +6,7 @@ users:
     permissions: []
   008fb53c-96f7-4cc1-8841-6895da869d90:
     lastname: Phezi
-    group: FlatcorianAdept
+    group: FlatcorianVeteran
     subgroups: []
     permissions: []
   00ab6db6-bfc6-4b35-8122-d0a05265d972:
@@ -286,9 +286,14 @@ users:
     group: Raider
     subgroups: []
     permissions: []
+  15224bb2-ace6-4848-91f5-077008c61e7f:
+    lastname: TheProspector149
+    group: Flatcorian
+    subgroups: []
+    permissions: []
   1570d12b-895e-4b59-b9b9-b80edc72742a:
     lastname: megachirops
-    group: RaiderMaster
+    group: Mercenary
     subgroups:
     - SubGrass
     permissions: []
@@ -353,6 +358,11 @@ users:
     group: RaiderMaster
     subgroups: []
     permissions: []
+  194305da-d01b-4be2-a218-bf0cdf590ce1:
+    lastname: '67457474'
+    group: FlatcorianAdept
+    subgroups: []
+    permissions: []
   1987bbb7-5648-4e5e-a184-35672f3e59de:
     lastname: Pikachewbacca
     group: FlatcorianMaster
@@ -380,7 +390,7 @@ users:
     permissions: []
   1b26a0ba-6e90-4fe6-967a-bfb646918323:
     lastname: ocarpo
-    group: Merchant
+    group: MerchantAdept
     subgroups: []
     permissions: []
   1b7528b2-88fd-4d9e-b185-2396b1392e87:
@@ -416,7 +426,7 @@ users:
     permissions: []
   1defd908-5162-4929-86d0-bbaec6488e00:
     lastname: Mesockisgone21
-    group: RaiderMaster
+    group: Mercenary
     subgroups: []
     permissions: []
   1DUDE:
@@ -627,6 +637,11 @@ users:
     group: FlatcorianAdept
     subgroups: []
     permissions: []
+  2c51cd8f-a94f-4c69-9913-641666fbdc77:
+    lastname: Dkline26
+    group: Flatcorian
+    subgroups: []
+    permissions: []
   2d477d2f-cec2-4701-a99f-61477bbad168:
     lastname: chrisrules42
     group: Flatcorian
@@ -717,7 +732,7 @@ users:
     subgroups: []
     permissions: []
   31f64d69-29a9-4f3b-aa35-8b16c5feb923:
-    lastname: echo_e75
+    lastname: echololiac
     group: Flatcorian
     subgroups: []
     permissions: []
@@ -733,7 +748,7 @@ users:
     permissions: []
   32ce6ec1-e3a1-402d-94da-68df72210baf:
     lastname: zerpa
-    group: NomadVeteran
+    group: NomadMaster
     subgroups: []
     permissions: []
   32d3e693-32a4-4691-bbb4-5f902551e736:
@@ -748,7 +763,7 @@ users:
     permissions: []
   32ed833d-eaf2-4caf-ab8e-d321c7aa3a4e:
     lastname: _RetroJay
-    group: Nomad
+    group: NomadAdept
     subgroups: []
     permissions: []
   32f61e50-3cd6-416b-bdf6-322e0a1abdda:
@@ -856,6 +871,11 @@ users:
     group: Flatcorian
     subgroups: []
     permissions: []
+  3ca85c16-8eda-45b7-b215-55544f9fb3ac:
+    lastname: zwind
+    group: Flatcorian
+    subgroups: []
+    permissions: []
   3d55e62c-195f-4344-ab6c-79f420692939:
     lastname: brodioh
     group: Flatcorian
@@ -893,7 +913,7 @@ users:
     permissions: []
   3fedcde2-a5c0-4e6a-adc5-f4e4167911f4:
     lastname: S3f3r4n
-    group: MerchantAdept
+    group: MerchantVeteran
     subgroups: []
     permissions:
     - griefprevention.claims.ignorelimit
@@ -996,7 +1016,7 @@ users:
     permissions: []
   47e0cce2-c1cb-4588-b53d-fd3b5a999b18:
     lastname: tinytim42
-    group: NomadVeteran
+    group: NomadMaster
     subgroups: []
     permissions: []
   48802cf8-64eb-4288-a522-6b16c8159277:
@@ -1093,7 +1113,7 @@ users:
     permissions: []
   4e6c09d3-5531-40cf-aa29-27e50371c975:
     lastname: bengeek12
-    group: NomadVeteran
+    group: NomadMaster
     subgroups: []
     permissions: []
   4e6dafd1-2f19-4403-b117-1bd826545e61:
@@ -1108,7 +1128,7 @@ users:
     permissions: []
   4e91ecec-9cf7-4734-a0e6-4640fdad11e9:
     lastname: Isra
-    group: Mercenary
+    group: MercenaryAdept
     subgroups: []
     permissions: []
   4f0d561b-6269-4b06-955d-c0bcf0f95ddf:
@@ -1143,7 +1163,7 @@ users:
     permissions: []
   52315d11-93f7-4bcd-8e8a-fe305e91695d:
     lastname: Krostybat
-    group: NomadAdept
+    group: NomadVeteran
     subgroups: []
     permissions: []
   52660096-f888-4347-b5fb-8d5d8ab473a4:
@@ -1183,7 +1203,7 @@ users:
     permissions: []
   53803126-5a0b-46c7-b532-4bbb034749b1:
     lastname: joaopms
-    group: FlatcorianAdept
+    group: FlatcorianVeteran
     subgroups: []
     permissions: []
   53b55b3c-ecf8-4068-b453-b2f50c421bc3:
@@ -1208,7 +1228,7 @@ users:
     permissions: []
   54f205de-1d25-4f62-bfe9-8073cd46f165:
     lastname: Riveri
-    group: Nomad
+    group: NomadAdept
     subgroups:
     - SubGrass
     permissions: []
@@ -1274,7 +1294,7 @@ users:
     permissions: []
   592c97f7-6748-4e74-9c3a-746a2f22b5e6:
     lastname: I_luv_pigs
-    group: FlatcorianAdept
+    group: FlatcorianVeteran
     subgroups: []
     permissions: []
   5940c829-bea6-4812-be30-63cd3f18a944:
@@ -1321,6 +1341,11 @@ users:
     permissions: []
   5c58104b-103c-4629-b86b-95919c1c9c20:
     lastname: bakey1anny
+    group: FlatcorianAdept
+    subgroups: []
+    permissions: []
+  5c844589-d7e3-43d1-a9b8-c452fda02a3b:
+    lastname: Omthalamos
     group: FlatcorianAdept
     subgroups: []
     permissions: []
@@ -1376,7 +1401,7 @@ users:
     permissions: []
   5f9f88d0-e087-4ad8-b092-e3c7a1f4d2f8:
     lastname: RexBulby
-    group: NomadVeteran
+    group: NomadMaster
     subgroups: []
     permissions: []
   5fd8b991-9f89-471a-bd05-458a3772d3f0:
@@ -1457,7 +1482,7 @@ users:
     permissions: []
   6423abfa-6495-4dad-bfe8-7da59a498e68:
     lastname: GingerKangaroo
-    group: Nomad
+    group: NomadAdept
     subgroups: []
     permissions: []
   6467ee4b-7074-4496-a0bd-ab9e4efcbe83:
@@ -1481,8 +1506,8 @@ users:
     subgroups: []
     permissions: []
   65b0a433-0145-45b1-8562-bf84fce1dc52:
-    lastname: Cyberman
-    group: Flatcorian
+    lastname: Trenzalore
+    group: FlatcorianAdept
     subgroups: []
     permissions: []
   65d5edcb-0eca-4302-b363-0e50396c3776:
@@ -1515,13 +1540,9 @@ users:
     group: ScribeMaster
     subgroups: []
     permissions: []
-  '67457474':
-    group: FlatcorianAdept
-    subgroups: []
-    permissions: []
   67e4d9f1-b509-472e-a01b-d37c9cc5af9c:
     lastname: danywhoever
-    group: RaiderAdept
+    group: RaiderVeteran
     subgroups: []
     permissions: []
   68345ad9-6b9a-4eba-b28f-e434d47e0ab9:
@@ -1565,7 +1586,7 @@ users:
     subgroups: []
     permissions: []
   69cfbf67-78d0-49b9-a224-36c0d19e5d74:
-    lastname: TheFloosh
+    lastname: ItWasMeBarry
     group: NomadVeteran
     subgroups: []
     permissions: []
@@ -1631,7 +1652,7 @@ users:
     permissions: []
   6df7a9e9-269b-45a0-8d0f-2ded6ae3325d:
     lastname: Blue_D
-    group: Flatcorian
+    group: FlatcorianAdept
     subgroups: []
     permissions: []
   6e8b3ffa-ea40-457e-8167-401f63b6ce47:
@@ -1646,7 +1667,7 @@ users:
     permissions: []
   6edbcaa2-aa71-4994-af07-ef5b37ad3bb2:
     lastname: leahbender
-    group: FlatcorianMaster
+    group: Nomad
     subgroups: []
     permissions: []
   6f2e27f6-7417-4567-8bdf-1eba5d66e651:
@@ -1679,9 +1700,14 @@ users:
     group: Flatcorian
     subgroups: []
     permissions: []
+  7128bebf-83fb-4284-8b20-42f3d4ac4751:
+    lastname: mel1939
+    group: Flatcorian
+    subgroups: []
+    permissions: []
   716ef60b-0890-4f5b-9f2f-f3ad377b0ffb:
     lastname: Mreloz
-    group: FlatcorianAdept
+    group: FlatcorianVeteran
     subgroups: []
     permissions: []
   7221f4c4-ecbf-461c-978e-9df6517e1fa3:
@@ -1710,8 +1736,8 @@ users:
     subgroups: []
     permissions: []
   735f9ceb-be02-4da8-bd62-c352c2f61325:
-    lastname: CaptainCrabmeat
-    group: Raider
+    lastname: Crabtain
+    group: RaiderAdept
     subgroups: []
     permissions: []
   737e4ef5-a110-42e9-a8be-736dee8313db:
@@ -1751,7 +1777,7 @@ users:
     permissions: []
   74da870e-6ec6-4bd1-9f21-3c707ac12c0e:
     lastname: inasm
-    group: Nomad
+    group: NomadAdept
     subgroups: []
     permissions: []
   74e6f13d-31ad-4c7b-a7ca-8cf4a23cc1ae:
@@ -1908,7 +1934,7 @@ users:
     permissions: []
   7fd92b89-7879-4c56-af9a-a0aec6d2328f:
     lastname: ghowardtx
-    group: RaiderAdept
+    group: RaiderVeteran
     subgroups:
     - SubGrass
     permissions: []
@@ -2027,6 +2053,11 @@ users:
     group: FlatcorianAdept
     subgroups: []
     permissions: []
+  8ac39af9-75ab-4f34-83d9-75598a22d6d4:
+    lastname: Destilat
+    group: Flatcorian
+    subgroups: []
+    permissions: []
   8b02fa84-8c51-46d7-af5a-63f8b3b7e1a1:
     lastname: HughSP
     group: Flatcorian
@@ -2086,6 +2117,11 @@ users:
   8ecfd33c-1e5c-4972-9774-9aa792cb4aee:
     lastname: cryices
     group: Flatcorian
+    subgroups: []
+    permissions: []
+  8f430095-f600-41ea-ac6a-1c45a3ef1fa9:
+    lastname: Keyda
+    group: FlatcorianAdept
     subgroups: []
     permissions: []
   8fab1671-9682-4c90-8628-cf549301e354:
@@ -2220,6 +2256,11 @@ users:
     group: Flatcorian
     subgroups: []
     permissions: []
+  9626c0e2-b1c9-49b9-8e4d-8320040d9e3f:
+    lastname: improv32
+    group: Flatcorian
+    subgroups: []
+    permissions: []
   966f2195-b951-40a9-b45b-aa4dd442f54a:
     lastname: daansmienk12
     group: Flatcorian
@@ -2275,7 +2316,7 @@ users:
     permissions: []
   9835f363-f8be-417c-844e-32be2ec53b9d:
     lastname: Eudaemonea
-    group: Flatcorian
+    group: FlatcorianAdept
     subgroups: []
     permissions: []
   985220f5-8cc2-41b2-af43-0546d5eadae3:
@@ -2345,7 +2386,7 @@ users:
     - SubGrass
     permissions: []
   9e1b1fa3-568f-4cf0-a394-28a01237fef8:
-    lastname: DarknessOfBlue
+    lastname: HiMyNameIsDark
     group: FlatcorianVeteran
     subgroups: []
     permissions: []
@@ -2420,6 +2461,11 @@ users:
   a173b3a3-8fe5-4abf-8a71-3e2e916f9955:
     lastname: GlowingPenguin00
     group: Flatcorian
+    subgroups: []
+    permissions: []
+  a1dfbe93-df04-4604-9a31-cca660a6897e:
+    lastname: Watur
+    group: FlatcorianAdept
     subgroups: []
     permissions: []
   a2c555fc-d536-41c8-8341-60709614bce5:
@@ -2502,6 +2548,11 @@ users:
     group: FlatcorianAdept
     subgroups: []
     permissions: []
+  a6c3ef16-dfc6-4348-b9b8-a12ee3bb96f4:
+    lastname: Relotu
+    group: Flatcorian
+    subgroups: []
+    permissions: []
   a70e580e-ec2f-4dde-aaf7-c2c484b48042:
     lastname: Matttheking02
     group: Flatcorian
@@ -2547,12 +2598,17 @@ users:
     group: FlatcorianMaster
     subgroups: []
     permissions: []
+  aa9f9f76-be94-4897-8ebe-a6f3c5bac333:
+    lastname: lindalynderup
+    group: Flatcorian
+    subgroups: []
+    permissions: []
   aaa919a8-636f-4057-a2d9-dcdb898a8af9:
-    lastname: mimal
+    lastname: Mimal
     group: Guardian
     subgroups:
     - SubSky
-    - ScribeVeteran
+    - ScribeMaster
     permissions: []
     info:
       suffix: ''
@@ -2564,6 +2620,11 @@ users:
   ab4639b2-f39d-4d0d-8324-130038cac948:
     lastname: blenderrrr
     group: NomadVeteran
+    subgroups: []
+    permissions: []
+  ab588b15-21c5-49ad-ae9b-37f1d58a119c:
+    lastname: Ducksen
+    group: Flatcorian
     subgroups: []
     permissions: []
   ac0e2963-1cf5-4e0a-8e04-a2ea6bc3b8a6:
@@ -2814,9 +2875,14 @@ users:
     group: FlatcorianAdept
     subgroups: []
     permissions: []
+  b2c51ae0-9abe-4332-b5a3-2ea32454e1b1:
+    lastname: TheMaik
+    group: FlatcorianAdept
+    subgroups: []
+    permissions: []
   b31b889f-8f9c-4ff0-9863-396044b966bf:
     lastname: kacper_dw
-    group: FlatcorianVeteran
+    group: FlatcorianMaster
     subgroups: []
     permissions: []
   b335ef10-e1e0-475c-ab49-da17993d41f8:
@@ -2921,7 +2987,12 @@ users:
     subgroups: []
     permissions: []
   b7f33eab-d7b2-4d5a-bfc3-b1982e3bc131:
-    lastname: CheeseDoctor22
+    lastname: CheeseDoctor
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  b8f107aa-e6a2-41b6-b211-00e12a877232:
+    lastname: roundcakee
     group: Flatcorian
     subgroups: []
     permissions: []
@@ -2937,7 +3008,7 @@ users:
     permissions: []
   b96b35be-85d2-4350-9c17-064b444ed5a6:
     lastname: Laudron
-    group: Flatcorian
+    group: FlatcorianAdept
     subgroups: []
     permissions: []
   ba207cf3-e886-4fd1-a5f1-a9d440deb0f4:
@@ -3005,6 +3076,11 @@ users:
   bd384943-d57c-49f9-a125-d19d1fe75335:
     lastname: Chloroplasts
     group: FlatcorianVeteran
+    subgroups: []
+    permissions: []
+  bd79679e-4330-4bb3-80c3-628cb1391208:
+    lastname: Arkandriel
+    group: FlatcorianAdept
     subgroups: []
     permissions: []
   bdb63d6e-6bf5-448e-b8d4-d61b8622d015:
@@ -3147,6 +3223,11 @@ users:
     group: NomadAdept
     subgroups: []
     permissions: []
+  c153ab17-0305-4ba0-8d03-f673089a6a51:
+    lastname: koekwoussie
+    group: Flatcorian
+    subgroups: []
+    permissions: []
   c1e1e1eb-b091-4077-88ab-6b161f280266:
     lastname: noahsmiley
     group: FlatcorianAdept
@@ -3224,7 +3305,7 @@ users:
     - bukkit.command.op.take
   c606ff18-8d38-4887-a88d-555b5388efcc:
     lastname: obee58
-    group: FlatcorianMaster
+    group: Nomad
     subgroups: []
     permissions: []
   c68dd181-d432-4491-93f2-ca34b0ef9542:
@@ -3244,6 +3325,11 @@ users:
     - SubSky
     permissions:
     - griefprevention.claims.ignorelimit
+  c6ed0cd6-bcf2-4c75-b50d-0d884b3fcae1:
+    lastname: skeetar
+    group: Flatcorian
+    subgroups: []
+    permissions: []
   c72021a5-6bc9-4176-92cf-2e30f137da27:
     lastname: Jonny_Law
     group: Flatcorian
@@ -3264,6 +3350,12 @@ users:
     lastname: lettucetogod
     group: Raider
     subgroups: []
+    permissions: []
+  c866397a-dd99-4459-afa9-d9055dfee9d0:
+    lastname: Straffic
+    group: Novice
+    subgroups:
+    - SubGrass
     permissions: []
   c87e9385-1c2e-49d5-8a51-8d1b31ce3e31:
     lastname: cokezero91
@@ -3370,7 +3462,7 @@ users:
     subgroups: []
     permissions: []
   cc3c9e52-c7dd-4664-b3f7-b8f1b12faee1:
-    lastname: 14mal02
+    lastname: 14Mal02
     group: Flatcorian
     subgroups: []
     permissions: []
@@ -3386,7 +3478,7 @@ users:
     permissions: []
   ccec15d4-e669-4b02-8b90-3ffdd514a4e0:
     lastname: Lug
-    group: Raider
+    group: RaiderAdept
     subgroups: []
     permissions: []
   cd8c4596-4f42-4eb5-b8e7-4cd1a303aefb:
@@ -3631,7 +3723,7 @@ users:
     permissions: []
   d2d441b2-0e82-4abe-a049-caf658fc5ea9:
     lastname: Shucru
-    group: RaiderMaster
+    group: Mercenary
     subgroups: []
     permissions: []
   d31e70ef-d1e9-4104-9056-63b87cfae5d3:
@@ -3671,6 +3763,11 @@ users:
   d493e395-b696-42ef-b971-7188373e52ba:
     lastname: Engage_Weakness
     group: FlatcorianVeteran
+    subgroups: []
+    permissions: []
+  d52434e5-af4d-490a-9037-4f53b45ea378:
+    lastname: Twigletts
+    group: Flatcorian
     subgroups: []
     permissions: []
   d528a209-e34e-4fe8-bf9f-7747cca6401c:
@@ -3946,7 +4043,7 @@ users:
     permissions: []
   dfdbad15-a839-44ff-ba16-bc1ddae3b79e:
     lastname: Roff01
-    group: Flatcorian
+    group: FlatcorianAdept
     subgroups: []
     permissions: []
   dfe14ffa-e342-48c9-97eb-d830a305c521:
@@ -3979,10 +4076,6 @@ users:
     subgroups: []
     permissions: []
   Djslayer123:
-    group: Flatcorian
-    subgroups: []
-    permissions: []
-  Dkline26:
     group: Flatcorian
     subgroups: []
     permissions: []
@@ -4087,7 +4180,7 @@ users:
     permissions: []
   e22a25fc-b0f9-4567-ba34-519050854e24:
     lastname: Flmburrito
-    group: MerchantAdept
+    group: MerchantVeteran
     subgroups: []
     permissions: []
   e23032a1-f6f4-46a1-8164-794dd0b7ff2d:
@@ -4132,7 +4225,7 @@ users:
     permissions: []
   e6505ed0-eacb-4bbc-a6f6-adc2b753f02a:
     lastname: HeroCC
-    group: FlatcorianAdept
+    group: FlatcorianVeteran
     subgroups: []
     permissions: []
   e676d5c6-9e3e-4fca-af09-009b604263ed:
@@ -4162,6 +4255,11 @@ users:
     permissions: []
   e7d2eeba-383c-4271-af8a-49bfe0900989:
     lastname: jrodtacoman
+    group: Flatcorian
+    subgroups: []
+    permissions: []
+  e7e69116-3177-41ec-82b6-49bef53e8a18:
+    lastname: Kenwitt
     group: Flatcorian
     subgroups: []
     permissions: []
@@ -4213,8 +4311,8 @@ users:
     subgroups: []
     permissions: []
   ebf11bf3-f044-4dc6-801c-decbf597e7d0:
-    lastname: MasterRUSSIA624
-    group: FlatcorianAdept
+    lastname: FinestTurtle
+    group: FlatcorianVeteran
     subgroups: []
     permissions: []
   ec7dc99e-a096-4a00-a064-e66f1ac0fe8e:
@@ -4370,7 +4468,7 @@ users:
     permissions: []
   f0f551af-318f-4559-8a37-26fc52cfd9da:
     lastname: 25thBaam
-    group: Raider
+    group: RaiderAdept
     subgroups: []
     permissions: []
   f0fd8f46-6035-454a-a7d2-1dbd63ba5a33:
@@ -4400,7 +4498,7 @@ users:
     permissions: []
   f25b3e97-9d34-402c-8fba-0cfca36da10e:
     lastname: mrx
-    group: RaiderAdept
+    group: RaiderVeteran
     subgroups: []
     permissions: []
   f2832b3e-8649-4d5a-86f0-a8c4dc6c3e13:
@@ -4443,6 +4541,11 @@ users:
     group: Flatcorian
     subgroups: []
     permissions: []
+  f503bfec-9a5b-4c0c-bbff-3156a3a0aca9:
+    lastname: Maciej
+    group: FlatcorianAdept
+    subgroups: []
+    permissions: []
   f580dda0-6297-453f-8cd0-dbd531787a83:
     lastname: Kitten895
     group: Flatcorian
@@ -4468,13 +4571,23 @@ users:
     group: FlatcorianVeteran
     subgroups: []
     permissions: []
+  f823e1c6-2cb8-46eb-bb3d-993ab162b625:
+    lastname: Southern_Pride
+    group: FlatcorianAdept
+    subgroups: []
+    permissions: []
   f82e2378-daa6-49f4-9fff-bc47ec7e3c46:
     lastname: manatee342
     group: NomadMaster
     subgroups: []
     permissions: []
+  f88aba53-1cdf-43bd-a409-b3608931273d:
+    lastname: DignityFruit14
+    group: Flatcorian
+    subgroups: []
+    permissions: []
   f88f6990-6076-4390-94bd-ab68de694dec:
-    lastname: spionpingu
+    lastname: dinnerwolf40
     group: Nomad
     subgroups: []
     permissions: []
@@ -4510,7 +4623,7 @@ users:
     subgroups: []
     permissions: []
   fa6609c6-1d3f-470d-acee-675b2c8ac79b:
-    lastname: Wargasm22
+    lastname: MrDarkSide76
     group: Flatcorian
     subgroups: []
     permissions: []
@@ -4551,6 +4664,11 @@ users:
     group: NomadVeteran
     subgroups: []
     permissions: []
+  fb60e2ab-c9d6-49ee-8d0c-bd0602f5257b:
+    lastname: mcguganator
+    group: NomadMaster
+    subgroups: []
+    permissions: []
   fc439bb4-b7d4-44b6-bf5e-2b414ab39c23:
     lastname: Andrewthecreeper
     group: Flatcorian
@@ -4559,6 +4677,11 @@ users:
   fccadf6d-f7d2-4b9e-af90-a588b07029e5:
     lastname: MrUbiq
     group: Flatcorian
+    subgroups: []
+    permissions: []
+  fd3929a0-8f99-4bb7-88ba-458529fbf646:
+    lastname: Philipt97
+    group: FlatcorianVeteran
     subgroups: []
     permissions: []
   fd53db79-320e-4ce6-8bc0-7a54988626c8:
@@ -5348,10 +5471,6 @@ users:
     group: FlatcorianAdept
     subgroups: []
     permissions: []
-  mcguganator:
-    group: NomadMaster
-    subgroups: []
-    permissions: []
   Mckenzie13:
     group: Flatcorian
     subgroups: []
@@ -5682,10 +5801,6 @@ users:
     group: Flatcorian
     subgroups: []
     permissions: []
-  Philipt97:
-    group: FlatcorianVeteran
-    subgroups: []
-    permissions: []
   phillyphanthree:
     group: Flatcorian
     subgroups: []
@@ -5832,10 +5947,6 @@ users:
     permissions: []
   RegiSicarii:
     group: Nomad
-    subgroups: []
-    permissions: []
-  Relotu:
-    group: Flatcorian
     subgroups: []
     permissions: []
   Relyh:

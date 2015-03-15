@@ -270,7 +270,7 @@ checks:
     critical:
       active: true
       falldistance: 0.06251
-      actions: vl>75 log:critical:0:5:cif cancel
+      actions: vl>75 cancel
     direction:
       active: true
       strict: false

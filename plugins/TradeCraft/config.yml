@@ -1098,3 +1098,6 @@ Tiers:
           item: diamond
         result:
           item: saddle
+AILimiter:
+  Enable: true
+  MaximumDistanceToPlayer: 32

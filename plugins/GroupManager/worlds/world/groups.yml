@@ -45,7 +45,13 @@ groups:
     - reportrts.command.modlist
     - reportrts.command.check.self
     - reportrts.command.complete.self
-    - monsterhunt.usercmd.hunt
+    - monsterhunt.command.run
+    - monsterhunt.command.join
+    - monsterhunt.command.leave
+    - monsterhunt.command.check
+    - monsterhunt.command.status
+    - monsterhunt.command.score
+    - monsterhunt.command.reward
     - griefprevention.basicclaimcommands
     - griefprevention.createclaims
     - griefprevention.commands.trapped
@@ -579,6 +585,9 @@ groups:
     - nocheatplus.checks.moving.creativefly
     - reportrts.command.teleport
     - justafk.immune
+    - monsterhunt.command.kick
+    - monsterhunt.command.ban
+    - monsterhunt.command.unban
     inheritance:
     - guardian
     info:
@@ -602,6 +611,8 @@ groups:
     - motdmanager.list
     - motdmanager.add
     - motdmanager.remove
+    - mantle.command.counters
+    - mantle.command.analyze
     - bukkit.command.op.give
     - bukkit.command.op.take
     - bukkit.command.seed

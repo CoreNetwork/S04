@@ -15,6 +15,9 @@ Spells:
       NoItems: '&cNot enough bones or bonemeal'
     Template: spell-growth
     BoostOnBroadcast: BoostHealth1
+    RequiredItem:
+      Name: bone
+      Amount: 32
   Time:
     BroadcastCooldownSeconds: 180
     Messages:
@@ -51,6 +54,9 @@ Spells:
       NoItems: '&cNot enough rotten flesh'
     Template: spell-decay
     BoostOnBroadcast: BoostHealth1
+    RequiredItem:
+      Name: rotten_flesh
+      Amount: 64
   Fusing:
     BroadcastCooldownSeconds: 180
     Messages:
@@ -69,6 +75,9 @@ Spells:
       NoItems: '&cNot enough slimeballs in inventory'
     Template: spell-unsliming
     BoostOnBroadcast: BoostAbsorption2
+    RequiredItem:
+      Name: slime_ball
+      Amount: 256
   Peddling:
     BroadcastCooldownSeconds: 600
     Messages:

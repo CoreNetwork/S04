@@ -22,5 +22,8 @@ Messages:
     Notification: '&8<Player> used a slimeball Remaining: <Amount>'
     EmptyAccount: '&cYou don''t have any slimeballs. &7/slimeballs'
   Awarded:
-    Player: '&aYou received <Amount> slimeball<PluralS>!'
+    Player: '&a+<Amount> slimeball<PluralS>!'
     Other: '&a<Player> received <Amount> slimeball<PluralS>! &2More: /slimeballs'
+    PlayerWithReason: '&a+<Amount> slimeball<PluralS>! Reason: &2<Reason>'
+    OtherWithReason: '&a<Player> received <Amount> slimeball<PluralS>! &2More: /slimeballs
+      [NEWLINE] &aReason: &2<Reason>'

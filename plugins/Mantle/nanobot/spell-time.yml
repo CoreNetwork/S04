@@ -11,8 +11,8 @@ display:
 ench:
 - compound:
     lvl:
-      short: 5
+      short: 1
     id:
-      short: 16
+      short: 1
 HideFlags:
   int: 63

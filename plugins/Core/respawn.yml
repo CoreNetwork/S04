@@ -28,11 +28,11 @@ SpawnWarps:
 Messages:
   SpawnIgnored: '&aIgnoring your biggest claim on next respawn.'
   SpawnUnignored: '&aYour biggest claim is now respected when spawning.'
-  SpawnProtectionStart: '&6You are invincible for <Time>s'
-  SpawnProtectionNotification: '&6Invincibility will expire in <Time>s.'
-  SpawnProtectionEndClaims: '&aYou are no longer invincible! Find food and weapons
+  SpawnProtectionStart: '&6Monsters will ignore you for <Time>s'
+  SpawnProtectionNotification: '&6Monsters will stop ignoring you in <Time>s.'
+  SpawnProtectionEndClaims: '&aMonsters stopped ignoring you! Find food and weapons
     before you try to reach your &6/claims'
-  SpawnProtectionEndNoClaims: '&aYou are no longer invincible! Find a village and
+  SpawnProtectionEndNoClaims: '&aMonsters stopped ignoring you! Find a village and
     food.'
   UnprotectNotProtected: '&cYou are already not protected.'
   SpawnProtectionDontAbuse: '&cUse &7/unprotect &cto disable invincibility to kill

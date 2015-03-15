@@ -248,5 +248,9 @@ Skeleton:
 Witch:
   FirstPotionDelayMultiplier: 0.3
 Animals:
-  AIMaximumPlayerDistance: 32
+  AIMaximumPlayerDistance: 16
   EnableAINerf: true
+BabyZombies:
+  Burn: false
+  CheckInterval: 20
+  BurnTicks: 30

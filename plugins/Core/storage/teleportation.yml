@@ -43,7 +43,7 @@ Warps:
     location: world_the_end;-499.5107508242694;101.0;0.49569653721434714;0.36509913;-180.0371
     RunCommands: []
   limbo-death-pit:
-    location: world_the_end;500.4914446363232;101.0;0.4464481349841826;3.541498;-180.5593
+    location: world_the_end;500.47613546313266;105.0;7.645294692394416;32.999836;-179.2077
     RunCommands: []
   limbo-death-pit-win:
     location: world_the_end;487.51224281273556;125.0;-47.50117493428778;0.7567219;-0.027622515

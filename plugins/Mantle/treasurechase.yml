@@ -95,6 +95,10 @@ Messages:
     AddedToQueueBroadcast:
     - '&a<Player> sponsored a Treasure Chase! &6It''ll begin in <Time>m'
     - '&aTo participate, &6/chase join. &aTo learn more, /help TreasureChase'
+    AddedToQueueBroadcastWhileQueuedOrRunning:
+    - '&aChoo choo, is it a Treasure Chase Train?!'
+    - '&a<Player> sponsored another one! &6It''ll begin in <Time>m'
+    - '&aYou''ll be able to join when current chase ends.'
   Progress:
     StartHunt: '&aTreasure Chase has started!'
     WaveNotificaton: '&6Crate: &7<X>, <Z> &6| &7<Distance> &6blocks away | &7<TimeLeft>s
@@ -103,6 +107,7 @@ Messages:
       the event was fun! &6Learn more: /help TreasureChase'
     NextHuntScheduled: '&aNext Chase will start in <Time> min.  &6/chase join &ato
       participate!'
+    WaveNotificatonAfterLooting: '&6Next Wave in &7<TimeLeft>s'
   Join:
     InLimbo: '&cYou cannot participate in Treasure Chase while in Limbo.'
     InNether: '&6Travel to Overworld to get directions to your crate.'

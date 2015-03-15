@@ -26,6 +26,7 @@ CommandDescriptions:
     makebook: '&a/mantle makebook &8-&f Make spellbook'
     chunkinfo: '&a/mantle chunkinfo &8-&f Display chunk info for current world'
     counters: '&a/mantle counters &8-&f Print animal counters'
+    untrack: '&a/mantle untrack &8-&f Untrack the compass category'
   mantle hydration:
     help: '&a/mantle hydration help &8-&f List all possible commands'
     save: '&a/mantle hydration save &8-&f Save current hydration state'

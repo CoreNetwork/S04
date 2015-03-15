@@ -5,15 +5,15 @@ display:
     - "&6Melts blocks in a blink of an eye."
     - "&7Affects cobblestone, netherrack and logs."
     - "&7Requires wood, wood-crafted blocks, "
-    - "charcoal, coal or blaze rods in inventory."
+    - "&7charcoal, coal or blaze rods in inventory."
     - "&8Right click to affect blocks in inventory."
     - "&8Right click a chest to melt blocks inside."
     - "ExpireAfterDays: 15"
 ench:
 - compound:
     lvl:
-      short: 5
+      short: 1
     id:
-      short: 16
+      short: 1
 HideFlags:
   int: 63

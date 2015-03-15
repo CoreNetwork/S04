@@ -49,8 +49,8 @@ Debug: false
 NoPigmenPortal: false
 BreedingSpamDelaySeconds: 5
 OldMobKiller:
-  IntervalTicks: 1200
-  KillingAgeTicks: 6000
+  IntervalTicks: 600
+  KillingAgeTicks: 4800
   AffectedMobs:
   - Zombie
   - Skeleton
@@ -62,6 +62,9 @@ OldMobKiller:
   - Slime
   NearMobSearchRangeBlocks: 4
   NearMobKillCount: 4
+  CullAggravatedMobs: true
+  CullNonAggravatedMobs: true
+  CullPickedItemsMobs: true
 Messages:
   NoPermission: '&cNo permission!'
   MobCountLine: '&6<MobName>: <ChunkCount>&7/<ChunkLimit> in chunk, &6<ViewDistanceCount>&7/<ViewDistanceLimit>
