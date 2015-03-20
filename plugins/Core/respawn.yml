@@ -11,7 +11,8 @@ Border:
     MinZ: -7950
     MaxX: 7950
     MaxZ: 7950
-SpawnProtectionLength: 300
+SpawnProtectionLengthFirst: 300
+SpawnProtectionLength: 120
 SpawnProtectionNotifications:
 - 240
 - 180
@@ -31,7 +32,7 @@ Messages:
   SpawnProtectionStart: '&6Monsters will ignore you for <Time>s'
   SpawnProtectionNotification: '&6Monsters will stop ignoring you in <Time>s.'
   SpawnProtectionEndClaims: '&aMonsters stopped ignoring you! Find food and weapons
-    before you try to reach your &6/claims'
+    before trying to reach your &6/claims'
   SpawnProtectionEndNoClaims: '&aMonsters stopped ignoring you! Find a village and
     food.'
   UnprotectNotProtected: '&cYou are already not protected.'

@@ -34,7 +34,7 @@ Warps:
     location: world_the_end;0.4987899782101394;101.0;500.5173382254139;-0.54865116;90.086
     RunCommands: []
   limbo-library-start:
-    location: world_the_end;13.50138619788995;99.0;500.49250682806536;2.4101748;89.78138
+    location: world_the_end;17.526311343061355;99.0;500.4551333071403;-6.3000073;89.93701
     RunCommands: []
   limbo-parkour:
     location: world_the_end;500.4138247176926;101.0;500.47826895830684;0.9742837;180.15594
@@ -107,4 +107,7 @@ Warps:
     RunCommands: []
   end-dev:
     location: world_the_end;-500.0;101.0;-1000.0;35.849987;-1.13248824E-7
+    RunCommands: []
+  limbo-tutorial:
+    location: world_the_end;61.467431727894954;97.0;498.05063181137876;1.9500227;-165.21307
     RunCommands: []

@@ -105,6 +105,10 @@ Aliases:
   route: /core claimslist
 - match: /claims\s?(.*)
   route: /claimslist $1
+- match: /ignoreclaims
+  route: /core ignoreclaims
+- match: /respectclaims
+  route: /core respectclaims
 - match: //j
   route: /jumpto
 - match: //as

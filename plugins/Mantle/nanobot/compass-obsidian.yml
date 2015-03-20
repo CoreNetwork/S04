@@ -3,7 +3,7 @@ display:
     Name: "&bObsidian"
     Lore:
     - '&3Obsidian and iron'
-    - '&7Rare category'
+    - '&7Rare category <UsedMax>'
     - '&8[Click to Select]'
 HideFlags:
   int: 63

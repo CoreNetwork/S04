@@ -3,7 +3,7 @@ display:
     Name: "&bGold"
     Lore:
     - '&3Gold and iron ingots'
-    - '&7Rare category'
+    - '&7Rare category <UsedMax>'
     - '&8[Click to Select]'
 HideFlags:
   int: 63

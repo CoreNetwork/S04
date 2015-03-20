@@ -1,5 +1,13 @@
+# 
+#  - sudo <Player> rspawn unprotect silent
 Debug: false
-DefaultDuration: 60m
+DefaultDuration:
+- 10m
+- 15m
+- 20m
+- 30m
+- 45m
+- 60m
 NotificationTimesLeft:
 - 55
 - 50
@@ -17,8 +25,16 @@ NotificationTimesLeft:
 - 2
 - 1
 Limbo:
+  CommandsOnEntryTutorial:
+  - core clear <Player> silent
+  - kit <Player> limbo silent
+  - slimeballs give <Player> 5
+  - sudo <Player> warp limbo-library-start silent
+  - sudo gamemode <Player> 2 silent
+  - sudo core effect clear <Player> silent
+  - core xp <Player> clear silent
+  - sudo <Player> mantle hydration restore
   CommandsOnEntry:
-  - sudo <Player> rspawn unprotect silent
   - core clear <Player> silent
   - kit <Player> limbo silent
   - slimeballs give <Player> 5
@@ -34,6 +50,7 @@ Limbo:
   - sudo gamemode <Player> 2 silent
   CommandsOnExit:
   - core clear <Player> silent
+  - core heal <Player> 20 silent
   - sudo <Player> checkpoint clear <Player>
   - sudo <Player> warp end-respawn silent
   - sudo gamemode <Player> 0 silent
@@ -42,11 +59,13 @@ Challenges:
     CommandsOnEntry:
     - dm <Player> &3Death Pit is about getting &b20 levels &3of exp, killing mobs and reaching a mini tower with &bred flag &3(find it - start by going left, through Creeper tunnel). You can exit any time with &b/exit
     - core clear <Player> silent
+    - core heal <Player> 20 silent
     - kit <Player> deathpit silent
     - sudo <Player> warp limbo-death-pit silent
     - core xp <Player> clear silent
     CommandsOnExit:
     - core clear <Player> silent
+    - core heal <Player> 20 silent
     - kit <Player> limbo silent
     - slimeballs give <Player> 5
     - core xp <Player> clear silent
@@ -82,9 +101,11 @@ Challenges:
     CommandsOnEntry:
     - dm <Player> &3Parkour is about going through all 11 checkpoints towards diamond crystal up top. Press buttons to save checkpoints, restore them with &b/checkpoint&3. You can exit any time with &b/exit
     - core clear <Player> silent
+    - core heal <Player> 20 silent
     - sudo <Player> warp limbo-parkour silent
     CommandsOnExit:
     - core clear <Player> silent
+    - core heal <Player> 20 silent
     - kit <Player> limbo silent
     - slimeballs give <Player> 5
     - sudo <Player> checkpoint clear <Player>
@@ -140,6 +161,10 @@ Messages:
   TimeSingularSyntax: <Minutes> minute
   TimePluralSyntax: <Minutes> minutes
   DetailedTimeSyntax: <Minutes>m <Seconds>s
+  EntryTutorial:
+  - '&bWelcome to Limbo where the dead atone for their death.'
+  - '&7Please read &f/help Limbo &7to understand how this works'
+  - '&7You will linger here &7for &f<Time>&7.'
   Entry:
   - '&bYour death erased your corporeal form and all possessions.'
   - '&7You will linger in &fLimbo &7for &f<Time>&7.'
@@ -160,6 +185,10 @@ Messages:
   NoTop: '&cNobody finished this challenge yet!'
   PlayerNoTop: '&c<Player> did not finish this challenge yet!'
   Suicide: <Player> went straight to Limbo
+  TutorialCompleteSelf: You completed Limbo tutorial!
+  TutorialResetSelf: You restarted your Limbo tutorial.
+  TutorialComplete: <Player> completed Limbo tutorial.
+  TutorialReset: <Player> Limbo tutorial has been restarted.
 TopCompact: true
 CommandDescriptions:
   lim:

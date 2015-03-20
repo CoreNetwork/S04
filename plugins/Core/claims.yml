@@ -108,6 +108,8 @@ Messages:
   CannotBeRescuredFromHere: '&cYou cannot be rescured from here!'
   CouldntFindSafeLocation: '&c/trapped couldn''t find a safe location for you.'
   NoEggsInOtherClaim: You are not allowed to throw eggs in claim you can't build in!
+  IgnoreClaims: '&6Now ignoring claims. &7/respectclaims to revert'
+  RespectClaims: '&6Now respecting claims. &7/ignoreclaims to revert'
 ClaimLiquids:
   Worlds:
     world:

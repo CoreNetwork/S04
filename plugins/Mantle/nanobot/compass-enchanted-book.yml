@@ -2,7 +2,7 @@ display:
   compound:
     Name: "&bEnchanted Book"
     Lore:
-    - '&7Rare category'
+    - '&7Rare category <UsedMax>'
     - '&8[Click to Select]'
 HideFlags:
   int: 63

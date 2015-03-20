@@ -3,7 +3,7 @@ display:
     Name: "&bHorse Armor"
     Lore:
     - '&3Iron horse armor and iron'
-    - '&7Rare category'
+    - '&7Rare category <UsedMax>'
     - '&8[Click to Select]'
 HideFlags:
   int: 63

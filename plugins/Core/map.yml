@@ -6,9 +6,8 @@ Clicks:
   block:
   - emerald_block
   commands:
-  - /dm <Player> &aYou have &65 minutes &aof invincibility. [NEWLINE] &aFind a village for the best chance of survival!
-  - /rspawn
-  - /rspawn protect <Player>
+  - /dm <Player> &aMobs will ignore you for a while. [NEWLINE] &aFind a village for the best chance of survival!
+  - /core spawn <Player>
   - /checkpoint clear
   - /core clear silent
   - /core effect clear silent
@@ -18,9 +17,8 @@ Clicks:
   block:
   - emerald_block
   commands:
-  - /dm <Player> &aYou have &65 minutes &aof invincibility. &aDon't make the same mistake twice, find a village first, then try to find your &6/claims.
-  - /rspawn
-  - /rspawn protect <Player>
+  - /dm <Player> &aMobs will ignore you for a while. &aDon't make the same mistake twice, find a village first, then try to find your &6/claims.
+  - /core spawn <Player>
   - /checkpoint clear
   - /core clear silent
   - /core effect clear silent
@@ -154,3 +152,4 @@ Clock:
     end: 24000
     message: '&9Night (5:30 AM)'
   UpdateFrequency: 200
+  Enabled: true

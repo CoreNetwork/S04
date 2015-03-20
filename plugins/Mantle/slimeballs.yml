@@ -27,3 +27,4 @@ Messages:
     PlayerWithReason: '&a+<Amount> slimeball<PluralS>! Reason: &2<Reason>'
     OtherWithReason: '&a<Player> received <Amount> slimeball<PluralS>! &2More: /slimeballs
       [NEWLINE] &aReason: &2<Reason>'
+MinTimeBetweenPayInSeconds: 1

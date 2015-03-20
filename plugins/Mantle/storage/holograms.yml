@@ -31,7 +31,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 4e439380-4a61-46a1-af0f-565ceaa099e2
+    - dc465c50-e8c2-46e8-aaf9-c1b02d190158
     x: 58.5
     needsUpdating: false
     y: 97.25
@@ -43,13 +43,13 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 53ef20be-3d04-4a22-b2c2-21429acbb459
+    - fce8bc72-3a6d-4850-b6fb-b8ceaed81a64
     x: 58.5
     needsUpdating: true
     y: 97.0
     z: 53.5
     text:
-    - §eAlmost Noon (11:30 AM)
+    - §eNoon (12:30 PM)
     id: clock-spawn
     deleteOnNextUpdate: false
 - Hologram:
@@ -98,7 +98,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 88013aea-94b4-42bd-a650-70798f893841
+    - e92681a9-54a4-43ca-b3d2-0e761eca13c3
     x: 61.5
     needsUpdating: false
     y: 99.0
@@ -111,7 +111,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 6fe06cf0-6892-43d1-b290-36c14fe52504
+    - c7c169c6-8fc0-4771-b8bd-bfb600b95fff
     x: 61.5
     needsUpdating: false
     y: 100.0
@@ -588,7 +588,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - f68cf8fc-c828-4723-952c-88f3b5f1836e
+    - 30ed0c0f-a0fd-46d7-9ac5-de6254665776
     x: -12.5
     needsUpdating: false
     y: 99.25
@@ -600,20 +600,20 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 2c65b2d8-9876-45c2-8989-e8a791537140
+    - f3c0e4d5-7cf1-41c6-83ed-72a31aa7149c
     x: -12.5
     needsUpdating: true
     y: 99.0
     z: -491.5
     text:
-    - §eAlmost Noon (11:30 AM)
+    - §eNoon (12:30 PM)
     id: clock-respawn
     deleteOnNextUpdate: false
 - Hologram:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - ef674100-0a5d-4b03-9755-33912e8e2423
+    - 713550f0-2e59-48b9-9994-e04ee0e6b33c
     x: -10.5
     needsUpdating: false
     y: 98.5
@@ -625,7 +625,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 1fa67f92-cc4e-484c-a67a-593ceb25e20c
+    - 66545d65-4282-47db-a3e8-18de84b9f789
     x: -14.528460757247489
     needsUpdating: false
     y: 100.0
@@ -638,7 +638,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 745d7be2-526e-42ca-9d9e-3a5b4d0aa7d3
+    - 0aefb6e7-5deb-4623-92e4-8da5dedad171
     x: -14.428650625602979
     needsUpdating: false
     y: 101.0
@@ -646,4 +646,18 @@ Holograms:
     text:
     - ' '
     id: respawn-counter
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 8a17d45a-08b0-4225-a311-7b325afe8369
+    - 5e61e057-5a2e-4f0a-bab6-5f01682d0235
+    x: 10.276181877962095
+    needsUpdating: false
+    y: 99.0
+    z: 500.51650032334953
+    text:
+    - '&bLimbo claimed you'
+    - '&bExplore the Library or Atone'
     deleteOnNextUpdate: false

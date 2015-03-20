@@ -2,9 +2,9 @@ Actions:
   onEnable:
     CommandsByConsole:
     - manuadd %PLAYER_NAME% Overseer world
-    - gamemode 1 %PLAYER_NAME% silent
+    - core gamemode 1 %PLAYER_NAME% silent
     - god %PLAYER_NAME% silent
-    - sudo %PLAYER_NAME% ignoreclaims
+    - sudo %PLAYER_NAME% core ignoreclaims silent
     - sudo %PLAYER_NAME% kit modtools silent
     Order:
     - MemoryImport
@@ -47,9 +47,10 @@ Actions:
     CommandsByConsole:
     - unvanish %PLAYER_NAME% silent
     - ungod %PLAYER_NAME% silent
-    - sudo %PLAYER_NAME% ignoreclaims
-    - gamemode 0 %PLAYER_NAME% silent
+    - sudo %PLAYER_NAME% core respectclaims silent
+    - core gamemode 0 %PLAYER_NAME% silent
     - manuadd %PLAYER_NAME% Guardian world
+    - sudo %PLAYER_NAME% core unstuck silent
   TemporaryGroups: []
   DisableDeathDrops: false
   DisableKillDrops: false

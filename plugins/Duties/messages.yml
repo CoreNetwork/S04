@@ -1,5 +1,5 @@
 Client:
-  Disabled: You are off duty.
+  Disabled: '&8You are off duty.'
   Fail:
     DisableForOtherPlayer: Duty mode deactivation failed or interrupted for the requested player!
     Disable: Duty mode deactivation failed or interrupted!
@@ -17,10 +17,10 @@ Client:
     ChestOpen: Remember that you have duty mode on!
     Login: Notice that your joined on duty!
     ItemDrop: Remember that you have duty mode on!
-  Enabled: You are on duty. Use /dutymode to disable.
+  Enabled: '&8You are on duty. Use /duty to disable.'
   Broadcast:
-    Disabled: '%PLAYER_NAME% went off duty.'
-    Enabled: '%PLAYER_NAME% went on duty.'
+    Disabled: '&8%PLAYER_NAME% went off duty.'
+    Enabled: '&8%PLAYER_NAME% went on duty.'
   AlreadyOn: Duty mode is already on.
   BroadcastsAlreadyShown: You are already broadcasting status updates!
   BroadcastsHidden: No longer broadcasting status updates!.

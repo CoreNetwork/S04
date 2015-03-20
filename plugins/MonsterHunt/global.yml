@@ -1,41 +1,35 @@
 Points:
   Mobs:
     Zombie:
-      General: 10
-      Arrow: 4
+      General: 5
+      Arrow: 1
     Skeleton:
-      General: 10
-      Arrow: 4
+      General: 6
+      Arrow: 2
     Creeper:
-      General: 10
-      Arrow: 4
+      General: 5
+      Arrow: 1
     Spider:
-      General: 10
-      Arrow: 4
-    Slime:
-      General: 10
-      Arrow: 4
-    ElectrifiedCreeper:
-      General: 10
-      Arrow: 4
+      General: 4
+      Arrow: 0
     Enderman:
-      General: 10
-      Arrow: 4
+      General: 9
+      Arrow: 0
     Witch:
-      General: 10
-      Arrow: 4
+      General: 9
+      Arrow: 3
   Equipment:
-    Leather: 1
-    Gold: 2
-    Iron: 2
-    Chain: 2
-    Diamond: 4
-    Shovel: 1
-    Sword: 2
-    EnchantedArmor: 1
+    Leather: 0
+    Gold: 1
+    Iron: 1
+    Chain: 0
+    Diamond: 3
+    Shovel: 0
+    Sword: 1
+    EnchantedArmor: 0
     EnchantedSword: 1
-    EnchantedShovel: 1
-    EnchantedBow: 2
+    EnchantedShovel: 0
+    EnchantedBow: 1
   EffectPenalty:
     increase_damage_1: 0%
     increase_damage_2: 0%
@@ -49,42 +43,43 @@ Points:
     fire_resistance_1: 0%
 Rewards:
   EnableRewards: true
-  NumberOfWinners: 3
+  NumberOfWinners: 5
   EnableRewardEveryonePermission: false
   RewardEveryone:
     Enabled: true
     AlsoRewardWinners: true
-    MinimumPoints: 10
-    RewardParameters: 3 1-1
+    MinimumPoints: 100
+    RewardParameters: :50 312:100 1,277 1;:50 310:178 1,313:219 1,277 1
     Commands:
     - acb <Player> 1000
   GiveRewardImmediatelly: false
-  MinimumPointsPlace1: 200
-  RewardParametersPlace1: 367 60-64,367 60-64,367 60-64,367 60-64,367 60-64
-  MinimumPointsPlace2: 150
-  RewardParametersPlace2: 367 40-48,367 40-48,367 40-48,367 40-48,367 40-48
-  MinimumPointsPlace3: 100
-  RewardParametersPlace3: 367 60-64,367 60-64,367 60-64
-  MinimumPointsPlace4: 75
-  RewardParametersPlace4: 367 40-48,367 40-48,367 40-48
-  MinimumPointsPlace5: 50
-  RewardParametersPlace5: 367 60-64,367 60-64
+  Place1:
+    MinimumPoints: 100
+    WinMessage: '&61st in Honor: &a<Names> &6<Points> [NEWLINE]'
+  Place2:
+    MinimumPoints: 100
+    WinMessage: '&62st in Honor: &a<Names> &6<Points> [NEWLINE]'
+  Place3:
+    MinimumPoints: 100
+    WinMessage: '&63st in Honor: &a<Names> &6<Points> [NEWLINE]'
+  Place4:
+    MinimumPoints: 100
+    WinMessage: '&64rd in Honor: &a<Names> &6<Points> [NEWLINE]'
+  Place5:
+    MinimumPoints: 100
+    WinMessage: '&65th in Honor: &a<Names> &6<Points> [NEWLINE]'
 EnabledWorlds: world
 Hunts:
 - DisplayName: Monster Hunt
   Name: default
   Chance: 100
 MinimumPlayers: 1
-StartChance: 100
-SkipDays: 0
-HuntLimit: 0
 StartTime: 13187
-EndTime: 23987
+EndTime: 23187
+MinTicksBeforeToStart: 6000
 DeathPenalty: 25
-EnableSignup: true
-SignUpPeriodTime: 1
-AllowSignUpAfterStart: true
-SkipToIfFailsToStart: -1
+AfterHuntDelay: 200
+SponsorQueue: []
 PurgeAllHostileMobsOnStart: true
 DontCountNamedMobs: false
 DontCountMobsFromSpawners: true
@@ -102,20 +97,18 @@ HuntZone:
   FirstCorner: 0,0,0
   SecondCorner: 0,0,0
   TeleportLocation: 0,0,0
+MobKillVerticalRange:
+  Min: 4
+  Max: 5
 Messages:
   StartMessage: '&aMonster Hunt has begun! [NEWLINE] &6Kill monsters in the wild to
-    increase your honor! [NEWLINE] &7You &lcannot &r&7use a mob grinder.'
+    earn honor points! [NEWLINE] &7Everyone with at least 100 points gets a reward!
+    You &ocannot &r&7use a mob grinder. More: /help Hunt'
   FinishMessageWinners:
-    Header: '&aMonster Hunt has ended! [NEWLINE] &aEveryone with 10+ honor received
-      1,000 claim blocks! [NEWLINE] &6Top winners with extra prizes: [NEWLINE] &8------
-      [NEWLINE]'
-    Footer: '&8------------------ [NEWLINE] &aThank you for playing! &6To sponsor
-      next Monster Hunt, store.core-network.us'
-    WinnerPlace1: '&61st in Honor: &a<Names> &6(<Points>&7/200) [NEWLINE]'
-    WinnerPlace2: '&62nd in Honor: &a<Names> &6(<Points>&7/150) [NEWLINE]'
-    WinnerPlace3: '&63rd in Honor: &a<Names> &6(<Points>&7/100) [NEWLINE]'
-    WinnerPlace4: '&64th in Honor: &a<Names> &6(<Points>&7/75) [NEWLINE]'
-    WinnerPlace5: '&65th in Honor: &a<Names> &6(<Points>&7/50) [NEWLINE]'
+    Header: '&aMonster Hunt has ended! [NEWLINE] &6Top winners with bragging rights:
+      [NEWLINE] &8------ [NEWLINE]'
+    Footer: '&8------------------ [NEWLINE] &aTo reclaim your prizes type &6/hunt
+      reward'
   KillMessageGeneral: '&6<MobName> killed. +<MobValue>. Total: &e<Points> &6honor.'
   KillMessageWolf: '&6<MobName> killed by your wolf. +<MobValue>. Total: &e<Points>
     &6honor.'
@@ -127,56 +120,68 @@ Messages:
     or potions!'
   KillMobUnderPotionSomePoints: '&cThis kill had little honor. Hunt without Beacon
     or potions!'
-  RewardMessage: '&aCongratulations! You have received <Items>'
+  KillMobInVerticalRange: '&cThis kill was without honor. Hunt mobs on the ground!'
+  RewardMessage: '&aYour reward: <Items>'
   DeathMessage: '&cYour Monster Hunt honor was reduced by 25% on death. [NEWLINE]
     &7Reclaim your prize &fafter you leave Limbo &7with /hunt reward'
-  SignupBeforeHuntMessage: '&aYou have signed up for the next Monster Hunt!'
-  SignupAtHuntMessage: '&aYou have signed up for the Monster Hunt!'
+  SignupBeforeHuntMessage: '&aYou have signed up for Monster Hunt!'
+  SignUpNoHuntMessage: '&6Monster Hunt isn''t scheduled at the moment'
   KickedPlayerSignUp: '&cYou have been kicked for breaking the rules of Monster Hunt.
-    You cannot sign up for this hunt.'
+    You cannot sign up for this Monster Hunt.'
   BannedPlayerSignUp: '&cYou have been banned for repeated violation of the rules.
     You won''t be able to participate in Monster Hunt again.'
-  AnnounceKick: '&c<PlayerName> has been kicked out from Monster Hunt for breaking
-    the rules.'
+  AnnounceKick: '&c<PlayerName> has been kicked out from Monster Hunt for smelling
+    like onions and breaking the rules.'
   AnnounceBan: '&c<PlayerName> has been banned from Monster Hunt forever. [NEWLINE]
     &7Reason: <Reason>'
-  HighScoreMessage: '&aYou have reached a new high score: <Points> honor!'
-  FinishMessageNotEnoughPoints: '&6Monster Hunt has ended! Unfortunately nobody killed
-    enough monsters, so there are no winners.'
-  FinishMessageNotEnoughPlayers: '&6Monster Hunt has ended! Not enough players participated.'
-  MessageSignUpPeriod: '&aMonster Hunt will begin in 60 seconds! &6/hunt join &ato
-    join. [NEWLINE] &7Monster Hunt is optional and doesn''t increase danger for those
-    who don''t participate. More: /help MonsterHunt'
-  MessageTooLateSignUp: '&cSorry, you are too late to sign up.'
-  MessageAlreadySignedUp: '&cYou are already signed up!'
-  MessageStartNotEnoughPlayers: '&cNot enough players for Monster Hunt to start. :('
-  MessageHuntStatusNotActive: Hunt is currently not active anywhere
-  MessageHuntStatusHuntActive: Hunt is active in <Worlds>
-  MessageHuntStatusLastScore: Your last score in this world was <Points> points
-  MessageHuntStatusNotInvolvedLastHunt: You were not involved in last hunt in this world
-  MessageHuntStatusNoKills: You haven't killed any mob in this world's hunt yet. Hurry up!
-  MessageHuntStatusCurrentScore: Your current score in this world's hunt is <Points> points! Keep it up!
-  MessageHuntStatusTimeReamining: Keep up the killing! You have only <Timeleft>% of the night left in this world!
+  HighScoreMessage: '&6You have reached a new high score: <Points> honor!'
+  FinishMessageNotEnoughPoints: '&aMonster Hunt has ended! [NEWLINE] &aThere are no
+    top winners because nobody has met the point threshold (200, 150 and 100 points).
+    [NEWLINE] &aTo reclaim your prizes type &6/hunt reward [NEWLINE] &6To sponsor
+    next Monster Hunt, store.core-network.us [NEWLINE]'
+  FinishMessageNotEnoughPlayers: '&6Monster Hunt has ended! Apparently not enough
+    players participated which should not happen. Please report this!'
+  MessageSignUpPeriodChained: '&aYou can now sign up for Monster Hunt sponsored by
+    <Sponsor>. It''ll begin in <Time> minutes)!'
+  MessageAlreadySignedUp: '&6Don''t worry, you are already signed up.'
+  MessageStartNotEnoughPlayers: '&6Monster Hunt failed to start because apparently
+    nobody actually participated in it - this should not happen. Did the sponsor leave
+    while nobody else signed up? Please report this!'
+  MessageHuntInfoNotActive: Hunt is currently not active anywhere
+  MessageHuntInfoSignupsYouSignedUp: '&aMonster Hunt will start in <Time>. You''re
+    signed up.'
+  MessageHuntInfoSignupsYouNotSignedUp: '&7Monster Hunt will start in <Time>. You
+    aren''t signed up.'
+  MessageHuntInfoRunningYouSignedUp: '&aMonster Hunt is running now and will end in
+    <Time>.'
+  MessageHuntInfoRunningYouNotSignedUp: '&7Monster Hunt is running now and will end
+    in <Time>. You can still sign up!'
   MessageLead: <Player> has just taken over lead with <Points> points!
   MessageHuntTeleNoHunt: You cannot teleport to hunt zone when there is no hunt!
   MessageHuntTeleNotSignedUp: You cannot teleport to hunt zone if you are not signed up to the hunt!
-  NoRewardToClaim: '&6You don''t have any rewards waiting to claim!'
-  SignUpAnnouncement: '&a<Player> has signed up for The Hunt!'
+  NoRewardToClaim: '&cYou don''t have any more rewards waiting to claim!'
+  SignUpAnnouncement: '&a<Player> has signed up for Monster Hunt!'
   NoPermission: '&cNo permission!'
-  BoughtHunts: '&6Monster Hunt pass bought! Total number of passes: <TotalHunts>.'
-  CheckHunts: '&6You have <TotalHunts> Monster Hunt passes left to use. [NEWLINE &7Get
-    more at store.core-network.us'
-  CantScheduleHunt: '&6No Monster Hunt passes left. Buy more at store.core-network.us'
-  HuntScheduled: '&6Monster Hunt pass used. It''ll start at dusk, in <Time>.'
-  HuntScheduledMultiple: '&6Monster Hunt pass used. It''ll start in <QueueLength>
-    in-game days, in <Time>.'
-  HuntScheduledAnnouncement: '&a<Player> sponsored a Monster Hunt! &6It''ll begin
-    in <Time> [NEWLINE] &aTo participate, &6/hunt join. &aTo learn more, /help MonsterHunt'
-  HuntScheduledAnnouncementMultiple: '&a<Player> sponsored another Monster Hunt! &6It''ll
-    begin in <Time> [NEWLINE] &aTo participate, &6/hunt join. &aTo learn more, /help
-    MonsterHunt'
-  LeftHunt: '&6You just left Monster Hunt. Your score was reset to 0.'
+  BoughtHunts: '&6You have bought <Amount> Monster Hunt pass<PluralS>! Total: <TotalHunts>.'
+  CheckHunts: '&6You still have <TotalHunts> Monster Hunt pass<PluralS> left. [NEWLINE]
+    &7Get more at store.core-network.us'
+  CantScheduleHunt: '&7No Monster Hunt passes left. Buy more at store.core-network.us'
+  HuntScheduled: '&aYou just scheduled a Monster Hunt for the whole server. It''ll
+    start at dusk, in <Time>.'
+  HuntScheduledMultiple: '&aYou just scheduled another Monster Hunt for the whole
+    server. It''ll start in <QueueLength> in-game days, in <Time>.'
+  HuntScheduledAnnouncement: '&a<Player> sponsored a Monster Hunt! It''ll start in
+    <Time> [NEWLINE] &aTo participate: &6/hunt join [NEWLINE] &7Monster Hunt is harmless
+    if you don''t want to join - it''s simply a monster slaying contest with diamond
+    gear rewards. Learn more: /help MonsterHunt'
+  HuntScheduledAnnouncementMultiple: '&a<Player> sponsored another Monster Hunt! It''ll
+    start in <Time> [NEWLINE] &aYou will be able to join when the current one ends.
+    [NEWLINE] &7Monster Hunt is harmless if you don''t want to join - it''s simply
+    a monster slaying contest with diamond gear rewards. Learn more: /help MonsterHunt'
+  LeftHunt: '&6You just left Monster Hunt. Your score was reset.'
   NoHunt: '&6There is no Monster Hunt in progress!'
+  LoginMessageSignupMode: '&6Monster Hunt will start in approx. <Time>'
+  LoginMessageRunningMode: '&6Monster Hunt is running right now! It has <Time> left.'
 Database:
   UseMySQL: false
   MySQLConn: jdbc:mysql://localhost:3306/minecraft

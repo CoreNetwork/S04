@@ -47,6 +47,7 @@ groups:
     - reportrts.command.complete.self
     - monsterhunt.command.run
     - monsterhunt.command.join
+    - monsterhunt.command.info
     - monsterhunt.command.leave
     - monsterhunt.command.check
     - monsterhunt.command.status
@@ -474,6 +475,7 @@ groups:
     - core.teleport.notify
     - core.player.notify
     - core.player.remind.player
+    - core.player.info
     - mantle.slimeballs.command.award
     - mantle.slimeballs.command.pay.notification
     - mantle.slimeballs.command.check.others
@@ -551,6 +553,8 @@ groups:
     - core.tp
     - core.claims.deleteclaim
     - core.claims.fluids.override
+    - core.claims.ignore
+    - core.claims.respect
     - mantle.command.*
     - mantle.hydration.command.*
     - mantle.nanobot.command.*
