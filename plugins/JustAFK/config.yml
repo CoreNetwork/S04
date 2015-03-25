@@ -3,7 +3,7 @@ tagmessages: false
 autokick: true
 hideawayplayers: false
 broadcastawaymsg: false
-movementcheckfreq: 900
-kicktime: 2700
+movementcheckfreq: 3540
+kicktime: 60
 kickreason: You can only be AFK on Flatcore for 1h.
 kickwhileinvehicle: true

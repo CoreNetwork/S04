@@ -45,11 +45,11 @@ Holograms:
     linkedEntities:
     - 4f489b64-134a-4c08-9ae5-dba3c0afb113
     x: 58.5
-    needsUpdating: false
+    needsUpdating: true
     y: 97.0
     z: 53.5
     text:
-    - §eAfternoon (5:30 PM)
+    - §eLate Afternoon (6:30 PM)
     id: clock-spawn
     deleteOnNextUpdate: false
 - Hologram:
@@ -988,7 +988,7 @@ Holograms:
     y: 99.0
     z: -491.5
     text:
-    - §eAfternoon (5:30 PM)
+    - §eLate Afternoon (6:30 PM)
     id: clock-respawn
     deleteOnNextUpdate: false
 - Hologram:

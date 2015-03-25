@@ -1,0 +1,7 @@
+display:
+  compound:
+    Name: "&fTemporal Stone"
+    Lore:
+    - "&7When picked up, the stone is heavy"
+    - "&7as though burdened by unfinished"
+    - "&7adventures and broken promises."

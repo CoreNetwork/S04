@@ -4,8 +4,8 @@
 
 MotdList:
 - |
-  &a&lFlatcore: Season 4 &r&2Villages and Loot Compass!
-  &b&lNew: &3reclaim lost exp in Limbo; smart announcements
+  &e&lFlatcore: Development &8[&6b2015.03.25&8]
+  &8&l-----------------------------
 FakeMaxPlayer: disable
 Debug: false
 DontTouchThisConfig: 1.3

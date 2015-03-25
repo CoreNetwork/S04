@@ -1,7 +1,7 @@
 # Strings YAML
-auto_kick: '{name} has been kicked for inactivity.'
-auto_away: 'You''re away now. You have 45m of AFK unless you move :)'
-private_return: 'You are no longer away.'
+auto_kick: '{name} has been disconnected for inactivity.'
+auto_away: 'You''re flagged as away now. Auto-disconnect in 1m.'
+private_return: 'You''re back!'
 public_return: '{name} is no longer away.'
 private_away: 'You have been set to away.'
 public_away_reason: '{name} has been set to away. ({message})'

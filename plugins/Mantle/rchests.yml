@@ -428,20 +428,130 @@ LootTables:
           amount: 2
   CatacombsMurder:
     Items:
+    - pick:
+      - rolls 3
+      - weights 6 5 4
+      - item:
+          name: rotten_flesh
+          amount: 2
+      - item:
+          name: rotten_flesh
+          amount: 3
+      - item:
+          name: rotten_flesh
+          amount: 4
+    - pick:
+      - rolls 2
+      - weights 6 5 4
+      - item:
+          name: bone
+          amount: 1
+      - item:
+          name: bone
+          amount: 2
+      - item:
+          name: bone
+          amount: 3
+    - pick:
+      - rolls 3
+      - weights 5 3 2
+      - item:
+          name: redstone
+          amount: 3
+      - item:
+          name: redstone
+          amount: 4
+      - item:
+          name: redstone
+          amount: 5
     - item:
         name: stone
+        nbt: catacomb-stone
+        chance: 0.5
   CatacombsMorgue:
     Items:
-    - item:
-        name: stone
+    - pick:
+      - rolls 5
+      - weights 6 5 4 3
+      - item:
+          name: quartz
+          amount: 1
+      - item:
+          name: quartz
+          amount: 5
+          chance: 0.85
+      - item:
+          name: quartz
+          amount: 9
+          chance: 0.75
+      - item:
+          name: quartz
+          amount: 13
+          chance: 0.65
+    - pick:
+      - rolls 2
+      - weights 6 5 4
+      - item:
+          name: bone
+          amount: 1
+      - item:
+          name: bone
+          amount: 2
+      - item:
+          name: bone
+          amount: 3
   CatacombsPods:
     Items:
+    - pick:
+      - rolls 5
+      - weights 6 5 4 3
+      - item:
+          name: quartz
+          amount: 1
+      - item:
+          name: quartz
+          amount: 5
+          chance: 0.85
+      - item:
+          name: quartz
+          amount: 9
+          chance: 0.75
+      - item:
+          name: quartz
+          amount: 13
+          chance: 0.65
     - item:
-        name: stone
+        name: potion
+        damage: 8197
+        chance: 0.85
   CatacombsBots:
     Items:
-    - item:
-        name: stone
+    - pick:
+      - rolls 3
+      - weights 5 3 2
+      - item:
+          name: redstone
+          amount: 3
+      - item:
+          name: redstone
+          amount: 4
+      - item:
+          name: redstone
+          amount: 5
+    - pick:
+      - rolls 5
+      - weights 16 8 4
+      - item:
+          name: iron_ingot
+          amount: 4
+      - item:
+          name: iron_ingot
+          amount: 7
+          chance: 0.85
+      - item:
+          name: iron_ingot
+          amount: 9
+          chance: 0.75
   CatacombsTrap:
     PlayerControl:
       ChanceDiminishing:
