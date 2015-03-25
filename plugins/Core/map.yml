@@ -39,6 +39,12 @@ Clicks:
   block: emerald_ore
   commands:
   - /rspawnteam
+- regions:
+  - limbo-tutorial-end
+  block: emerald_block
+  commands:
+  - /lim tutorial <Player> complete silent
+  - /sudo <Player> warp limbo-library-start silent
 Messages:
   PointCreated: '&aCheckpoint <List> #<Position> created.'
   ListNotExist: '&cCheckpoint list "<List>" does not exist.'

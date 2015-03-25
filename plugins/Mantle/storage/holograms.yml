@@ -31,7 +31,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - dc465c50-e8c2-46e8-aaf9-c1b02d190158
+    - bc2c62c6-3300-4b3a-891b-692af2d6e940
     x: 58.5
     needsUpdating: false
     y: 97.25
@@ -43,13 +43,13 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - fce8bc72-3a6d-4850-b6fb-b8ceaed81a64
+    - 4f489b64-134a-4c08-9ae5-dba3c0afb113
     x: 58.5
-    needsUpdating: true
+    needsUpdating: false
     y: 97.0
     z: 53.5
     text:
-    - §eNoon (12:30 PM)
+    - §eAfternoon (5:30 PM)
     id: clock-spawn
     deleteOnNextUpdate: false
 - Hologram:
@@ -98,7 +98,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - e92681a9-54a4-43ca-b3d2-0e761eca13c3
+    - ffeb6e83-59a7-4ec7-9630-02f717cef456
     x: 61.5
     needsUpdating: false
     y: 99.0
@@ -111,7 +111,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - c7c169c6-8fc0-4771-b8bd-bfb600b95fff
+    - 61b90785-f12d-470d-9066-97880eff8d4f
     x: 61.5
     needsUpdating: false
     y: 100.0
@@ -119,18 +119,6 @@ Holograms:
     text:
     - ' '
     id: spawn-counter
-    deleteOnNextUpdate: false
-- Hologram:
-    world: world_the_end
-    hidden: false
-    linkedEntities:
-    - 45e9eb92-3a64-4b57-aeac-277a0310b650
-    x: 4276.5
-    needsUpdating: true
-    y: 26.0
-    z: 3216.5
-    text:
-    - '&bDeath Pit'
     deleteOnNextUpdate: false
 - Hologram:
     world: world_the_end
@@ -318,15 +306,29 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 3a518aee-5fe8-43c7-b6a6-c609b4f906fc
-    - 2d910f2f-8c9a-437f-85fb-a78d961e3919
-    x: 103.5
+    - f2d2dc0f-486d-4b30-b0c9-66ab55ea556f
+    - c9dcf8f8-e8b8-4ec8-b035-e05c6095e455
+    x: 103.48843055459753
     needsUpdating: false
-    y: 98.5
-    z: 44.5
+    y: 99.0
+    z: 44.52327668630021
     text:
-    - '&bAfter death, you go to LIMBO.'
-    - '&bIt''s a 1 hour penalty.'
+    - '&bAfter death you go to LIMBO'
+    - '&bIt''s a unique death penalty'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 890cd71a-70c9-484d-bdd4-00299ac1a08c
+    - c91a0e7a-b1c4-405d-b7d6-05e286130e3a
+    x: 103.43205298247244
+    needsUpdating: false
+    y: 99.0
+    z: 44.38433107401166
+    text:
+    - '&bAfter death you go to LIMBO'
+    - '&bIt''s a unique death penalty.'
     deleteOnNextUpdate: false
 - Hologram:
     world: world_the_end
@@ -395,18 +397,6 @@ Holograms:
     text:
     - Find rare loot in dungeons
     - scattered around the Nether
-    deleteOnNextUpdate: false
-- Hologram:
-    world: world_the_end
-    hidden: false
-    linkedEntities:
-    - 716bdd0c-d8c0-49e8-a1d3-8e60082b6c97
-    x: 4276.5
-    needsUpdating: true
-    y: 26.0
-    z: 3283.5
-    text:
-    - '&bParkour'
     deleteOnNextUpdate: false
 - Hologram:
     world: world_the_end
@@ -576,19 +566,411 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 80c352a6-6634-4092-a5e7-c8e232ef5acb
-    x: -510.08931059427124
+    - 7021d86c-3917-40e9-9872-11e41abedc78
+    x: 102.40760881631141
     needsUpdating: false
-    y: 104.5
-    z: -1062.0848322604465
+    y: 98.0
+    z: 378.44281146985827
     text:
-    - '&bLore Books'
+    - '... get over the decaying wall ...'
     deleteOnNextUpdate: false
 - Hologram:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 30ed0c0f-a0fd-46d7-9ac5-de6254665776
+    - d85db35d-1007-4d6d-9887-bc612da14cc6
+    x: 105.58331839243866
+    needsUpdating: false
+    y: 96.0
+    z: 383.373970379026
+    text:
+    - Sprint through Creeper Hatchery...
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 5cab8d6c-7faa-48fe-b4d6-3a760ebdec53
+    - 9f64e95f-e2df-484c-9c58-14c93cdb094e
+    x: 69.58359633462926
+    needsUpdating: false
+    y: 97.0
+    z: 345.50492163211356
+    text:
+    - Limbo timer counts down when
+    - you're offline as well.
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 421a16e2-fdd2-4011-889e-d8f4f2b28101
+    - 8515d458-eb42-4afb-b178-0d7474f15d34
+    x: 69.65687601100768
+    needsUpdating: false
+    y: 97.0
+    z: 337.47857507214474
+    text:
+    - When leaving Limbo you might get a Lucky Respawn
+    - 'More: &7/help Respawn'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - cb1a0943-5085-4679-bd21-962197c13e4a
+    x: 94.288440897912
+    needsUpdating: false
+    y: 97.0
+    z: 374.48452254896864
+    text:
+    - '... and fight your way to the tower with a flag.'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 2b0dc7c2-a112-4a96-934f-3d20596d4439
+    - b86744c1-2ab5-4db7-8f0a-b4e4999ea1f5
+    x: 79.5053546390922
+    needsUpdating: false
+    y: 96.0
+    z: 377.5241858375417
+    text:
+    - '&bOr just play'
+    - '&bsome minigames.'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - f3c28e94-639f-4b11-8b79-88b0bb04d223
+    x: 68.50746203177418
+    needsUpdating: false
+    y: 96.0
+    z: 382.52811226665534
+    text:
+    - Lights Out
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 5f5cf60a-1b87-4241-b38b-628e7230624c
+    - 4e637c44-d8e7-4846-bbef-26518f934817
+    x: 67.42107829194642
+    needsUpdating: false
+    y: 96.0
+    z: 371.3715306154735
+    text:
+    - Minigames don't lead to freedom
+    - but can &okill&r some time.
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 423ef056-04dd-4966-ab44-e88adea8a130
+    - 8c35d941-54cf-4a6b-ac99-31955fc10146
+    x: 59.541739154904874
+    needsUpdating: false
+    y: 96.0
+    z: 370.4539432337147
+    text:
+    - Connect Four
+    - '&7(2 players)'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 55a5d69c-23af-485f-ad3a-f409bf96809d
+    x: 59.35783929164553
+    needsUpdating: false
+    y: 97.0
+    z: 380.6427359522025
+    text:
+    - Tower of Hanoi
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 78d09383-4017-4b5f-87d4-1eac1cefa5e3
+    - 0cea6db8-873a-4a64-95dd-e3b2ce25df9d
+    x: 61.46849962903819
+    needsUpdating: false
+    y: 95.0
+    z: 354.30000001192093
+    text:
+    - When you die, your items
+    - or exp. don't drop.
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - e2f2e491-8dfc-4ed6-82c6-789ae4b6c9bf
+    - 2d40f6cc-240e-4cb7-b37a-d725b0c5e4b9
+    x: 53.53847777162756
+    needsUpdating: false
+    y: 97.0
+    z: 345.4633670249025
+    text:
+    - When you die, your items
+    - or exp. don't drop.
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - c1adbfe6-506a-4a67-ab2a-5caae3020ac1
+    - c3b64cb2-35b5-4d26-8f5c-6d1b6dfdd8cf
+    x: 53.53238454446204
+    needsUpdating: false
+    y: 97.0
+    z: 337.4453499091739
+    text:
+    - If you win Parkour or Death Pit quick enough,
+    - you can reclaim % of your lost exp.
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - f60cd88b-3248-47cc-b00a-9fe0467a5889
+    - 1557900f-8e58-4e98-a641-5f91b1e7a16d
+    x: 61.48354673073642
+    needsUpdating: false
+    y: 99.0
+    z: 330.37646807462545
+    text:
+    - '&bTo finish this tutorial,'
+    - '&bclick the crystal.'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - a0e81270-6436-4095-a1ba-54ddc0119aea
+    - c7ff861a-2981-49f1-ba3c-e0ac1f183fdd
+    x: 55.49092249223435
+    needsUpdating: false
+    y: 96.0
+    z: 445.3896366709423
+    text:
+    - '&b2nd death:'
+    - '&b15m'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - d859533f-869d-4250-a140-8d5bfb2ef43a
+    - 8318c17a-e9f3-4b4c-828f-5076b781a4a3
+    x: 58.458440957741644
+    needsUpdating: false
+    y: 96.0
+    z: 445.4573090023062
+    text:
+    - '&b3rd death:'
+    - '&b20m'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 3790ef4d-66aa-4aa7-b1c6-91b7da132516
+    - 8208dac0-8767-4d79-82ac-92318ac608c0
+    x: 61.469863766937536
+    needsUpdating: false
+    y: 96.0
+    z: 445.38752701856635
+    text:
+    - '&b4th death:'
+    - '&b30m'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - de72f963-7335-402c-b9de-b165451c94ba
+    - b864c05c-5d0f-42ae-9acb-ea5f3028d7b8
+    x: 79.60581877531958
+    needsUpdating: false
+    y: 96.0
+    z: 449.5031115076473
+    text:
+    - '&bIt''s not only'
+    - '&babout waiting though.'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 09e355a9-73dc-4ad5-a16b-f8acd0b2bb8e
+    - c63d0632-2160-49d8-941b-9638cdebdcb7
+    x: 87.69999998807907
+    needsUpdating: false
+    y: 94.66393888563836
+    z: 449.51918251992254
+    text:
+    - Limbo has challenges which can
+    - release you upon completion.
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - a9881560-9440-4198-9bcb-45ed968bda54
+    - 6736a5dd-d01e-4c12-b6e6-766a76b6b2af
+    x: 88.5
+    needsUpdating: false
+    y: 93.20000004768372
+    z: 449.5
+    text:
+    - Limbo has challenges which can
+    - release you upon completion.
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 62e9ff9f-046d-4167-ba75-cba86061e6ac
+    - 91dd70a3-7d02-45fa-b28c-737c83ebe951
+    x: 88.67892801964865
+    needsUpdating: false
+    y: 96.0
+    z: 449.4885659675519
+    text:
+    - Limbo has challenges which can
+    - release you upon completion.
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - cad420a5-24f0-4164-af47-a6a3a1eaa079
+    - 06e21f26-7085-48ca-991d-54d7b1e83f63
+    - e4fac02c-1154-4aa6-9241-7938d43c4656
+    - 3807c125-2396-42a1-b7af-6cafba573cec
+    x: 92.51518964902816
+    needsUpdating: false
+    y: 96.0
+    z: 449.67149001129064
+    text:
+    - Limbo has challenges which can
+    - release you upon completion.
+    - ' '
+    - This one is Parkour.
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - b115083b-cda6-4da0-8596-b5b451974b51
+    - 869bba37-9eb8-4e4b-b3cc-c7817b8784ac
+    - 978f94db-48ce-4452-beee-391696731f33
+    - b0afd613-179e-4a03-bc32-2384e72106c3
+    x: 93.69999998807906
+    needsUpdating: false
+    y: 94.4953821747758
+    z: 449.5502231910552
+    text:
+    - Limbo has challenges which can
+    - release you upon completion.
+    - ' '
+    - This one is Parkour.
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 22ead2fa-7b81-4aaa-bd78-eca7b956dbeb
+    - ff12afb3-8b1c-4216-9e38-11a2c56472ba
+    x: 109.52050118851017
+    needsUpdating: false
+    y: 98.0
+    z: 449.51337619355473
+    text:
+    - If you can make this jump,
+    - Parkour should be something you try!
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 58ffd31b-afb4-4811-b151-f3f28b00212e
+    - 6d31b6a7-1964-4f37-92a0-8ef3aabcd69b
+    x: 97.4850229676406
+    needsUpdating: false
+    y: 96.0
+    z: 431.30000001192093
+    text:
+    - '&bParkour has'
+    - '&b11 areas'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 87065d12-1ed8-4fa1-91c4-b16641174232
+    - 3b93b0a7-bc8e-47cc-967c-a6c4e5707b20
+    x: 100.43817010215955
+    needsUpdating: false
+    y: 96.0
+    z: 418.39479217621056
+    text:
+    - Should you fall, you'll be able to
+    - return to it with &7/checkpoint
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - b5d16419-8ae4-4a59-a8a6-782cee02f07c
+    - 41265a73-6260-4aca-a2dc-dea1220c226f
+    x: 61.50537637466286
+    needsUpdating: false
+    y: 95.0
+    z: 494.30000001192093
+    text:
+    - '&bYou died and now you are in Limbo'
+    - '&bFollow this path to learn what it is.'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - e39957fe-8093-4d82-b9ac-0458af74b25a
+    - 075dc56b-b548-4648-a3df-95c9252b7b18
+    x: 61.54411254633975
+    needsUpdating: false
+    y: 96.0
+    z: 494.3450404931839
+    text:
+    - '&bYou died and now you are in Limbo'
+    - '&bFollow this path to learn what it is.'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 6a689966-8e0e-4385-9cf4-5e16e7be1233
+    - 77601d3d-5deb-4ad4-9ef3-aaca25a2a13f
+    x: 61.45819178117911
+    needsUpdating: false
+    y: 96.0
+    z: 494.37206041131736
+    text:
+    - '&bYou died and now you are in Limbo.'
+    - '&bFollow this path to learn what it is.'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 183638fb-8919-45c6-9415-d0b469769d80
     x: -12.5
     needsUpdating: false
     y: 99.25
@@ -600,20 +982,62 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - f3c0e4d5-7cf1-41c6-83ed-72a31aa7149c
+    - ddd6ec75-da85-493f-9d66-e7a508a98c16
     x: -12.5
     needsUpdating: true
     y: 99.0
     z: -491.5
     text:
-    - §eNoon (12:30 PM)
+    - §eAfternoon (5:30 PM)
     id: clock-respawn
     deleteOnNextUpdate: false
 - Hologram:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 713550f0-2e59-48b9-9994-e04ee0e6b33c
+    - 4c673db6-6d83-4e51-a8f5-2bdeb4f941d1
+    - 91107ea6-ca91-4881-87c9-02e12256c993
+    x: 61.51143865282596
+    needsUpdating: false
+    y: 96.0
+    z: 467.3544780814543
+    text:
+    - '&bLimbo is a short'
+    - '&bdeath penalty.'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 5e94bb6f-51d0-4564-ad30-e0dbeb5bec3f
+    - 420344af-a7e6-4bc5-a2dd-61e9d0c2cd60
+    x: 97.48411788783497
+    needsUpdating: false
+    y: 96.0
+    z: 388.2449808974597
+    text:
+    - 'Death Pit''s objective:'
+    - Collect 20 exp. levels to escape the arena.
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 83d58192-38a3-41ea-bd5a-a7a5d45bf854
+    - 2e29f310-c3f9-4d6f-b2dd-6828f8f6e197
+    x: 97.48458274873853
+    needsUpdating: false
+    y: 96.0
+    z: 395.37628551069866
+    text:
+    - '&bDon''t like Parkour?'
+    - '&bTry Death Pit.'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 3f8126f3-3e05-4f18-b87d-011cd8deee20
     x: -10.5
     needsUpdating: false
     y: 98.5
@@ -625,7 +1049,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 66545d65-4282-47db-a3e8-18de84b9f789
+    - 3ad01a4d-d1ef-4ea4-b1d4-6324d0806a32
     x: -14.528460757247489
     needsUpdating: false
     y: 100.0
@@ -638,7 +1062,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 0aefb6e7-5deb-4623-92e4-8da5dedad171
+    - 20ca878e-02e3-4cbb-ae7b-0f49a26830dc
     x: -14.428650625602979
     needsUpdating: false
     y: 101.0
@@ -660,4 +1084,148 @@ Holograms:
     text:
     - '&bLimbo claimed you'
     - '&bExplore the Library or Atone'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - cf6e3715-8c09-411d-be0f-7535c515e173
+    - 0c7c7413-9ad4-46f8-b72f-d0f643181f54
+    x: 61.53785555947384
+    needsUpdating: false
+    y: 95.0
+    z: 460.30000001192093
+    text:
+    - '&bAfter your very first death'
+    - '&byou only stay in Limbo for 10m'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 99e73570-4915-4a73-b24b-bfd8dc051c40
+    x: 61.48240319265714
+    needsUpdating: false
+    y: 94.0
+    z: 453.42539516285865
+    text:
+    - '&bConsecutive deaths increase the timer.'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 402d5c66-200e-428e-be86-eb1ea1583f4b
+    x: 61.492591049066505
+    needsUpdating: false
+    y: 95.0
+    z: 449.30000001192093
+    text:
+    - '&fConsecutive deaths increase the timer.'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - e65b2d42-6e4e-4d41-b0ae-6fb867d9a6b5
+    - 2e545e6e-2882-43b3-ba32-3a0744d7394f
+    x: 64.45912981974925
+    needsUpdating: false
+    y: 96.0
+    z: 445.4459484779468
+    text:
+    - '&b5th death:'
+    - '&b45m'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 4aa505ad-f3a7-48cb-a6e5-ea6e18bedaf5
+    - 14707ffc-1445-48af-826c-23859c3f8489
+    x: 67.49386835431326
+    needsUpdating: false
+    y: 96.0
+    z: 445.489462935655
+    text:
+    - '&bAfter that:'
+    - '&b60m'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 4b4cc501-a826-4bc2-8456-a0ac9eece01b
+    - a7db01b5-4755-4426-ae47-7f3d9c900d1f
+    x: 91.32341726375891
+    needsUpdating: false
+    y: 98.0
+    z: 421.6017511233557
+    text:
+    - Remember to save your checkpoint
+    - after every major part.
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - c6e12c28-1cd5-44be-a670-e261365694fc
+    - f07d377a-7e85-4526-a8eb-1fc15dccf32b
+    x: 94.4834062477519
+    needsUpdating: false
+    y: 96.0
+    z: 422.5283178166353
+    text:
+    - Look for buttons like this one
+    - to save your checkpoint.
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - f61d06a3-62c3-4ac8-9260-ce3dd870eee3
+    - da4e89a8-ab1a-453e-adda-4f7a4f08c5a1
+    x: 97.47449222792204
+    needsUpdating: false
+    y: 95.0
+    z: 408.30000001192093
+    text:
+    - Click the diamond crystal at the end
+    - to win and get released early.
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 45e9eb92-3a64-4b57-aeac-277a0310b650
+    x: 4276.5
+    needsUpdating: true
+    y: 26.0
+    z: 3216.5
+    text:
+    - '&bDeath Pit'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 716bdd0c-d8c0-49e8-a1d3-8e60082b6c97
+    x: 4276.5
+    needsUpdating: true
+    y: 26.0
+    z: 3283.5
+    text:
+    - '&bParkour'
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 80c352a6-6634-4092-a5e7-c8e232ef5acb
+    x: -510.08931059427124
+    needsUpdating: false
+    y: 104.5
+    z: -1062.0848322604465
+    text:
+    - '&bLore Books'
     deleteOnNextUpdate: false

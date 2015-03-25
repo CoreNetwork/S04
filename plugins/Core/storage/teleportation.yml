@@ -109,5 +109,6 @@ Warps:
     location: world_the_end;-500.0;101.0;-1000.0;35.849987;-1.13248824E-7
     RunCommands: []
   limbo-tutorial:
-    location: world_the_end;61.467431727894954;97.0;498.05063181137876;1.9500227;-165.21307
-    RunCommands: []
+    location: world_the_end;61.515571692972756;97.0;498.2859434922717;2.8499022;-180.21344
+    RunCommands:
+    - core effect clear <Player> silent

@@ -5,10 +5,10 @@ MiningFatigueDurationSeconds: 180
 Potions:
   '373:0':
     normal: 20
-    saturation: 10
+    saturation: 15
   '335':
-    normal: 25
-    saturation: 5
+    normal: 20
+    saturation: 0
   373:8195:
     normal: 40
     saturation: 35

@@ -40,6 +40,27 @@ Groups:
       Name: Villagers
       ChunkLimit: 30
       ViewDistanceLimit: 90
+  Monsters:
+    ViewDistanceLimit: 25
+    ChunkLimit: 25
+    ZOMBIE:
+      Name: Zombie
+      ViewDistanceLimit: 25
+    CREEPER:
+      Name: Creeper
+      ViewDistanceLimit: 25
+    SKELETON:
+      Name: Skeleton
+      ViewDistanceLimit: 25
+    WITCH:
+      Name: Witch
+      ViewDistanceLimit: 25
+    SPIDER:
+      Name: Spider
+      ViewDistanceLimit: 25
+    ENDERMAN:
+      Name: Enderman
+      ViewDistanceLimit: 25
 EnabledWorlds:
 - world
 - world_nether

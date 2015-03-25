@@ -1,5 +1,3 @@
-# 
-#  - sudo <Player> rspawn unprotect silent
 Debug: false
 DefaultDuration:
 - 10m
@@ -26,15 +24,15 @@ NotificationTimesLeft:
 - 1
 Limbo:
   CommandsOnEntryTutorial:
+  - sudo <Player> unprotect silent
   - core clear <Player> silent
-  - kit <Player> limbo silent
-  - slimeballs give <Player> 5
-  - sudo <Player> warp limbo-library-start silent
+  - sudo <Player> warp limbo-tutorial silent
   - sudo gamemode <Player> 2 silent
   - sudo core effect clear <Player> silent
   - core xp <Player> clear silent
   - sudo <Player> mantle hydration restore
   CommandsOnEntry:
+  - sudo <Player> unprotect silent
   - core clear <Player> silent
   - kit <Player> limbo silent
   - slimeballs give <Player> 5
@@ -163,8 +161,6 @@ Messages:
   DetailedTimeSyntax: <Minutes>m <Seconds>s
   EntryTutorial:
   - '&bWelcome to Limbo where the dead atone for their death.'
-  - '&7Please read &f/help Limbo &7to understand how this works'
-  - '&7You will linger here &7for &f<Time>&7.'
   Entry:
   - '&bYour death erased your corporeal form and all possessions.'
   - '&7You will linger in &fLimbo &7for &f<Time>&7.'

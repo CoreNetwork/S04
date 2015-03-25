@@ -1,7 +1,7 @@
 Enabled: true
 SpawningWorld: world
 SpawningIntervalTicks: 5
-SlimeKillTime: 13333
+SlimeKillTime: 13186
 MinimumDistanceToPlayerSquared: 625
 AdditionalPackMobs:
   Min: 2

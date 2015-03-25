@@ -70,6 +70,7 @@ groups:
     - mantle.slimeballs.command.check
     - mantle.slimeballs.command.pay
     - mantle.command.untrack
+    - mantle.perks.nameplate
     - limbo.check
     - limbo.top
     - limbo.kill
@@ -381,7 +382,6 @@ groups:
     - nocheatplus.checks.chat.commands
     - nocheatplus.checks.chat.text
     - nocheatplus.checks.chat.relog
-    - mantle.perks.nameplate
     - mantle.perks.advsigns
     - mantle.perks.advbanners
     inheritance: []
@@ -395,7 +395,6 @@ groups:
     - nocheatplus.checks.chat.commands
     - nocheatplus.checks.chat.text
     - nocheatplus.checks.chat.relog
-    - mantle.perks.nameplate
     - mantle.perks.advsigns
     - mantle.perks.advbanners
     - mantle.slimeballs.command.advskulls

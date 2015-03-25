@@ -27,6 +27,8 @@ CommandDescriptions:
     chunkinfo: '&a/mantle chunkinfo &8-&f Display chunk info for current world'
     counters: '&a/mantle counters &8-&f Print animal counters'
     untrack: '&a/mantle untrack &8-&f Untrack the compass category'
+    debug: '&a/mantle debug &8-&f Print some debug'
+    tabreload: '&a/mantle tabreload &8-&f Reload Tab list'
   mantle hydration:
     help: '&a/mantle hydration help &8-&f List all possible commands'
     save: '&a/mantle hydration save &8-&f Save current hydration state'

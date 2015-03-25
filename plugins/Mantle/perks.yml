@@ -13,3 +13,36 @@ BannerRole:
 - '&7Can be placed only by subscribers'
 - '&7in land they claimed themselves.'
 - '&8Will disappear when unclaimed.'
+GroupTeamNames:
+  ScribeVeteran: D
+  FlatcorianMaster: I
+  NomadVeteran: H
+  NomadAdept: H
+  MerchantVeteran: E
+  NomadMaster: H
+  MerchantMaster: E
+  Merchant: E
+  MercenaryMaster: F
+  Special: B
+  Guardian: A
+  MercenaryAdept: F
+  Novice: J
+  SavantVeteran: C
+  Scribe: D
+  MerchantAdept: E
+  RaiderMaster: G
+  Raider: G
+  ScribeMaster: D
+  RaiderVeteran: G
+  FlatcorianVeteran: I
+  SavantMaster: C
+  Savant: C
+  Nomad: H
+  Flatcorian: I
+  MercenaryVeteran: F
+  Mercenary: F
+  RaiderAdept: G
+  FlatcorianAdept: I
+  ScribeAdept: D
+  SavantAdept: C
+  Other: '0'

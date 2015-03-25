@@ -332,7 +332,7 @@ Top:
     Display: <Player>
     Color: '&r'
 RunCommandOnRankUp: true
-CommandOnRankUp: crankreload
+CommandOnRankUp: mantle tabreload
 Message:
   ModSubmissions:
     NotFound: '&6No accepted submissions for level &7<Level>&6 in week &7<Week>&6

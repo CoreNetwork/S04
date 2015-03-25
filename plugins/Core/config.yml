@@ -27,3 +27,10 @@ CommandDescriptions:
     xp: '&a/core xp &8-&f Give XP'
     abandonclaim: '&a/core abandonclaim &8-&f Abandons the claim you''re currently
       in.'
+    ignoreclaims: '&a/core ignoreclaims &8-&f Ignore claims'
+    heal: '&a/core heal &8-&f Heal player.'
+    unstuck: '&a/core unstuck &8-&f Unstuck player from solid blocks'
+    info: '&a/core info &8-&f Info about a player.'
+    feed: '&a/core feed &8-&f Feed player.'
+    spawn: '&a/core spawn &8-&f null'
+    respectclaims: '&a/core respectclaims &8-&f Respect claims'

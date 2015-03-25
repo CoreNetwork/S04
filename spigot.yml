@@ -13,19 +13,12 @@
 config-version: 8
 settings:
   debug: false
-  save-user-cache-on-stop-only: false
-  player-shuffle: 2000
-  moved-too-quickly-threshold: 100.0
-  moved-wrongly-threshold: 0.0625
-  filter-creative-items: true
   bungeecord: false
-  sample-count: 12
   user-cache-size: 1000
-  int-cache-limit: 1024
+  sample-count: 12
   timeout-time: 60
   restart-on-crash: false
   restart-script: ./start.sh
-  late-bind: false
   netty-threads: 3
   attribute:
     maxHealth:
@@ -34,15 +27,22 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
+  save-user-cache-on-stop-only: false
+  player-shuffle: 2000
+  int-cache-limit: 1024
+  late-bind: false
+  moved-too-quickly-threshold: 100.0
+  moved-wrongly-threshold: 0.0625
+  filter-creative-items: true
   global-api-cache: false
   log-filters:
   - ^(.*)(/login)(.*)$
   prevent-proxies: false
   bungeecord-addresses: []
+stats:
+  disable-saving: false
+  forced-stats: {}
 commands:
-  tab-complete: 3
-  spam-exclusions: []
-  log: true
   silent-commandblock-console: true
   replace-commands:
   - setblock
@@ -51,6 +51,9 @@ commands:
   - tp
   - effect
   - enchant
+  tab-complete: 3
+  spam-exclusions: []
+  log: true
   command-block-overrides:
   - setblock
   - summon
@@ -58,38 +61,30 @@ commands:
   - tp
   - effect
   - enchant
-stats:
-  disable-saving: false
-  forced-stats: {}
 messages:
-  restart: The server is rebooting.
   whitelist: Setting up new features, please try again later.
   unknown-command: Unknown command.
   server-full: Would you look at that, the server is full. Try again later?
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
+  restart: The server is rebooting.
 world-settings:
   default:
     verbose: false
-    mob-spawn-range: 9
     enable-zombie-pigmen-portal-spawns: false
-    item-despawn-rate: 6000
-    merge-radius:
-      item: 1.0
-      exp: 3.0
-    hanging-tick-frequency: 100
-    arrow-despawn-rate: 1200
     nerf-spawner-mobs: false
     wither-spawn-sound-radius: 0
     zombie-aggressive-towards-villager: true
+    item-despawn-rate: 6000
+    hanging-tick-frequency: 100
+    merge-radius:
+      item: 1.0
+      exp: 3.0
     view-distance: 8
     chunks-per-tick: 5000
     clear-tick-list: false
-    hopper-alt-ticking: true
-    ticks-per:
-      hopper-transfer: 8
-      hopper-check: 8
-    hopper-amount: 1
+    mob-spawn-range: 6
+    arrow-despawn-rate: 1200
     anti-xray:
       enabled: false
       engine-mode: 1
@@ -128,6 +123,11 @@ world-settings:
       monsters: 144
       misc: 72
       other: 72
+    hopper-alt-ticking: true
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 8
+    hopper-amount: 1
     random-light-updates: false
     save-structure-info: false
     max-bulk-chunks: 5
