@@ -96,5 +96,5 @@ Info:
   Verbose: '&6<Player>, <World>(&7<X>, &8<Y>, &7<Z>&6) <Vehicle> [NEWLINE] &6<Player>''s
     stats: &8❤&7<Health> &8☕&7<Hunger>&8/<Saturation> &8✦&7<Level> &8°&7<Air>'
   Commands:
-  - seen <Player>
   - original <Player>
+  - seen <Player>

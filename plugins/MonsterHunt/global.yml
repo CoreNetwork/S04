@@ -104,11 +104,10 @@ Messages:
   StartMessage: '&aMonster Hunt has begun! [NEWLINE] &6Kill monsters in the wild to
     earn honor points! [NEWLINE] &7Everyone with at least 200 points gets a reward!
     You &ocannot &r&7use a mob grinder. More: /help MonsterHunt'
+  StartMessageNotSignedUp: '&aMonster Hunt has begun!'
   FinishMessageWinners:
-    Header: '&aMonster Hunt has ended. Many thanks to <Player>''s patronage, hope
-      the event was fun! &6Top winners: [NEWLINE] &8------ [NEWLINE]'
-    Footer: '&8------------------ [NEWLINE] &6To reclaim your prizes type &6/hunt
-      reward [NEWLINE] &aThanks to <Sponsor> for patronage!'
+    Header: '&aMonster Hunt has ended. &6Top winners: [NEWLINE] &8------ [NEWLINE]'
+    Footer: '&8------------------ [NEWLINE] &aMany thanks for <Sponsor>''s patronage, to reclaim your prizes type &6/hunt reward'
   KillMessageGeneral: '&6<MobName> killed. +<MobValue>. Total: &e<Points> &6honor.'
   KillMessageWolf: '&6<MobName> killed by your wolf. +<MobValue>. Total: &e<Points>
     &6honor.'
@@ -157,7 +156,7 @@ Messages:
   MessageLead: <Player> has just taken over lead with <Points> points!
   MessageHuntTeleNoHunt: You cannot teleport to hunt zone when there is no hunt!
   MessageHuntTeleNotSignedUp: You cannot teleport to hunt zone if you are not signed up to the hunt!
-  NoRewardToClaim: '&cYou don''t have any more rewards waiting to claim!'
+  NoRewardToClaim: '&cNo rewards waiting to claim. &7To get rewards, you need at least 200 points.'
   SignUpAnnouncement: '&a<Player> has signed up for Monster Hunt!'
   NoPermission: '&cNo permission!'
   BoughtHunts: '&6Treasure Chase pass<PluralS> acquired! Type &7/hunt run &6to queue

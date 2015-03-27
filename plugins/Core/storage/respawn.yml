@@ -1124,12 +1124,4 @@ amount:
   15468a55-d663-3077-a691-aed0be0ffacf: 1
   c866397a-dd99-4459-afa9-d9055dfee9d0: 1
   8ac39af9-75ab-4f34-83d9-75598a22d6d4: 0
-running:
-- name: harflin
-  startTime: 1427251906213
-  endTime: 1427295106213
-  uuid: d8f5bb3c-09b1-4265-9d53-c495b37c15e0
-- name: Destilat
-  startTime: 1427295106213
-  endTime: 1427338306213
-  uuid: 8ac39af9-75ab-4f34-83d9-75598a22d6d4
+running: []

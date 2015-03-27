@@ -107,7 +107,8 @@ Messages:
       the event was fun! &6Learn more: /help TreasureChase'
     NextHuntScheduled: '&aNext Chase will start in <Time> min.  &6/chase join &ato
       participate!'
-    WaveNotificatonAfterLooting: '&6Next Wave in &7<TimeLeft>s'
+    WaveNotificatonAfterLooting: '&6Next wave in &7<TimeLeft>s'
+    WaveNotificatonAfterLootingLastWave: '&7Treasure Chase will end in <TimeLeft>s'
   Join:
     InLimbo: '&cYou cannot participate in Treasure Chase while in Limbo.'
     InNether: '&6Travel to Overworld to get directions to your crate.'

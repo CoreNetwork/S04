@@ -1,31 +1,25 @@
 Groups:
   Animals:
-    ChunkLimit: 30
     ViewDistanceLimit: 150
+    ChunkLimit: 150
     WarnOverLimit: true
     HORSE:
       Name: Horses
-      ChunkLimit: 30
       ViewDistanceLimit: 150
     COW:
       Name: Cows
-      ChunkLimit: 30
       ViewDistanceLimit: 150
     SHEEP:
       Name: Sheep
-      ChunkLimit: 30
       ViewDistanceLimit: 150
     CHICKEN:
       Name: Chickens
-      ChunkLimit: 30
       ViewDistanceLimit: 150
     PIG:
       Name: Pigs
-      ChunkLimit: 30
       ViewDistanceLimit: 150
     RABBIT:
       Name: Rabbits
-      ChunkLimit: 30
       ViewDistanceLimit: 150
   Villagers:
     Name: Villagers and Golems
@@ -34,11 +28,11 @@ Groups:
     WarnOverLimit: true
     IRON_GOLEM:
       Name: Golems
-      ChunkLimit: 4
+      ChunkLimit: 32
       ViewDistanceLimit: 32
     VILLAGER:
       Name: Villagers
-      ChunkLimit: 30
+      ChunkLimit: 90
       ViewDistanceLimit: 90
   Monsters:
     ViewDistanceLimit: 25
