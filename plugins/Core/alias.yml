@@ -362,12 +362,9 @@ Aliases:
   - '&7-- &fHelp: Mob Limits &7--------'
   - '&7In order to not kill the server with tens of thousands of mobs, there are limits to how many animals, villagers, golems and monsters you can have in your base or grinders. They are reasonable and allow prosperity:'
   - '&7'
-  - '&f1.&7 You cannot have more than 150 animals and 90 villagers (and 32 golems) in your view distance. To create bigger farms, move your mobs into multiple 208x208 areas. Count mobs with &f/animals &7and &f/villagers'
-  - '&f2.&7 You need to spread animals apart. If you have more than 30 chickens, rabbits, sheep, cows, pigs or horses in one chunk (/faq Chunk), the excess number will despawn if you leave your base (see footnote).'
-  - '&f3.&7 You need to spread villagers and golems apart. If you have more than 30 villagers or 4 golems in one chunk (/faq Chunk), the excess number will despawn if you leave your base (see footnote).'
-  - '&f4.&7 Squid are not limited in any way. (/faq Squid)'
+  - '&f1.&7 You cannot have more than 150 animals and 90 villagers (and 32 golems) in your view distance. To create bigger farms, move your mobs into multiple 272x272 areas. Count mobs with &f/animals &7and &f/villagers'
+  - '&f2.&7 Squid are not limited in any way. (/faq Squid)'
   - ''
-  - '&7Leaving your base is technically walking more than 8 chunks, dying and going to Limbo or logging out. Server reboot will apply these limits too.'
   - '&7To learn about monster spawning, &f/help Spawning&7. Animals, villagers, golems and squid spawn under normal conditions.'
   - '&7------------'
 - match: /limits
@@ -696,3 +693,8 @@ Aliases:
   message: '&cTold you to not run unknown commands from strangers'
   sudo: true
   route: /core effect nausea 1m silent
+- match: /pumpkin
+  route: /pumpkin
+  message: '&6More info: &7http://redd.it/30yfd7'
+- match: /pumpkins
+  forward: /pumpkin
