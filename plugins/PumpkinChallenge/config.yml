@@ -1,0 +1,16 @@
+AffectedMobs:
+- ZOMBIE
+- SKELETON
+- PIGZOMBIE
+HelmetChance:
+  Pumpkin: 0.225
+  Lantern: 0.025
+DropChance:
+  Base: 0.085
+  LootingEnchantMultiplier: 1
+CapPerHour: 50
+StartingTime: Apr 01 00:00
+EventDurationHours: 24
+Messages:
+  Pumpkins: '&6This hour: &7<HourCollected>/<HourlyCap>. &6Total: &7<TotalCollected>/<TotalCap>'
+  NotActive: '&cPumpkin event is not active.'
