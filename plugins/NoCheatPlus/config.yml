@@ -5,8 +5,9 @@ configversion:
   saved: 785
 logging:
   active: true
-  debug: false
   maxqueuesize: 5000
+  extended:
+    status: false
   backend:
     console:
       active: true
@@ -105,6 +106,7 @@ checks:
       actions: cancel
     autosign:
       active: true
+      skipempty: false
       actions: vl>10 log:bautosign:0:3:if cancel
     direction:
       active: true
@@ -349,9 +351,15 @@ checks:
       active: true
       ignoreallowflight: false
       ignorecreative: false
-      horizontalspeed: 100
-      maxheight: 128
-      verticalspeed: 100
+      model:
+        creative:
+          horizontalspeed: 100
+          verticalspeed: 100
+          maxheight: 128
+        spectator:
+          horizontalspeed: 400
+          verticalspeed: 100
+          maxheight: 128
       actions: log:flyshort:3:5:f cancel vl>200 log:flyshort:0:5:if cancel vl>400 log:flylong:0:5:cif cancel
     morepackets:
       active: true
@@ -429,8 +437,15 @@ checks:
     flyingfrequency:
       active: true
       seconds: 5
-      maxpackets: 300
-      cancelredundant: true
+      packetspersecond: 60
+      actions: cancel
+      reduceredundant:
+        active: true
+        seconds: 3
+        actions: cancel
+    keepalivefrequency:
+      active: true
+      actions: cancel vl>10 cancel log:keepalive:0:10:if vl>40 cancel log:keepalive:0:10:icf vl>100 cancel log:keepalive:0:10:icf cmd:kickalive
     sounddistance:
       active: true
       maxdistance: 320
@@ -471,7 +486,9 @@ strings:
   improbable: '&7[player] failed is improbable. &8[violations]'
   instantbow: '&7[player] fired bow too fast. &8[violations]'
   instanteat: '&7[player] ate food too fast. &8[violations]'
+  keepalive: '[player] failed [check]: spams keep-alive packets (god/freecam?). VL [violations].'
   kick: kick [player]
+  kickalive: ncp kick [player] Too many keep-alive packets.
   kickbedleave: ncp delay ncp kick [player] Our robot overlords say to get a room.
   kickbspeed: ncp kick [player] Our robot overlords think you did that inhumanely fast.
   kickcaptcha: ncp kick [player] Our robot overlords excercise their captcha skills on you.

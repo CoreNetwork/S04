@@ -13,9 +13,16 @@
 config-version: 8
 settings:
   debug: false
-  bungeecord: false
+  save-user-cache-on-stop-only: false
   user-cache-size: 1000
   int-cache-limit: 1024
+  player-shuffle: 2000
+  late-bind: false
+  moved-too-quickly-threshold: 100.0
+  moved-wrongly-threshold: 0.0625
+  filter-creative-items: true
+  bungeecord: false
+  sample-count: 12
   timeout-time: 60
   restart-on-crash: false
   restart-script: ./start.sh
@@ -27,29 +34,16 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
-  save-user-cache-on-stop-only: false
-  late-bind: false
-  sample-count: 12
-  player-shuffle: 2000
-  moved-too-quickly-threshold: 100.0
-  moved-wrongly-threshold: 0.0625
-  filter-creative-items: true
   global-api-cache: false
   log-filters:
   - ^(.*)(/login)(.*)$
   prevent-proxies: false
   bungeecord-addresses: []
-stats:
-  disable-saving: false
-  forced-stats: {}
-messages:
-  restart: The server is rebooting.
-  whitelist: Setting up new features, please try again later.
-  unknown-command: Unknown command.
-  server-full: Would you look at that, the server is full. Try again later?
-  outdated-client: Outdated client! Please use {0}
-  outdated-server: Outdated server! I'm still on {0}
 commands:
+  tab-complete: 3
+  spam-exclusions: []
+  log: true
+  silent-commandblock-console: true
   replace-commands:
   - setblock
   - summon
@@ -57,10 +51,6 @@ commands:
   - tp
   - effect
   - enchant
-  tab-complete: 3
-  silent-commandblock-console: true
-  spam-exclusions: []
-  log: true
   command-block-overrides:
   - setblock
   - summon
@@ -68,12 +58,19 @@ commands:
   - tp
   - effect
   - enchant
+stats:
+  disable-saving: false
+  forced-stats: {}
+messages:
+  whitelist: Setting up new features, please try again later.
+  unknown-command: Unknown command.
+  server-full: Would you look at that, the server is full. Try again later?
+  outdated-client: Outdated client! Please use {0}
+  outdated-server: Outdated server! I'm still on {0}
+  restart: The server is rebooting.
 world-settings:
   default:
     verbose: false
-    mob-spawn-range: 9
-    nerf-spawner-mobs: false
-    zombie-aggressive-towards-villager: true
     item-despawn-rate: 6000
     merge-radius:
       item: 1.0
@@ -83,8 +80,11 @@ world-settings:
     clear-tick-list: false
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: false
+    nerf-spawner-mobs: false
     wither-spawn-sound-radius: 0
     hanging-tick-frequency: 100
+    zombie-aggressive-towards-villager: true
+    mob-spawn-range: 9
     anti-xray:
       enabled: false
       engine-mode: 1
@@ -123,7 +123,6 @@ world-settings:
       monsters: 144
       misc: 72
       other: 72
-    hopper-alt-ticking: true
     ticks-per:
       hopper-transfer: 8
       hopper-check: 8
@@ -144,6 +143,7 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
+    hopper-alt-ticking: true
   world_nether:
     chunks-per-tick: 2000
     zombie-aggressive-towards-villager: false
