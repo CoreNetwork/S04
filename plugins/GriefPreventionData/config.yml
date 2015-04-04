@@ -15,7 +15,7 @@ GriefPrevention:
     LockTrapDoors: true
     LockFenceGates: true
     EnderPearlsRequireAccessTrust: true
-    ProtectFires: true
+    ProtectFires: false
     ProtectHorses: true
     InitialBlocks: 500
     BlocksAccruedPerHour: 180
