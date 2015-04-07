@@ -29,8 +29,8 @@ regions:
         type: cuboid
         priority: 200
     limbo-library:
-        min: {x: -137.0, y: 0.0, z: 443.0}
-        max: {x: 26.0, y: 255.0, z: 555.0}
+        min: {x: -137.0, y: 0.0, z: 243.0}
+        max: {x: 226.0, y: 255.0, z: 555.0}
         members: {}
         flags: {feed-max-hunger: 20, use: allow, feed-amount: 1, feed-delay: 5, mob-spawning: deny,
             feed-min-hunger: 20}
@@ -49,6 +49,14 @@ regions:
     end-spawn-crystal:
         min: {x: 51.0, y: 96.0, z: 31.0}
         max: {x: 79.0, y: 111.0, z: 60.0}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 0
+    end-dev:
+        min: {x: -628.0, y: 0.0, z: -1128.0}
+        max: {x: -372.0, y: 255.0, z: -872.0}
         members: {}
         flags: {}
         owners: {}
@@ -169,9 +177,17 @@ regions:
         owners: {}
         type: cuboid
         priority: 200
+    limbo-tutorial-end:
+        min: {x: 52.0, y: 95.0, z: 327.0}
+        max: {x: 70.0, y: 105.0, z: 337.0}
+        members: {}
+        flags: {}
+        owners: {}
+        type: cuboid
+        priority: 0
     limbo-death-pit:
         min: {x: 444.0, y: 0.0, z: -79.0}
-        max: {x: 528.0, y: 255.0, z: 7.0}
+        max: {x: 528.0, y: 255.0, z: 57.0}
         members: {}
         flags: {feed-max-hunger: 20, use: allow, feed-amount: 1, feed-delay: 5, feed-min-hunger: 20}
         owners: {}

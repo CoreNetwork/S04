@@ -9,7 +9,7 @@ ignore permission pwnfilter.ignore.caps
 then lower
 then warn &cDon't abuse caps lock. Read: www.core-network.us/conduct
 
-match \b(sand)?n[i1]?gg*(eh|er|est|3r|uh|a|4)?\b|\bfag\b|\bf[a4]gg*[yio0]?(balls?|boy|t|th|tron)?(ry)?\b|\bwetback\b
+match \b(sand)?n[i1]?gg*(eh|er|est|3r|uh|a|4)?[s5]?\b|\bfag\b|\bf[a4]gg*[yio0]?(balls?|boy|t|th|tron)?[s5]?(ry)?\b|\bwetback\b
 ignore permission pwnfilter.ignore.slurs
 then deny
 then console chansay MOD &8%player% said: &o%rawstring%
