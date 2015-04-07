@@ -120,13 +120,13 @@ Fishing:
           Penalty: 2
           Exp: 35
       - Item:
-          Name: enchanted_book
+          Name: book
           Weight: 100
           EnchantLevel: 10
           Exp: 50
           Penalty: 2
       - Item:
-          Name: enchanted_book
+          Name: book
           Weight: 50
           EnchantLevel: 15
           Exp: 65
