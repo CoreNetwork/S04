@@ -1,7 +1,7 @@
 Enabled: true
 Fishing:
   Fish:
-    Weight: 850
+    Weight: 550
     Statistic: FISH_CAUGHT
     Enchantments:
       LURE: 20
@@ -12,49 +12,82 @@ Fishing:
           Amount: 1
           Damage: 0
           Weight: 60
-          Exp: 2
+          Exp: 5
       - Item: 
           Name: fish
           Amount: 1
           Damage: 1
           Weight: 25
-          Exp: 4
+          Exp: 15
       - Item: 
           Name: fish
           Amount: 1
           Damage: 2
           Weight: 2
-          Exp: 10
+          Exp: 50
       - Item: 
           Name: fish
           Amount: 1
           Damage: 3
           Weight: 13
-          Exp: 7
+          Exp: 25
   Junk:
-    Weight: 100
+    Weight: 300
     Statistic: JUNK_FISHED
     Enchantments:
       LURE: -10
       LUCK: -25
     Items:
       - Item:
-          Name: rotten_flesh
-          Weight: 40
+          Name: dye
+          Damage: 0
+          Amount: 5
+          Weight: 50
       - Item:
-          Name: leather_boots
-          Weight: 20
+          Name: dye
+          Damage: 0
+          Amount: 6
+          Weight: 50
       - Item:
-          Name: leather
-          Weight: 20
+          Name: dye
+          Damage: 0
+          Amount: 7
+          Weight: 50
       - Item:
-          Name: stick
-          Weight: 10
+          Name: dye
+          Damage: 0
+          Amount: 8
+          Weight: 50
+      - Item:
+          Name: dye
+          Damage: 0
+          Amount: 9
+          Weight: 50
+      - Item:
+          Name: bone
+          Weight: 150
+      - Item:
+          Name: poisonous_potato
+          Weight: 150
+      - Item:
+          Name: bowl
+          Weight: 100
+      - Item:
+          Name: lead
+          Weight: 100
+      - Item:
+          Name: tripwire_hook
+          Weight: 100
+          Penalty: 1
       - Item:
           Name: potion
-          Weight: 10
+          Weight: 100
+      - Item:
+          Name: bucket
+          Weight: 50
+          Penalty: 2
   Treasure:
-    Weight: 50
+    Weight: 150
     Statistic: TREASURE_FISHED
     Enchantments:
       LURE: -10
@@ -62,15 +95,40 @@ Fishing:
     Items:
       - Item:
           Name: waterlily
-          Exp: 15
-          Weight: 60
+          Weight: 300 
+          Exp: 10
       - Item:
           Name: name_tag
-          Exp: 20
-          Weight: 30
+          Weight: 150
+          Exp: 15
       - Item:
-          Name: chainmail_chestplate
-          Exp: 30
-          Penalty: 5
-          Weight: 10
+          Name: rabbit_foot
+          Weight: 150
+          Exp: 15
+      - Item:
+          Name: fishing_rod
+          Damage: 20
+          Weight: 150
+          EnchantLevel: 10
+          Penalty: 1
+          Exp: 25
+      - Item:
+          Name: fishing_rod
+          Damage: 20
+          Weight: 100
+          EnchantLevel: 15
+          Penalty: 2
+          Exp: 35
+      - Item:
+          Name: enchanted_book
+          Weight: 100
+          EnchantLevel: 10
+          Exp: 50
+          Penalty: 2
+      - Item:
+          Name: enchanted_book
+          Weight: 50
+          EnchantLevel: 15
+          Exp: 65
+          Penalty: 3
           
