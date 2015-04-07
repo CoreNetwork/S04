@@ -1,0 +1,18 @@
+ench:
+- compound:
+    lvl:
+      short: 1
+    id:
+      short: 1
+HideFlags:
+  int: 63
+display:
+  compound:
+    Lore:
+    - §6Unravel the chains of fate.
+    - §7Removes all enchantments from one item.
+    - §7Selects the item via pick up order.
+    - §7Returns some experience back.
+    - §8Right click to affect the inventory.
+    - §8Expires on 2015-04-22
+    Name: §6Spell of Time

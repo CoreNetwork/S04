@@ -29,6 +29,7 @@ groups:
     - core.respawn.togglespawn
     - core.respawn.unprotect
     - core.respawn.runlucky
+    - core.respawn.checklucky
     - core.map.checkpoint.tele
     - core.calc.calc
     - core.claims.blocks

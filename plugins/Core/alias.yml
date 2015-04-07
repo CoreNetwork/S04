@@ -477,11 +477,14 @@ Aliases:
   - ''
   - '&7If you have a base, there is a &f33% &7chance for a &fLucky Respawn &7in a 4,000 by 4,000 square centered on your biggest claim. &6You can increase that chance to &e100% &6for everyone for 12h by running a Lucky Respawn booster: &estore.core-network.us'
   - '&7'
-  - '&7To run a booster, &f/luckyrun&7. To disable your next lucky respawn, &f/luckytoggle&7. Type again to reverse.'
+  - '&7To run a booster, &f/lucky run&7. To check how many you have, &f/lucky check'
+  - '&7To disable your next lucky respawn, &f/lucky toggle&7. Type again to reverse.'
   - '&7------------'
-- match: /luckyrun
+- match: /lucky check
+  route: /core checklucky
+- match: /lucky run
   route: /core runlucky
-- match: /luckytoggle
+- match: /lucky toggle
   route: /togglespawn
 - match: /help Spawning
   message:

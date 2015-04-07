@@ -1124,4 +1124,8 @@ amount:
   15468a55-d663-3077-a691-aed0be0ffacf: 1
   c866397a-dd99-4459-afa9-d9055dfee9d0: 1
   8ac39af9-75ab-4f34-83d9-75598a22d6d4: 0
-running: []
+running:
+- name: ridddle
+  startTime: 1428402613728
+  endTime: 1428445813728
+  uuid: e0ad905c-9de3-4958-892a-d307e47bf5aa
