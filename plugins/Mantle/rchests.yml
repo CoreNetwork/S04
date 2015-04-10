@@ -22,6 +22,10 @@ Messages:
     is claimed!'
   CompassVillageRegeneratedWhileGone: '&cTargeted village regenerated while you were
     gone. Please pick a new one.'
+  CategoryNotYetUnlocked: '&cTo select this loot category you must unlock previous
+    ones first. More information in the linked article in &7/help Loot'
+  CategoryLootedAll: '&cThis loot category is completely used up. &7Good job, that''s
+    a lot of work.'
 LootTables:
   Sapling:
     Items:
@@ -904,6 +908,25 @@ LootTables:
     Items:
     - pick:
       - chance 1.0
+      - weights 10 8 20 16
+      - item:
+          name: book
+          nbt: spell-forging
+          amount: 2
+      - item:
+          name: book
+          nbt: spell-forging
+          amount: 3
+      - item:
+          name: book
+          nbt: spell-smithing
+          amount: 2
+      - item:
+          name: book
+          nbt: spell-smithing
+          amount: 3
+    - pick:
+      - chance 1.0
       - weights 10 8
       - item:
           name: book
@@ -941,15 +964,30 @@ LootTables:
       - item:
           name: book
           nbt: spell-fusing
-          amount: 8
+          amount: 4
       - item:
           name: book
           nbt: spell-fusing
-          amount: 9
+          amount: 5
       - item:
           name: book
           nbt: spell-fusing
-          amount: 10
+          amount: 6
+    - pick:
+      - chance 1.0
+      - weights 10 9 7
+      - item:
+          name: book
+          nbt: spell-allure
+          amount: 4
+      - item:
+          name: book
+          nbt: spell-allure
+          amount: 5
+      - item:
+          name: book
+          nbt: spell-allure
+          amount: 6
     - pick:
       - weights 10 9 8 6 3 10 9 8 6 3 10 9 8 6 3
       - rolls 3
@@ -1002,6 +1040,25 @@ LootTables:
     Items:
     - pick:
       - chance 1.0
+      - weights 10 8 20 16
+      - item:
+          name: book
+          nbt: spell-forging
+          amount: 2
+      - item:
+          name: book
+          nbt: spell-forging
+          amount: 3
+      - item:
+          name: book
+          nbt: spell-smithing
+          amount: 2
+      - item:
+          name: book
+          nbt: spell-smithing
+          amount: 3
+    - pick:
+      - chance 1.0
       - weights 10 8
       - item:
           name: book
@@ -1028,15 +1085,30 @@ LootTables:
       - item:
           name: book
           nbt: spell-fusing
+          amount: 4
+      - item:
+          name: book
+          nbt: spell-fusing
           amount: 5
       - item:
           name: book
           nbt: spell-fusing
           amount: 6
+    - pick:
+      - chance 1.0
+      - weights 10 8 5
       - item:
           name: book
-          nbt: spell-fusing
-          amount: 7
+          nbt: spell-allure
+          amount: 4
+      - item:
+          name: book
+          nbt: spell-allure
+          amount: 5
+      - item:
+          name: book
+          nbt: spell-allure
+          amount: 6
     - pick:
       - weights 10 9 8 6 3 10 9 8 6 3 10 9 8 6 3
       - rolls 6
@@ -1089,7 +1161,7 @@ LootTables:
     Items:
     - pick:
       - chance 1.0
-      - weights 10 8
+      - weights 10 8 20 16
       - item:
           name: book
           nbt: spell-forging
@@ -1097,6 +1169,14 @@ LootTables:
       - item:
           name: book
           nbt: spell-forging
+          amount: 3
+      - item:
+          name: book
+          nbt: spell-smithing
+          amount: 2
+      - item:
+          name: book
+          nbt: spell-smithing
           amount: 3
     - pick:
       - chance 1.0
@@ -1133,15 +1213,30 @@ LootTables:
       - item:
           name: book
           nbt: spell-fusing
+          amount: 4
+      - item:
+          name: book
+          nbt: spell-fusing
           amount: 5
       - item:
           name: book
           nbt: spell-fusing
           amount: 6
+    - pick:
+      - chance 1.0
+      - weights 10 8 5
       - item:
           name: book
-          nbt: spell-fusing
-          amount: 7
+          nbt: spell-allure
+          amount: 4
+      - item:
+          name: book
+          nbt: spell-allure
+          amount: 5
+      - item:
+          name: book
+          nbt: spell-allure
+          amount: 6
     - pick:
       - weights 10 9 8 6 3 10 9 8 6 3 10 9 8 6 3
       - rolls 9

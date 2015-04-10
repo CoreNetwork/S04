@@ -6,7 +6,7 @@ display:
     - "&7Grows crops and saplings instantly."
     - "&7Turns all baby mobs into adults."
     - "&7Requires 32 bones in inventory."
-    - "&8Right click to affect 32x32x32 area around you."
+    - "&8Right click to affect 32x32x32 area."
     - "ExpireAfterDays: 15"
 ench:
 - compound:

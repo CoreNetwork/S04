@@ -1,0 +1,17 @@
+display:
+  compound:
+    Name: "&6Spell of Allure"
+    Lore:
+    - "&6Magneto has nothing on you."
+    - "&7Moves all items and experience orbs"
+    - "&7around you to your location."
+    - "&8Right click to affect 64x64x64 area"
+    - "ExpireAfterDays: 15"
+ench:
+- compound:
+    lvl:
+      short: 1
+    id:
+      short: 1
+HideFlags:
+  int: 63

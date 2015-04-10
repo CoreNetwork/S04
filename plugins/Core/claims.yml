@@ -84,8 +84,8 @@ Claimslist:
       Name: Nether
       ClaimsMax: 5
   Messages:
-    Header: '&7<WorldName> &8(<ClaimsNow>/<ClaimsMax>)'
-    Line: '&8------------'
+    Header: '&7<WorldName> &8(<ClaimsNow>/<ClaimsMax> claims)'
+    Line: '&8-----------------'
     Claim: '&6<X>, <Z> &7(area: <Area>)'
     SpecialCaseClaim: '&c<X>, <Z> (area: <Area>)'
     NoClaims: '&cYou don''t have claims yet! Learn how to do it: &7/help Claims'

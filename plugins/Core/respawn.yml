@@ -49,10 +49,13 @@ Messages:
   SpawnLuckyWithBooster: '&bOooh, lucky! [NEWLINE] &bYou had a lucky respawn thanks
     to <Player>''s patronage. [NEWLINE] &3Booster will end in <Time>. /help Respawn'
   SpawnLucky: '&bOooh, lucky! You had a lucky respawn! &3/help Respawn'
-  LuckyAlreadyActive: '&6Lucky Respawn was sponsored recently by <Player> and they''re now stacked. <Time> left.'
+  LuckyAlreadyActive: '&6Lucky Respawn was sponsored recently by <Player> and they''re
+    now stacked. <Time> left.'
   CheckLucky:
-    HasBoosters: '&6You have <Amount> Lucky Respawn booster<S> left. [NEWLINE] &6Activate it for 12h: &7/lucky run. &6You can stack them too.'
-    NoBoosters: '&6You don''t have any Lucky Respawn boosters left. [NEWLINE] &7Buy more at store.core-network.us'
+    HasBoosters: '&6You have <Amount> Lucky Respawn booster<S> left. [NEWLINE] &6Activate
+      it for 12h: &7/lucky run. &6You can stack them too.'
+    NoBoosters: '&6You don''t have any Lucky Respawn boosters left. [NEWLINE] &7Buy
+      more at store.core-network.us'
 World: world
 Group:
   TimeLimit: 30

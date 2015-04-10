@@ -1,0 +1,481 @@
+Currency: emerald
+AllUnlockedRefreshChance: 0.2
+Debug: false
+Messages:
+  NoPermission: '&cNo permission!'
+  ConfigurationReloaded: '&aConfiguration reloaded successfully!'
+DefaultProfessionColor: ''
+Professions:
+  '3':
+  - Armorer
+  - Weapon Smith
+  - Tool Smith
+Tiers:
+  Armorer:
+    '0':
+    - trade:
+        comment: buying charcoal
+        itemA:
+          item: coal
+          data: 1
+          amount: 18,22
+        result:
+          currency: 1
+    - trade:
+        comment: selling iron helmet
+        itemA:
+          currency: 4,6
+        result:
+          item: iron_helmet
+    '1':
+    - trade:
+        comment: buying iron ingot
+        itemA:
+          item: iron_ingot
+          amount: 7,9
+        result:
+          currency: 1
+    - trade:
+        comment: selling iron chestplate
+        itemA:
+          currency: 10,14
+        result:
+          item: iron_chestplate
+    '2':
+    - trade:
+        comment: buying diamond
+        itemA:
+          item: diamond
+        result:
+          currency: 5,7
+    - trade:
+        comment: selling enchanted diamond chestplate
+        itemA:
+          currency: 32,38
+        result:
+          item: diamond_chestplate
+          enchants:
+          - pick:
+            - weights 30 30 30 30 15 10 10 10 10 5
+            - group:
+              - enchant:
+                  blast_protection: 1
+            - group:
+              - enchant:
+                  fire_protection: 1
+            - group:
+              - enchant:
+                  projectile_protection: 1
+            - group:
+              - enchant:
+                  thorns: 1
+            - group:
+              - enchant:
+                  protection: 1
+                  bonusAmountA: 3,4
+            - group:
+              - enchant:
+                  blast_protection: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 3,4
+            - group:
+              - enchant:
+                  fire_protection: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 3,4
+            - group:
+              - enchant:
+                  projectile_protection: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 3,4
+            - group:
+              - enchant:
+                  thorns: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 3,4
+            - group:
+              - enchant:
+                  protection: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 6,8
+    '3':
+    - trade:
+        comment: selling chainmail boots
+        itemA:
+          currency: 5,7
+        result:
+          item: chainmail_boots
+    - trade:
+        comment: selling chainmail leggings
+        itemA:
+          currency: 9,11
+        result:
+          item: chainmail_leggings
+    - trade:
+        comment: selling chainmail helmet
+        itemA:
+          currency: 5,7
+        result:
+          item: chainmail_helmet
+    - trade:
+        comment: selling chainmail chestplate
+        itemA:
+          currency: 11,15
+        result:
+          item: chainmail_chestplate
+  Weapon Smith:
+    '0':
+    - trade:
+        comment: buying charcoal
+        itemA:
+          item: coal
+          data: 1
+          amount: 18,22
+        result:
+          currency: 1
+    - trade:
+        comment: selling iron axe
+        itemA:
+          currency: 6,8
+        result:
+          item: iron_axe
+    '1':
+    - trade:
+        comment: buying iron ingot
+        itemA:
+          item: iron_ingot
+          amount: 7,9
+        result:
+          currency: 1
+    - trade:
+        comment: selling enchanted iron sword
+        itemA:
+          currency: 9,11
+        result:
+          item: iron_sword
+          enchants:
+          - pick:
+            - weights 10 10 10 8 7 8 8 7 7 4 5 2
+            - group:
+              - enchant:
+                  knockback: 1
+            - group:
+              - enchant:
+                  smite: 1
+            - group:
+              - enchant:
+                  bane_of_arthropods: 1
+            - group:
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 1,2
+            - group:
+              - enchant:
+                  sharpness: 1
+                  bonusAmountA: 2,3
+            - group:
+              - enchant:
+                  knockback: 1
+              - enchant:
+                  smite: 1
+                  bonusAmountA: 1,2
+            - group:
+              - enchant:
+                  knockback: 1
+              - enchant:
+                  bane_of_arthropods: 1
+                  bonusAmountA: 1,2
+            - group:
+              - enchant:
+                  knockback: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 2,3
+            - group:
+              - enchant:
+                  knockback: 1
+              - enchant:
+                  sharpness: 1
+                  bonusAmountA: 2,3
+            - group:
+              - enchant:
+                  smite: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 5,6
+            - group:
+              - enchant:
+                  bane_of_arthropods: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 3,4
+            - group:
+              - enchant:
+                  sharpness: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 6,7
+    '2':
+    - trade:
+        comment: buying diamond
+        itemA:
+          item: diamond
+        result:
+          currency: 5,7
+    - trade:
+        comment: selling enchanted diamond sword
+        itemA:
+          currency: 21,23
+        result:
+          item: diamond_sword
+          enchants:
+          - pick:
+            - weights 10 10 10 8 7 8 8 7 7 4 5 2
+            - group:
+              - enchant:
+                  knockback: 1
+            - group:
+              - enchant:
+                  smite: 1
+            - group:
+              - enchant:
+                  bane_of_arthropods: 1
+            - group:
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 2,4
+            - group:
+              - enchant:
+                  sharpness: 1
+                  bonusAmountA: 4,6
+            - group:
+              - enchant:
+                  knockback: 1
+              - enchant:
+                  smite: 1
+                  bonusAmountA: 2,4
+            - group:
+              - enchant:
+                  knockback: 1
+              - enchant:
+                  bane_of_arthropods: 1
+                  bonusAmountA: 2,4
+            - group:
+              - enchant:
+                  knockback: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 4,6
+            - group:
+              - enchant:
+                  knockback: 1
+              - enchant:
+                  sharpness: 1
+                  bonusAmountA: 4,6
+            - group:
+              - enchant:
+                  smite: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 10,12
+            - group:
+              - enchant:
+                  bane_of_arthropods: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 6,8
+            - group:
+              - enchant:
+                  sharpness: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 12,14
+    - trade:
+        comment: selling enchanted diamond axe
+        itemA:
+          currency: 21,23
+        result:
+          item: diamond_axe
+          enchants:
+          - pick:
+            - weights 10 10 6 5 4 2
+            - group:
+              - enchant:
+                  efficiency: 1
+            - group:
+              - enchant:
+                  unbreaking: 1
+            - group:
+              - enchant:
+                  sharpness: 1
+                  bonusAmountA: 4,7
+            - group:
+              - enchant:
+                  efficiency: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 4,6
+            - group:
+              - enchant:
+                  sharpness: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 8,10
+            - group:
+              - enchant:
+                  efficiency: 1
+              - enchant:
+                  sharpness: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 10,12
+  Tool Smith:
+    '0':
+    - trade:
+        comment: buying charcoal
+        itemA:
+          item: coal
+          data: 1
+          amount: 18,22
+        result:
+          currency: 1
+    - trade:
+        comment: selling enchanted iron shovel
+        itemA:
+          currency: 7,9
+        result:
+          item: iron_shovel
+          enchants:
+          - pick:
+            - weights 10 10 6 5 4 2
+            - group:
+              - enchant:
+                  efficiency: 1
+            - group:
+              - enchant:
+                  unbreaking: 1
+            - group:
+              - enchant:
+                  fortune: 1
+                  bonusAmountA: 1,2
+            - group:
+              - enchant:
+                  efficiency: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 2,3
+            - group:
+              - enchant:
+                  fortune: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 4,5
+            - group:
+              - enchant:
+                  efficiency: 1
+              - enchant:
+                  fortune: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 5,6
+    '1':
+    - trade:
+        comment: buying iron ingot
+        itemA:
+          item: iron_ingot
+          amount: 7,9
+        result:
+          currency: 1
+    - trade:
+        comment: selling enchanted iron pickaxe
+        itemA:
+          currency: 9,11
+        result:
+          item: iron_pickaxe
+          enchants:
+          - pick:
+            - weights 10 10 6 5 4 2
+            - group:
+              - enchant:
+                  efficiency: 1
+            - group:
+              - enchant:
+                  unbreaking: 1
+            - group:
+              - enchant:
+                  fortune: 1
+                  bonusAmountA: 1,2
+            - group:
+              - enchant:
+                  efficiency: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 2,3
+            - group:
+              - enchant:
+                  fortune: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 4,5
+            - group:
+              - enchant:
+                  efficiency: 1
+              - enchant:
+                  fortune: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 5,6
+    '2':
+    - trade:
+        comment: buying diamond
+        itemA:
+          item: diamond
+        result:
+          currency: 5,7
+    - trade:
+        comment: selling enchanted diamond pickaxe
+        itemA:
+          currency: 21,23
+        result:
+          item: diamond_pickaxe
+          enchants:
+          - pick:
+            - weights 10 10 6 5 4 2
+            - group:
+              - enchant:
+                  efficiency: 1
+            - group:
+              - enchant:
+                  unbreaking: 1
+            - group:
+              - enchant:
+                  fortune: 1
+                  bonusAmountA: 3,6
+            - group:
+              - enchant:
+                  efficiency: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 3,6
+            - group:
+              - enchant:
+                  fortune: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 8,10
+            - group:
+              - enchant:
+                  efficiency: 1
+              - enchant:
+                  fortune: 1
+              - enchant:
+                  unbreaking: 1
+                  bonusAmountA: 10,12
+AILimiter:
+  Enable: false
+  MaximumDistanceToPlayer: 32

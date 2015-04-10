@@ -1,0 +1,19 @@
+display:
+  compound:
+    Name: "&6Spell of Smithing"
+    Lore:
+    - "&6Renewed shall be plate that was broken."
+    - "&7Salvages metals from combat gear."
+    - "&7Affects armor: golden, chainmail, iron and"
+    - "&7golden swords. Requires coal or charcoal."
+    - "&8Right click to affect inventory."
+    - "&8Right click a chest to affect items inside."
+    - "ExpireAfterDays: 15"
+ench:
+- compound:
+    lvl:
+      short: 1
+    id:
+      short: 1
+HideFlags:
+  int: 63

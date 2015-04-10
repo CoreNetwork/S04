@@ -31,7 +31,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - bc2c62c6-3300-4b3a-891b-692af2d6e940
+    - c656370f-78be-4db2-9f42-5c70f0cd6324
     x: 58.5
     needsUpdating: false
     y: 97.25
@@ -43,13 +43,13 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 4f489b64-134a-4c08-9ae5-dba3c0afb113
+    - 95b83cf8-a2ea-4acb-966d-deb08b4c9ffb
     x: 58.5
     needsUpdating: true
     y: 97.0
     z: 53.5
     text:
-    - §9Night (4:30 AM)
+    - §eSunrise (6:30 AM)
     id: clock-spawn
     deleteOnNextUpdate: false
 - Hologram:
@@ -98,9 +98,9 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - ffeb6e83-59a7-4ec7-9630-02f717cef456
+    - fdde9860-0805-4b6d-a050-ce35bc6a6a1e
     x: 61.5
-    needsUpdating: false
+    needsUpdating: true
     y: 99.0
     z: 35.5
     text:
@@ -111,14 +111,26 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 61b90785-f12d-470d-9066-97880eff8d4f
+    - ae049356-72e4-4b53-a492-6856857e2391
     x: 61.5
-    needsUpdating: false
+    needsUpdating: true
     y: 100.0
     z: 35.5
     text:
     - ' '
     id: spawn-counter
+    deleteOnNextUpdate: false
+- Hologram:
+    world: world_the_end
+    hidden: false
+    linkedEntities:
+    - 8978e0ef-b113-4d91-8d36-24b398e83ce8
+    x: 71.64684836943
+    needsUpdating: false
+    y: 97.0
+    z: -83.4877679496117
+    text:
+    - PvP is off
     deleteOnNextUpdate: false
 - Hologram:
     world: world_the_end
@@ -970,7 +982,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 183638fb-8919-45c6-9415-d0b469769d80
+    - b2c45b99-733a-463a-9941-5555e292a4fd
     x: -12.5
     needsUpdating: false
     y: 99.25
@@ -982,13 +994,13 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - ddd6ec75-da85-493f-9d66-e7a508a98c16
+    - f1a5569d-a22e-4849-8555-ba2a4f73a0bc
     x: -12.5
     needsUpdating: true
     y: 99.0
     z: -491.5
     text:
-    - §9Night (4:30 AM)
+    - §eSunrise (6:30 AM)
     id: clock-respawn
     deleteOnNextUpdate: false
 - Hologram:
@@ -1037,7 +1049,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 3f8126f3-3e05-4f18-b87d-011cd8deee20
+    - 141c5f5e-ff6c-490a-9f9a-c818e20fe01f
     x: -10.5
     needsUpdating: false
     y: 98.5
@@ -1049,7 +1061,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 3ad01a4d-d1ef-4ea4-b1d4-6324d0806a32
+    - deb50539-b033-4c9a-a9e7-3ab15cb15b00
     x: -14.528460757247489
     needsUpdating: false
     y: 100.0
@@ -1062,7 +1074,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 20ca878e-02e3-4cbb-ae7b-0f49a26830dc
+    - c3271ac9-5b21-4f1f-8c34-38729f620940
     x: -14.428650625602979
     needsUpdating: false
     y: 101.0
@@ -1089,8 +1101,8 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - cf6e3715-8c09-411d-be0f-7535c515e173
-    - 0c7c7413-9ad4-46f8-b72f-d0f643181f54
+    - 5a999d82-807e-4eb3-a1fa-4f5dc1ad80a9
+    - 7ad95f4d-06c1-4d68-8a31-076aae3d9531
     x: 61.53785555947384
     needsUpdating: false
     y: 95.0
@@ -1103,25 +1115,15 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - 99e73570-4915-4a73-b24b-bfd8dc051c40
-    x: 61.48240319265714
-    needsUpdating: false
-    y: 94.0
-    z: 453.42539516285865
-    text:
-    - '&bConsecutive deaths increase the timer.'
-    deleteOnNextUpdate: false
-- Hologram:
-    world: world_the_end
-    hidden: false
-    linkedEntities:
-    - 402d5c66-200e-428e-be86-eb1ea1583f4b
-    x: 61.492591049066505
+    - 2447ee48-a418-40b1-88fd-09ddad60de91
+    - 09237ce3-9531-476b-9699-b854f80f3603
+    x: 61.5803653481431
     needsUpdating: false
     y: 95.0
-    z: 449.30000001192093
+    z: 450.4329260826836
     text:
-    - '&fConsecutive deaths increase the timer.'
+    - '&bConsecutive deaths increase the timer.'
+    - '&fCheck your time with /limbo'
     deleteOnNextUpdate: false
 - Hologram:
     world: world_the_end

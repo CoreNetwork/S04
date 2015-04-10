@@ -61,7 +61,7 @@ Spells:
     BroadcastCooldownSeconds: 180
     Messages:
       Use: '&6Wooosh! Spell of Fusing cast.'
-      HintToCasterWhenBroadcasted: '&7More: www.core-network.us/spells'
+      HintToCasterWhenBroadcasted: ''
       Broadcast: []
     Template: spell-fusing
   Unsliming:
@@ -98,6 +98,22 @@ Spells:
       - '&6<Player> used a Spell of Forging!'
     Template: spell-forging
     BoostOnBroadcast: BoostHealth1
+  Smithing:
+    BroadcastCooldownSeconds: 300
+    Messages:
+      Use: '&6Wooosh! Spell of Smithing cast.'
+      Broadcast:
+      - '&6<Player> used a Spell of Smithing!'
+      HintToCasterWhenBroadcasted: '&eEveryone got Instant Health.'
+    Template: spell-smithing
+    BoostOnBroadcast: BoostHealth1
+  Allure:
+    BroadcastCooldownSeconds: 5
+    Messages:
+      Use: '&6Wooosh! Spell of Allure cast.'
+      Broadcast: []
+      HintToCasterWhenBroadcasted: ''
+    Template: spell-allure
 ExpireOffsetSeconds: 0
 Lores:
   DateStore: yyyy-MM-dd

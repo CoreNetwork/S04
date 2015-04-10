@@ -86,7 +86,7 @@ Aliases:
 - match: /staff( .*)?
   message:
   - '&7If you need help, see if we''re online: /list... or use /ask'
-  - '&bGuardians: &7hannahbanana, harflin, Leonheart515, Mimal, ridddle, SkeletonCakes, Tbzz'
+  - '&bGuardians: &7hannahbanana, harflin, Leonheart515, Mimal, ridddle, Riveri, Tbzz'
   - '&6Developers: &7Ginaw, matejdro, narrowtux'
   - ''
 - match: /afk( .*)?
@@ -413,6 +413,8 @@ Aliases:
   - '&7Participant commands: &f/chase join&7, &f/chase info &7and &f/chase leave'
   - '&7------------'
 - match: /help Raid
+  forward: /help TreasureChase
+- match: /help Chase
   forward: /help TreasureChase
 - match: /help MonsterHunt
   message:
