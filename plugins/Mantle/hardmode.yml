@@ -254,3 +254,4 @@ BabyZombies:
   Burn: false
   CheckInterval: 20
   BurnTicks: 30
+VehiclePlayerSync: true

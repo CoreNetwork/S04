@@ -1369,9 +1369,9 @@ BasicCategories:
 RareCategories:
 - lootTable: Obsidian
   chances:
-  - 0.40
+  - 0.4
   - 0.25
-  - 0.10
+  - 0.1
   icon:
     Amount: 1
     Name: obsidian
@@ -1393,7 +1393,7 @@ RareCategories:
   - 10000
 - lootTable: Gold
   chances:
-  - 0.40
+  - 0.4
   - 0.15
   - 0.05
   icon:
@@ -1416,7 +1416,7 @@ RareCategories:
 - lootTable: HorseArmor
   displayName: Horse Armor
   chances:
-  - 0.10
+  - 0.1
   - 0.05
   - 0.0
   preReqCategories:
@@ -1440,7 +1440,7 @@ RareCategories:
 - lootTable: EnchantedBook
   displayName: Enchanted Book
   chances:
-  - 0.20
+  - 0.2
   - 0.05
   - 0.01
   preReqCategories:
@@ -1463,9 +1463,9 @@ RareCategories:
   - 9000
 - lootTable: Diamond
   chances:
-  - 0.20
-  - 0.20
-  - 0.10
+  - 0.2
+  - 0.2
+  - 0.1
   preReqCategories:
   - EnchantedBook
   icon:

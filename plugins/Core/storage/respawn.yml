@@ -1402,16 +1402,4 @@ amount:
   15468a55-d663-3077-a691-aed0be0ffacf: 1
   c866397a-dd99-4459-afa9-d9055dfee9d0: 1
   8ac39af9-75ab-4f34-83d9-75598a22d6d4: 0
-running:
-- name: Spctr
-  startTime: 1428663882566
-  endTime: 1428707082566
-  uuid: 46184ccb-b4a0-4e72-a66e-5bd3f1e94db1
-- name: Spctr
-  startTime: 1428707082566
-  endTime: 1428750282566
-  uuid: 46184ccb-b4a0-4e72-a66e-5bd3f1e94db1
-- name: Spctr
-  startTime: 1428750282566
-  endTime: 1428793482566
-  uuid: 46184ccb-b4a0-4e72-a66e-5bd3f1e94db1
+running: []

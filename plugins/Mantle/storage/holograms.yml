@@ -49,7 +49,7 @@ Holograms:
     y: 97.0
     z: 53.5
     text:
-    - §eSunrise (6:30 AM)
+    - §6Sunset (8:30 PM)
     id: clock-spawn
     deleteOnNextUpdate: false
 - Hologram:
@@ -982,7 +982,7 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - b2c45b99-733a-463a-9941-5555e292a4fd
+    - 535fc154-bfe1-42e8-b273-5cb0468e9021
     x: -12.5
     needsUpdating: false
     y: 99.25
@@ -994,13 +994,13 @@ Holograms:
     world: world_the_end
     hidden: false
     linkedEntities:
-    - f1a5569d-a22e-4849-8555-ba2a4f73a0bc
+    - fe27f320-e748-4474-a086-d92241634fd4
     x: -12.5
     needsUpdating: true
     y: 99.0
     z: -491.5
     text:
-    - §eSunrise (6:30 AM)
+    - §6Sunset (8:30 PM)
     id: clock-respawn
     deleteOnNextUpdate: false
 - Hologram:

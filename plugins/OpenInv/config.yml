@@ -4,4 +4,4 @@ NotifySilentChest: true
 NotifyAnyChest: true
 AnyChest:
   ridddle:
-    toggle: true
+    toggle: false
