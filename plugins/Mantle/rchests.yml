@@ -1312,8 +1312,8 @@ BasicCategories:
 - lootTable: Sapling
   chances:
   - 1.0
-  - 0.2
-  - 0.05
+  - 0.3
+  - 0.1
   icon:
     Name: sapling
     Amount: 1
@@ -1331,8 +1331,8 @@ BasicCategories:
 - lootTable: Tools
   chances:
   - 1.0
-  - 0.025
-  - 0.005
+  - 0.1
+  - 0.0
   icon:
     Amount: 1
     Name: iron_pickaxe
@@ -1350,8 +1350,8 @@ BasicCategories:
 - lootTable: Armor
   chances:
   - 1.0
-  - 0.1
-  - 0.01
+  - 0.2
+  - 0.05
   icon:
     Amount: 1
     Name: iron_chestplate
@@ -1369,9 +1369,9 @@ BasicCategories:
 RareCategories:
 - lootTable: Obsidian
   chances:
+  - 0.40
   - 0.25
-  - 0.05
-  - 0.01
+  - 0.10
   icon:
     Amount: 1
     Name: obsidian
@@ -1393,9 +1393,9 @@ RareCategories:
   - 10000
 - lootTable: Gold
   chances:
-  - 0.4
+  - 0.40
+  - 0.15
   - 0.05
-  - 0.01
   icon:
     Amount: 1
     Name: gold_ingot
@@ -1416,9 +1416,9 @@ RareCategories:
 - lootTable: HorseArmor
   displayName: Horse Armor
   chances:
-  - 0.1
-  - 0.02
-  - 0.005
+  - 0.10
+  - 0.05
+  - 0.0
   preReqCategories:
   - Armor
   - Obsidian
@@ -1440,9 +1440,9 @@ RareCategories:
 - lootTable: EnchantedBook
   displayName: Enchanted Book
   chances:
-  - 0.2
-  - 0.02
-  - 0.005
+  - 0.20
+  - 0.05
+  - 0.01
   preReqCategories:
   - Gold
   - HorseArmor
@@ -1463,9 +1463,9 @@ RareCategories:
   - 9000
 - lootTable: Diamond
   chances:
-  - 0.2
-  - 0.1
-  - 0.05
+  - 0.20
+  - 0.20
+  - 0.10
   preReqCategories:
   - EnchantedBook
   icon:
