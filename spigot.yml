@@ -13,16 +13,16 @@
 config-version: 8
 settings:
   debug: false
+  player-shuffle: 2000
   late-bind: false
+  bungeecord: false
+  sample-count: 12
+  int-cache-limit: 1024
   moved-too-quickly-threshold: 100.0
   moved-wrongly-threshold: 0.0625
   filter-creative-items: true
-  bungeecord: false
   save-user-cache-on-stop-only: false
-  player-shuffle: 2000
-  sample-count: 12
   user-cache-size: 1000
-  int-cache-limit: 1024
   timeout-time: 60
   restart-on-crash: false
   restart-script: ./start.sh
@@ -42,8 +42,8 @@ settings:
 commands:
   spam-exclusions: []
   log: true
-  silent-commandblock-console: true
   tab-complete: 3
+  silent-commandblock-console: true
   replace-commands:
   - setblock
   - summon
@@ -58,6 +58,9 @@ commands:
   - tp
   - effect
   - enchant
+stats:
+  disable-saving: false
+  forced-stats: {}
 messages:
   whitelist: Setting up new features, please try again later.
   unknown-command: Unknown command.
@@ -65,26 +68,23 @@ messages:
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
   restart: The server is rebooting.
-stats:
-  disable-saving: false
-  forced-stats: {}
 world-settings:
   default:
     verbose: false
-    arrow-despawn-rate: 1200
     hanging-tick-frequency: 100
+    arrow-despawn-rate: 1200
+    enable-zombie-pigmen-portal-spawns: false
+    nerf-spawner-mobs: false
+    wither-spawn-sound-radius: 0
+    mob-spawn-range: 9
+    item-despawn-rate: 6000
+    merge-radius:
+      item: 1.0
+      exp: 3.0
     view-distance: 8
     chunks-per-tick: 5000
     clear-tick-list: false
-    merge-radius:
-      exp: 3.0
-      item: 1.0
     zombie-aggressive-towards-villager: true
-    mob-spawn-range: 9
-    wither-spawn-sound-radius: 0
-    item-despawn-rate: 6000
-    enable-zombie-pigmen-portal-spawns: false
-    nerf-spawner-mobs: false
     anti-xray:
       enabled: false
       engine-mode: 1

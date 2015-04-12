@@ -67,8 +67,17 @@ Fishing:
           Name: bone
           Weight: 150
       - Item:
-          Name: poisonous_potato
-          Weight: 150
+          Name: flint
+          Amount: 3
+          Weight: 60
+      - Item:
+          Name: flint
+          Amount: 4
+          Weight: 60
+      - Item:
+          Name: flint
+          Amount: 5
+          Weight: 60
       - Item:
           Name: bowl
           Weight: 100
@@ -84,8 +93,8 @@ Fishing:
           Weight: 100
       - Item:
           Name: bucket
-          Weight: 50
-          Penalty: 2
+          Weight: 20
+          Penalty: 5
   Treasure:
     Weight: 150
     Statistic: TREASURE_FISHED
@@ -102,16 +111,40 @@ Fishing:
           Weight: 150
           Exp: 15
       - Item:
-          Name: rabbit_foot
-          Weight: 150
-          Exp: 15
-      - Item:
           Name: fishing_rod
           Damage: 20
           Weight: 150
           EnchantLevel: 10
           Penalty: 1
           Exp: 25
+      - Item:
+          Name: chainmail_boots
+          Damage: 10
+          Weight: 30
+          EnchantLevel: 20
+          Exp: 25
+          Penalty: 4
+      - Item:
+          Name: chainmail_helmet
+          Damage: 10
+          Weight: 30
+          EnchantLevel: 20
+          Exp: 25
+          Penalty: 5
+      - Item:
+          Name: chainmail_leggings
+          Damage: 15
+          Weight: 30
+          EnchantLevel: 20
+          Exp: 30
+          Penalty: 7
+      - Item:
+          Name: chainmail_chestplate
+          Damage: 20
+          Weight: 30
+          EnchantLevel: 20
+          Exp: 30
+          Penalty: 8
       - Item:
           Name: fishing_rod
           Damage: 20
@@ -122,13 +155,17 @@ Fishing:
       - Item:
           Name: book
           Weight: 100
-          EnchantLevel: 10
+          EnchantLevel: 15
           Exp: 50
           Penalty: 2
       - Item:
           Name: book
           Weight: 50
-          EnchantLevel: 15
+          EnchantLevel: 20
           Exp: 65
           Penalty: 3
+      - Item:
+          Name: rabbit_foot
+          Weight: 30
+          Exp: 100
           
