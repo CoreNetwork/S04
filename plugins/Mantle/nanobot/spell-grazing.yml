@@ -1,0 +1,17 @@
+display:
+  compound:
+    Name: "&6Spell of Grazing"
+    Lore:
+    - "&6Om nom nom nom nom."
+    - "&7Feeds animals in the affected area"
+    - "&7using food from your inventory."
+    - "&8Right click to affect 32x32x32 area."
+    - "ExpireAfterDays: 15"
+ench:
+- compound:
+    lvl:
+      short: 1
+    id:
+      short: 1
+HideFlags:
+  int: 63

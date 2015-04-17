@@ -701,7 +701,18 @@ LootTables:
       - weights 10 10
       - item:
           name: book
+          nbt: spell-grazing
+          amount: 1
+      - item:
+          name: book
           nbt: spell-growth
+          amount: 1
+    - pick:
+      - chance 1.0
+      - weights 10 10
+      - item:
+          name: book
+          nbt: spell-pruning
           amount: 1
       - item:
           name: book
@@ -833,7 +844,18 @@ LootTables:
       - weights 10 10
       - item:
           name: book
+          nbt: spell-grazing
+          amount: 2
+      - item:
+          name: book
           nbt: spell-growth
+          amount: 2
+    - pick:
+      - chance 1.0
+      - weights 10 10
+      - item:
+          name: book
+          nbt: spell-pruning
           amount: 2
       - item:
           name: book
@@ -958,12 +980,12 @@ LootTables:
           nbt: spell-peddling
           amount: 4
     - pick:
-      - chance 0.25
+      - chance 0.33
       - item:
           name: book
           nbt: spell-wind
     - pick:
-      - chance 0.5
+      - chance 1.0
       - item:
           name: book
           nbt: spell-time

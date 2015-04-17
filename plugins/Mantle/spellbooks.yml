@@ -108,12 +108,32 @@ Spells:
     Template: spell-smithing
     BoostOnBroadcast: BoostHealth1
   Allure:
-    BroadcastCooldownSeconds: 5
+    BroadcastCooldownSeconds: 300
     Messages:
       Use: '&6Wooosh! Spell of Allure cast.'
       Broadcast: []
       HintToCasterWhenBroadcasted: ''
     Template: spell-allure
+  Pruning:
+    BroadcastCooldownSeconds: 300
+    Messages:
+      Use: '&6Wooosh! Spell of Pruning cast.'
+      Broadcast:
+      - '&6<Player> used a Spell of Pruning!'
+      HintToCasterWhenBroadcasted: '&eEveryone got Instant Health.'
+      NoItems: '&cNot enough flint in inventory'
+    Template: spell-pruning
+    RequiredItem:
+      Name: flint
+      Amount: 16
+  Grazing:
+    BroadcastCooldownSeconds: 300
+    Messages:
+      Use: '&6Wooosh! Spell of Grazing cast.'
+      Broadcast:
+      - '&6<Player> used a Spell of Grazing!'
+      HintToCasterWhenBroadcasted: '&eEveryone got Instant Health.'
+    Template: spell-grazing
 ExpireOffsetSeconds: 0
 Lores:
   DateStore: yyyy-MM-dd

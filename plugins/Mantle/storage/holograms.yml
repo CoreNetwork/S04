@@ -49,7 +49,7 @@ Holograms:
     y: 97.0
     z: 53.5
     text:
-    - §eNoon (12:30 PM)
+    - §9Night (5:30 AM)
     id: clock-spawn
     deleteOnNextUpdate: false
 - Hologram:
@@ -1000,7 +1000,7 @@ Holograms:
     y: 99.0
     z: -491.5
     text:
-    - §eNoon (12:30 PM)
+    - §9Night (5:30 AM)
     id: clock-respawn
     deleteOnNextUpdate: false
 - Hologram:
