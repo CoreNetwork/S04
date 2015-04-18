@@ -48,10 +48,13 @@ greetings:
   '604800': '&e%player% joined Flatcore after %days% days of hiatus!'
   '2592000': '&e%player% rejoined Flatcore after %months% month, %days% days!'
   '5184000': '&e%player% rejoined Flatcore after %months% months!'
+  '31536000': '&e%player% rejoined Flatcore after %years% year!'
+  '34128000': '&e%player% rejoined Flatcore after %years% year %months% month!'
+  '36720000': '&e%player% rejoined Flatcore after %years% year %months% months!'
 lockdown: false
 lockdown-time: 15
 lockdown-reason: ''
 lockdown-unlock-time: 0
 banned-silent: ''
-banned-notify: /^connected with an? [a-zA-Z0-9\s]+ using MineChat$/g
+banned-notify: ''
 ranking-string: '&7 &2 &a &3 &e &6 &c &d &8 &b'
