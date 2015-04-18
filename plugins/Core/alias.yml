@@ -178,6 +178,8 @@ Aliases:
   route: /core info $1
 - match: /unstuck
   route: /core unstuck
+- match: /spell\s?(.*)
+  route: /mantle makebook $1
 - match: /rules
   message:
   - ''
