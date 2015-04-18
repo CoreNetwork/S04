@@ -13,10 +13,13 @@
 config-version: 8
 settings:
   debug: false
-  player-shuffle: 2000
-  user-cache-size: 1000
   late-bind: false
   bungeecord: false
+  sample-count: 12
+  int-cache-limit: 1024
+  moved-too-quickly-threshold: 100.0
+  moved-wrongly-threshold: 0.0625
+  filter-creative-items: true
   timeout-time: 60
   restart-on-crash: false
   restart-script: ./start.sh
@@ -29,18 +32,20 @@ settings:
     attackDamage:
       max: 2048.0
   save-user-cache-on-stop-only: false
-  sample-count: 12
-  int-cache-limit: 1024
-  moved-too-quickly-threshold: 100.0
-  moved-wrongly-threshold: 0.0625
-  filter-creative-items: true
+  player-shuffle: 2000
+  user-cache-size: 1000
   global-api-cache: false
   log-filters:
   - ^(.*)(/login)(.*)$
   prevent-proxies: false
   bungeecord-addresses: []
+stats:
+  disable-saving: false
+  forced-stats: {}
 commands:
   silent-commandblock-console: true
+  spam-exclusions: []
+  log: true
   replace-commands:
   - setblock
   - summon
@@ -49,8 +54,6 @@ commands:
   - effect
   - enchant
   tab-complete: 3
-  spam-exclusions: []
-  log: true
   command-block-overrides:
   - setblock
   - summon
@@ -59,31 +62,28 @@ commands:
   - effect
   - enchant
 messages:
+  restart: The server is rebooting.
   whitelist: Setting up new features, please try again later.
   unknown-command: Unknown command.
   server-full: Would you look at that, the server is full. Try again later?
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
-  restart: The server is rebooting.
-stats:
-  disable-saving: false
-  forced-stats: {}
 world-settings:
   default:
     verbose: false
+    wither-spawn-sound-radius: 0
+    hanging-tick-frequency: 100
     item-despawn-rate: 6000
     merge-radius:
       item: 1.0
       exp: 3.0
-    wither-spawn-sound-radius: 0
-    hanging-tick-frequency: 100
     view-distance: 8
     chunks-per-tick: 5000
     clear-tick-list: false
     zombie-aggressive-towards-villager: true
-    mob-spawn-range: 9
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: false
+    mob-spawn-range: 9
     nerf-spawner-mobs: false
     anti-xray:
       enabled: false

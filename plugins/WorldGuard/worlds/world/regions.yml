@@ -10,6 +10,16 @@
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
 regions:
+    w119t1-e0ad905c-9de3-4958-892a-d307e47bf5aa:
+        min: {x: -3687.0, y: 3.0, z: 3896.0}
+        max: {x: -3676.0, y: 5.0, z: 3907.0}
+        members: {}
+        flags: {creeper-explosion: deny, build: deny, use: deny, enderman-grief: deny,
+            pistons: deny, chest-access: deny, entity-painting-destroy: deny, entity-item-frame-destroy: deny,
+            ghast-fireball: deny, enderdragon-block-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     east-wall:
         min: {x: 8001.0, y: 0.0, z: -8002.0}
         max: {x: 8001.0, y: 256.0, z: 8002.0}

@@ -13,9 +13,9 @@ Ghast:
     DamageMultiplier: 2.0
     BlastRadiusMultiplier: 1.0
 Wither:
-  MinSpawningY: 1
-  DespawningY: 1
-  DespawningTimeoutSeconds: 1
+  MinSpawningY: 21
+  DespawningY: 24
+  DespawningTimeoutSeconds: 60
   MinionHealth: 4
   ExplosionRadius: 20
   ShowTarget: false
@@ -93,7 +93,7 @@ Wither:
       StompMaxDistance: 4
       DrillMaxDistanceFlat: 6
   SpawningPhaseLength: 220
-  Debug: false
+  Debug: true
   DelayBetweenSkillsAmounts:
   - 80
   - 70
